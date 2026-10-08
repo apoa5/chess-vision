@@ -1,0 +1,13 @@
+stockfish:
+  executable: tools/stockfish/stockfish-linux-x86-64-universal
+board:
+  normalized_size: 800
+data:
+  raw: data/raw
+  processed: data/processed
+  test: data/test
+  metadata: data/metadata
+outputs:
+  board_detection: outputs/board_detection
+  rectified_boards: outputs/rectified_boards
+  square_crops: outputs/square_crops
