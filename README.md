@@ -4,9 +4,10 @@ Turn photographs of physical chessboards into positions that can be analyzed wit
 Stockfish. The planned pipeline is photo → board localization → perspective
 correction → 64 square crops → piece recognition → FEN → engine analysis.
 
-Current stage: **Week 1, Day 1** — project setup and Stockfish integration.
-Week 1 targets an 800×800 rectified board and 64 indexed crops; image processing
-and piece recognition are not implemented yet. See [week1.md](week1.md).
+Current stage: **Week 1, Day 2** — image utilities and vision scaffolding, with
+working Stockfish integration. Week 1 targets an 800×800 rectified board and
+64 indexed crops. Board detection, warping, and extraction are scheduled for
+later days; piece recognition follows Week 1. See [week1.md](week1.md).
 
 ## Setup
 
@@ -61,5 +62,47 @@ and engine tests are run with approved execution outside that sandbox.
 `src/chess/engine.py` provides context-managed analysis from FEN or `chess.Board`,
 best-move and evaluation helpers, executable validation, and safe shutdown, using
 [python-chess's UCI interface](https://python-chess.readthedocs.io/en/latest/engine.html).
-`src/utils/config.py` loads and validates settings. `src/vision/`, `data/`,
-`outputs/`, and `notebooks/` reserve space for subsequent Week 1 work.
+`src/utils/config.py` loads and validates settings.
+
+## Verify Day 2
+
+Load a photo and save it again (parent output directories are created):
+
+```bash
+python scripts/preview_image.py data/raw/example.jpg --output outputs/board_detection/example_preview.png
+```
+
+Optionally draw four **known** corner points, in original image pixels, and
+resize the annotated preview. Replace these example coordinates with your own:
+
+```bash
+python scripts/preview_image.py data/raw/example.jpg --output outputs/board_detection/example_corners.png --corners 50 50 750 50 750 750 50 750 --max-size 800
+```
+
+Image I/O and debug overlays live in `src/utils/image_io.py` and
+`src/utils/visualization.py`. Images load as uint8 BGR; overlays preserve the
+source array. Use PNG for a lossless round trip. These utilities use
+[OpenCV image codecs](https://docs.opencv.org/4.x/d4/da8/group__imgcodecs.html) and
+[drawing functions](https://docs.opencv.org/4.x/d6/d6e/group__imgproc__draw.html).
+
+The vision contracts and conventions are documented in
+[docs/vision_pipeline.md](docs/vision_pipeline.md): corners are TL/TR/BR/BL;
+square indices are rows/columns 0–7, without a chess-coordinate mapping.
+
+The stage CLIs accept image paths and support `--help`:
+
+```bash
+python scripts/detect_board.py data/raw/example.jpg
+python scripts/rectify_board.py data/raw/example.jpg --corners 50 50 750 50 750 750 50 750
+python scripts/extract_squares.py outputs/rectified_boards/example.png
+```
+
+These three commands are scaffolds: with valid input, they currently exit with
+a clear message identifying the scheduled implementation day and create no
+stage outputs. The working preview command above checks Day 2 image I/O.
+
+Run the Day 2 tests without needing Stockfish:
+
+```bash
+python -m pytest tests/test_image_io.py tests/test_visualization.py tests/test_perspective.py tests/test_vision_cli.py tests/test_vision_contracts.py
+```
