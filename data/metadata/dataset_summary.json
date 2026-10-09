@@ -1,0 +1,192 @@
+{
+  "image_count": 75,
+  "position_count": 18,
+  "valid_fen_count": 18,
+  "decoded_image_count": 75,
+  "image_dimensions": {
+    "1280x960": 1,
+    "960x1280": 74
+  },
+  "images_by_variation": {
+    "var_01": 18,
+    "var_02": 18,
+    "var_03": 18,
+    "var_04": 18,
+    "var_05": 1,
+    "var_06": 1,
+    "var_07": 1
+  },
+  "images_by_environment": {
+    "living_room": 72,
+    "office": 3
+  },
+  "unknown_orientation_images": [],
+  "development_subset": {
+    "image_count": 20,
+    "position_count": 18,
+    "images_by_variation": {
+      "var_01": 5,
+      "var_02": 4,
+      "var_03": 4,
+      "var_04": 5,
+      "var_05": 1,
+      "var_07": 1
+    },
+    "images_by_environment": {
+      "living_room": 18,
+      "office": 2
+    }
+  },
+  "collection_target": {
+    "positions": 20,
+    "images": 200,
+    "missing_variations_by_position": {
+      "position_001": [
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_002": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_003": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_004": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_005": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_006": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_007": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_008": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_009": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_010": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_011": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_012": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_013": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_014": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_015": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_016": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_017": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ],
+      "position_018": [
+        "var_05",
+        "var_06",
+        "var_07",
+        "var_08",
+        "var_09",
+        "var_10"
+      ]
+    }
+  },
+  "limitations": [
+    "FEN validity is checked; correspondence to photographed pieces is not automatically verified.",
+    "Camera angles and lighting are user-supplied capture metadata, not measured from pixels.",
+    "Subset is for development, not an independent held-out test set."
+  ]
+}

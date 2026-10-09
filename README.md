@@ -4,8 +4,8 @@ Turn photographs of physical chessboards into positions that can be analyzed wit
 Stockfish. The planned pipeline is photo → board localization → perspective
 correction → 64 square crops → piece recognition → FEN → engine analysis.
 
-Current stage: **Week 1, Day 2** — image utilities and vision scaffolding, with
-working Stockfish integration. Week 1 targets an 800×800 rectified board and
+Current stage: **Week 1, Day 3** — organized starter photo dataset, with working
+image utilities and Stockfish integration. Week 1 targets an 800×800 rectified board and
 64 indexed crops. Board detection, warping, and extraction are scheduled for
 later days; piece recognition follows Week 1. See [week1.md](week1.md).
 
@@ -106,3 +106,23 @@ Run the Day 2 tests without needing Stockfish:
 ```bash
 python -m pytest tests/test_image_io.py tests/test_visualization.py tests/test_perspective.py tests/test_vision_cli.py tests/test_vision_contracts.py
 ```
+
+## Verify Day 3
+
+The current dataset has 75 real photographs across 18 positions, recorded FENs,
+capture conditions, and a fixed 20-image development subset covering all 18
+positions. The board, camera, metadata schema, and collection gaps are described
+in [data/metadata/README.md](data/metadata/README.md).
+
+```bash
+python scripts/validate_dataset.py
+python scripts/validate_dataset.py --report data/metadata/dataset_summary.json
+python -m pytest tests/test_dataset.py
+```
+
+Validation checks raw-file coverage, position FENs, filename/metadata links,
+capture fields, image decoding, and agreement between the development manifest
+and membership flags. It does not recognize or verify pieces in the images.
+The photos are currently indoors; collection toward the original approximately
+200-image target, including outdoor photos, will continue alongside Day 4.
+Keep the development subset fixed when adding new images.

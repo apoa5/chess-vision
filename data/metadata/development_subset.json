@@ -1,0 +1,37 @@
+{
+  "name": "week1_development_v1",
+  "image_ids": [
+    "position_001_var_01.jpg",
+    "position_001_var_05.jpg",
+    "position_001_var_07.jpg",
+    "position_002_var_01.jpg",
+    "position_003_var_02.jpg",
+    "position_004_var_04.jpg",
+    "position_005_var_03.jpg",
+    "position_006_var_01.jpg",
+    "position_007_var_04.jpg",
+    "position_008_var_02.jpg",
+    "position_009_var_03.jpg",
+    "position_010_var_01.jpg",
+    "position_011_var_02.jpg",
+    "position_012_var_04.jpg",
+    "position_013_var_03.jpg",
+    "position_014_var_01.jpg",
+    "position_015_var_04.jpg",
+    "position_016_var_02.jpg",
+    "position_017_var_03.jpg",
+    "position_018_var_04.jpg"
+  ],
+  "selection_criteria": [
+    "Cover all 18 currently photographed positions.",
+    "Include overhead, 75-degree, and 60-degree views.",
+    "Include living-room and office captures, plus left/right and black-near-camera orientations.",
+    "Include dense positions, sparse endings, edge pieces, and study positions."
+  ],
+  "policy": "Keep these 20 filenames fixed while adding photos; membership flags in images.json must match.",
+  "limitations": [
+    "No outdoor photos have been uploaded yet.",
+    "Only the starting position currently has office variations.",
+    "This is a development subset, not an independent test set."
+  ]
+}

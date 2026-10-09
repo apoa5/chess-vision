@@ -1,0 +1,51 @@
+{
+  "board": {
+    "style": "Wooden tournament chessboard",
+    "light_square_color": "Beige / off-white",
+    "dark_square_color": "Brown, lighter than the dark pieces",
+    "square_size_cm": [
+      4,
+      4
+    ],
+    "playing_area_size_cm": [
+      32,
+      32
+    ],
+    "border_width_per_side_cm": 3.5,
+    "overall_size_cm": [
+      39,
+      39
+    ],
+    "detection_target": "The 32 x 32 cm playing area; exclude the surrounding border"
+  },
+  "pieces": {
+    "style": "Wooden tournament chess set",
+    "white_color": "Natural light wood",
+    "black_color": "Very dark brown"
+  },
+  "camera": {
+    "device": "Apple iPhone 13 Pro"
+  },
+  "environments": {
+    "living_room": {
+      "location_type": "indoors",
+      "lighting": "overhead"
+    },
+    "office": {
+      "location_type": "indoors",
+      "lighting": "overhead"
+    },
+    "outdoors": {
+      "location_type": "outdoors",
+      "lighting": "even_natural"
+    }
+  },
+  "capture_plan": {
+    "target_position_count": 20,
+    "target_variations_per_position": 10,
+    "filename_pattern": "position_XXX_var_XX.jpg",
+    "camera_angle_convention": "Approximate degrees above the board plane; 90 is overhead",
+    "orientation_convention": "Board sides as seen in the photograph, independent of individual piece locations",
+    "metadata_source": "User-provided capture setup and variation plan; image contents have not been visually verified"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "var_01": {
+    "camera_angle_degrees": 90,
+    "environment": "living_room",
+    "lighting": "overhead",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; White’s side toward the bottom of the image."
+  },
+  "var_02": {
+    "camera_angle_degrees": 75,
+    "environment": "living_room",
+    "lighting": "overhead",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera."
+  },
+  "var_03": {
+    "camera_angle_degrees": 60,
+    "environment": "living_room",
+    "lighting": "overhead",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera."
+  },
+  "var_04": {
+    "camera_angle_degrees": 75,
+    "environment": "living_room",
+    "lighting": "overhead",
+    "orientation": "white_left",
+    "notes": "White’s side on the left; Black’s side on the right."
+  },
+  "var_05": {
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": null,
+    "notes": "Board centered; orientation not specified in the capture plan."
+  },
+  "var_06": {
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left."
+  },
+  "var_07": {
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera."
+  },
+  "var_08": {
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": null,
+    "notes": "Board centered; orientation not specified in the capture plan."
+  },
+  "var_09": {
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees."
+  },
+  "var_10": {
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": null,
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan."
+  }
+}
