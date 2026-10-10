@@ -9,4 +9,6 @@ data/test/*
 outputs/board_detection/*
 outputs/rectified_boards/*
 outputs/square_crops/*
+outputs/week1/*
+outputs/context_check/*
 !.gitkeep

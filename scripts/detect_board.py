@@ -1,4 +1,4 @@
-"""Day 2 CLI scaffold for board detection (algorithm scheduled for Day 4)."""
+"""Detect the 8×8 playing area and save corners, edges, and candidate diagnostics."""
 
 import argparse
 from pathlib import Path
@@ -8,8 +8,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from src.utils.config import DEFAULT_CONFIG, load_config
 from src.utils.image_io import load_image
-from src.utils.visualization import save_debug_visualization
-from src.vision.board_detection import detect_board_corners
+from src.utils.detection_debug import save_detection_debug
+from src.vision.board_detection import DetectionSettings, detect_board_corners
 
 
 def main() -> None:
@@ -21,15 +21,16 @@ def main() -> None:
     try:
         settings = load_config(args.config)
         image = load_image(args.image)
-        detection = detect_board_corners(image)
-        if not detection.success:
-            raise ValueError(detection.reason or "No reliable board candidate found.")
-        corners = detection.corners
+        options = DetectionSettings(**settings.get("board_detection", {}))
+        detection = detect_board_corners(image, options)
         output = args.output or settings["outputs"]["board_detection"] / f"{args.image.stem}_corners.png"
-        save_debug_visualization(output, image, corners=corners)
-        print(f"Corners (TL, TR, BR, BL): {corners.tolist()}")
+        save_detection_debug(output, image, detection, options)
         print(f"Saved: {output}")
-    except (OSError, ValueError, NotImplementedError) as error:
+        if not detection.success:
+            parser.exit(1, f"Detection failed: {detection.reason}\n")
+        print(f"Corners (TL, TR, BR, BL): {detection.corners.tolist()}")
+        print(f"Candidate score (not a probability): {detection.score:.3f}")
+    except (OSError, ValueError, TypeError) as error:
         parser.exit(1, f"Error: {error}\n")
 
 

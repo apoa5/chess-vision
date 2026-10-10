@@ -1,7 +1,6 @@
-"""Day 2 CLI scaffold for square extraction (scheduled for Day 7)."""
+"""Save 64 indexed crops and a grid preview from a normalized board."""
 
 import argparse
-import json
 from pathlib import Path
 import sys
 
@@ -10,6 +9,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from src.utils.config import DEFAULT_CONFIG, load_config
 from src.utils.image_io import ensure_output_directory, load_image, save_image
 from src.vision.square_extraction import extract_squares
+from src.vision.pipeline import save_square_crops
+from src.utils.visualization import draw_board_grid
 
 
 def main() -> None:
@@ -20,14 +21,11 @@ def main() -> None:
     args = parser.parse_args()
     try:
         settings = load_config(args.config)
-        squares = extract_squares(load_image(args.image))
+        board = load_image(args.image)
+        squares = extract_squares(board)
         output = ensure_output_directory(args.output_dir or settings["outputs"]["square_crops"] / args.image.stem)
-        metadata = []
-        for square in squares:
-            filename = f"r{square.row}_c{square.col}.png"
-            save_image(output / filename, square.image)
-            metadata.append({**square.metadata(), "filename": filename})
-        (output / "squares.json").write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
+        save_square_crops(squares, output)
+        save_image(output / "grid.png", draw_board_grid(board))
         print(f"Saved {len(squares)} squares and metadata to: {output}")
     except (OSError, ValueError, NotImplementedError) as error:
         parser.exit(1, f"Error: {error}\n")

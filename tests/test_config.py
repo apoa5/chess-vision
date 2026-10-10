@@ -25,3 +25,14 @@ def test_invalid_board_size(tmp_path):
 def test_config_from_another_directory(monkeypatch, tmp_path):
     monkeypatch.chdir(tmp_path)
     assert load_config()["data"]["raw"] == PROJECT_ROOT / "data/raw"
+
+
+@pytest.mark.parametrize("key,value", [("context_margin_squares", -1), ("crop_padding_squares", 3),
+                                      ("context_margin_squares", ".nan"), ("crop_padding_squares", "true")])
+def test_invalid_context_settings(tmp_path, key, value):
+    path = tmp_path / "settings.yaml"
+    text = DEFAULT_CONFIG.read_text()
+    old = "2.0"
+    path.write_text(text.replace(f"{key}: {old}", f"{key}: {value}"))
+    with pytest.raises(ValueError):
+        load_config(path)

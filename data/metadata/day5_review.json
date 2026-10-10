@@ -1,0 +1,182 @@
+{
+  "position_001_var_01.jpg": {
+    "detection_signature": "3e379b8d9e4f3f1b17bf77dcd7a46df827d2fe857ff0e1e56f8c106a7a495342",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_001_var_05.jpg": {
+    "detection_signature": "cb2d93c4f1b28d8bb27c248e1c8a26dd35a8ff6bf66079351113ce36c5e84c53",
+    "board_localization_correct": false,
+    "failure_category": "weak_grid_evidence_under_occlusion",
+    "notes": "No accepted candidate. Pieces, shadows, or glare interrupt boundaries and weaken aligned 8x8 evidence; geometric hypotheses exist but fail the thresholds.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_001_var_07.jpg": {
+    "detection_signature": "04ee78d8c80ad3f9b66c60b49457c83a138d23ac5d9387df8b687295b31bccd3",
+    "board_localization_correct": false,
+    "failure_category": "internal_grid_line_selected",
+    "notes": "Full-resolution overlay inspection: left boundary clips a file and right boundary includes substantial frame; reject despite accepted candidate.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_002_var_01.jpg": {
+    "detection_signature": "85d090ed86eede36af71128cd569a5b0e0dbe6c7906b8ddbaf2f003c3d6115e0",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_003_var_02.jpg": {
+    "detection_signature": "4c4577110c49f6b20df469184ed7974787d02f982c3088b8ad413474ea7dfa71",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_004_var_04.jpg": {
+    "detection_signature": "4fa738c7122a2d6dc3f3bad7d95a184a30619f6ce4a21a4921597686e8e87393",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_005_var_03.jpg": {
+    "detection_signature": "bb0bec7aa889ad66a0e775121b452203b82b94fe867d7dc10e8ebc2ad5dbe0b8",
+    "board_localization_correct": false,
+    "failure_category": "weak_grid_evidence_under_occlusion",
+    "notes": "No accepted candidate. Pieces, shadows, or glare interrupt boundaries and weaken aligned 8x8 evidence; geometric hypotheses exist but fail the thresholds.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_006_var_01.jpg": {
+    "detection_signature": "3d88306b0ab4ce7f4751a386a5e7625def45207f2f7c6d9d04c0a270d0719afe",
+    "board_localization_correct": false,
+    "failure_category": "weak_grid_evidence_under_occlusion",
+    "notes": "No accepted candidate. Pieces, shadows, or glare interrupt boundaries and weaken aligned 8x8 evidence; geometric hypotheses exist but fail the thresholds.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_007_var_04.jpg": {
+    "detection_signature": "0d16381daee68bdc57ba0b22ed3d92b4b5bdb1b2f0c91adbe3c442d78eafb14c",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_008_var_02.jpg": {
+    "detection_signature": "6b62da4243797d7532cffad66a8c23fe5f302761303c8bf7b196c14d7c182774",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_009_var_03.jpg": {
+    "detection_signature": "a7d0a69b693360dfb99a6145c62b0abd9ea2570949c972beda5e30615902c2a8",
+    "board_localization_correct": false,
+    "failure_category": "weak_grid_evidence_under_occlusion",
+    "notes": "No accepted candidate. Pieces, shadows, or glare interrupt boundaries and weaken aligned 8x8 evidence; geometric hypotheses exist but fail the thresholds.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_010_var_01.jpg": {
+    "detection_signature": "3b3ef40a75279821dbbe7827ad9241d5839775cbe28b35d2d30d943578f8b4e4",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_011_var_02.jpg": {
+    "detection_signature": "5a62ecb19f65bed0129e2ea38c1eff21bfc7d5c357d9d63b6f673a31a7c49a15",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_012_var_04.jpg": {
+    "detection_signature": "14c497e8d716f9ac813c71c4ad6c7a0ac317209c95b17cdb247729e224e5cfaf",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_013_var_03.jpg": {
+    "detection_signature": "6dda168b935dfafafa2f4b94fb2d7bf54454c2d07ae007c714c56f3f9319cb38",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_014_var_01.jpg": {
+    "detection_signature": "990bf65dd001fbf8afd76b272f9872144908fdfe1de393cc6681d0b8cb83e7ef",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_015_var_04.jpg": {
+    "detection_signature": "7e0d5a157106abaadda356bd8618491f86db55f907b39374dacdc54c78744dfd",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_016_var_02.jpg": {
+    "detection_signature": "f39980b7952d098b1f570a918ad3f4a24e12167039e4213d20039a45aefec7fc",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_017_var_03.jpg": {
+    "detection_signature": "de9590db1bfb0fe5f742c25ccfc6678bf3ef3f958d224673b23fbf12de916950",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  },
+  "position_018_var_04.jpg": {
+    "detection_signature": "1c9d902f8c7e64a391eca234083511d39433914fb7dd5fcb3ce4a76e034ac89a",
+    "board_localization_correct": true,
+    "failure_category": "",
+    "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment.",
+    "reviewer": "Codex visual inspection",
+    "review_method": "Contact-sheet review with full-resolution inspection of dense/ambiguous accepted candidates.",
+    "criterion": "Correct 8x8 playing area, without missing a file/rank or substantial wooden frame; small boundary offsets allowed. This is qualitative localization review, not corner-error measurement."
+  }
+}

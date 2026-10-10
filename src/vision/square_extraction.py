@@ -32,9 +32,39 @@ class SquareCrop:
 
 
 def extract_squares(board_image: np.ndarray) -> list[SquareCrop]:
-    """Day 7 interface: return exactly 64 crops with metadata in row-major order."""
+    """Return 64 independent crops, covering every pixel once in row-major order."""
     validate_image(board_image)
     height, width = board_image.shape[:2]
     if height != width or height % 8:
         raise ValueError("Normalized board must be square with a side length divisible by 8.")
-    raise NotImplementedError("Square crop extraction is scheduled for Day 7.")
+    side = height // 8
+    return [SquareCrop(row, col, (col * side, row * side, (col + 1) * side, (row + 1) * side),
+                       board_image[row * side:(row + 1) * side,
+                                   col * side:(col + 1) * side].copy())
+            for row in range(8) for col in range(8)]
+
+
+def extract_context_squares(rectified, padding_pixels=100):
+    """Extract overlapping windows centered on the 64 original grid squares.
+
+    Bounds are in the context canvas, not the 800×800 playing-area image.
+    Each crop includes a coverage mask: black padding is not observed content.
+    """
+    if type(padding_pixels) is not int or padding_pixels < 0:
+        raise ValueError("Crop padding must be a nonnegative integer.")
+    x0, y0, x1, y1 = rectified.board_bounds
+    core = rectified.board_image
+    squares = extract_squares(core)
+    height, width = rectified.image.shape[:2]
+    if min(x0, y0, width - x1, height - y1) < padding_pixels:
+        raise ValueError("Crop padding cannot exceed the available context margin.")
+    result = []
+    for square in squares:
+        sx0, sy0, sx1, sy1 = square.bounds
+        bounds = (x0 + sx0 - padding_pixels, y0 + sy0 - padding_pixels,
+                  x0 + sx1 + padding_pixels, y0 + sy1 + padding_pixels)
+        left, top, right, bottom = bounds
+        result.append((SquareCrop(square.row, square.col, bounds,
+                                   rectified.image[top:bottom, left:right].copy()),
+                       rectified.valid_mask[top:bottom, left:right].copy()))
+    return result

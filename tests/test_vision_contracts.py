@@ -22,15 +22,15 @@ def test_detection_failure_has_reason_and_no_corners():
     assert failure.reason
 
 
-def test_unimplemented_stages_fail_explicitly():
+def test_implemented_stages_handle_blank_images_explicitly():
     image = np.zeros((80, 80, 3), dtype=np.uint8)
     corners = order_corners([[0, 0], [79, 0], [79, 79], [0, 79]])
-    with pytest.raises(NotImplementedError, match="Day 4"):
-        detect_board_corners(image)
-    with pytest.raises(NotImplementedError, match="Day 6"):
-        warp_board(image, corners)
-    with pytest.raises(NotImplementedError, match="Day 7"):
-        extract_squares(image)
+    detection = detect_board_corners(image)
+    assert not detection.success
+    assert detection.corners is None
+    assert detection.reason
+    assert warp_board(image, corners).shape == (800, 800, 3)
+    assert len(extract_squares(image)) == 64
 
 
 def test_warp_requires_ordered_corners():

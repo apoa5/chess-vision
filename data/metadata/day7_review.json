@@ -1,0 +1,98 @@
+{
+  "position_001_var_01.jpg": {
+    "warp_signature": "c4130439fbb68ce4e85a238199fcef1782e47c4c03228e39c0bbd3cefc284645",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  },
+  "position_001_var_07.jpg": {
+    "warp_signature": "6418f2d36b01296b6097ec9592a9e81ed77e26912c60802986162f3a66d7bb48",
+    "warp_correct": false,
+    "reviewer": "Codex visual review",
+    "notes": "Incorrect playing area: left file missing and right wooden frame included. Crop count does not imply correct board."
+  },
+  "position_002_var_01.jpg": {
+    "warp_signature": "cf24f0a9c337e052a8a90053b6a34632640061c83cba0c5e6eb68d034ef26dc3",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  },
+  "position_003_var_02.jpg": {
+    "warp_signature": "7bfdabc551175708ab6f15e87698fd9ea75a3f0ec034c9a761d30f170e291c26",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  },
+  "position_004_var_04.jpg": {
+    "warp_signature": "758c436bb2fcf5c01f1c739dddbc1c2faadaefd052cde82472fba9be0c4b9b92",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain. Narrow bottom frame strip and slight row drift visible."
+  },
+  "position_007_var_04.jpg": {
+    "warp_signature": "d404e7d3c105512ae7802ae4d581a215cca12e03c5cc22f4fb1351c8db3c521d",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain. Grid drift toward right edge and narrow frame strip; coarse acceptance only."
+  },
+  "position_008_var_02.jpg": {
+    "warp_signature": "05328cf7404843aa45b81426c052b05d2bb1eea94a47fa0c33598f44c702a52e",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  },
+  "position_010_var_01.jpg": {
+    "warp_signature": "4cddddca790fc639118ee8cb8d1cb92d2dcfe6a895fb48388af8c6dedf908f94",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  },
+  "position_011_var_02.jpg": {
+    "warp_signature": "d771079dd35568fc839afaf5b4ef5f3df9945f9b7f180e86ccaf6f9715985528",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  },
+  "position_012_var_04.jpg": {
+    "warp_signature": "a4bbe462f7b57a285ea357a8a986f788c0e00d87503d4cc7c648f4198a805998",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  },
+  "position_013_var_03.jpg": {
+    "warp_signature": "00be561a1a48238fda087d76b97afedc7fc557aa24b0121d89e1624921286436",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  },
+  "position_014_var_01.jpg": {
+    "warp_signature": "f91eafd6d5a7f95d241abb2a393e81500caa2630b8aabbb8605ee07a14ef7e4b",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  },
+  "position_015_var_04.jpg": {
+    "warp_signature": "bcbe845de00b3edf4e3bcb6b92ec2a52497e3ced4b0f20e49eac04a0ba2b46df",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  },
+  "position_016_var_02.jpg": {
+    "warp_signature": "1881dbb8e2c0c688e017953c95b3a51586e83958f6a61988cb590c5a44553a64",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  },
+  "position_017_var_03.jpg": {
+    "warp_signature": "d1936287f80990e6cc39381dce72e2460cde34ce1c1fe5342e55d5804efa5c13",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  },
+  "position_018_var_04.jpg": {
+    "warp_signature": "91acc0c852c4bb9f3a4ca0239249285842d4886eff6077e55889e987d6117fe7",
+    "warp_correct": true,
+    "reviewer": "Codex visual review",
+    "notes": "Visual grid review: eight rows and columns, approximately aligned boundaries; minor offsets and piece parallax remain."
+  }
+}

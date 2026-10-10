@@ -1,0 +1,169 @@
+{
+  "subset": "week1_development_v1",
+  "candidate_found_count": 13,
+  "image_count": 20,
+  "note": "Candidate acceptance is not measured localization accuracy; inspect overlays.",
+  "results": [
+    {
+      "image_id": "position_001_var_01.jpg",
+      "success": true,
+      "score": 0.7679434491447328,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_001_var_01_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_001_var_05.jpg",
+      "success": false,
+      "score": null,
+      "reason": "No plausible board quadrilateral found.",
+      "overlay_path": "outputs/board_detection/position_001_var_05_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_001_var_07.jpg",
+      "success": false,
+      "score": null,
+      "reason": "No plausible board quadrilateral found.",
+      "overlay_path": "outputs/board_detection/position_001_var_07_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_002_var_01.jpg",
+      "success": true,
+      "score": 0.6398397160332592,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_002_var_01_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_003_var_02.jpg",
+      "success": true,
+      "score": 0.6924897713317585,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_003_var_02_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_004_var_04.jpg",
+      "success": false,
+      "score": null,
+      "reason": "No candidate passed the checkerboard evidence thresholds.",
+      "overlay_path": "outputs/board_detection/position_004_var_04_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_005_var_03.jpg",
+      "success": false,
+      "score": null,
+      "reason": "No plausible board quadrilateral found.",
+      "overlay_path": "outputs/board_detection/position_005_var_03_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_006_var_01.jpg",
+      "success": true,
+      "score": 0.5784916186368138,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_006_var_01_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_007_var_04.jpg",
+      "success": true,
+      "score": 0.711679990238753,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_007_var_04_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_008_var_02.jpg",
+      "success": false,
+      "score": null,
+      "reason": "No candidate passed the checkerboard evidence thresholds.",
+      "overlay_path": "outputs/board_detection/position_008_var_02_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_009_var_03.jpg",
+      "success": false,
+      "score": null,
+      "reason": "No plausible board quadrilateral found.",
+      "overlay_path": "outputs/board_detection/position_009_var_03_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_010_var_01.jpg",
+      "success": false,
+      "score": null,
+      "reason": "No candidate passed the checkerboard evidence thresholds.",
+      "overlay_path": "outputs/board_detection/position_010_var_01_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_011_var_02.jpg",
+      "success": true,
+      "score": 0.9025475738786621,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_011_var_02_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_012_var_04.jpg",
+      "success": true,
+      "score": 0.8511679073848961,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_012_var_04_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_013_var_03.jpg",
+      "success": true,
+      "score": 0.7640554479157353,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_013_var_03_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_014_var_01.jpg",
+      "success": true,
+      "score": 0.9123996911613361,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_014_var_01_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_015_var_04.jpg",
+      "success": true,
+      "score": 0.8428947353308396,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_015_var_04_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_016_var_02.jpg",
+      "success": true,
+      "score": 0.8721364459836751,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_016_var_02_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_017_var_03.jpg",
+      "success": true,
+      "score": 0.8265774479546935,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_017_var_03_corners.png",
+      "manual_correct": null
+    },
+    {
+      "image_id": "position_018_var_04.jpg",
+      "success": true,
+      "score": 0.880228348056353,
+      "reason": null,
+      "overlay_path": "outputs/board_detection/position_018_var_04_corners.png",
+      "manual_correct": null
+    }
+  ],
+  "review_note": "Contact-sheet inspection confirms multiple board regions are located, but boundary offsets remain; correctness has not been formally measured."
+}

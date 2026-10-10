@@ -81,6 +81,27 @@ def resize_for_preview(image: np.ndarray, max_size: int = 1200) -> np.ndarray:
     return cv2.resize(image, dimensions, interpolation=cv2.INTER_AREA)
 
 
+def draw_board_grid(board_image: np.ndarray) -> np.ndarray:
+    """Overlay the exact extraction boundaries and image row/column indices."""
+    canvas = _canvas(board_image)
+    height, width = canvas.shape[:2]
+    if height != width or height % 8:
+        raise ValueError("Normalized board must be square with a side length divisible by 8.")
+    side = height // 8
+    for index in range(9):
+        coordinate = min(index * side, height - 1)
+        cv2.line(canvas, (coordinate, 0), (coordinate, height - 1), (0, 255, 0), 1)
+        cv2.line(canvas, (0, coordinate), (width - 1, coordinate), (0, 255, 0), 1)
+    scale = min(0.45, side / 160)
+    for row in range(8):
+        for col in range(8):
+            text = f"r{row} c{col}"
+            anchor = (col * side + max(1, side // 20), row * side + max(1, side // 5))
+            cv2.putText(canvas, text, anchor, cv2.FONT_HERSHEY_SIMPLEX, scale, (0, 0, 0), 3, cv2.LINE_AA)
+            cv2.putText(canvas, text, anchor, cv2.FONT_HERSHEY_SIMPLEX, scale, (255, 255, 255), 1, cv2.LINE_AA)
+    return canvas
+
+
 def save_debug_visualization(path: str | Path, image: np.ndarray, *, corners=None,
                              max_size: int | None = None) -> Path:
     """Save an optional corner overlay/preview without changing the source."""

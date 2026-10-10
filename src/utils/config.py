@@ -1,6 +1,7 @@
 """Central settings; relative paths are resolved from the project root."""
 
 import os
+import math
 from pathlib import Path
 
 import yaml
@@ -26,6 +27,13 @@ def load_config(path: str | Path = DEFAULT_CONFIG) -> dict:
     size = board.get("normalized_size") if isinstance(board, dict) else None
     if type(size) is not int or size <= 0 or size % 8:
         raise ValueError("board.normalized_size must be a positive integer divisible by 8.")
+    for key, default in (("context_margin_squares", 2.0), ("crop_padding_squares", 2.0)):
+        value = board.get(key, default)
+        if type(value) not in (int, float) or not math.isfinite(value) or not 0 <= value <= 4:
+            raise ValueError(f"board.{key} must be a finite number between 0 and 4.")
+        board[key] = value
+    if board["crop_padding_squares"] > board["context_margin_squares"]:
+        raise ValueError("Crop padding cannot exceed the context margin.")
     for section, keys in {
         "data": ("raw", "processed", "test", "metadata"),
         "outputs": ("board_detection", "rectified_boards", "square_crops"),

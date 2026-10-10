@@ -1,0 +1,591 @@
+{
+  "subset": "week1_development_v1",
+  "settings": {
+    "max_image_size": 1280,
+    "blur_kernel": 5,
+    "canny_low": 40,
+    "canny_high": 120,
+    "normalize_contrast": false,
+    "min_area_fraction": 0.05,
+    "max_area_fraction": 0.9,
+    "polygon_epsilon": 0.02,
+    "min_checker_correlation": 0.4,
+    "min_checker_contrast": 8.0,
+    "min_score": 0.55,
+    "border_insets": [
+      0.0,
+      0.04,
+      0.07,
+      0.09,
+      0.11
+    ],
+    "use_wood_color_mask": true,
+    "wood_hue_min": 0,
+    "wood_hue_max": 40,
+    "wood_min_saturation": 60,
+    "refine_candidates": 3,
+    "use_line_candidates": true
+  },
+  "image_count": 20,
+  "candidate_found_count": 16,
+  "known_correct_count": 15,
+  "known_outcome_count": 20,
+  "unreviewed_count": 0,
+  "localization_accuracy": 0.75,
+  "target_accuracy": 0.9,
+  "target_met": false,
+  "results": [
+    {
+      "image_id": "position_001_var_01.jpg",
+      "success": true,
+      "candidate_score": 0.8382347542259161,
+      "reason": null,
+      "corners": [
+        [
+          196.9241485595703,
+          334.36297607421875
+        ],
+        [
+          766.9228515625,
+          344.3337097167969
+        ],
+        [
+          786.425537109375,
+          928.6185913085938
+        ],
+        [
+          178.8921661376953,
+          926.9052124023438
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_001_var_01_corners.png",
+      "detection_signature": "3e379b8d9e4f3f1b17bf77dcd7a46df827d2fe857ff0e1e56f8c106a7a495342",
+      "elapsed_seconds": 2.539,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_001_var_05.jpg",
+      "success": false,
+      "candidate_score": null,
+      "reason": "No candidate passed the checkerboard evidence thresholds.",
+      "corners": null,
+      "overlay_path": "outputs/board_detection/day5/position_001_var_05_corners.png",
+      "detection_signature": "cb2d93c4f1b28d8bb27c248e1c8a26dd35a8ff6bf66079351113ce36c5e84c53",
+      "elapsed_seconds": 1.965,
+      "board_localization_correct": false,
+      "review_status": "matched",
+      "failure_category": "weak_grid_evidence_under_occlusion",
+      "notes": "No accepted candidate. Pieces, shadows, or glare interrupt boundaries and weaken aligned 8x8 evidence; geometric hypotheses exist but fail the thresholds."
+    },
+    {
+      "image_id": "position_001_var_07.jpg",
+      "success": true,
+      "candidate_score": 0.7030946249989446,
+      "reason": null,
+      "corners": [
+        [
+          316.3411865234375,
+          406.24700927734375
+        ],
+        [
+          747.7312622070312,
+          399.0
+        ],
+        [
+          896.9586181640625,
+          763.6234741210938
+        ],
+        [
+          245.689697265625,
+          745.5059814453125
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_001_var_07_corners.png",
+      "detection_signature": "04ee78d8c80ad3f9b66c60b49457c83a138d23ac5d9387df8b687295b31bccd3",
+      "elapsed_seconds": 1.408,
+      "board_localization_correct": false,
+      "review_status": "matched",
+      "failure_category": "internal_grid_line_selected",
+      "notes": "Full-resolution overlay inspection: left boundary clips a file and right boundary includes substantial frame; reject despite accepted candidate."
+    },
+    {
+      "image_id": "position_002_var_01.jpg",
+      "success": true,
+      "candidate_score": 0.569427695246572,
+      "reason": null,
+      "corners": [
+        [
+          221.7484893798828,
+          374.7264404296875
+        ],
+        [
+          760.4579467773438,
+          363.63702392578125
+        ],
+        [
+          787.4805297851562,
+          924.52880859375
+        ],
+        [
+          179.90919494628906,
+          925.9959106445312
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_002_var_01_corners.png",
+      "detection_signature": "85d090ed86eede36af71128cd569a5b0e0dbe6c7906b8ddbaf2f003c3d6115e0",
+      "elapsed_seconds": 2.588,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_003_var_02.jpg",
+      "success": true,
+      "candidate_score": 0.7729487257363771,
+      "reason": null,
+      "corners": [
+        [
+          231.43467712402344,
+          352.4113464355469
+        ],
+        [
+          716.3857421875,
+          347.8480529785156
+        ],
+        [
+          811.2109985351562,
+          815.6183471679688
+        ],
+        [
+          154.79006958007812,
+          827.9041137695312
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_003_var_02_corners.png",
+      "detection_signature": "4c4577110c49f6b20df469184ed7974787d02f982c3088b8ad413474ea7dfa71",
+      "elapsed_seconds": 1.781,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_004_var_04.jpg",
+      "success": true,
+      "candidate_score": 0.7043579947615398,
+      "reason": null,
+      "corners": [
+        [
+          237.07554626464844,
+          339.4464416503906
+        ],
+        [
+          705.8195190429688,
+          337.00933837890625
+        ],
+        [
+          825.8348999023438,
+          769.289306640625
+        ],
+        [
+          148.0817413330078,
+          788.8463134765625
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_004_var_04_corners.png",
+      "detection_signature": "4fa738c7122a2d6dc3f3bad7d95a184a30619f6ce4a21a4921597686e8e87393",
+      "elapsed_seconds": 2.004,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_005_var_03.jpg",
+      "success": false,
+      "candidate_score": null,
+      "reason": "No candidate passed the checkerboard evidence thresholds.",
+      "corners": null,
+      "overlay_path": "outputs/board_detection/day5/position_005_var_03_corners.png",
+      "detection_signature": "bb0bec7aa889ad66a0e775121b452203b82b94fe867d7dc10e8ebc2ad5dbe0b8",
+      "elapsed_seconds": 1.711,
+      "board_localization_correct": false,
+      "review_status": "matched",
+      "failure_category": "weak_grid_evidence_under_occlusion",
+      "notes": "No accepted candidate. Pieces, shadows, or glare interrupt boundaries and weaken aligned 8x8 evidence; geometric hypotheses exist but fail the thresholds."
+    },
+    {
+      "image_id": "position_006_var_01.jpg",
+      "success": false,
+      "candidate_score": null,
+      "reason": "No candidate passed the checkerboard evidence thresholds.",
+      "corners": null,
+      "overlay_path": "outputs/board_detection/day5/position_006_var_01_corners.png",
+      "detection_signature": "3d88306b0ab4ce7f4751a386a5e7625def45207f2f7c6d9d04c0a270d0719afe",
+      "elapsed_seconds": 1.533,
+      "board_localization_correct": false,
+      "review_status": "matched",
+      "failure_category": "weak_grid_evidence_under_occlusion",
+      "notes": "No accepted candidate. Pieces, shadows, or glare interrupt boundaries and weaken aligned 8x8 evidence; geometric hypotheses exist but fail the thresholds."
+    },
+    {
+      "image_id": "position_007_var_04.jpg",
+      "success": true,
+      "candidate_score": 0.5556544364781858,
+      "reason": null,
+      "corners": [
+        [
+          227.37135314941406,
+          367.85302734375
+        ],
+        [
+          735.2647705078125,
+          378.24237060546875
+        ],
+        [
+          840.4334716796875,
+          849.4364013671875
+        ],
+        [
+          149.55267333984375,
+          832.6409912109375
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_007_var_04_corners.png",
+      "detection_signature": "0d16381daee68bdc57ba0b22ed3d92b4b5bdb1b2f0c91adbe3c442d78eafb14c",
+      "elapsed_seconds": 1.684,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_008_var_02.jpg",
+      "success": true,
+      "candidate_score": 0.6233401236041562,
+      "reason": null,
+      "corners": [
+        [
+          221.15309143066406,
+          325.6468811035156
+        ],
+        [
+          735.7183227539062,
+          329.18023681640625
+        ],
+        [
+          794.6909790039062,
+          807.367919921875
+        ],
+        [
+          122.17230987548828,
+          824.2781982421875
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_008_var_02_corners.png",
+      "detection_signature": "6b62da4243797d7532cffad66a8c23fe5f302761303c8bf7b196c14d7c182774",
+      "elapsed_seconds": 2.145,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_009_var_03.jpg",
+      "success": false,
+      "candidate_score": null,
+      "reason": "No candidate passed the checkerboard evidence thresholds.",
+      "corners": null,
+      "overlay_path": "outputs/board_detection/day5/position_009_var_03_corners.png",
+      "detection_signature": "a7d0a69b693360dfb99a6145c62b0abd9ea2570949c972beda5e30615902c2a8",
+      "elapsed_seconds": 1.196,
+      "board_localization_correct": false,
+      "review_status": "matched",
+      "failure_category": "weak_grid_evidence_under_occlusion",
+      "notes": "No accepted candidate. Pieces, shadows, or glare interrupt boundaries and weaken aligned 8x8 evidence; geometric hypotheses exist but fail the thresholds."
+    },
+    {
+      "image_id": "position_010_var_01.jpg",
+      "success": true,
+      "candidate_score": 0.7550593030685935,
+      "reason": null,
+      "corners": [
+        [
+          167.43856811523438,
+          250.80836486816406
+        ],
+        [
+          773.4906616210938,
+          248.54066467285156
+        ],
+        [
+          780.8572998046875,
+          856.502685546875
+        ],
+        [
+          153.66497802734375,
+          858.1634521484375
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_010_var_01_corners.png",
+      "detection_signature": "3b3ef40a75279821dbbe7827ad9241d5839775cbe28b35d2d30d943578f8b4e4",
+      "elapsed_seconds": 2.586,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_011_var_02.jpg",
+      "success": true,
+      "candidate_score": 0.8572929716181263,
+      "reason": null,
+      "corners": [
+        [
+          225.31626892089844,
+          329.0772705078125
+        ],
+        [
+          738.8837890625,
+          332.76873779296875
+        ],
+        [
+          806.2490234375,
+          834.2186279296875
+        ],
+        [
+          157.16880798339844,
+          829.2587890625
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_011_var_02_corners.png",
+      "detection_signature": "5a62ecb19f65bed0129e2ea38c1eff21bfc7d5c357d9d63b6f673a31a7c49a15",
+      "elapsed_seconds": 2.405,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_012_var_04.jpg",
+      "success": true,
+      "candidate_score": 0.8279680422009209,
+      "reason": null,
+      "corners": [
+        [
+          239.67977905273438,
+          409.44940185546875
+        ],
+        [
+          694.6430053710938,
+          408.86297607421875
+        ],
+        [
+          795.8321533203125,
+          834.1306762695312
+        ],
+        [
+          161.8617401123047,
+          843.130126953125
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_012_var_04_corners.png",
+      "detection_signature": "14c497e8d716f9ac813c71c4ad6c7a0ac317209c95b17cdb247729e224e5cfaf",
+      "elapsed_seconds": 1.736,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_013_var_03.jpg",
+      "success": true,
+      "candidate_score": 0.7430132483006241,
+      "reason": null,
+      "corners": [
+        [
+          243.09771728515625,
+          302.7125549316406
+        ],
+        [
+          712.3841552734375,
+          306.09747314453125
+        ],
+        [
+          821.653564453125,
+          686.7979125976562
+        ],
+        [
+          151.02569580078125,
+          697.6707153320312
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_013_var_03_corners.png",
+      "detection_signature": "6dda168b935dfafafa2f4b94fb2d7bf54454c2d07ae007c714c56f3f9319cb38",
+      "elapsed_seconds": 1.931,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_014_var_01.jpg",
+      "success": true,
+      "candidate_score": 0.8808509497313343,
+      "reason": null,
+      "corners": [
+        [
+          195.22023010253906,
+          283.1680908203125
+        ],
+        [
+          775.7383422851562,
+          282.212158203125
+        ],
+        [
+          804.5068969726562,
+          879.9178466796875
+        ],
+        [
+          173.5489044189453,
+          886.7388916015625
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_014_var_01_corners.png",
+      "detection_signature": "990bf65dd001fbf8afd76b272f9872144908fdfe1de393cc6681d0b8cb83e7ef",
+      "elapsed_seconds": 2.558,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_015_var_04.jpg",
+      "success": true,
+      "candidate_score": 0.8309857948261518,
+      "reason": null,
+      "corners": [
+        [
+          256.74652099609375,
+          424.70928955078125
+        ],
+        [
+          705.8182373046875,
+          423.4549865722656
+        ],
+        [
+          818.4544067382812,
+          799.3182983398438
+        ],
+        [
+          152.69851684570312,
+          808.0293579101562
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_015_var_04_corners.png",
+      "detection_signature": "7e0d5a157106abaadda356bd8618491f86db55f907b39374dacdc54c78744dfd",
+      "elapsed_seconds": 0.971,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_016_var_02.jpg",
+      "success": true,
+      "candidate_score": 0.8461958404863468,
+      "reason": null,
+      "corners": [
+        [
+          206.7030029296875,
+          336.9817810058594
+        ],
+        [
+          704.6404418945312,
+          341.10028076171875
+        ],
+        [
+          788.600341796875,
+          814.70361328125
+        ],
+        [
+          138.6973876953125,
+          820.051025390625
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_016_var_02_corners.png",
+      "detection_signature": "f39980b7952d098b1f570a918ad3f4a24e12167039e4213d20039a45aefec7fc",
+      "elapsed_seconds": 2.319,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_017_var_03.jpg",
+      "success": true,
+      "candidate_score": 0.7954902659369977,
+      "reason": null,
+      "corners": [
+        [
+          258.4980773925781,
+          414.7228088378906
+        ],
+        [
+          714.6123046875,
+          416.376953125
+        ],
+        [
+          835.4979858398438,
+          769.3168334960938
+        ],
+        [
+          159.5162811279297,
+          762.8815307617188
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_017_var_03_corners.png",
+      "detection_signature": "de9590db1bfb0fe5f742c25ccfc6678bf3ef3f958d224673b23fbf12de916950",
+      "elapsed_seconds": 0.86,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    },
+    {
+      "image_id": "position_018_var_04.jpg",
+      "success": true,
+      "candidate_score": 0.8158236890946414,
+      "reason": null,
+      "corners": [
+        [
+          252.44017028808594,
+          420.21441650390625
+        ],
+        [
+          712.2129516601562,
+          425.1720886230469
+        ],
+        [
+          801.6249389648438,
+          826.633056640625
+        ],
+        [
+          141.91119384765625,
+          822.4032592773438
+        ]
+      ],
+      "overlay_path": "outputs/board_detection/day5/position_018_var_04_corners.png",
+      "detection_signature": "1c9d902f8c7e64a391eca234083511d39433914fb7dd5fcb3ce4a76e034ac89a",
+      "elapsed_seconds": 1.749,
+      "board_localization_correct": true,
+      "review_status": "matched",
+      "failure_category": "",
+      "notes": "Visual overlay review: correct playing area selected, with minor boundary offsets; suitable for coarse localization, not verified pixel-accurate crop alignment."
+    }
+  ]
+}

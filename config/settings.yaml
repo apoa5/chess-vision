@@ -2,6 +2,27 @@ stockfish:
   executable: tools/stockfish/stockfish-linux-x86-64-universal
 board:
   normalized_size: 800
+  context_margin_squares: 2.0
+  crop_padding_squares: 2.0
+board_detection:
+  max_image_size: 1280
+  blur_kernel: 5
+  canny_low: 40
+  canny_high: 120
+  normalize_contrast: false
+  min_area_fraction: 0.05
+  max_area_fraction: 0.90
+  polygon_epsilon: 0.02
+  min_checker_correlation: 0.40
+  min_checker_contrast: 8.0
+  min_score: 0.55
+  border_insets: [0.0, 0.04, 0.07, 0.09, 0.11]
+  use_wood_color_mask: true
+  wood_hue_min: 0
+  wood_hue_max: 40
+  wood_min_saturation: 60
+  use_line_candidates: true
+  refine_candidates: 3
 data:
   raw: data/raw
   processed: data/processed
