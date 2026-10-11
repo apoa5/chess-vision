@@ -18,3 +18,9 @@ outputs/week2/*
 models/checkpoints/
 
 outputs/evaluation/*
+
+# Guided scanning web prototype
+web/node_modules/
+web/dist/
+web/.certs/
+outputs/scanning/

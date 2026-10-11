@@ -20,3 +20,7 @@ The raw reference photo is local and ignored by Git. Runtime inference needs
 only the checked-in template bank and reads no FEN or capture metadata. New
 fonts/layouts are outside this calibration's scope. See
 [board orientation documentation](../docs/board_orientation.md).
+
+The separate `checkpoints/board_marking_reader.pt` reads this wooden board's
+coordinate characters; see [training and evaluation](../docs/learned_board_markings.md).
+It is not the chess-piece classifier. Checkpoints remain excluded from Git.

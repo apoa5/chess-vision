@@ -34,6 +34,12 @@ def load_config(path: str | Path = DEFAULT_CONFIG) -> dict:
         board[key] = value
     if board["crop_padding_squares"] > board["context_margin_squares"]:
         raise ValueError("Crop padding cannot exceed the context margin.")
+    learned=settings.get('learned_markings',{})
+    if not isinstance(learned,dict) or type(learned.get('enabled',False)) is not bool:
+        raise ValueError('learned_markings.enabled must be boolean')
+    threshold=learned.get('min_character_confidence',.80)
+    if type(threshold) not in (int,float) or not math.isfinite(threshold) or not 0<threshold<=1:
+        raise ValueError('learned_markings.min_character_confidence must be in (0,1]')
     from src.vision.orientation import OrientationSettings
     orientation = settings.get("orientation", {})
     if not isinstance(orientation, dict):

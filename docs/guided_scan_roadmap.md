@@ -1,12 +1,19 @@
-# Planned phase after Days 13 and 14: guided board scanning and AR
+# Guided board scanning and AR roadmap
 
 The user's intended application continuously collects observations while the user
 moves the camera around a stationary chessboard. It should resolve board orientation,
 all 64 square locations and the occupying pieces, then offer a digital board or
 physical-board move suggestions through camera-view square overlays.
 
-Days 13 and 14 are now implemented and evaluated. Return to this objective next. It is not implemented
-by the single-photo Week 2 pipeline.
+Days 13 and 14 are implemented and evaluated. The next-phase implementation guide
+is [guided_scanning_ar.md](../guided_scanning_ar.md), researched on 11 October 2026.
+
+The user has an iPhone and no Mac, and prefers a cross-device web prototype. The
+plan therefore uses browser camera capture, local planar tracking and square
+overlays, initially backed by the existing Python model/engine. Native ARKit is
+not a core dependency; WebXR and browser-local inference are optional enhancements.
+The guide contains 14 ordered implementation steps, acceptance checks and data
+requirements. The new experience has not been implemented yet.
 
 The next phase needs stable board/camera tracking, persistent physical square
 coordinates, viewpoint/visibility-aware evidence collection, per-square fusion,
@@ -23,8 +30,9 @@ and synchronization. Full game-state fields cannot all be inferred from one scan
 Retain the current MobileNet baseline initially and measure multi-view benefit.
 Improve training coverage and investigate target association before changing
 architectures. Test-driven model improvements need a newly reserved final holdout.
-An iPhone implementation can use ARKit for camera tracking and anchors, while our
-vision code still supplies chessboard alignment and recognition. Depth is optional.
+A browser implementation tracks the board in video coordinates and projects
+square overlays with a current homography. Depth is not required. Preserve a
+camera/canvas fallback on devices without usable immersive AR support.
 
 Day 13 preserves square polygons, chess coordinates, orientation provenance and all
 class probabilities to support this later work. It does not implement live tracking,

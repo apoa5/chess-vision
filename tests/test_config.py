@@ -56,3 +56,11 @@ def test_invalid_classifier_config(tmp_path, replacement):
     path.write_text(yaml.safe_dump(data))
     with pytest.raises(ValueError, match=key):
         load_config(path)
+
+
+@pytest.mark.parametrize('key,value',[('enabled','yes'),('min_character_confidence',0),('min_character_confidence',float('nan'))])
+def test_invalid_learned_marking_config(tmp_path,key,value):
+    import yaml
+    data=yaml.safe_load(DEFAULT_CONFIG.read_text());data['learned_markings'][key]=value
+    path=tmp_path/'config.yaml';path.write_text(yaml.safe_dump(data))
+    with pytest.raises(ValueError,match='learned_markings'):load_config(path)

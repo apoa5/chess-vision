@@ -65,3 +65,7 @@ outputs:
   board_detection: outputs/board_detection
   rectified_boards: outputs/rectified_boards
   square_crops: outputs/square_crops
+
+learned_markings:
+  enabled: true
+  min_character_confidence: 0.80

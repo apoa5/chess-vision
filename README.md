@@ -330,3 +330,26 @@ Full-FEN game-state fields are explicitly supplied or defaulted, never inferred
 from the photograph. Chess diagnostics report problems without correcting pieces.
 Evaluation saves both prepared-board and automatic raw-photo outcomes to
 `outputs/evaluation/week2/week2_positions.csv`, including failed photos.
+
+
+The next-phase guide is [Guided scanning and AR](guided_scanning_ar.md): a web-first,
+cross-device implementation plan with 14 ordered milestones, research sources,
+acceptance criteria and capture requirements. It reflects the iPhone/no-Mac setup;
+implementation has not started.
+
+### Guided scan prototype
+
+The first browser camera and manual square-alignment prototype is available in
+`web/`. See [setup and iPhone testing](docs/guided_scan_prototype.md). Live tracking
+and classifier integration are planned next; the shell does not recognize pieces yet.
+
+The phone prototype can now [capture and export scan sessions](docs/guided_scan_capture.md)
+for deterministic local replay. Recording does not yet run recognition or tracking.
+
+[Still-frame board proposals and corner refinement](docs/guided_scan_bootstrap.md)
+are available on the phone. Automatic candidates require review; uncertain
+localization/orientation is rejected.
+
+A [trained board-coordinate reader](docs/learned_board_markings.md) now helps
+automatic alignment using recognized A–H / 1–8 markings. Results remain
+development candidates requiring review.

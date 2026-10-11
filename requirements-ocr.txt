@@ -1,0 +1,12 @@
+# Optional OCR dependencies. Install into tools/ocr/python with --no-deps,
+# using the existing torch/torchvision/numpy/Pillow/PyYAML environment.
+easyocr==1.7.2
+scipy==1.18.1
+scikit-image==0.26.0
+shapely==2.2.0
+pyclipper==1.4.0
+python-bidi==0.6.11
+ninja==1.13.2
+imageio==2.38.1
+tifffile==2026.9.20
+lazy-loader==0.6

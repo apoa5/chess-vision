@@ -1,0 +1,214 @@
+{
+  "schema_version": "learned_markings_evaluation_v1",
+  "scope": "Previously seen development photos; sampled phone scan frames. Not a fresh accuracy benchmark.",
+  "pretrained_benchmark": {
+    "backend": "EasyOCR 1.7.2 CRAFT + english_g2",
+    "reference_frame": "scan_135873be/frame_0030",
+    "elapsed_seconds": 13.94,
+    "outcome": "insufficient distinct file letters for spatial registration; merged neighboring letters"
+  },
+  "trained_reader": {
+    "checkpoint_sha256": "5d2fe0d57f44dc9cb9313735f600ac7935ecddc465adf10a944527788eae5d65",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "reject"
+    ],
+    "best_epoch": 22,
+    "sample_count": 6772,
+    "training_samples": 5558,
+    "validation_samples": 1214,
+    "validation_positions": [
+      "position_003",
+      "position_007",
+      "position_011"
+    ],
+    "excluded_positions": [
+      "position_006",
+      "position_010",
+      "position_016"
+    ],
+    "validation_crop_accuracy": 0.9719934102141681,
+    "validation_macro_recall": 0.9938723597547127,
+    "label_source": "character slots from user-reviewed board geometry; glyphs are automatically isolated",
+    "quality_filter": "expected label agrees with template; NCC >= .65",
+    "discarded_ambiguous_glyphs": 269,
+    "phone_scans_used_for_training": false,
+    "training_seconds": 76.04145629401319
+  },
+  "sampled_scan_comparison": {
+    "attempts": 11,
+    "before_candidates": 2,
+    "after_candidates": 4,
+    "candidate_accuracy_not_measured": true,
+    "frames": [
+      {
+        "session": "scan_e3117de7",
+        "frame_id": "frame_0001",
+        "source_sha256": "024833a4c48749f6831d77f5b0b68db36c7a1f1000563bcc5a962ef3a80d3317",
+        "before": "uncertain",
+        "after": "candidate",
+        "after_reason": "review_grid_before_use",
+        "orientation_source": "learned_border_markings",
+        "consistent_markings": 22,
+        "elapsed_ms": 3632.11
+      },
+      {
+        "session": "scan_e3117de7",
+        "frame_id": "frame_0007",
+        "source_sha256": "e06d47c6a068e3fa80a3f0b6b6c9e4d73c485f302672197ff0eff5c9d72ab416",
+        "before": "uncertain",
+        "after": "uncertain",
+        "after_reason": "orientation_uncertain",
+        "orientation_source": null,
+        "consistent_markings": null,
+        "elapsed_ms": 2425.59
+      },
+      {
+        "session": "scan_e3117de7",
+        "frame_id": "frame_0013",
+        "source_sha256": "64486624c0dcc5ac0dae538e9c2434583472f83992cec41ea1c1c7a1e26665cf",
+        "before": "uncertain",
+        "after": "uncertain",
+        "after_reason": "orientation_uncertain",
+        "orientation_source": null,
+        "consistent_markings": null,
+        "elapsed_ms": 3413.01
+      },
+      {
+        "session": "scan_e3117de7",
+        "frame_id": "frame_0019",
+        "source_sha256": "d3bfcb7697e4ed1f1f0ebf8e4d54b715d398ee67816dbc9d74cd93522140977e",
+        "before": "uncertain",
+        "after": "uncertain",
+        "after_reason": "orientation_uncertain",
+        "orientation_source": null,
+        "consistent_markings": null,
+        "elapsed_ms": 3652.65
+      },
+      {
+        "session": "scan_e3117de7",
+        "frame_id": "frame_0025",
+        "source_sha256": "de7c38d15af2b5a62497eacf39f29d5a2ad089352c9805c39c4b061c5d9e8581",
+        "before": "uncertain",
+        "after": "candidate",
+        "after_reason": "review_grid_before_use",
+        "orientation_source": "learned_border_markings",
+        "consistent_markings": 14,
+        "elapsed_ms": 3747.94
+      },
+      {
+        "session": "scan_135873be",
+        "frame_id": "frame_0001",
+        "source_sha256": "dec364a5387e782ab1199f4ae12634b8a3f20bee3ff88dd97dc67c54ba5cdce9",
+        "before": "uncertain",
+        "after": "uncertain",
+        "after_reason": "refined_geometry_invalid_or_outside_frame",
+        "orientation_source": null,
+        "consistent_markings": null,
+        "elapsed_ms": 5292.51
+      },
+      {
+        "session": "scan_135873be",
+        "frame_id": "frame_0007",
+        "source_sha256": "2b784537b8cf87c3256ae17d9f7ef55e62184a8fa00ccae55892a038bec9c427",
+        "before": "uncertain",
+        "after": "uncertain",
+        "after_reason": "orientation_uncertain",
+        "orientation_source": null,
+        "consistent_markings": null,
+        "elapsed_ms": 3591.23
+      },
+      {
+        "session": "scan_135873be",
+        "frame_id": "frame_0013",
+        "source_sha256": "00a1a397fd27786e365df2db901de335779ac5fd9614b078046b23b374ab4720",
+        "before": "uncertain",
+        "after": "uncertain",
+        "after_reason": "orientation_uncertain",
+        "orientation_source": null,
+        "consistent_markings": null,
+        "elapsed_ms": 3936.38
+      },
+      {
+        "session": "scan_135873be",
+        "frame_id": "frame_0019",
+        "source_sha256": "16855c3ece0502ec6ba25eb5d887501eed00d5844cd0d3af37374c96ef73dfeb",
+        "before": "candidate",
+        "after": "candidate",
+        "after_reason": "review_grid_before_use",
+        "orientation_source": "learned_border_markings",
+        "consistent_markings": 9,
+        "elapsed_ms": 4255.82
+      },
+      {
+        "session": "scan_135873be",
+        "frame_id": "frame_0025",
+        "source_sha256": "475e8264520492a7f1c314c24f4a9bc1fb8a9a41b9c74a179525cf3f8b2561da",
+        "before": "uncertain",
+        "after": "uncertain",
+        "after_reason": "orientation_uncertain",
+        "orientation_source": null,
+        "consistent_markings": null,
+        "elapsed_ms": 3252.65
+      },
+      {
+        "session": "scan_135873be",
+        "frame_id": "frame_0030",
+        "source_sha256": "ee7bdd77ad636a3cfd76e20eaceedcc0af83331b2167764f4f9d26db8c9c04a4",
+        "before": "candidate",
+        "after": "candidate",
+        "after_reason": "review_grid_before_use",
+        "orientation_source": "learned_border_markings",
+        "consistent_markings": 13,
+        "elapsed_ms": 3013.12
+      }
+    ]
+  },
+  "side_examples": [
+    {
+      "image_id": "position_003_var_01.jpg",
+      "expected_rotation": 0,
+      "predicted_rotation": 0,
+      "status": "candidate",
+      "orientation_source": "learned_border_markings"
+    },
+    {
+      "image_id": "position_003_var_04.jpg",
+      "expected_rotation": 1,
+      "predicted_rotation": 1,
+      "status": "candidate",
+      "orientation_source": "learned_border_markings"
+    },
+    {
+      "image_id": "position_003_var_05.jpg",
+      "expected_rotation": 2,
+      "predicted_rotation": 2,
+      "status": "candidate",
+      "orientation_source": "learned_border_markings"
+    },
+    {
+      "image_id": "position_003_var_06.jpg",
+      "expected_rotation": 3,
+      "predicted_rotation": null,
+      "status": "uncertain",
+      "orientation_source": null
+    }
+  ],
+  "fen_used_for_inference": false,
+  "automatic_completion_enabled": false
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "guided_scan_v1",
+  "purpose": "Freeze existing development baseline; old test positions are not a fresh scan benchmark",
+  "architecture": "mobilenet_v3_small",
+  "input_size": 224,
+  "input_channels": 4,
+  "label_version": "chess_pieces_v1",
+  "class_names": [
+    "empty",
+    "white_pawn",
+    "white_knight",
+    "white_bishop",
+    "white_rook",
+    "white_queen",
+    "white_king",
+    "black_pawn",
+    "black_knight",
+    "black_bishop",
+    "black_rook",
+    "black_queen",
+    "black_king"
+  ],
+  "best_epoch": 16,
+  "sha256": {
+    "models/checkpoints/piece_classifier_best.pt": "ff792985ecf22d5d1c6871c0e5d6154dd45ffdd4a767b497edee8726c69ca2f8",
+    "src/vision/dataset_loader.py": "ce80725deb9e89c29e624549e34d1ac29bea119d18ae0a831613a079598fd220",
+    "src/chess/labels.py": "0c29cb25eddda7dd8011d8698e769287ef34dfdc841c135d6243e54d9d4ffd8a",
+    "data/metadata/day12_classifier_evaluation.json": "fee6884f2d7aa0fb4f7f5511b1816c0bb5c60761a3f5ed35875adfb275fdc503",
+    "data/metadata/day14_position_evaluation.json": "f01365052e546cb1b0dacf7fe39296c8a660693dd3e4947143c801809ea06180"
+  },
+  "preprocessing": {
+    "representation": "RGB context plus target-square mask",
+    "rgb_normalization": "ImageNet mean/std",
+    "rgb_resize": "INTER_AREA",
+    "mask_resize": "INTER_NEAREST",
+    "training_augmentation_at_inference": false
+  }
+}

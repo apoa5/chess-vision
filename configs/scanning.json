@@ -1,0 +1,14 @@
+{
+  "schema_version": "guided_scan_v1",
+  "mode": "manual_frozen_alignment",
+  "board": {
+    "square_cm": 4,
+    "border_cm": 3.5,
+    "playing_area_cm": 32,
+    "total_cm": 39
+  },
+  "quality_version": "unvalidated_v1",
+  "fusion_version": "unimplemented",
+  "completion_version": "disabled",
+  "automatic_completion_enabled": false
+}
