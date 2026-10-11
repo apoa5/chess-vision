@@ -1,0 +1,820 @@
+{
+  "split": "test",
+  "samples": 1472,
+  "boards": 23,
+  "positions": [
+    "position_006",
+    "position_010",
+    "position_016"
+  ],
+  "checkpoint_path": "/home/apoa/repos/chess-vision/models/checkpoints/piece_classifier_best.pt",
+  "checkpoint_sha256": "ff792985ecf22d5d1c6871c0e5d6154dd45ffdd4a767b497edee8726c69ca2f8",
+  "best_epoch": 16,
+  "architecture": "mobilenet_v3_small",
+  "input_size": 224,
+  "input_channels": 4,
+  "label_version": "chess_pieces_v1",
+  "class_names": [
+    "empty",
+    "white_pawn",
+    "white_knight",
+    "white_bishop",
+    "white_rook",
+    "white_queen",
+    "white_king",
+    "black_pawn",
+    "black_knight",
+    "black_bishop",
+    "black_rook",
+    "black_queen",
+    "black_king"
+  ],
+  "training_settings": {
+    "architecture": "mobilenet_v3_small",
+    "input_size": 224,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "epochs": 20,
+    "head_epochs": 5,
+    "fine_tune_learning_rate": 0.0001,
+    "early_stopping_patience": 5,
+    "early_stopping_min_delta": 0.0001,
+    "cpu_threads": 4,
+    "seed": 42,
+    "split_fractions": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "split_search_trials": 4000,
+    "imbalance_strategy": "sqrt_inverse_frequency_loss",
+    "input_channels": 4,
+    "augmentation": {
+      "brightness": 0.1,
+      "contrast": 0.1,
+      "blur_probability": 0.15,
+      "noise_probability": 0.2,
+      "noise_std": 0.01
+    },
+    "confidence_threshold": 0.7
+  },
+  "validation": {
+    "loss": 0.23348503621312566,
+    "accuracy": 0.97,
+    "macro_f1": 0.8875197534149563,
+    "per_class_recall": [
+      0.9946996466431095,
+      0.9652173913043478,
+      0.8333333333333334,
+      0.875,
+      0.8666666666666667,
+      1.0,
+      0.72,
+      0.9428571428571428,
+      0.8666666666666667,
+      1.0,
+      0.9,
+      0.6,
+      1.0
+    ],
+    "per_class_f1": [
+      0.9964601769911505,
+      0.9367088607594937,
+      0.8928571428571429,
+      0.8076923076923077,
+      0.912280701754386,
+      0.967741935483871,
+      0.8181818181818181,
+      0.9611650485436893,
+      0.8524590163934426,
+      0.8135593220338984,
+      0.9152542372881356,
+      0.7200000000000001,
+      0.9433962264150945
+    ],
+    "confusion_matrix": [
+      [
+        1126,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        111,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        25,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        21,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        26,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        0,
+        1,
+        0,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        99,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        26,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        24,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        27,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        4,
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25
+      ]
+    ]
+  },
+  "dataset_fingerprint": "06f2b135d209af237e15dcb4f61321c1dcf0c392eef9ab07c7bc5a20f9bd7c29",
+  "manifest_sha256": "d366a5084d6fda9b38e3e19dd39b5e136bb3e18788f491b0bc4d5fbeb982435e",
+  "elapsed_seconds_including_crop_loading": 19.314992959960364,
+  "metrics": {
+    "accuracy": 0.9463315217391305,
+    "macro_f1": 0.7967602529483566,
+    "per_class_recall": [
+      1.0,
+      0.9210526315789473,
+      0.6923076923076923,
+      0.7692307692307693,
+      0.8076923076923077,
+      0.9230769230769231,
+      0.9565217391304348,
+      0.9230769230769231,
+      0.9230769230769231,
+      0.7307692307692307,
+      0.5,
+      0.7692307692307693,
+      0.5217391304347826
+    ],
+    "per_class_f1": [
+      1.0,
+      0.9012875536480687,
+      0.6545454545454545,
+      0.8333333333333333,
+      0.8936170212765957,
+      0.888888888888889,
+      0.9565217391304348,
+      0.9230769230769231,
+      0.7741935483870968,
+      0.7755102040816326,
+      0.6101694915254238,
+      0.625,
+      0.5217391304347826
+    ],
+    "confusion_matrix": [
+      [
+        1016,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        105,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        2,
+        20,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        21,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        96,
+        6,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        24,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        19,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        2,
+        1,
+        18,
+        0,
+        10
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        10,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        9,
+        12
+      ]
+    ],
+    "per_class": [
+      {
+        "class_name": "empty",
+        "support": 1016,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "class_name": "white_pawn",
+        "support": 114,
+        "precision": 0.8823529411764706,
+        "recall": 0.9210526315789473,
+        "f1": 0.9012875536480687
+      },
+      {
+        "class_name": "white_knight",
+        "support": 26,
+        "precision": 0.6206896551724138,
+        "recall": 0.6923076923076923,
+        "f1": 0.6545454545454545
+      },
+      {
+        "class_name": "white_bishop",
+        "support": 26,
+        "precision": 0.9090909090909091,
+        "recall": 0.7692307692307693,
+        "f1": 0.8333333333333333
+      },
+      {
+        "class_name": "white_rook",
+        "support": 26,
+        "precision": 1.0,
+        "recall": 0.8076923076923077,
+        "f1": 0.8936170212765957
+      },
+      {
+        "class_name": "white_queen",
+        "support": 13,
+        "precision": 0.8571428571428571,
+        "recall": 0.9230769230769231,
+        "f1": 0.888888888888889
+      },
+      {
+        "class_name": "white_king",
+        "support": 23,
+        "precision": 0.9565217391304348,
+        "recall": 0.9565217391304348,
+        "f1": 0.9565217391304348
+      },
+      {
+        "class_name": "black_pawn",
+        "support": 104,
+        "precision": 0.9230769230769231,
+        "recall": 0.9230769230769231,
+        "f1": 0.9230769230769231
+      },
+      {
+        "class_name": "black_knight",
+        "support": 26,
+        "precision": 0.6666666666666666,
+        "recall": 0.9230769230769231,
+        "f1": 0.7741935483870968
+      },
+      {
+        "class_name": "black_bishop",
+        "support": 26,
+        "precision": 0.8260869565217391,
+        "recall": 0.7307692307692307,
+        "f1": 0.7755102040816326
+      },
+      {
+        "class_name": "black_rook",
+        "support": 36,
+        "precision": 0.782608695652174,
+        "recall": 0.5,
+        "f1": 0.6101694915254238
+      },
+      {
+        "class_name": "black_queen",
+        "support": 13,
+        "precision": 0.5263157894736842,
+        "recall": 0.7692307692307693,
+        "f1": 0.625
+      },
+      {
+        "class_name": "black_king",
+        "support": 23,
+        "precision": 0.5217391304347826,
+        "recall": 0.5217391304347826,
+        "f1": 0.5217391304347826
+      }
+    ],
+    "calibration_bins": [
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 3,
+        "accuracy": 0.3333333333333333,
+        "mean_confidence": 0.385015606880188
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 12,
+        "accuracy": 0.25,
+        "mean_confidence": 0.4578272799650828
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 15,
+        "accuracy": 0.5333333333333333,
+        "mean_confidence": 0.5453039765357971
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 28,
+        "accuracy": 0.6071428571428571,
+        "mean_confidence": 0.6578459654535566
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 24,
+        "accuracy": 0.5833333333333334,
+        "mean_confidence": 0.749279074370861
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 23,
+        "accuracy": 0.6086956521739131,
+        "mean_confidence": 0.8510183925214021
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 1367,
+        "accuracy": 0.9773226042428675,
+        "mean_confidence": 0.9955145897181608
+      }
+    ],
+    "expected_calibration_error": 0.026272272974576655,
+    "mean_confidence": 0.9726037947137071,
+    "high_confidence_errors": 31,
+    "high_confidence_count": 1367,
+    "occupied_square_accuracy": 0.8267543859649122,
+    "error_count": 79
+  },
+  "confusion_pairs": [
+    {
+      "true": "black_rook",
+      "predicted": "black_king",
+      "count": 10
+    },
+    {
+      "true": "white_pawn",
+      "predicted": "white_knight",
+      "count": 9
+    },
+    {
+      "true": "black_king",
+      "predicted": "black_queen",
+      "count": 9
+    },
+    {
+      "true": "white_knight",
+      "predicted": "white_pawn",
+      "count": 8
+    },
+    {
+      "true": "black_pawn",
+      "predicted": "black_knight",
+      "count": 6
+    },
+    {
+      "true": "black_rook",
+      "predicted": "black_pawn",
+      "count": 5
+    },
+    {
+      "true": "black_bishop",
+      "predicted": "black_rook",
+      "count": 4
+    },
+    {
+      "true": "white_bishop",
+      "predicted": "white_pawn",
+      "count": 3
+    },
+    {
+      "true": "white_bishop",
+      "predicted": "white_knight",
+      "count": 2
+    },
+    {
+      "true": "white_rook",
+      "predicted": "white_bishop",
+      "count": 2
+    },
+    {
+      "true": "black_pawn",
+      "predicted": "black_bishop",
+      "count": 2
+    },
+    {
+      "true": "black_knight",
+      "predicted": "black_pawn",
+      "count": 2
+    },
+    {
+      "true": "black_bishop",
+      "predicted": "black_knight",
+      "count": 2
+    },
+    {
+      "true": "black_rook",
+      "predicted": "black_knight",
+      "count": 2
+    },
+    {
+      "true": "white_bishop",
+      "predicted": "white_queen",
+      "count": 1
+    },
+    {
+      "true": "white_rook",
+      "predicted": "white_pawn",
+      "count": 1
+    },
+    {
+      "true": "white_rook",
+      "predicted": "white_queen",
+      "count": 1
+    },
+    {
+      "true": "white_rook",
+      "predicted": "white_king",
+      "count": 1
+    },
+    {
+      "true": "white_queen",
+      "predicted": "white_pawn",
+      "count": 1
+    },
+    {
+      "true": "white_king",
+      "predicted": "white_pawn",
+      "count": 1
+    },
+    {
+      "true": "black_bishop",
+      "predicted": "black_pawn",
+      "count": 1
+    },
+    {
+      "true": "black_rook",
+      "predicted": "black_bishop",
+      "count": 1
+    },
+    {
+      "true": "black_queen",
+      "predicted": "black_knight",
+      "count": 1
+    },
+    {
+      "true": "black_queen",
+      "predicted": "black_bishop",
+      "count": 1
+    },
+    {
+      "true": "black_queen",
+      "predicted": "black_king",
+      "count": 1
+    },
+    {
+      "true": "black_king",
+      "predicted": "black_knight",
+      "count": 1
+    },
+    {
+      "true": "black_king",
+      "predicted": "black_rook",
+      "count": 1
+    }
+  ],
+  "model_modified": false,
+  "limitations": [
+    "Only three held-out positions; same board, pieces and capture protocol.",
+    "Only successfully localized, reviewed boards are evaluated; this is not end-to-end accuracy.",
+    "Confidence bins are descriptive; no test-driven calibration or model selection performed."
+  ]
+}

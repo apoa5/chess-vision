@@ -113,3 +113,14 @@ windows with masks, centered on the original grid squares. Their bounds refer
 to the context canvas; saved metadata additionally locates each target square
 inside its window. Never extract the 8×8 grid by dividing the entire context
 canvas. See [board_context.md](board_context.md).
+
+## Orientation normalization
+
+After context rectification, `orient_with_config` recognizes printed coordinates
+and applies a quarter-turn rotation before extraction if resolved. Result
+metadata records the rotation, evidence, source, and status. `coordinate_system`
+is `white_at_bottom` only for resolved or explicitly provided orientation;
+otherwise it stays `image_relative`. Row/column crop labels are always present;
+chess-square names are saved only when orientation is established. See
+[board_orientation.md](board_orientation.md). Corner labels continue to refer
+to the original image; rotated crops refer to the normalized playing area.

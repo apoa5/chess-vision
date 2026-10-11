@@ -1,5 +1,11 @@
 # Day 6: perspective correction
 
+This document records the original Week 1 stage. The pipeline now additionally
+resolves orientation from printed border coordinates before saving boards and
+crops; see [board_orientation.md](board_orientation.md). Historical metrics
+remain snapshots, and rotated outputs require fresh warp review.
+
+
 `warp_board` maps ordered TL/TR/BR/BL corners of the inner 8×8 playing area
 onto a square, defaulting to 800×800 from configuration. OpenCV's
 `getPerspectiveTransform` and `warpPerspective` sample the original photograph

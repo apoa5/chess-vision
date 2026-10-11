@@ -4,12 +4,32 @@ Turn photographs of physical chessboards into positions that can be analyzed wit
 Stockfish. The planned pipeline is photo → board localization → perspective
 correction → 64 square crops → piece recognition → FEN → engine analysis.
 
-Current stage: **Week 1, Day 7** — the automatic image pipeline detects a board,
-warps it to 800×800, and produces a labeled grid preview and 64 indexed crops.
-Image utilities, dataset metadata, evaluation, and Stockfish integration are in
-place. The development localization result is 15/20 (75%), below the 90% target;
-Week 1 reliability remains unfinished. Piece recognition follows Week 1.
-See [week1.md](week1.md).
+Current stage: **Week 2, Day 14 implemented and evaluated** — MobileNetV3 Small trained on
+approved polygon-labeled context crops with position-grouped splits. Batched
+inference now reconstructs a board and confidence matrix from a raw photo or
+rectified context canvas, preserving camera orientation for classifier inputs.
+The capture set has 180 photos across 18 positions; 160 localized boards produce
+10,240 approved crops. Whole positions are split into 12 training / 3 validation /
+3 test positions, with all 13 classes present in each split. Twenty photos remain
+excluded for localization failures.
+
+Model inputs combine RGB context with a target-square mask. Camera orientation is
+preserved; rank/file mappings support White or Black at the bottom or either side.
+The first training run completed 20 epochs in approximately 71 minutes. The best
+checkpoint, from epoch 16, achieved 97.0% validation accuracy and 88.75% macro F1.
+Held-out test accuracy is 94.63%, macro F1 is 79.68%, and occupied-square accuracy
+is 82.68%. These measure crop classification on 23 boards from three unseen
+positions. Exact placement accuracy is **0/23 prepared boards**. Automatic raw
+processing completed **16/30 photos**, with **0/30 exact positions**. The software
+pipeline is implemented, but complete-position reliability is not yet achieved.
+See [Day 14 results](docs/day14_fen_evaluation.md) for failures and denominators.
+See [Day 12 evaluation](docs/day12_evaluation.md) and [Day 11 results](docs/day11_training.md)
+and [Day 10 instructions](docs/day10_dataset.md) to reproduce
+splits and load batches, and [Day 9](docs/day9_dataset.md) for geometry review.
+Historical localization was 15/20 (75%), below its 90% target.
+See [week2.md](week2.md) for the current guide.
+See [Day 9 dataset instructions](docs/day9_dataset.md) for rebuilding and reviewing
+crops, visibility limitations, and the later position-level split requirement.
 
 ## Setup
 
@@ -110,9 +130,9 @@ python -m pytest tests/test_image_io.py tests/test_visualization.py tests/test_p
 
 ## Verify Day 3
 
-The current dataset has 75 real photographs across 18 positions, recorded FENs,
+The current dataset has 180 real photographs across 18 positions, recorded FENs,
 capture conditions, and a fixed 20-image development subset covering all 18
-positions. The board, camera, metadata schema, and collection gaps are described
+positions. The board, camera, metadata schema, and collection coverage are described
 in [data/metadata/README.md](data/metadata/README.md).
 
 ```bash
@@ -124,8 +144,9 @@ python -m pytest tests/test_dataset.py
 Validation checks raw-file coverage, position FENs, filename/metadata links,
 capture fields, image decoding, and agreement between the development manifest
 and membership flags. It does not recognize or verify pieces in the images.
-The photos are currently indoors; collection toward the original approximately
-200-image target, including outdoor photos, will continue alongside Day 4.
+The photos include 72 living-room, 54 office, and 54 outdoor captures. All 18
+positions have all ten variations, completing the revised 180-photo target.
+Collection and decoding do not establish detection or classification accuracy.
 Keep the development subset fixed when adding new images.
 
 ## Verify Day 4
@@ -201,8 +222,9 @@ The single-image command produces:
 
 Use `--output-dir PATH` to place all artifacts under another root. Detection
 failures save debug artifacts and exit with status 1, without generating crops.
-Inspect the grid preview before trusting square contents. Labels describe image
-indices, not chess coordinates; the system does not infer White's orientation.
+Inspect the grid preview before trusting square contents. Labels describe row/column indices. Border-marking recognition now attempts
+White-at-bottom normalization; resolved crops also record chess coordinates.
+Unresolved crops remain image-relative.
 
 Batch evaluation writes JSON/CSV and artifacts to `outputs/week1/`, preserving
 the fixed 20-image subset. Sixteen candidates generate 64 crops each; coarse
@@ -210,7 +232,8 @@ visual review approves fifteen boards. Four detections fail, and one accepted
 candidate includes the wooden frame. Minor alignment offsets and perspective
 distortion of tall pieces remain. Controlled indoor photos with the whole board
 visible are the current scope; outdoor performance is unmeasured. There is no
-piece recognition, automatic FEN reconstruction, or video processing yet.
+video processing. Week 2 adds piece recognition and FEN; its current accuracy
+and limitations are reported above.
 
 See [docs/day7_integration.md](docs/day7_integration.md) for evaluation criteria
 and remaining Week 1 work. The main repository folders are `src/vision/` for
@@ -228,3 +251,82 @@ with target-square bounds and masks. Defaults use a two-square margin and
 padding (1200×1200 canvas, 500×500 crops). These retain more of tall edge pieces
 while keeping the existing exact grid crops available. See
 [docs/board_context.md](docs/board_context.md) for settings, coordinates, and limitations.
+
+## Automatic board orientation
+
+```bash
+python scripts/process_board_image.py data/raw/position_004_var_04.jpg --require-orientation
+python scripts/evaluate_orientation.py --all --report data/metadata/orientation_evaluation.json
+```
+
+The printed A–H / 1–8 border markings determine which rotation places White's
+home side at the bottom. The pipeline rotates the context and mask before
+extracting squares. It reports uncertainty when markings are unreadable; use
+`--white-side bottom|left|top|right` for an explicit assertion after inspection.
+This board-specific recognizer uses a small checked-in glyph template bank,
+separate from the future piece classifier. See
+[docs/board_orientation.md](docs/board_orientation.md) for layout, evidence,
+calibration, evaluation, and limitations.
+
+The current orientation audit resolves 115/179 non-calibration photos correctly,
+with zero wrong resolved decisions, 16 uncertain cases, and 48 detection failures.
+Automatic coverage is 64.2%; accuracy on resolved cases alone is not the overall
+success rate. Results are in `data/metadata/orientation_evaluation.json`.
+
+## Verify Day 8
+
+```bash
+python -m pytest tests/test_labels.py tests/test_board_state.py tests/test_classification.py tests/test_config.py
+```
+
+`src/chess/labels.py` defines the fixed 13-class order. `BoardState` preserves an
+8×8 symbol matrix and explicit coordinate system. `SquareInput` identifies the
+central target square within its context crop; `SquarePrediction` preserves
+class identity, confidence, and optional full probabilities. Baseline settings
+and future dataset/checkpoint paths live under `classifier` in the config.
+See [docs/day8_classification.md](docs/day8_classification.md) for examples and
+the Day 9 dataset schema. Training, inference, FEN conversion and position diagnostics
+are now implemented; complete-position evaluation is documented on Day 14.
+
+The [local CPU timing trial](docs/cpu_training_benchmark.md) supports training
+MobileNetV3 Small at batch size 16: approximately 3.3–3.4 minutes per epoch including
+validation in a short benchmark. The target-mask input receives training gradients.
+The completed 20-epoch run took approximately 71 minutes; validation results are
+recorded in `data/metadata/day11_training_summary.json`.
+
+[Day 11 training](docs/day11_training.md) uses up to 20 epochs: five for the head
+and mask-input stem, then fine-tuning at a lower learning rate. Validation loss
+selects the best checkpoint and controls early stopping. Training progress is
+written to `outputs/week2/training/status.json`.
+
+[Day 12 evaluation](docs/day12_evaluation.md) is reproducible with
+`.venv/bin/python scripts/evaluate_classifier.py`. It saves per-class metrics,
+confusion matrices, confidence diagnostics and all misclassified crop examples.
+Black rook/king recognition and pawn/knight confusion remain important weaknesses;
+the baseline checkpoint remains unchanged through Days 13 and 14.
+
+
+[Day 13 inference](docs/day13_inference.md) classifies all 64 squares and saves
+orientation-aware board matrices, probabilities and a full-board overlay:
+
+```bash
+.venv/bin/python scripts/predict_position.py data/raw/position_016_var_02.jpg
+```
+
+Automatic raw-photo geometry and orientation can still fail; explicit fallbacks
+and rectified geometry input are documented. Predictions retain recognition errors;
+FEN and whole-position evaluation are implemented on [Day 14](docs/day14_fen_evaluation.md). The agreed next phase after
+Days 13–14 is [guided scanning and AR square overlays](docs/guided_scan_roadmap.md).
+
+
+[Day 14 FEN and diagnostics](docs/day14_fen_evaluation.md) extend the prediction command:
+
+```bash
+.venv/bin/python scripts/predict_position.py data/raw/position_016_var_02.jpg --side-to-move b
+.venv/bin/python scripts/evaluate_positions.py
+```
+
+Full-FEN game-state fields are explicitly supplied or defaulted, never inferred
+from the photograph. Chess diagnostics report problems without correcting pieces.
+Evaluation saves both prepared-board and automatic raw-photo outcomes to
+`outputs/evaluation/week2/week2_positions.csv`, including failed photos.

@@ -1,0 +1,1266 @@
+{
+  "position_004_var_05.jpg": {
+    "source_sha256": "5986d24af12d9017633710f7b5c42ae5aa110d4d2d2ebbe201693f7a5eeea147",
+    "corners": [
+      [
+        154.0,
+        334.0
+      ],
+      [
+        780.0,
+        322.0
+      ],
+      [
+        836.0,
+        973.0
+      ],
+      [
+        137.0,
+        983.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_001_var_05.jpg": {
+    "source_sha256": "18a83027c0761c3138d55312dd217ed83fa18e88143b47b9d2ea654e4ba11a28",
+    "corners": [
+      [
+        150.0,
+        294.0
+      ],
+      [
+        796.0,
+        290.0
+      ],
+      [
+        828.0,
+        950.0
+      ],
+      [
+        138.0,
+        954.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_001_var_06.jpg": {
+    "source_sha256": "5e0383f4dc79acd575209b34f04a7cf571894dd522154ca72bf7a088e44e46fc",
+    "corners": [
+      [
+        228.0,
+        428.0
+      ],
+      [
+        702.0,
+        430.0
+      ],
+      [
+        792.0,
+        890.0
+      ],
+      [
+        122.0,
+        896.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_001_var_07.jpg": {
+    "source_sha256": "bfbf6f91a7436e006aff53ac4b3e4d30362750b602bf93d5824714858f387176",
+    "corners": [
+      [
+        216.0,
+        416.0
+      ],
+      [
+        694.0,
+        426.0
+      ],
+      [
+        812.0,
+        760.0
+      ],
+      [
+        138.0,
+        760.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_002_var_05.jpg": {
+    "source_sha256": "885bf1b158b9fde95b3649d076e8f2c783bb4c57a6c38e05dd6184ac206566fa",
+    "corners": [
+      [
+        136.0,
+        250.0
+      ],
+      [
+        822.0,
+        242.0
+      ],
+      [
+        868.0,
+        950.0
+      ],
+      [
+        118.0,
+        954.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_002_var_06.jpg": {
+    "source_sha256": "27b3386ad31861ba1125c5b26fbdb11a5650919633acd26284eb6be35f82d3a2",
+    "corners": [
+      [
+        230.0,
+        378.0
+      ],
+      [
+        744.0,
+        388.0
+      ],
+      [
+        850.0,
+        874.0
+      ],
+      [
+        128.0,
+        870.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_002_var_07.jpg": {
+    "source_sha256": "42184cae8bff95677cb0b50c196e6e19d07de0393f29997174bc10dc021c4fb3",
+    "corners": [
+      [
+        244.0,
+        424.0
+      ],
+      [
+        708.0,
+        426.0
+      ],
+      [
+        816.0,
+        880.0
+      ],
+      [
+        126.0,
+        872.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_003_var_05.jpg": {
+    "source_sha256": "1ebfd6a392ad20fa54307390e1819916a4d7acaa57426e5d1332bc2dc90ee717",
+    "corners": [
+      [
+        158.0,
+        242.0
+      ],
+      [
+        796.0,
+        242.0
+      ],
+      [
+        828.0,
+        892.0
+      ],
+      [
+        140.0,
+        898.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_003_var_06.jpg": {
+    "source_sha256": "89869983925a06270b0c32f972b7588c9c78a08ba35b3f84fbea853cf0bc01d6",
+    "corners": [
+      [
+        220.0,
+        432.0
+      ],
+      [
+        726.0,
+        442.0
+      ],
+      [
+        852.0,
+        970.0
+      ],
+      [
+        96.0,
+        970.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_003_var_07.jpg": {
+    "source_sha256": "d06af3932e3dcaee20af83a76f084b9e9cc68dfdaf33b98ab224b43643904afc",
+    "corners": [
+      [
+        254.0,
+        386.0
+      ],
+      [
+        710.0,
+        386.0
+      ],
+      [
+        858.0,
+        886.0
+      ],
+      [
+        132.0,
+        890.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_004_var_06.jpg": {
+    "source_sha256": "b525c710aed773af8fe6233de1b982c8bfcb86d247531916f29660f824bd9b9e",
+    "corners": [
+      [
+        248.0,
+        438.0
+      ],
+      [
+        710.0,
+        438.0
+      ],
+      [
+        838.0,
+        946.0
+      ],
+      [
+        96.0,
+        956.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_004_var_07.jpg": {
+    "source_sha256": "02aec7d7494fb6572bddf2f3304f4bec621f28199bd0c565a0eb5d645df4c344",
+    "corners": [
+      [
+        222.0,
+        442.0
+      ],
+      [
+        698.0,
+        434.0
+      ],
+      [
+        836.0,
+        876.0
+      ],
+      [
+        136.0,
+        868.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_005_var_05.jpg": {
+    "source_sha256": "4c5fde92d77bc18a1e917203a27afa6821b4fb0249226d79503067909c51d061",
+    "corners": [
+      [
+        154.0,
+        252.0
+      ],
+      [
+        796.0,
+        246.0
+      ],
+      [
+        846.0,
+        918.0
+      ],
+      [
+        140.0,
+        930.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_005_var_06.jpg": {
+    "source_sha256": "2dc568d0269c0c0c119bee166f6c4ea93925733b1abb49a7b59842be8cf69e06",
+    "corners": [
+      [
+        232.0,
+        438.0
+      ],
+      [
+        746.0,
+        442.0
+      ],
+      [
+        850.0,
+        956.0
+      ],
+      [
+        112.0,
+        952.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_005_var_07.jpg": {
+    "source_sha256": "44ebde38df273cb5a46f1b64898bde75b0449dd4610b5605067c3adca39b88b3",
+    "corners": [
+      [
+        234.0,
+        416.0
+      ],
+      [
+        714.0,
+        414.0
+      ],
+      [
+        832.0,
+        870.0
+      ],
+      [
+        122.0,
+        876.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_006_var_05.jpg": {
+    "source_sha256": "0fd47ffcbbe7ab94b9a851c2cc6c183b02fa8dc24dcccfec45b49e8be865c25b",
+    "corners": [
+      [
+        192.0,
+        358.0
+      ],
+      [
+        756.0,
+        346.0
+      ],
+      [
+        816.0,
+        930.0
+      ],
+      [
+        156.0,
+        948.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_006_var_06.jpg": {
+    "source_sha256": "24a181c5aaa1057b49d49f2e8c3647a944a6460d75622235898a500020ed9721",
+    "corners": [
+      [
+        222.0,
+        328.0
+      ],
+      [
+        750.0,
+        338.0
+      ],
+      [
+        854.0,
+        814.0
+      ],
+      [
+        118.0,
+        814.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_006_var_07.jpg": {
+    "source_sha256": "1598ea4d8ffbb6271c4521ad36d075748de13eb848c3eb14473d7ed336b2b4d0",
+    "corners": [
+      [
+        228.0,
+        356.0
+      ],
+      [
+        704.0,
+        362.0
+      ],
+      [
+        826.0,
+        812.0
+      ],
+      [
+        126.0,
+        806.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_007_var_05.jpg": {
+    "source_sha256": "c2cae7160dbb18ff8e65dca3c7b8976cda18f8ea93cb6d9570d2c3fdc115ace0",
+    "corners": [
+      [
+        156.0,
+        290.0
+      ],
+      [
+        786.0,
+        292.0
+      ],
+      [
+        826.0,
+        946.0
+      ],
+      [
+        130.0,
+        954.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_007_var_06.jpg": {
+    "source_sha256": "5bf3cbe8688fd3a7c0fa7bf3905cc949d0eafccd2361c4316ae54520c731fc8d",
+    "corners": [
+      [
+        226.0,
+        378.0
+      ],
+      [
+        746.0,
+        374.0
+      ],
+      [
+        856.0,
+        906.0
+      ],
+      [
+        114.0,
+        908.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_007_var_07.jpg": {
+    "source_sha256": "ba34968f36cb714fcbb0d7760fa502212527f5b01758f87d0151dc4fd3cd54d8",
+    "corners": [
+      [
+        230.0,
+        370.0
+      ],
+      [
+        710.0,
+        366.0
+      ],
+      [
+        846.0,
+        864.0
+      ],
+      [
+        118.0,
+        858.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_008_var_05.jpg": {
+    "source_sha256": "0ff72665a3be440dad96f4b84cc68de285311cf943c2fe55a6f4fc5fd3cdb97e",
+    "corners": [
+      [
+        136.0,
+        302.0
+      ],
+      [
+        798.0,
+        292.0
+      ],
+      [
+        856.0,
+        974.0
+      ],
+      [
+        116.0,
+        986.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_008_var_06.jpg": {
+    "source_sha256": "6129c95f029f399b05abc2b9f9eaf76c7aa32dd977125cb7ad9c6aed83066626",
+    "corners": [
+      [
+        222.0,
+        448.0
+      ],
+      [
+        746.0,
+        456.0
+      ],
+      [
+        854.0,
+        974.0
+      ],
+      [
+        106.0,
+        978.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_008_var_07.jpg": {
+    "source_sha256": "cf1b20b1ad943a687bfc6b02042e9557fa56c2377fb6b05a374fb066f950ed74",
+    "corners": [
+      [
+        226.0,
+        328.0
+      ],
+      [
+        706.0,
+        344.0
+      ],
+      [
+        836.0,
+        824.0
+      ],
+      [
+        112.0,
+        834.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_009_var_05.jpg": {
+    "source_sha256": "f71a1870411adb85c772295052855cda20c5a9dccea8e93912501f65aa8d88dc",
+    "corners": [
+      [
+        188.0,
+        362.0
+      ],
+      [
+        750.0,
+        360.0
+      ],
+      [
+        798.0,
+        940.0
+      ],
+      [
+        172.0,
+        952.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_009_var_06.jpg": {
+    "source_sha256": "f201183331de2ff3c8fbdcbe6105257b6c6ea6b09e4ea941a123d82f196bf562",
+    "corners": [
+      [
+        220.0,
+        404.0
+      ],
+      [
+        746.0,
+        412.0
+      ],
+      [
+        850.0,
+        914.0
+      ],
+      [
+        118.0,
+        912.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_009_var_07.jpg": {
+    "source_sha256": "a508d8cc931732aaeb12b56e37e26ff07a5acd252a44a1bc7d5fea12c0df1798",
+    "corners": [
+      [
+        206.0,
+        356.0
+      ],
+      [
+        710.0,
+        356.0
+      ],
+      [
+        836.0,
+        848.0
+      ],
+      [
+        118.0,
+        852.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_010_var_05.jpg": {
+    "source_sha256": "8e09f459feab002e07a44a88e33dbeb7c6b01a4c4fa8fd13db6912902e9f5a9c",
+    "corners": [
+      [
+        156.0,
+        286.0
+      ],
+      [
+        796.0,
+        276.0
+      ],
+      [
+        836.0,
+        924.0
+      ],
+      [
+        138.0,
+        942.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_010_var_06.jpg": {
+    "source_sha256": "b92b6a34d40cbfd6b0e14fa9fe967db95f01aafe5aab9b62e0c509b474f7f035",
+    "corners": [
+      [
+        222.0,
+        402.0
+      ],
+      [
+        742.0,
+        402.0
+      ],
+      [
+        854.0,
+        910.0
+      ],
+      [
+        110.0,
+        914.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_010_var_07.jpg": {
+    "source_sha256": "89f9ed4a12cf2f6383176c9b24becdd48b596f51619959cb01427a40c271680e",
+    "corners": [
+      [
+        216.0,
+        332.0
+      ],
+      [
+        708.0,
+        340.0
+      ],
+      [
+        856.0,
+        820.0
+      ],
+      [
+        128.0,
+        828.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_011_var_05.jpg": {
+    "source_sha256": "2e07cc91849e243dc2841704ae034764b0c85abc105ea0894c7b2d6a9c732dcf",
+    "corners": [
+      [
+        170.0,
+        280.0
+      ],
+      [
+        782.0,
+        272.0
+      ],
+      [
+        816.0,
+        890.0
+      ],
+      [
+        168.0,
+        906.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_011_var_06.jpg": {
+    "source_sha256": "8fb549f960a3b79b98bd3babebaa6f972e0ad50e499720e2c54cee30c8246002",
+    "corners": [
+      [
+        218.0,
+        360.0
+      ],
+      [
+        724.0,
+        366.0
+      ],
+      [
+        838.0,
+        822.0
+      ],
+      [
+        112.0,
+        822.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_011_var_07.jpg": {
+    "source_sha256": "64dd350ee069324bdc789acc2677b0b1bad8e1955ffea795f2dd2441c465d85c",
+    "corners": [
+      [
+        200.0,
+        368.0
+      ],
+      [
+        724.0,
+        366.0
+      ],
+      [
+        860.0,
+        864.0
+      ],
+      [
+        112.0,
+        876.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_012_var_05.jpg": {
+    "source_sha256": "103cabd72d7c8bd946d6641a84c4e768b58ce035d981b5d9b5b0654dd4c824fd",
+    "corners": [
+      [
+        180.0,
+        278.0
+      ],
+      [
+        800.0,
+        268.0
+      ],
+      [
+        844.0,
+        896.0
+      ],
+      [
+        182.0,
+        922.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_012_var_06.jpg": {
+    "source_sha256": "25e62f07acc53f57417bcf5e4e25222f288625f446abf56e5832df4884e684fe",
+    "corners": [
+      [
+        224.0,
+        446.0
+      ],
+      [
+        738.0,
+        450.0
+      ],
+      [
+        838.0,
+        934.0
+      ],
+      [
+        140.0,
+        938.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_012_var_07.jpg": {
+    "source_sha256": "daaf1e5a5b6e18e8b046032bead931ee501329554ce4899ba5ef46d1ce1ba458",
+    "corners": [
+      [
+        224.0,
+        444.0
+      ],
+      [
+        720.0,
+        450.0
+      ],
+      [
+        852.0,
+        886.0
+      ],
+      [
+        124.0,
+        896.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_013_var_05.jpg": {
+    "source_sha256": "254043ba1406bac415a0320d5eb60a67e9a2d61dcfb81e4bb16b4670ab4073e2",
+    "corners": [
+      [
+        202.0,
+        268.0
+      ],
+      [
+        794.0,
+        260.0
+      ],
+      [
+        840.0,
+        862.0
+      ],
+      [
+        200.0,
+        880.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_013_var_06.jpg": {
+    "source_sha256": "3ad559ff77a12f286daa1095e5efaded2a476138fddd4225a0e7641e9b7972e6",
+    "corners": [
+      [
+        228.0,
+        398.0
+      ],
+      [
+        724.0,
+        392.0
+      ],
+      [
+        822.0,
+        880.0
+      ],
+      [
+        124.0,
+        886.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_013_var_07.jpg": {
+    "source_sha256": "def6756e83cca737bd82f80f9547b7141e882293b7d8ccddf1b317e4ce3983a2",
+    "corners": [
+      [
+        214.0,
+        398.0
+      ],
+      [
+        718.0,
+        394.0
+      ],
+      [
+        834.0,
+        874.0
+      ],
+      [
+        132.0,
+        882.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_014_var_05.jpg": {
+    "source_sha256": "21df2c5b33b52da176c19d751354238c9f78066787795a00dfbe901c65775132",
+    "corners": [
+      [
+        158.0,
+        272.0
+      ],
+      [
+        796.0,
+        270.0
+      ],
+      [
+        834.0,
+        924.0
+      ],
+      [
+        144.0,
+        932.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_014_var_06.jpg": {
+    "source_sha256": "a635f2f8374ea44cc735557ddd03cacbc8e875234c030a66c95339320e72ef2b",
+    "corners": [
+      [
+        240.0,
+        490.0
+      ],
+      [
+        688.0,
+        494.0
+      ],
+      [
+        782.0,
+        908.0
+      ],
+      [
+        136.0,
+        908.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_014_var_07.jpg": {
+    "source_sha256": "baffa704ff96053d7ddae788c17290bf185d4b4a79d7239b8da736c1820b293e",
+    "corners": [
+      [
+        256.0,
+        482.0
+      ],
+      [
+        694.0,
+        482.0
+      ],
+      [
+        786.0,
+        872.0
+      ],
+      [
+        188.0,
+        872.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_015_var_05.jpg": {
+    "source_sha256": "e4b08b0a7d7c6c3faa826b915357ae45db10620a2258b0e1c673ef975dc94276",
+    "corners": [
+      [
+        156.0,
+        324.0
+      ],
+      [
+        778.0,
+        320.0
+      ],
+      [
+        810.0,
+        960.0
+      ],
+      [
+        144.0,
+        974.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_015_var_06.jpg": {
+    "source_sha256": "4e84215dad2e5c0fc2163b4af8aadcd0875912d13c95ba4697815eb9a3092f2b",
+    "corners": [
+      [
+        248.0,
+        498.0
+      ],
+      [
+        706.0,
+        506.0
+      ],
+      [
+        816.0,
+        894.0
+      ],
+      [
+        140.0,
+        890.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_015_var_07.jpg": {
+    "source_sha256": "38278d28d10050bc337006738b373c507ca5366c660f3a0cc225eb9ebc4b5b50",
+    "corners": [
+      [
+        248.0,
+        412.0
+      ],
+      [
+        694.0,
+        414.0
+      ],
+      [
+        788.0,
+        826.0
+      ],
+      [
+        170.0,
+        834.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_016_var_05.jpg": {
+    "source_sha256": "e96e4f9c63817f54af2cac0caed9ff85a6ab133f9d56bdde39ee13b6037d82bf",
+    "corners": [
+      [
+        202.0,
+        358.0
+      ],
+      [
+        776.0,
+        362.0
+      ],
+      [
+        808.0,
+        966.0
+      ],
+      [
+        168.0,
+        960.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_016_var_06.jpg": {
+    "source_sha256": "3f46eb63bc8fd41d92517572b115544325b9ab4c0df15bffa827657cff296aa9",
+    "corners": [
+      [
+        228.0,
+        394.0
+      ],
+      [
+        720.0,
+        400.0
+      ],
+      [
+        820.0,
+        872.0
+      ],
+      [
+        126.0,
+        874.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_016_var_07.jpg": {
+    "source_sha256": "ceb92d0712d0290f70c33238d9c1c8dc9bb7700e71907e7ea648d0b05362bdba",
+    "corners": [
+      [
+        254.0,
+        450.0
+      ],
+      [
+        698.0,
+        450.0
+      ],
+      [
+        796.0,
+        874.0
+      ],
+      [
+        198.0,
+        866.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_017_var_05.jpg": {
+    "source_sha256": "f5a0e3492e3b3fc28bfb70c2b7be86db9afb45087f50c4307c36b3d4599d311c",
+    "corners": [
+      [
+        166.0,
+        314.0
+      ],
+      [
+        786.0,
+        304.0
+      ],
+      [
+        824.0,
+        932.0
+      ],
+      [
+        154.0,
+        948.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_017_var_06.jpg": {
+    "source_sha256": "cda7b483a25790ad79cbe639354defd6c4e4b91f0d3c9841c9a1ba3f610c6a92",
+    "corners": [
+      [
+        226.0,
+        338.0
+      ],
+      [
+        712.0,
+        330.0
+      ],
+      [
+        846.0,
+        852.0
+      ],
+      [
+        116.0,
+        856.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_017_var_07.jpg": {
+    "source_sha256": "f79681018074191bfdbbc9d2ed85d3e851c98b0858ea9e1009c59a34684d68fe",
+    "corners": [
+      [
+        224.0,
+        478.0
+      ],
+      [
+        708.0,
+        480.0
+      ],
+      [
+        830.0,
+        948.0
+      ],
+      [
+        138.0,
+        942.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_018_var_05.jpg": {
+    "source_sha256": "6e0fa9e7cdf10749bc20066e8661c132876fc698a2ba300d1a528029108109e5",
+    "corners": [
+      [
+        188.0,
+        298.0
+      ],
+      [
+        814.0,
+        302.0
+      ],
+      [
+        846.0,
+        944.0
+      ],
+      [
+        170.0,
+        956.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_018_var_06.jpg": {
+    "source_sha256": "03ac870703c75614b48846c4f5000f99490fa4906e5f7c13b3a5eff157966426",
+    "corners": [
+      [
+        222.0,
+        428.0
+      ],
+      [
+        722.0,
+        438.0
+      ],
+      [
+        820.0,
+        906.0
+      ],
+      [
+        112.0,
+        910.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_018_var_07.jpg": {
+    "source_sha256": "7e915add7717685fde56b775b6ad777b299c7a6f280e83f92c982e4499e4437c",
+    "corners": [
+      [
+        254.0,
+        464.0
+      ],
+      [
+        714.0,
+        470.0
+      ],
+      [
+        814.0,
+        928.0
+      ],
+      [
+        128.0,
+        920.0
+      ]
+    ],
+    "reviewer": "Codex visual inspection",
+    "reason": "Office-wide audit: inner 8x8 playing area marked from raw photo, excluding printed frame. Normalized grid must be re-reviewed before labels are accepted."
+  },
+  "position_008_var_04.jpg": {
+    "source_sha256": "964f8b7472d024f70e9212a541e1c87f3e0379a9ad223e8e720e38e6f145aa85",
+    "corners": [
+      [
+        221,
+        330
+      ],
+      [
+        728,
+        329
+      ],
+      [
+        827,
+        808
+      ],
+      [
+        148,
+        817
+      ]
+    ],
+    "notes": "Verified inner playing-area corners after the automatic seed produced a shifted square grid."
+  }
+}

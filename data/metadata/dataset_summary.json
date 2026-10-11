@@ -1,24 +1,27 @@
 {
-  "image_count": 75,
+  "image_count": 180,
   "position_count": 18,
   "valid_fen_count": 18,
-  "decoded_image_count": 75,
+  "decoded_image_count": 180,
   "image_dimensions": {
-    "1280x960": 1,
-    "960x1280": 74
+    "960x1280": 180
   },
   "images_by_variation": {
     "var_01": 18,
     "var_02": 18,
     "var_03": 18,
     "var_04": 18,
-    "var_05": 1,
-    "var_06": 1,
-    "var_07": 1
+    "var_05": 18,
+    "var_06": 18,
+    "var_07": 18,
+    "var_08": 18,
+    "var_09": 18,
+    "var_10": 18
   },
   "images_by_environment": {
     "living_room": 72,
-    "office": 3
+    "office": 54,
+    "outdoors": 54
   },
   "unknown_orientation_images": [],
   "development_subset": {
@@ -38,150 +41,27 @@
     }
   },
   "collection_target": {
-    "positions": 20,
-    "images": 200,
+    "positions": 18,
+    "images": 180,
     "missing_variations_by_position": {
-      "position_001": [
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_002": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_003": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_004": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_005": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_006": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_007": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_008": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_009": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_010": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_011": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_012": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_013": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_014": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_015": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_016": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_017": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ],
-      "position_018": [
-        "var_05",
-        "var_06",
-        "var_07",
-        "var_08",
-        "var_09",
-        "var_10"
-      ]
+      "position_001": [],
+      "position_002": [],
+      "position_003": [],
+      "position_004": [],
+      "position_005": [],
+      "position_006": [],
+      "position_007": [],
+      "position_008": [],
+      "position_009": [],
+      "position_010": [],
+      "position_011": [],
+      "position_012": [],
+      "position_013": [],
+      "position_014": [],
+      "position_015": [],
+      "position_016": [],
+      "position_017": [],
+      "position_018": []
     }
   },
   "limitations": [

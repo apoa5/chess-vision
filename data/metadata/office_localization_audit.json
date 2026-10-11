@@ -1,0 +1,29 @@
+{
+  "scope": "Manual office-dataset localization audit; no claim of automatic detector improvement.",
+  "source_image_count": 54,
+  "positions": 18,
+  "variations": [
+    "var_05",
+    "var_06",
+    "var_07"
+  ],
+  "root_cause": "Automatic corner hypotheses included frame or clipped playing area; fixed-size grid then shifted target boxes and labels.",
+  "previous_candidates": {
+    "var_05": 12,
+    "var_06": 3,
+    "var_07": 11
+  },
+  "previous_accepted_boards": {
+    "var_05": 7,
+    "var_06": 1,
+    "var_07": 4
+  },
+  "corrected_accepted_boards": {
+    "var_05": 18,
+    "var_06": 18,
+    "var_07": 18
+  },
+  "method": "Source-hash-bound inner-area corner annotations reviewed on all raw photos and normalized FEN grids.",
+  "fen_changes": false,
+  "review_limit": "Board geometry and label/base correspondence visually inspected. Individual crop visibility is reviewed only where recorded."
+}

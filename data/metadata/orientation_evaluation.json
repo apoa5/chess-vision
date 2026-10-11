@@ -1,0 +1,1636 @@
+{
+  "scope": "Development orientation audit; detector acceptance is not verified localization correctness.",
+  "calibration_image_excluded_from_metrics": "position_001_var_08.jpg",
+  "image_count": 180,
+  "audited_image_count": 179,
+  "board_candidates": 132,
+  "resolved_count": 115,
+  "correct_resolved_count": 115,
+  "wrong_resolved_count": 0,
+  "uncertain_count": 16,
+  "not_detected_count": 48,
+  "resolved_accuracy": 1.0,
+  "end_to_end_orientation_rate": 0.6424581005586593,
+  "results": [
+    {
+      "image_id": "position_001_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.9375,
+      "correct": true
+    },
+    {
+      "image_id": "position_001_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.78125,
+      "correct": true
+    },
+    {
+      "image_id": "position_001_var_03.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.75,
+      "correct": true
+    },
+    {
+      "image_id": "position_001_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 0.90625,
+      "correct": true
+    },
+    {
+      "image_id": "position_001_var_05.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.3125,
+      "correct": false
+    },
+    {
+      "image_id": "position_001_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_001_var_07.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.03125,
+      "correct": false
+    },
+    {
+      "image_id": "position_001_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_001_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.75,
+      "correct": true
+    },
+    {
+      "image_id": "position_001_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.65625,
+      "correct": true
+    },
+    {
+      "image_id": "position_002_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.9375,
+      "correct": true
+    },
+    {
+      "image_id": "position_002_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.8125,
+      "correct": true
+    },
+    {
+      "image_id": "position_002_var_03.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_002_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 0.875,
+      "correct": true
+    },
+    {
+      "image_id": "position_002_var_05.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_002_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_002_var_07.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_002_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.78125,
+      "correct": true
+    },
+    {
+      "image_id": "position_002_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.84375,
+      "correct": true
+    },
+    {
+      "image_id": "position_002_var_10.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_003_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.9375,
+      "correct": true
+    },
+    {
+      "image_id": "position_003_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.78125,
+      "correct": true
+    },
+    {
+      "image_id": "position_003_var_03.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_003_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 0.8125,
+      "correct": true
+    },
+    {
+      "image_id": "position_003_var_05.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 2,
+      "score": 0.84375,
+      "correct": true
+    },
+    {
+      "image_id": "position_003_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_003_var_07.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.03125,
+      "correct": false
+    },
+    {
+      "image_id": "position_003_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_003_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.8125,
+      "correct": true
+    },
+    {
+      "image_id": "position_003_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.5,
+      "correct": false
+    },
+    {
+      "image_id": "position_004_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.78125,
+      "correct": true
+    },
+    {
+      "image_id": "position_004_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.84375,
+      "correct": true
+    },
+    {
+      "image_id": "position_004_var_03.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.84375,
+      "correct": true
+    },
+    {
+      "image_id": "position_004_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 0.59375,
+      "correct": true
+    },
+    {
+      "image_id": "position_004_var_05.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.0625,
+      "correct": false
+    },
+    {
+      "image_id": "position_004_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_004_var_07.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_004_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.875,
+      "correct": true
+    },
+    {
+      "image_id": "position_004_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.8125,
+      "correct": true
+    },
+    {
+      "image_id": "position_004_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.5625,
+      "correct": false
+    },
+    {
+      "image_id": "position_005_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.78125,
+      "correct": true
+    },
+    {
+      "image_id": "position_005_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.6875,
+      "correct": true
+    },
+    {
+      "image_id": "position_005_var_03.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_005_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 0.625,
+      "correct": true
+    },
+    {
+      "image_id": "position_005_var_05.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_005_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_005_var_07.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_005_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.90625,
+      "correct": true
+    },
+    {
+      "image_id": "position_005_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.78125,
+      "correct": true
+    },
+    {
+      "image_id": "position_005_var_10.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_006_var_01.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_006_var_02.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_006_var_03.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_006_var_04.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_006_var_05.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.0,
+      "correct": false
+    },
+    {
+      "image_id": "position_006_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_006_var_07.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_006_var_08.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_006_var_09.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_006_var_10.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_007_var_01.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_007_var_02.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_007_var_03.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_007_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 0.53125,
+      "correct": true
+    },
+    {
+      "image_id": "position_007_var_05.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_007_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_007_var_07.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_007_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.90625,
+      "correct": true
+    },
+    {
+      "image_id": "position_007_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.65625,
+      "correct": true
+    },
+    {
+      "image_id": "position_007_var_10.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_008_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.90625,
+      "correct": true
+    },
+    {
+      "image_id": "position_008_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.875,
+      "correct": true
+    },
+    {
+      "image_id": "position_008_var_03.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_008_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.0625,
+      "correct": false
+    },
+    {
+      "image_id": "position_008_var_05.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 2,
+      "score": 0.6875,
+      "correct": true
+    },
+    {
+      "image_id": "position_008_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_008_var_07.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.03125,
+      "correct": false
+    },
+    {
+      "image_id": "position_008_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.9375,
+      "correct": true
+    },
+    {
+      "image_id": "position_008_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.875,
+      "correct": true
+    },
+    {
+      "image_id": "position_008_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.46875,
+      "correct": true
+    },
+    {
+      "image_id": "position_009_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.75,
+      "correct": true
+    },
+    {
+      "image_id": "position_009_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.84375,
+      "correct": true
+    },
+    {
+      "image_id": "position_009_var_03.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_009_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 0.8125,
+      "correct": true
+    },
+    {
+      "image_id": "position_009_var_05.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_009_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_009_var_07.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.0,
+      "correct": false
+    },
+    {
+      "image_id": "position_009_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.875,
+      "correct": true
+    },
+    {
+      "image_id": "position_009_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.84375,
+      "correct": true
+    },
+    {
+      "image_id": "position_009_var_10.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_010_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.90625,
+      "correct": true
+    },
+    {
+      "image_id": "position_010_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.84375,
+      "correct": true
+    },
+    {
+      "image_id": "position_010_var_03.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.875,
+      "correct": true
+    },
+    {
+      "image_id": "position_010_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 0.8125,
+      "correct": true
+    },
+    {
+      "image_id": "position_010_var_05.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_010_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_010_var_07.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.28125,
+      "correct": false
+    },
+    {
+      "image_id": "position_010_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.90625,
+      "correct": true
+    },
+    {
+      "image_id": "position_010_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.8125,
+      "correct": true
+    },
+    {
+      "image_id": "position_010_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.6875,
+      "correct": true
+    },
+    {
+      "image_id": "position_011_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_011_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_011_var_03.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_011_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_011_var_05.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 2,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_011_var_06.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.0,
+      "correct": false
+    },
+    {
+      "image_id": "position_011_var_07.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 2,
+      "score": 0.8125,
+      "correct": true
+    },
+    {
+      "image_id": "position_011_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_011_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_011_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_012_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_012_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_012_var_03.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_012_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_012_var_05.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.0,
+      "correct": false
+    },
+    {
+      "image_id": "position_012_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_012_var_07.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_012_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_012_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.90625,
+      "correct": true
+    },
+    {
+      "image_id": "position_012_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_013_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_013_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_013_var_03.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_013_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_013_var_05.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 2,
+      "score": 0.78125,
+      "correct": true
+    },
+    {
+      "image_id": "position_013_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_013_var_07.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 2,
+      "score": 0.6875,
+      "correct": true
+    },
+    {
+      "image_id": "position_013_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_013_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_013_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_014_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_014_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_014_var_03.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.90625,
+      "correct": true
+    },
+    {
+      "image_id": "position_014_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 0.875,
+      "correct": true
+    },
+    {
+      "image_id": "position_014_var_05.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 2,
+      "score": 0.34375,
+      "correct": true
+    },
+    {
+      "image_id": "position_014_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_014_var_07.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 2,
+      "score": 0.78125,
+      "correct": true
+    },
+    {
+      "image_id": "position_014_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_014_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_014_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_015_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_015_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_015_var_03.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_015_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_015_var_05.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_015_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_015_var_07.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.0,
+      "correct": false
+    },
+    {
+      "image_id": "position_015_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_015_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_015_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_016_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_016_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_016_var_03.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_016_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_016_var_05.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 2,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_016_var_06.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_016_var_07.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 2,
+      "score": 0.8125,
+      "correct": true
+    },
+    {
+      "image_id": "position_016_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_016_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_016_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_017_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_017_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_017_var_03.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_017_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 0.9375,
+      "correct": true
+    },
+    {
+      "image_id": "position_017_var_05.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.125,
+      "correct": false
+    },
+    {
+      "image_id": "position_017_var_06.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "uncertain",
+      "predicted_rotation_quarters_ccw": null,
+      "score": 0.0,
+      "correct": false
+    },
+    {
+      "image_id": "position_017_var_07.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 2,
+      "score": 0.75,
+      "correct": true
+    },
+    {
+      "image_id": "position_017_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_017_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_017_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_018_var_01.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_018_var_02.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_018_var_03.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_018_var_04.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 1,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 1,
+      "score": 0.96875,
+      "correct": true
+    },
+    {
+      "image_id": "position_018_var_05.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 2,
+      "score": 0.71875,
+      "correct": true
+    },
+    {
+      "image_id": "position_018_var_06.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 3,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 3,
+      "score": 0.53125,
+      "correct": true
+    },
+    {
+      "image_id": "position_018_var_07.jpg",
+      "board_detected": false,
+      "expected_rotation_quarters_ccw": 2,
+      "status": "not_detected",
+      "predicted_rotation_quarters_ccw": null,
+      "score": null,
+      "correct": false
+    },
+    {
+      "image_id": "position_018_var_08.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_018_var_09.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    },
+    {
+      "image_id": "position_018_var_10.jpg",
+      "board_detected": true,
+      "expected_rotation_quarters_ccw": 0,
+      "status": "resolved",
+      "predicted_rotation_quarters_ccw": 0,
+      "score": 1.0,
+      "correct": true
+    }
+  ]
+}

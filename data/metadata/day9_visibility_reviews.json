@@ -1,0 +1,587 @@
+{
+  "position_012_var_01_r2_c4": {
+    "crop_sha256": "005673a980166b93708e7c36bb5d5e558a3b48dd14c5e64843e6b36ac7fa650f",
+    "board_review_signature": "cf88b60172e9cf456deed3b872c028411c2b0f4506e641dfd95a175cf8af9738",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_008_var_09_r7_c5": {
+    "crop_sha256": "c27f4f2f036acd14dfaaa2c15b0a291428c0ca010d1eccb896c37eb48d52c7fd",
+    "board_review_signature": "0fc09c1e50b1c6cf59e4d8650175cc4d5bbcd1d15efd8612533aeb1a10ece013",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_011_var_04_r0_c3": {
+    "crop_sha256": "af8770581a581d10385d7e253fa9bc964e663c6315fc391d440b362395489179",
+    "board_review_signature": "998fb64a6c3f7c0344518785829be5ad2ee86af11d2dbb000b1299c38f86f116",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_002_var_01_r2_c6": {
+    "crop_sha256": "abb4f1ebbe79aa8d55190ac47a6016198ded7fa0e788e0935386e0ede4007a1f",
+    "board_review_signature": "156bf694997d726f45b36cf51d7d56802433a70bcda2407910963a68014ecb6c",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_008_var_09_r4_c1": {
+    "crop_sha256": "688972e1cce96ae226a0de2c0bed0b13158b45bb485b62fbb3f2bdf36c8a76ae",
+    "board_review_signature": "0fc09c1e50b1c6cf59e4d8650175cc4d5bbcd1d15efd8612533aeb1a10ece013",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_013_var_04_r5_c1": {
+    "crop_sha256": "a315e6b8222b1baa9815b60f3d52f1b3d021fd23f1134418010616b3f460be05",
+    "board_review_signature": "549a1bd1c8246c9938bc069e642c0bbb5aa99cabc3cf5f83e4ce109f687129e8",
+    "status": "partial",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_001_var_08_r6_c2": {
+    "crop_sha256": "70ae6bd280192f810e98594d451ff397dcb0ddb6c5cdeab9844dcd9598a28ccc",
+    "board_review_signature": "c1ef0e8e12b728843986a2163b36064279971bf43635d691da278ab68096fdfc",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_005_var_04_r1_c1": {
+    "crop_sha256": "bf646d973855312f25c19c7a712a3a91d1688923662486b45e4db446941da356",
+    "board_review_signature": "89c6be4536cc64f7d3993937af6451a78acd0a4a2446f64807f1e0f7e2241107",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_010_var_02_r4_c3": {
+    "crop_sha256": "2a14f7c699cf884003a43923aa8a2ef101354dbc7266164058522a82c4b08181",
+    "board_review_signature": "d7462bf9df485ea74e8616ca693e79b467f990eb5150d046a5e02800cf4f5c13",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_009_var_09_r6_c0": {
+    "crop_sha256": "aeb1d3af81871de741a2a4ab6decb3e289e270c40887d588a11836ebde25ee7e",
+    "board_review_signature": "e7b281bcf0821401d38f427807a10c3f6ae70b39a2482e615c061e12223d4c0d",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_004_var_05_r2_c5": {
+    "crop_sha256": "efe08af87082ba355ce1f5407b89b386506ab54a52ecb4031a521e134b2c462f",
+    "board_review_signature": "2ea9eff8555548a4d46ebc8be7500b5c09dbfd1abb016bafc499568ac3f0969e",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Re-inspected after inner-board corner correction: target square and expected piece match.",
+    "migration": null
+  },
+  "position_009_var_04_r2_c2": {
+    "crop_sha256": "c522945bede5e89f3951185ca4efef65eaf2b5c3c40b679bc1a10fada4b0ba62",
+    "board_review_signature": "de9921183668342d885d920aad43e2ba65118c9d11695e32767203f705e3c90d",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_004_var_02_r5_c5": {
+    "crop_sha256": "842964267bc42f45859143c378c221f6fef4b93e360604a83931ef4876ee76f0",
+    "board_review_signature": "f1098cc90183d43e5db4a3cfb4e3e5a34b6805b45b4a2872baa9020ce663eb2c",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_003_var_09_r4_c3": {
+    "crop_sha256": "615a855d46727470065af4c6075b1ebe137672c77339d64075597e7eeb6ddff3",
+    "board_review_signature": "5e833c941f6517e1f58573c6c0541c83557216749f3c6f98dd449695401ff011",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_002_var_02_r5_c5": {
+    "crop_sha256": "1a86962eae8f2f70940d47afab0cf4b113721718efb38cb2802f8b18d56bfc91",
+    "board_review_signature": "2bac7ba503050d72eea17f96836269b264c0a9b2d04d736429605522c958f9d3",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_005_var_01_r7_c5": {
+    "crop_sha256": "edec356ffc825dd3a01cdd92de5b79801ee7de3ae4bb7e155043cc727a6804c7",
+    "board_review_signature": "941e40b3399b42afab9d9de478e8fdedf2dc5174c44327f93938e5c1805141ea",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_002_var_09_r4_c2": {
+    "crop_sha256": "0440a11656388652d38a1d71d702d4f9c2c135d04fc40a440f28b04c36f2654f",
+    "board_review_signature": "9d8da0854059a58dffe6bd64a5ed69ab42795692a98096e066b397a2e31db43e",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_004_var_05_r1_c3": {
+    "crop_sha256": "29a9efd9da4efae6f99457643f3f954435da01f4124a3fd231bbae17874aeba6",
+    "board_review_signature": "2ea9eff8555548a4d46ebc8be7500b5c09dbfd1abb016bafc499568ac3f0969e",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Re-inspected after inner-board corner correction: target square and expected piece match.",
+    "migration": null
+  },
+  "position_004_var_04_r2_c0": {
+    "crop_sha256": "8e611c4cae6692b1f54592a6bc4af522eaf847ae43b60bddb6a76dfc3b23b033",
+    "board_review_signature": "3cd122ff243173702b826e81162b134ea373c12cb1d455d86c5906c8fca27221",
+    "status": "partial",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_009_var_09_r6_c4": {
+    "crop_sha256": "5451dffefaf799c8d17720ef60b272092f3fdf00bd384a16ae4760f083f1656e",
+    "board_review_signature": "e7b281bcf0821401d38f427807a10c3f6ae70b39a2482e615c061e12223d4c0d",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_002_var_02_r7_c0": {
+    "crop_sha256": "3de3dc5ccdd0e18c8bc51e0fba8b2f61d7e670c820e7f35fad13168f85130c83",
+    "board_review_signature": "2bac7ba503050d72eea17f96836269b264c0a9b2d04d736429605522c958f9d3",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_010_var_01_r7_c0": {
+    "crop_sha256": "b19e785b891fea39411176b617fecf24b2876053905e05648078a0135fff8e08",
+    "board_review_signature": "8fc85d6484a2ac16df6cd5ed5061e54084628b392d7d2a1fa570e8bbe3b152de",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_009_var_09_r7_c0": {
+    "crop_sha256": "d09d5ae220716337edb9502e38154f82f7bdefd4d29c8f8a4dfb021fc28d3ae7",
+    "board_review_signature": "e7b281bcf0821401d38f427807a10c3f6ae70b39a2482e615c061e12223d4c0d",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_003_var_02_r7_c7": {
+    "crop_sha256": "19e2a194054b32dc3c529772a6eea0240937ba3e4beb15640b189762bc9aed98",
+    "board_review_signature": "b3b8cdaa8b09fbd836de9eb4fd46dbcc013645d9857fb0ab04ec861eb6ed6c6b",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_007_var_09_r7_c2": {
+    "crop_sha256": "52dc75865992667d83b8114d08e3047c51e1fed44cdba96fe27014d57817c562",
+    "board_review_signature": "530dc6ba92a72ba077561dcca78f8fb43f80897f5026747bce567c2aba346552",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_009_var_09_r7_c3": {
+    "crop_sha256": "0e56a2ca1c45cb1ed356cc3659397a640514c6d2c9afba09c4b534edc4309a4d",
+    "board_review_signature": "e7b281bcf0821401d38f427807a10c3f6ae70b39a2482e615c061e12223d4c0d",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_009_var_01_r7_c3": {
+    "crop_sha256": "20b7eedf45c40a17fa92d23ef4f863256cc4ef36446c91cb463301e5b8d3aa56",
+    "board_review_signature": "7e0a13119bb48326fceb9f815791bf62eb7b61244249ba8354b7639e76824100",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_004_var_02_r7_c3": {
+    "crop_sha256": "d25c8567f68591e12e0c0c386f3823aed248491d85c0aadfd0fa160fddee5c96",
+    "board_review_signature": "f1098cc90183d43e5db4a3cfb4e3e5a34b6805b45b4a2872baa9020ce663eb2c",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_010_var_02_r7_c3": {
+    "crop_sha256": "4460f3fb5eaeec6856b34beb1fb68fda21170c5df467a3bdd502dcd172a71561",
+    "board_review_signature": "d7462bf9df485ea74e8616ca693e79b467f990eb5150d046a5e02800cf4f5c13",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_007_var_09_r7_c3": {
+    "crop_sha256": "3347d3a7cc2ba45ddc283b1693cbc7bc693028bf26be5b86429652f3e449216b",
+    "board_review_signature": "530dc6ba92a72ba077561dcca78f8fb43f80897f5026747bce567c2aba346552",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_001_var_04_r4_c0": {
+    "crop_sha256": "735f3414477cbfc8c82e5f0e67e773e48a5ea2cf4f409e790bc50072b0d3746d",
+    "board_review_signature": "d3a78c5370a1e9508db9cb3349ec19f80005c88c8a0091c7f1d61b5a4fe427c2",
+    "status": "partial",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_007_var_09_r7_c6": {
+    "crop_sha256": "cf07d89c5536f0d1d4da6274eeadb68c879e93cba46e215d76c882ca252c1eaa",
+    "board_review_signature": "530dc6ba92a72ba077561dcca78f8fb43f80897f5026747bce567c2aba346552",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_008_var_10_r7_c6": {
+    "crop_sha256": "4414f9acfc513482ac9bf50e0ade1f624edd474743f65644b4b3223f4a7092f6",
+    "board_review_signature": "ae87806374bde8fbe68e4c12a4a0a3eabd9d18a4f2fca87cdb390d2e43b0f228",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_011_var_04_r4_c2": {
+    "crop_sha256": "c87579687e6c333e27f9a6d62bd9b1538bd622ba199dacb09ffb17eca2bd1f27",
+    "board_review_signature": "998fb64a6c3f7c0344518785829be5ad2ee86af11d2dbb000b1299c38f86f116",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_002_var_08_r7_c4": {
+    "crop_sha256": "c8cc8e8012e8e647a829bd2c5451f6dbd53b90f6b58e02878bb81bc714a51502",
+    "board_review_signature": "083624b58b876a10a095d8a1f0e011bb97df6384f67b5dd924df3ffcec3c6e40",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_010_var_10_r2_c3": {
+    "crop_sha256": "5fea677c23872c1dee6558fb9f3536f23632674efb1c6055ed4712a0a3f2a899",
+    "board_review_signature": "14337c209353280f421ed5a90374088633f833b13d81cb2aa66d5dd6de517c85",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_004_var_02_r1_c0": {
+    "crop_sha256": "9171bc39b4728536aca67bcac16cf162a94fddfacc9fe67d079b1c2e610e32e6",
+    "board_review_signature": "f1098cc90183d43e5db4a3cfb4e3e5a34b6805b45b4a2872baa9020ce663eb2c",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_003_var_09_r1_c5": {
+    "crop_sha256": "232210e619444d49000d9aa01b583e11f8daa24180bf2c129534e1934301d4d4",
+    "board_review_signature": "5e833c941f6517e1f58573c6c0541c83557216749f3c6f98dd449695401ff011",
+    "status": "partial",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_004_var_04_r0_c6": {
+    "crop_sha256": "15fb80931ba43c1018e15198bbf43a2ec3670943cd907e34852cdfbabf466d2f",
+    "board_review_signature": "3cd122ff243173702b826e81162b134ea373c12cb1d455d86c5906c8fca27221",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_013_var_01_r3_c7": {
+    "crop_sha256": "3a04e7e5491cd5b39875a26006b5782d2b8670d3c5bbeabc604ef598c5b6784c",
+    "board_review_signature": "defedb8fefff387ae391135d7c7b7f4b50d3d62b60d2ee801ee5e926de846ccf",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_004_var_04_r5_c5": {
+    "crop_sha256": "683238cd9249f68df2e40f76d609e3d29990bfdb0b372c851a1f03c94fd1bcdf",
+    "board_review_signature": "3cd122ff243173702b826e81162b134ea373c12cb1d455d86c5906c8fca27221",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_003_var_08_r2_c5": {
+    "crop_sha256": "ccb999927ee4b5a0065efa534baf682bf2b3cbe99e7cdc24680a037e27f6f50c",
+    "board_review_signature": "43d6767a54137ae49a2ea752198fbc0f3565462ca0664a339bebb0c0749cb940",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_004_var_05_r5_c2": {
+    "crop_sha256": "db7ee81d1ca0e63b4a7587096242feef3b576e96582ea55f88e10f595b0dea52",
+    "board_review_signature": "2ea9eff8555548a4d46ebc8be7500b5c09dbfd1abb016bafc499568ac3f0969e",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Re-inspected after inner-board corner correction: target square and expected piece match.",
+    "migration": null
+  },
+  "position_008_var_02_r1_c4": {
+    "crop_sha256": "c57a16d0b535cbb326f5e2602cc883af43fa922daad04deda0518d6b996e0def",
+    "board_review_signature": "0f304aa80017da5fe8ba8c91092f9499d66443e7d6debedb1b5e8a455d910df2",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_001_var_09_r0_c6": {
+    "crop_sha256": "e2d0cb935fc0fe4d3730ff9c4e823ef967c9ca225c2b5093a91702edcd988465",
+    "board_review_signature": "cb8e4a576c37ec8eeceaab7dd0ec0543181dd52833d0869b6d86f2627a2ada84",
+    "status": "partial",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_008_var_02_r2_c5": {
+    "crop_sha256": "d725742683842916fd39ca1faafeffe6b7cb796c5f18687f39fca5cb9c11da71",
+    "board_review_signature": "0f304aa80017da5fe8ba8c91092f9499d66443e7d6debedb1b5e8a455d910df2",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_005_var_08_r1_c4": {
+    "crop_sha256": "63d1eda4019e219f5cd93768d997d1c35d38219ddae9ffa2771b50b3ea746c7b",
+    "board_review_signature": "d2e7009527f9b30c0a90a9cc58827d3f696be6ed91b92b68474ae580f8fb1b06",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_009_var_04_r6_c6": {
+    "crop_sha256": "134dd6e9b8945659ce254cfd2ce6742d316e809d0cbbb5f03bcaa5878bc39f2d",
+    "board_review_signature": "de9921183668342d885d920aad43e2ba65118c9d11695e32767203f705e3c90d",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_001_var_10_r0_c5": {
+    "crop_sha256": "7c7d01a5c628d392d1d118795e4ef7e25760da6585fbee87c5f7662f297ee616",
+    "board_review_signature": "02c36e46211c772b22213ae260e9124e27055b9f168f2a5c59879245bcc44c51",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_004_var_02_r0_c2": {
+    "crop_sha256": "bb82e2a02681fa2a9b61f1324d83e7fc37e1ec1e3b66dc01946643804e148de3",
+    "board_review_signature": "f1098cc90183d43e5db4a3cfb4e3e5a34b6805b45b4a2872baa9020ce663eb2c",
+    "status": "partial",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_004_var_02_r0_c0": {
+    "crop_sha256": "27100d86d7ed64699a7f4fb5c92a198c247fae0a706e50f7fae22185a2d517c6",
+    "board_review_signature": "f1098cc90183d43e5db4a3cfb4e3e5a34b6805b45b4a2872baa9020ce663eb2c",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_010_var_08_r0_c0": {
+    "crop_sha256": "8ecb5c6348c15d47f2883c4b5b747aa7dd344d92604c313d28b51171ad763683",
+    "board_review_signature": "36129100dca7a8f23991a6d81704f76373b4f2f7b742e08cc9a17128c45bd1eb",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_010_var_01_r0_c0": {
+    "crop_sha256": "b611565a252b08c771104acb6ba6735ea31a75438ba089cda5b01305ac109910",
+    "board_review_signature": "8fc85d6484a2ac16df6cd5ed5061e54084628b392d7d2a1fa570e8bbe3b152de",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_004_var_04_r0_c7": {
+    "crop_sha256": "8a267441eac1161562290fc9ba17dc009b24194184196bad264a62098e1e7b0e",
+    "board_review_signature": "3cd122ff243173702b826e81162b134ea373c12cb1d455d86c5906c8fca27221",
+    "status": "partial",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_009_var_08_r0_c0": {
+    "crop_sha256": "1fb1ea0ab8cf147089e8e6326a4220f5466cc3924bb6be75e350c2611b5b2975",
+    "board_review_signature": "2f7ff859c30571c9ed1f954dbf6b9fb8de8914bdf70c1f6ef5b6de047e9623a2",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_001_var_09_r0_c3": {
+    "crop_sha256": "ace16f42877b16f1a5dd4dbbde5023e802cdcb6e2d341ff76d4a9d1de14cf67f",
+    "board_review_signature": "cb8e4a576c37ec8eeceaab7dd0ec0543181dd52833d0869b6d86f2627a2ada84",
+    "status": "partial",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_009_var_01_r0_c3": {
+    "crop_sha256": "638db8b464c278a015f3ed66db2517ecc9da49521804406b6fe4795cd10e1f96",
+    "board_review_signature": "7e0a13119bb48326fceb9f815791bf62eb7b61244249ba8354b7639e76824100",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_002_var_02_r0_c3": {
+    "crop_sha256": "25f57fa1c3047748aab18fa8a12adb3feaa8a2f5a748398a103159db3bcc94c2",
+    "board_review_signature": "2bac7ba503050d72eea17f96836269b264c0a9b2d04d736429605522c958f9d3",
+    "status": "partial",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_001_var_01_r0_c3": {
+    "crop_sha256": "e58e425d1bd4eedbe1c8ddd9419e038373f7c06d04cd1bfd3c110a0833f2e4b1",
+    "board_review_signature": "67a62f5038f9704fe861faf8b17a4acb8430ab6f4a05b0c59c5ebcfb689f1ca5",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_009_var_02_r0_c3": {
+    "crop_sha256": "ed342460f74c161761026ceea46278f2d6ec78656ca6879232cfc55547af22d8",
+    "board_review_signature": "ee262e06b1cbd4631abf7b62c4e33dc2c3651a1fe4f7235d805935f5d597da8a",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_011_var_05_r5_c3": {
+    "crop_sha256": "1de0d48d952d108746282145e033ad3059e055363a56b934229659160d3d56d4",
+    "board_review_signature": "235a31c6bf62c389952a136ddae04d558f579c3bfa9ed13a25d52cf2ec4b4eef",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_007_var_08_r0_c6": {
+    "crop_sha256": "d515be60edaa1bb36353d21cef1ad2cbc877816eed906f7f46c235db74a34b6a",
+    "board_review_signature": "cfa5a2a215070e2951d6fd3cc26dae5ba8550e682d92270a8e3926b2d0626487",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_010_var_09_r0_c6": {
+    "crop_sha256": "73506c944cdeca4e1e02edcc3fa86d5669b1000ef21e893b05c1d2a121eceebe",
+    "board_review_signature": "883efff1ac4d2d53e3b5cc8a7132255a8eddaf398a857e5fb16347bf5407c57a",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_009_var_02_r0_c6": {
+    "crop_sha256": "03acfece1876fee80a8362c3939ebd3d25a0390324dd9010c95725b47dff079d",
+    "board_review_signature": "ee262e06b1cbd4631abf7b62c4e33dc2c3651a1fe4f7235d805935f5d597da8a",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  },
+  "position_003_var_10_r0_c4": {
+    "crop_sha256": "0e28302788fdc580f37ae2ab1de52ff266ed123481ea4a620514525d71c2b109",
+    "board_review_signature": "7d7ed59833ffdd2512fb688efd8c9ccb45eeead103e7604bf06f131f048ac928",
+    "status": "sufficient",
+    "label_correct": true,
+    "reviewer": "Codex visual inspection",
+    "notes": "Target label and available piece context checked; partial means neighboring pieces obscure some features.",
+    "migration": "Same reviewed square and pixels in camera view; verified lossless rotation."
+  }
+}

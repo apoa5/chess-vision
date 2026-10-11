@@ -12,7 +12,8 @@ from src.utils.config import DEFAULT_CONFIG, load_config
 from src.utils.image_io import load_image, save_image
 from src.vision.perspective import order_corners
 from src.vision.board_detection import DetectionSettings, detect_board_corners
-from src.vision.pipeline import rectify_with_config, save_rectified_context
+from src.vision.pipeline import rectify_with_config, save_rectified_context, orient_with_config
+import json
 
 
 def main() -> None:
@@ -22,6 +23,7 @@ def main() -> None:
                         help="Optional manual override: four x y pairs in original image pixels")
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
     parser.add_argument("--output", type=Path, help="Rectified image path")
+    parser.add_argument("--white-side", choices=["bottom", "left", "top", "right"])
     args = parser.parse_args()
     try:
         settings = load_config(args.config)
@@ -34,11 +36,16 @@ def main() -> None:
                 raise ValueError(f"Detection failed: {detection.reason}")
             corners = detection.corners
         rectified = rectify_with_config(image, corners, settings)
+        rectified, orientation = orient_with_config(rectified, settings, args.white_side)
         board = rectified.board_image
         output = args.output or settings["outputs"]["rectified_boards"] / f"{args.image.stem}.png"
         print(f"Saved: {save_image(output, board)}")
         context = save_rectified_context(rectified, output)
         print(f"Context: {context['context_path']}")
+        output.with_name(f"{output.stem}_orientation.json").write_text(json.dumps(orientation.metadata(), indent=2) + "\n")
+        print(f"Orientation: {orientation.status}")
+        if orientation.status == "uncertain":
+            print("Orientation unresolved; inspect the output and supply --white-side. Image remains image-relative.", file=sys.stderr)
     except (OSError, ValueError, NotImplementedError) as error:
         parser.exit(1, f"Error: {error}\n")
 

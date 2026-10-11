@@ -80,3 +80,7 @@ labels for that sample. Build training and inference with the same padding and
 preprocessing, and visually inspect labels before training. Larger windows can
 help preserve silhouettes but also introduce distracting neighbors; recognition
 improvement must be measured on validation data. No classifier is trained here.
+
+The orientation stage now reads this retained border, rotates context and mask
+together when resolved, and extracts crops afterward. See
+[board_orientation.md](board_orientation.md).

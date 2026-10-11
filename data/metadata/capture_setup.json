@@ -41,11 +41,11 @@
     }
   },
   "capture_plan": {
-    "target_position_count": 20,
+    "target_position_count": 18,
     "target_variations_per_position": 10,
     "filename_pattern": "position_XXX_var_XX.jpg",
     "camera_angle_convention": "Approximate degrees above the board plane; 90 is overhead",
     "orientation_convention": "Board sides as seen in the photograph, independent of individual piece locations",
-    "metadata_source": "User-provided capture setup and variation plan; image contents have not been visually verified"
+    "metadata_source": "User-provided capture setup and variation plan; individual image notes record visual orientation/framing reviews."
   }
 }

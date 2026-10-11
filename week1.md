@@ -242,7 +242,7 @@ Document:
 - piece style,
 - camera device used,
 - approximate capture environment.
-2. Create 20–30 physical chess positions
+2. Create 18 physical chess positions
 Include variety such as:
 - starting position,
 - middlegame positions,
@@ -261,10 +261,9 @@ For each position, take several images covering approximately:
 - several distances.
 Keep the full board visible.
 Avoid extremely difficult camera angles during this first dataset.
-Target approximately:
-150–300 total images
-A reasonable initial target is:
-20 positions x 10 images = 200 images
+Revised collection target (user-approved):
+18 positions x 10 images = 180 images
+All ten variations are required for each position.
 4. Include controlled environmental variation
 Capture modest differences in:
 - lighting,

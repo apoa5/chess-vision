@@ -1,0 +1,28 @@
+{
+  "reference_image": "position_001_var_08.jpg",
+  "reference_sha256": "f4908e73938570ec70b7982fa04d27dbe053db7290c23eb6f9b87134e967ab50",
+  "white_side": "bottom",
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "glyph_shape": [
+    48,
+    36
+  ],
+  "scope": "This physical board: light printed markings; top/right characters face the opposite player."
+}

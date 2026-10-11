@@ -1,0 +1,846 @@
+{
+  "source_count": 180,
+  "polygon_board_candidates": 160,
+  "unlocated_images": [
+    "position_002_var_03.jpg",
+    "position_002_var_10.jpg",
+    "position_003_var_03.jpg",
+    "position_005_var_03.jpg",
+    "position_005_var_10.jpg",
+    "position_006_var_01.jpg",
+    "position_006_var_02.jpg",
+    "position_006_var_03.jpg",
+    "position_006_var_04.jpg",
+    "position_006_var_08.jpg",
+    "position_006_var_09.jpg",
+    "position_006_var_10.jpg",
+    "position_007_var_01.jpg",
+    "position_007_var_02.jpg",
+    "position_007_var_03.jpg",
+    "position_007_var_10.jpg",
+    "position_008_var_03.jpg",
+    "position_009_var_03.jpg",
+    "position_009_var_10.jpg",
+    "position_012_var_03.jpg"
+  ],
+  "candidate_fit_status": {
+    "fitted": 160
+  },
+  "source_overlay_count": 160,
+  "geometry_approved_count": 160,
+  "previous_review_signatures_expired": 160,
+  "note": "Fit status is a geometric consistency check, not verified labeling accuracy. Hidden boundaries remain inferred.",
+  "boards": [
+    {
+      "image_id": "position_001_var_01.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_001_var_02.jpg",
+      "boundary_evidence_fraction": 0.9722222222222222,
+      "review_required": true
+    },
+    {
+      "image_id": "position_001_var_03.jpg",
+      "boundary_evidence_fraction": 0.8958333333333334,
+      "review_required": true
+    },
+    {
+      "image_id": "position_001_var_04.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_001_var_05.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_001_var_06.jpg",
+      "boundary_evidence_fraction": 0.9444444444444444,
+      "review_required": true
+    },
+    {
+      "image_id": "position_001_var_07.jpg",
+      "boundary_evidence_fraction": 0.7916666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_001_var_08.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_001_var_09.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_001_var_10.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_002_var_01.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_002_var_02.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_002_var_04.jpg",
+      "boundary_evidence_fraction": 0.9444444444444444,
+      "review_required": true
+    },
+    {
+      "image_id": "position_002_var_05.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_002_var_06.jpg",
+      "boundary_evidence_fraction": 0.9375,
+      "review_required": true
+    },
+    {
+      "image_id": "position_002_var_07.jpg",
+      "boundary_evidence_fraction": 0.9097222222222222,
+      "review_required": true
+    },
+    {
+      "image_id": "position_002_var_08.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_002_var_09.jpg",
+      "boundary_evidence_fraction": 0.9583333333333334,
+      "review_required": true
+    },
+    {
+      "image_id": "position_003_var_01.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_003_var_02.jpg",
+      "boundary_evidence_fraction": 0.9513888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_003_var_04.jpg",
+      "boundary_evidence_fraction": 0.9166666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_003_var_05.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_003_var_06.jpg",
+      "boundary_evidence_fraction": 0.9513888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_003_var_07.jpg",
+      "boundary_evidence_fraction": 0.9027777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_003_var_08.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_003_var_09.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_003_var_10.jpg",
+      "boundary_evidence_fraction": 0.9513888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_004_var_01.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_004_var_02.jpg",
+      "boundary_evidence_fraction": 0.9583333333333334,
+      "review_required": true
+    },
+    {
+      "image_id": "position_004_var_03.jpg",
+      "boundary_evidence_fraction": 0.8958333333333334,
+      "review_required": true
+    },
+    {
+      "image_id": "position_004_var_04.jpg",
+      "boundary_evidence_fraction": 0.9444444444444444,
+      "review_required": true
+    },
+    {
+      "image_id": "position_004_var_05.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_004_var_06.jpg",
+      "boundary_evidence_fraction": 0.9166666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_004_var_07.jpg",
+      "boundary_evidence_fraction": 0.7361111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_004_var_08.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_004_var_09.jpg",
+      "boundary_evidence_fraction": 0.9722222222222222,
+      "review_required": true
+    },
+    {
+      "image_id": "position_004_var_10.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_005_var_01.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_005_var_02.jpg",
+      "boundary_evidence_fraction": 0.8263888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_005_var_04.jpg",
+      "boundary_evidence_fraction": 0.9513888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_005_var_05.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_005_var_06.jpg",
+      "boundary_evidence_fraction": 0.9375,
+      "review_required": true
+    },
+    {
+      "image_id": "position_005_var_07.jpg",
+      "boundary_evidence_fraction": 0.9513888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_005_var_08.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_005_var_09.jpg",
+      "boundary_evidence_fraction": 0.8888888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_006_var_05.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_006_var_06.jpg",
+      "boundary_evidence_fraction": 0.9097222222222222,
+      "review_required": true
+    },
+    {
+      "image_id": "position_006_var_07.jpg",
+      "boundary_evidence_fraction": 0.9444444444444444,
+      "review_required": true
+    },
+    {
+      "image_id": "position_007_var_04.jpg",
+      "boundary_evidence_fraction": 0.9166666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_007_var_05.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_007_var_06.jpg",
+      "boundary_evidence_fraction": 0.9166666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_007_var_07.jpg",
+      "boundary_evidence_fraction": 0.9166666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_007_var_08.jpg",
+      "boundary_evidence_fraction": 0.9166666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_007_var_09.jpg",
+      "boundary_evidence_fraction": 0.8541666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_008_var_01.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_008_var_02.jpg",
+      "boundary_evidence_fraction": 0.9375,
+      "review_required": true
+    },
+    {
+      "image_id": "position_008_var_04.jpg",
+      "boundary_evidence_fraction": 0.9583333333333334,
+      "review_required": true
+    },
+    {
+      "image_id": "position_008_var_05.jpg",
+      "boundary_evidence_fraction": 0.9722222222222222,
+      "review_required": true
+    },
+    {
+      "image_id": "position_008_var_06.jpg",
+      "boundary_evidence_fraction": 0.9027777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_008_var_07.jpg",
+      "boundary_evidence_fraction": 0.9513888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_008_var_08.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_008_var_09.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_008_var_10.jpg",
+      "boundary_evidence_fraction": 0.9097222222222222,
+      "review_required": true
+    },
+    {
+      "image_id": "position_009_var_01.jpg",
+      "boundary_evidence_fraction": 0.9027777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_009_var_02.jpg",
+      "boundary_evidence_fraction": 0.9513888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_009_var_04.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_009_var_05.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_009_var_06.jpg",
+      "boundary_evidence_fraction": 0.9444444444444444,
+      "review_required": true
+    },
+    {
+      "image_id": "position_009_var_07.jpg",
+      "boundary_evidence_fraction": 0.9375,
+      "review_required": true
+    },
+    {
+      "image_id": "position_009_var_08.jpg",
+      "boundary_evidence_fraction": 0.9722222222222222,
+      "review_required": true
+    },
+    {
+      "image_id": "position_009_var_09.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_010_var_01.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_010_var_02.jpg",
+      "boundary_evidence_fraction": 0.9583333333333334,
+      "review_required": true
+    },
+    {
+      "image_id": "position_010_var_03.jpg",
+      "boundary_evidence_fraction": 0.8888888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_010_var_04.jpg",
+      "boundary_evidence_fraction": 0.9513888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_010_var_05.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_010_var_06.jpg",
+      "boundary_evidence_fraction": 0.8888888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_010_var_07.jpg",
+      "boundary_evidence_fraction": 0.8819444444444444,
+      "review_required": true
+    },
+    {
+      "image_id": "position_010_var_08.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_010_var_09.jpg",
+      "boundary_evidence_fraction": 0.9375,
+      "review_required": true
+    },
+    {
+      "image_id": "position_010_var_10.jpg",
+      "boundary_evidence_fraction": 0.9027777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_011_var_01.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_011_var_02.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_011_var_03.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_011_var_04.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_011_var_05.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_011_var_06.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_011_var_07.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_011_var_08.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_011_var_09.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_011_var_10.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_012_var_01.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_012_var_02.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_012_var_04.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_012_var_05.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_012_var_06.jpg",
+      "boundary_evidence_fraction": 0.9513888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_012_var_07.jpg",
+      "boundary_evidence_fraction": 0.9722222222222222,
+      "review_required": true
+    },
+    {
+      "image_id": "position_012_var_08.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_012_var_09.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_012_var_10.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_013_var_01.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_013_var_02.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_013_var_03.jpg",
+      "boundary_evidence_fraction": 0.9513888888888888,
+      "review_required": true
+    },
+    {
+      "image_id": "position_013_var_04.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_013_var_05.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_013_var_06.jpg",
+      "boundary_evidence_fraction": 0.9444444444444444,
+      "review_required": true
+    },
+    {
+      "image_id": "position_013_var_07.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_013_var_08.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_013_var_09.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_013_var_10.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_014_var_01.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_014_var_02.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_014_var_03.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_014_var_04.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_014_var_05.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_014_var_06.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_014_var_07.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_014_var_08.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_014_var_09.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_014_var_10.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_015_var_01.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_015_var_02.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_015_var_03.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_015_var_04.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_015_var_05.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_015_var_06.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_015_var_07.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_015_var_08.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_015_var_09.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_015_var_10.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_016_var_01.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_016_var_02.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_016_var_03.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_016_var_04.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_016_var_05.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_016_var_06.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_016_var_07.jpg",
+      "boundary_evidence_fraction": 0.9375,
+      "review_required": true
+    },
+    {
+      "image_id": "position_016_var_08.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_016_var_09.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_016_var_10.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_017_var_01.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_017_var_02.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_017_var_03.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_017_var_04.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_017_var_05.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_017_var_06.jpg",
+      "boundary_evidence_fraction": 0.9236111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_017_var_07.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_017_var_08.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    },
+    {
+      "image_id": "position_017_var_09.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_017_var_10.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_018_var_01.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_018_var_02.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_018_var_03.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_018_var_04.jpg",
+      "boundary_evidence_fraction": 0.9652777777777778,
+      "review_required": true
+    },
+    {
+      "image_id": "position_018_var_05.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_018_var_06.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_018_var_07.jpg",
+      "boundary_evidence_fraction": 0.9791666666666666,
+      "review_required": true
+    },
+    {
+      "image_id": "position_018_var_08.jpg",
+      "boundary_evidence_fraction": 0.9930555555555556,
+      "review_required": true
+    },
+    {
+      "image_id": "position_018_var_09.jpg",
+      "boundary_evidence_fraction": 0.9861111111111112,
+      "review_required": true
+    },
+    {
+      "image_id": "position_018_var_10.jpg",
+      "boundary_evidence_fraction": 1.0,
+      "review_required": true
+    }
+  ],
+  "candidate_crop_count": 10240,
+  "target_coverage_flags": [],
+  "outlier_corrections": {
+    "position_008_var_04.jpg": {
+      "cause": "Incorrect automatic corner seed and shifted lattice fit; FEN unchanged.",
+      "correction": "Source-hash-bound playing-area corner override; refitted polygons and regenerated 64 crops.",
+      "checked_square": "e7",
+      "checked_class": "black_knight"
+    }
+  },
+  "approval_source": "User confirmed completed labeling; exact prepared/crop hashes checked before promotion."
+}

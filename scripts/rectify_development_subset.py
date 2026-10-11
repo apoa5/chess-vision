@@ -11,7 +11,7 @@ from src.utils.config import DEFAULT_CONFIG, load_config
 from src.utils.image_io import ensure_output_directory, load_image, save_image
 from src.vision.board_detection import DetectionSettings, detect_board_corners
 from src.vision.evaluation import apply_review, detection_signature
-from src.vision.pipeline import rectify_with_config, save_rectified_context
+from src.vision.pipeline import rectify_with_config, save_rectified_context, orient_with_config
 
 
 def main():
@@ -41,9 +41,11 @@ def main():
                       "output_path": None, "output_shape": None, **review}
             if detection.success:
                 rectified = rectify_with_config(image, detection.corners, config)
+                rectified, orientation = orient_with_config(rectified, config)
                 board = rectified.board_image
                 destination = save_image(output / f"{Path(name).stem}.png", board)
                 record.update(output_path=str(destination), output_shape=list(board.shape),
+                              orientation=orientation.metadata(),
                               **save_rectified_context(rectified, destination))
             records.append(record)
             print(name, "saved" if detection.success else "rejected",

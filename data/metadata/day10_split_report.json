@@ -1,0 +1,143 @@
+{
+  "dataset_fingerprint": "06f2b135d209af237e15dcb4f61321c1dcf0c392eef9ab07c7bc5a20f9bd7c29",
+  "train_only_positions": [
+    "position_001"
+  ],
+  "seed": 42,
+  "requested_fractions": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "search_trials": 4000,
+  "grouping": "position_id; identical FEN placements and duplicate source-photo hashes grouped together",
+  "position_assignment": {
+    "position_001": "train",
+    "position_002": "train",
+    "position_003": "val",
+    "position_004": "train",
+    "position_005": "train",
+    "position_006": "test",
+    "position_007": "val",
+    "position_008": "train",
+    "position_009": "train",
+    "position_010": "test",
+    "position_011": "val",
+    "position_012": "train",
+    "position_013": "train",
+    "position_014": "train",
+    "position_015": "train",
+    "position_016": "test",
+    "position_017": "train",
+    "position_018": "train"
+  },
+  "position_group_counts": {
+    "train": 12,
+    "val": 3,
+    "test": 3
+  },
+  "splits": {
+    "train": {
+      "positions": [
+        "position_001",
+        "position_002",
+        "position_004",
+        "position_005",
+        "position_008",
+        "position_009",
+        "position_012",
+        "position_013",
+        "position_014",
+        "position_015",
+        "position_017",
+        "position_018"
+      ],
+      "source_image_count": 112,
+      "crop_count": 7168,
+      "class_counts": {
+        "empty": 5044,
+        "white_pawn": 544,
+        "white_knight": 117,
+        "white_bishop": 116,
+        "white_rook": 125,
+        "white_queen": 63,
+        "white_king": 112,
+        "black_pawn": 524,
+        "black_knight": 107,
+        "black_bishop": 116,
+        "black_rook": 125,
+        "black_queen": 63,
+        "black_king": 112
+      }
+    },
+    "val": {
+      "positions": [
+        "position_003",
+        "position_007",
+        "position_011"
+      ],
+      "source_image_count": 25,
+      "crop_count": 1600,
+      "class_counts": {
+        "empty": 1132,
+        "white_pawn": 115,
+        "white_knight": 30,
+        "white_bishop": 24,
+        "white_rook": 30,
+        "white_queen": 15,
+        "white_king": 25,
+        "black_pawn": 105,
+        "black_knight": 30,
+        "black_bishop": 24,
+        "black_rook": 30,
+        "black_queen": 15,
+        "black_king": 25
+      }
+    },
+    "test": {
+      "positions": [
+        "position_006",
+        "position_010",
+        "position_016"
+      ],
+      "source_image_count": 23,
+      "crop_count": 1472,
+      "class_counts": {
+        "empty": 1016,
+        "white_pawn": 114,
+        "white_knight": 26,
+        "white_bishop": 26,
+        "white_rook": 26,
+        "white_queen": 13,
+        "white_king": 23,
+        "black_pawn": 104,
+        "black_knight": 26,
+        "black_bishop": 26,
+        "black_rook": 36,
+        "black_queen": 13,
+        "black_king": 23
+      }
+    }
+  },
+  "missing_classes": {
+    "train": [],
+    "val": [],
+    "test": []
+  },
+  "imbalance_strategy": "Square-root inverse-frequency class-weighted loss; weights computed only from training counts. No duplicate oversampling.",
+  "class_weights": {
+    "empty": 0.16711732139687277,
+    "white_pawn": 0.5088731718131624,
+    "white_knight": 1.097276489769905,
+    "white_bishop": 1.1019959803231276,
+    "white_rook": 1.06158310580079,
+    "white_queen": 1.4953357976924178,
+    "white_king": 1.1215018482693133,
+    "black_pawn": 0.5184935539493574,
+    "black_knight": 1.1474059988994043,
+    "black_bishop": 1.1019959803231276,
+    "black_rook": 1.06158310580079,
+    "black_queen": 1.4953357976924178,
+    "black_king": 1.1215018482693133
+  }
+}

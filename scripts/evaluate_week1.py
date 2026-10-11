@@ -76,7 +76,7 @@ def main():
                   "results": records}
         (output / "evaluation.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
         with (output / "evaluation.csv").open("w", newline="", encoding="utf-8") as stream:
-            columns = ["image_id", "board_detected", "board_detection_correct", "warp_correct", "square_count", "review_status", "warp_review_status", "reason", "notes", "warp_notes", "grid_path", "crop_directory"]
+            columns = ["image_id", "board_detected", "board_detection_correct", "warp_correct", "square_count", "coordinate_system", "review_status", "warp_review_status", "reason", "notes", "warp_notes", "grid_path", "crop_directory"]
             writer = csv.DictWriter(stream, fieldnames=columns, extrasaction="ignore")
             writer.writeheader()
             writer.writerows(records)

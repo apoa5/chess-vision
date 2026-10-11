@@ -1,0 +1,55 @@
+{
+  "source_image_count": 180,
+  "prepared_board_candidate_count": 160,
+  "candidate_count_note": "Includes manual corner overrides; this is not automatic detector accuracy.",
+  "accepted_board_count": 160,
+  "excluded_board_count": 20,
+  "accepted_position_count": 18,
+  "positions_without_accepted_boards": [],
+  "crop_count": 10240,
+  "class_counts": {
+    "empty": 7192,
+    "white_pawn": 773,
+    "white_knight": 173,
+    "white_bishop": 166,
+    "white_rook": 181,
+    "white_queen": 91,
+    "white_king": 160,
+    "black_pawn": 733,
+    "black_knight": 163,
+    "black_bishop": 166,
+    "black_rook": 191,
+    "black_queen": 91,
+    "black_king": 160
+  },
+  "accepted_board_orientation_sources": {
+    "border_markings": 153,
+    "capture_metadata": 7
+  },
+  "accepted_board_localization_sources": {
+    "automatic": 105,
+    "manual_corners": 55
+  },
+  "coordinate_system": "camera_view",
+  "accepted_board_white_sides": {
+    "bottom": 89,
+    "left": 17,
+    "top": 36,
+    "right": 18
+  },
+  "visibility_counts": {
+    "unreviewed": 10240,
+    "clipped": 0,
+    "partial": 0,
+    "severely_occluded": 0,
+    "sufficient": 0
+  },
+  "reviewed_examples_by_class": {},
+  "target_coverage_flag_count": 0,
+  "crop_size": 500,
+  "crop_padding_pixels": 200,
+  "split_status": "unassigned_until_day10",
+  "training_ready": false,
+  "assessment": "Context retains more visible piece structure; viability is qualitative until held-out classifier evaluation. Occlusion and localization failures remain.",
+  "review_scope": "Accepted boards have matching geometry/label reviews. Only crops listed in visibility reviews were inspected individually."
+}

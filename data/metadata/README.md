@@ -1,5 +1,18 @@
 # Capture metadata
 
+- `board_corner_overrides.json`: visually corrected inner-board corners in raw
+  photo pixels, bound to source hashes. Used by the Day 9 dataset builder.
+- `office_localization_audit.json`: office-wide corner correction and before/after
+  coverage for all 54 photos in variations 05–07; FENs remain unchanged.
+
+- `day9_board_reviews.json`: reviewed grid alignment and FEN correspondence,
+  bound to source/normalized pixels, orientation, mask and ground truth.
+- `day9_visibility_reviews.json`: individual crop visibility judgments bound to
+  crop hashes and board reviews; five examples per canonical class were inspected.
+- `day9_dataset_summary.json`: accepted/excluded boards, class counts, coverage
+  and sample review counts. The full generated manifest lives in the ignored
+  `data/classification/crops.json`. See [Day 9](../../docs/day9_dataset.md).
+
 - `positions.json`: one entry per photographed position. Fill in each blank
   `fen` with the complete six-field FEN matching the physical arrangement.
   Position entries contain only `fen`. Positions with no uploaded photos are
@@ -27,15 +40,17 @@
   regenerated with `python scripts/evaluate_week1.py --report data/metadata/week1_evaluation.json`.
   Artifact paths inside the repository are relative to its root.
 
-Image conditions were assigned from the filename and your capture plan, not
-verified by inspecting the photograph. Correct individual image entries if a
+Image conditions were assigned from the filename and your capture plan.
+Where visual orientation/framing review was performed, the image notes record
+it; camera angles and lighting have not been measured. Correct entries if a
 shot differs from the plan. Angles are approximate; 90 degrees means overhead.
 
 Orientation describes the board sides in the photograph, not individual pieces.
 The capture plan does not specify orientation for variations 05, 08, and 10;
-their reference definitions use JSON `null` until confirmed. The uploaded
-`position_001_var_05.jpg` has been inspected and its individual orientation is
-`white_right`. Known values are `white_near_camera`,
+their reference definitions preserve JSON `null` from the original plan.
+The current office variation 05 images were inspected and have orientation
+`black_near_camera`; outdoor variations 08 and 10 have `white_near_camera`.
+Individual image entries record these observations. Known values are `white_near_camera`,
 `black_near_camera`, `white_left`, and `white_right`.
 
 Twenty photos are marked `development_subset: true`, covering all eighteen
@@ -49,22 +64,62 @@ When adding photos, add their entries to `images.json` and add any new position
 IDs to `positions.json`. Changing a variation definition does not automatically
 update existing image entries.
 
-## Day 3 starter dataset
+## Current collection
 
-The agreed initial dataset contains 75 photos across 18 positions: 72 living-room
-photos and 3 office photos. All images decode successfully, filenames and links
-are consistent, all position FENs pass python-chess validity checks, and every
-photo has a known orientation. Contact sheets of all 75 images were reviewed for
-framing; the playing areas appear fully visible at that review scale.
+The collection contains **180 photos across 18 positions**, with every variation
+01–10 present for every position: 72 living-room, 54 office, and 54 outdoor
+photos. This completes the revised target of 18 positions × 10 variations;
+the earlier 200-photo target has been superseded. All 180 images decode, all
+18 position FENs pass validity checks, and all images have known orientations.
+There are no missing position/variation pairs.
 
-The dataset is ready for Day 4. Collection remains below the original 20-position,
-approximately 200-image target. Outdoor variations 08–10 have not been uploaded,
-and only position 001 currently includes office variations 05–07. Add these as
-collection continues. Do not interpret results on this indoor starter dataset
-as evidence of outdoor performance.
+The initial 75 photos and the 54 outdoor additions were followed by 51 office
+photos completing variations 05–07 for positions 002–018. Office contact sheets
+were reviewed for coarse framing and orientation: full playing areas appear
+visible; variation 05 has Black nearest the camera, variation 06 has White on
+the right, and variation 07 has Black nearest. The current position 001
+variation 05 entry was corrected to match its stored photograph. Office contact
+sheets are in `outputs/week1/office_capture_review/`.
+
+All 54 outdoor images decoded successfully and were reviewed in variation contact
+sheets for coarse framing and orientation. Their playing areas appear fully
+visible, with White’s side at the bottom. Individual image orientations are
+recorded accordingly; the reference variation definitions still preserve the
+original plan. Angle and lighting metadata are capture-plan values, not pixel
+measurements. Contact sheets are in `outputs/week1/outdoor_capture_review/`.
+
+The original 20-image indoor development subset and earlier detector evaluation
+snapshots remain unchanged. Reviews are bound to photo hashes and become stale
+when stored photos change; rerun evaluation before relying on current results.
+Collection and decoding do not establish outdoor
+localization or classification accuracy; those need separate evaluation.
+Keep all indoor/outdoor images of one position together in future dataset splits
+to prevent source-position leakage.
 
 FEN validity does not verify the physical piece arrangement; the photographer
 is responsible for matching each position FEN to its photos. This development
 subset is used to improve detection, not as an independent held-out test set.
 Raw photos remain ignored by Git; validation requires the corresponding local
 `data/raw/` files.
+
+## Orientation audit
+
+`orientation_evaluation.json` records the marking recognizer's audit against
+capture orientations, with the calibration photo excluded from headline rates.
+Board detection failures and orientation uncertainty are separate from wrong
+resolved predictions. It does not establish square classification accuracy or
+verify accepted quadrilaterals. Regenerate with
+`python scripts/evaluate_orientation.py --all --report data/metadata/orientation_evaluation.json`.
+
+`day9_grid_geometry_audit.json` records the polygon-fitting revision, source-photo
+coverage, estimated boundary evidence, and expired alignment reviews. It separates
+geometric consistency from visually approved geometry. Candidate crop labels are
+stored in the ignored `data/classification/candidate_crops.json`; they are not
+approved training data. Previous review hashes remain available as history.
+
+`day10_split_report.json` binds the position-grouped split to a dataset fingerprint,
+records the fixed seed and calibration position isolation, and lists per-class
+counts and training-only loss weights. `day10_class_distribution.csv` is the class
+comparison table. Generated per-split manifests reference existing crop files.
+The user's completed label review is recorded in `day9_board_reviews.json`; this
+approves geometry/labels, not an independent judgment of every piece's visibility.

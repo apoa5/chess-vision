@@ -72,3 +72,21 @@ def test_context_metadata_locates_target_and_marks_source_coverage(tmp_path, mon
     crop = load_image(directory / first["filename"])
     np.testing.assert_array_equal(crop[20:30, 20:30], np.full((10, 10, 3), 120, np.uint8))
     assert (crop[:20, :20] == 0).all()
+
+
+def test_manual_orientation_rotates_before_crops_and_names_chess_squares(tmp_path, monkeypatch):
+    import src.vision.pipeline as pipeline
+    image = np.zeros((80, 80, 3), np.uint8)
+    image[:10, :10] = (20, 40, 60)
+    source = save_image(tmp_path/'source.png', image)
+    config = load_config()
+    config['board']['normalized_size'] = 80
+    corners = np.float32([[0, 0], [79, 0], [79, 79], [0, 79]])
+    monkeypatch.setattr(pipeline, 'detect_board_corners', lambda *args: BoardDetection(corners))
+    result = process_board_image(source, config, tmp_path/'outputs', white_side='top')
+    assert result['orientation']['status'] == 'provided'
+    assert result['coordinate_system'] == 'white_at_bottom'
+    np.testing.assert_array_equal(load_image(result['board_path']), np.rot90(image, 2))
+    metadata = json.loads((Path(result['crop_directory'])/'squares.json').read_text())
+    assert metadata[0]['chess_square'] == 'a8'
+    assert metadata[-1]['chess_square'] == 'h1'

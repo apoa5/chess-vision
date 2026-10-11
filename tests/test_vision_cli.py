@@ -114,3 +114,24 @@ def test_full_pipeline_cli_failed_detection(tmp_path):
     assert "Detection failed" in result.stderr
     assert (output / "board_detection" / "blank_corners.png").is_file()
     assert not (output / "square_crops").exists()
+
+
+def test_cli_requires_orientation_when_markings_are_missing(tmp_path):
+    image = np.full((480, 640, 3), 180, dtype=np.uint8)
+    image[15:465, 15:625] = 245
+    image[95:401, 145:451] = (45, 80, 110)
+    y, x = np.indices((256, 256))
+    board = image[120:376, 170:426]
+    board[(x // 32 + y // 32) % 2 == 0] = (210, 225, 235)
+    board[(x // 32 + y // 32) % 2 == 1] = (45, 70, 95)
+    source = save_image(tmp_path / 'checker.png', image)
+    output = tmp_path / 'pipeline'
+    result = run_script('process_board_image.py', source, '--output-dir', output,
+                        '--require-orientation', cwd=tmp_path)
+    assert result.returncode == 1
+    assert 'Orientation unresolved' in result.stderr
+    import json
+    record = json.loads((output / 'board_detection' / 'checker_pipeline.json').read_text())
+    assert record['coordinate_system'] == 'image_relative'
+    metadata = json.loads((output / 'square_crops' / 'checker' / 'squares.json').read_text())
+    assert all('chess_square' not in item for item in metadata)

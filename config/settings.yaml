@@ -1,3 +1,36 @@
+classifier:
+  architecture: mobilenet_v3_small
+  input_size: 224
+  batch_size: 16
+  learning_rate: 0.001
+  epochs: 20
+  head_epochs: 5
+  fine_tune_learning_rate: 0.0001
+  early_stopping_patience: 5
+  early_stopping_min_delta: 0.0001
+  cpu_threads: 4
+  seed: 42
+  split_fractions: [0.70, 0.15, 0.15]
+  split_search_trials: 4000
+  imbalance_strategy: sqrt_inverse_frequency_loss
+  input_channels: 4
+  augmentation:
+    brightness: 0.10
+    contrast: 0.10
+    blur_probability: 0.15
+    noise_probability: 0.20
+    noise_std: 0.01
+  confidence_threshold: 0.70
+  dataset_paths:
+    train: data/classification/train
+    val: data/classification/val
+    test: data/classification/test
+    metadata: data/classification/crops.json
+  checkpoint_path: models/checkpoints/piece_classifier_best.pt
+orientation:
+  min_similarity: 0.60
+  min_matches: 8
+  min_score_gap: 0.12
 stockfish:
   executable: tools/stockfish/stockfish-linux-x86-64-universal
 board:

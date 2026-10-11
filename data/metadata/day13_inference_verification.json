@@ -1,0 +1,47 @@
+{
+  "prepared_board_checks": [
+    {
+      "image_id": "position_016_var_02.jpg",
+      "orientation_rotation": 0,
+      "prediction_count": 64,
+      "predictions_matching_day12": 64,
+      "maximum_probability_difference": 0.0,
+      "inference_seconds": 13.233724036021158
+    },
+    {
+      "image_id": "position_010_var_04.jpg",
+      "orientation_rotation": 1,
+      "prediction_count": 64,
+      "predictions_matching_day12": 64,
+      "maximum_probability_difference": 0.0,
+      "inference_seconds": 13.121779272914864
+    },
+    {
+      "image_id": "position_010_var_05.jpg",
+      "orientation_rotation": 2,
+      "prediction_count": 64,
+      "predictions_matching_day12": 64,
+      "maximum_probability_difference": 0.0,
+      "inference_seconds": 14.454358375049196
+    },
+    {
+      "image_id": "position_010_var_06.jpg",
+      "orientation_rotation": 3,
+      "prediction_count": 64,
+      "predictions_matching_day12": 64,
+      "maximum_probability_difference": 0.0,
+      "inference_seconds": 14.572282555978745
+    }
+  ],
+  "raw_photo_check": {
+    "image_id": "position_016_var_02.jpg",
+    "localization_source": "automatic",
+    "orientation_source": "border_markings",
+    "prediction_count": 64,
+    "rotation_quarters_ccw": 0,
+    "predictions_matching_prepared_board": 64
+  },
+  "checkpoint_modified": false,
+  "new_photograph_tested": false,
+  "relevant_tests_passed": 41
+}

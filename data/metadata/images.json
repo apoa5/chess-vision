@@ -50,8 +50,8 @@
     "camera_angle_degrees": 90,
     "environment": "office",
     "lighting": "overhead",
-    "orientation": "white_right",
-    "notes": "Board centered; White’s side on the right in the stored image (visually confirmed).",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; Black’s side nearest the camera in the current stored photo (office contact-sheet review).",
     "development_subset": true
   },
   "position_001_var_06.jpg": {
@@ -75,6 +75,39 @@
     "orientation": "black_near_camera",
     "notes": "Black’s side nearest the camera.",
     "development_subset": true
+  },
+  "position_001_var_08.jpg": {
+    "path": "data/raw/position_001_var_08.jpg",
+    "position_id": "position_001",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_001_var_09.jpg": {
+    "path": "data/raw/position_001_var_09.jpg",
+    "position_id": "position_001",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_001_var_10.jpg": {
+    "path": "data/raw/position_001_var_10.jpg",
+    "position_id": "position_001",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
   },
   "position_002_var_01.jpg": {
     "path": "data/raw/position_002_var_01.jpg",
@@ -118,6 +151,72 @@
     "lighting": "overhead",
     "orientation": "white_left",
     "notes": "White’s side on the left; Black’s side on the right.",
+    "development_subset": false
+  },
+  "position_002_var_05.jpg": {
+    "path": "data/raw/position_002_var_05.jpg",
+    "position_id": "position_002",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_002_var_06.jpg": {
+    "path": "data/raw/position_002_var_06.jpg",
+    "position_id": "position_002",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_002_var_07.jpg": {
+    "path": "data/raw/position_002_var_07.jpg",
+    "position_id": "position_002",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_002_var_08.jpg": {
+    "path": "data/raw/position_002_var_08.jpg",
+    "position_id": "position_002",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_002_var_09.jpg": {
+    "path": "data/raw/position_002_var_09.jpg",
+    "position_id": "position_002",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_002_var_10.jpg": {
+    "path": "data/raw/position_002_var_10.jpg",
+    "position_id": "position_002",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
     "development_subset": false
   },
   "position_003_var_01.jpg": {
@@ -164,6 +263,72 @@
     "notes": "White’s side on the left; Black’s side on the right.",
     "development_subset": false
   },
+  "position_003_var_05.jpg": {
+    "path": "data/raw/position_003_var_05.jpg",
+    "position_id": "position_003",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_003_var_06.jpg": {
+    "path": "data/raw/position_003_var_06.jpg",
+    "position_id": "position_003",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_003_var_07.jpg": {
+    "path": "data/raw/position_003_var_07.jpg",
+    "position_id": "position_003",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_003_var_08.jpg": {
+    "path": "data/raw/position_003_var_08.jpg",
+    "position_id": "position_003",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_003_var_09.jpg": {
+    "path": "data/raw/position_003_var_09.jpg",
+    "position_id": "position_003",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_003_var_10.jpg": {
+    "path": "data/raw/position_003_var_10.jpg",
+    "position_id": "position_003",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
   "position_004_var_01.jpg": {
     "path": "data/raw/position_004_var_01.jpg",
     "position_id": "position_004",
@@ -208,6 +373,72 @@
     "notes": "White’s side on the left; Black’s side on the right.",
     "development_subset": true
   },
+  "position_004_var_05.jpg": {
+    "path": "data/raw/position_004_var_05.jpg",
+    "position_id": "position_004",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_004_var_06.jpg": {
+    "path": "data/raw/position_004_var_06.jpg",
+    "position_id": "position_004",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_004_var_07.jpg": {
+    "path": "data/raw/position_004_var_07.jpg",
+    "position_id": "position_004",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_004_var_08.jpg": {
+    "path": "data/raw/position_004_var_08.jpg",
+    "position_id": "position_004",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_004_var_09.jpg": {
+    "path": "data/raw/position_004_var_09.jpg",
+    "position_id": "position_004",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_004_var_10.jpg": {
+    "path": "data/raw/position_004_var_10.jpg",
+    "position_id": "position_004",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
   "position_005_var_01.jpg": {
     "path": "data/raw/position_005_var_01.jpg",
     "position_id": "position_005",
@@ -250,6 +481,72 @@
     "lighting": "overhead",
     "orientation": "white_left",
     "notes": "White’s side on the left; Black’s side on the right.",
+    "development_subset": false
+  },
+  "position_005_var_05.jpg": {
+    "path": "data/raw/position_005_var_05.jpg",
+    "position_id": "position_005",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_005_var_06.jpg": {
+    "path": "data/raw/position_005_var_06.jpg",
+    "position_id": "position_005",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_005_var_07.jpg": {
+    "path": "data/raw/position_005_var_07.jpg",
+    "position_id": "position_005",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_005_var_08.jpg": {
+    "path": "data/raw/position_005_var_08.jpg",
+    "position_id": "position_005",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_005_var_09.jpg": {
+    "path": "data/raw/position_005_var_09.jpg",
+    "position_id": "position_005",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_005_var_10.jpg": {
+    "path": "data/raw/position_005_var_10.jpg",
+    "position_id": "position_005",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
     "development_subset": false
   },
   "position_006_var_01.jpg": {
@@ -296,6 +593,72 @@
     "notes": "White’s side on the left; Black’s side on the right.",
     "development_subset": false
   },
+  "position_006_var_05.jpg": {
+    "path": "data/raw/position_006_var_05.jpg",
+    "position_id": "position_006",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_006_var_06.jpg": {
+    "path": "data/raw/position_006_var_06.jpg",
+    "position_id": "position_006",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_006_var_07.jpg": {
+    "path": "data/raw/position_006_var_07.jpg",
+    "position_id": "position_006",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_006_var_08.jpg": {
+    "path": "data/raw/position_006_var_08.jpg",
+    "position_id": "position_006",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_006_var_09.jpg": {
+    "path": "data/raw/position_006_var_09.jpg",
+    "position_id": "position_006",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_006_var_10.jpg": {
+    "path": "data/raw/position_006_var_10.jpg",
+    "position_id": "position_006",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
   "position_007_var_01.jpg": {
     "path": "data/raw/position_007_var_01.jpg",
     "position_id": "position_007",
@@ -340,6 +703,72 @@
     "notes": "White’s side on the left; Black’s side on the right.",
     "development_subset": true
   },
+  "position_007_var_05.jpg": {
+    "path": "data/raw/position_007_var_05.jpg",
+    "position_id": "position_007",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_007_var_06.jpg": {
+    "path": "data/raw/position_007_var_06.jpg",
+    "position_id": "position_007",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_007_var_07.jpg": {
+    "path": "data/raw/position_007_var_07.jpg",
+    "position_id": "position_007",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_007_var_08.jpg": {
+    "path": "data/raw/position_007_var_08.jpg",
+    "position_id": "position_007",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_007_var_09.jpg": {
+    "path": "data/raw/position_007_var_09.jpg",
+    "position_id": "position_007",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_007_var_10.jpg": {
+    "path": "data/raw/position_007_var_10.jpg",
+    "position_id": "position_007",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
   "position_008_var_01.jpg": {
     "path": "data/raw/position_008_var_01.jpg",
     "position_id": "position_008",
@@ -382,6 +811,72 @@
     "lighting": "overhead",
     "orientation": "white_left",
     "notes": "White’s side on the left; Black’s side on the right.",
+    "development_subset": false
+  },
+  "position_008_var_05.jpg": {
+    "path": "data/raw/position_008_var_05.jpg",
+    "position_id": "position_008",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_008_var_06.jpg": {
+    "path": "data/raw/position_008_var_06.jpg",
+    "position_id": "position_008",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_008_var_07.jpg": {
+    "path": "data/raw/position_008_var_07.jpg",
+    "position_id": "position_008",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_008_var_08.jpg": {
+    "path": "data/raw/position_008_var_08.jpg",
+    "position_id": "position_008",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_008_var_09.jpg": {
+    "path": "data/raw/position_008_var_09.jpg",
+    "position_id": "position_008",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_008_var_10.jpg": {
+    "path": "data/raw/position_008_var_10.jpg",
+    "position_id": "position_008",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
     "development_subset": false
   },
   "position_009_var_01.jpg": {
@@ -428,6 +923,72 @@
     "notes": "White’s side on the left; Black’s side on the right.",
     "development_subset": false
   },
+  "position_009_var_05.jpg": {
+    "path": "data/raw/position_009_var_05.jpg",
+    "position_id": "position_009",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_009_var_06.jpg": {
+    "path": "data/raw/position_009_var_06.jpg",
+    "position_id": "position_009",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_009_var_07.jpg": {
+    "path": "data/raw/position_009_var_07.jpg",
+    "position_id": "position_009",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_009_var_08.jpg": {
+    "path": "data/raw/position_009_var_08.jpg",
+    "position_id": "position_009",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_009_var_09.jpg": {
+    "path": "data/raw/position_009_var_09.jpg",
+    "position_id": "position_009",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_009_var_10.jpg": {
+    "path": "data/raw/position_009_var_10.jpg",
+    "position_id": "position_009",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
   "position_010_var_01.jpg": {
     "path": "data/raw/position_010_var_01.jpg",
     "position_id": "position_010",
@@ -470,6 +1031,72 @@
     "lighting": "overhead",
     "orientation": "white_left",
     "notes": "White’s side on the left; Black’s side on the right.",
+    "development_subset": false
+  },
+  "position_010_var_05.jpg": {
+    "path": "data/raw/position_010_var_05.jpg",
+    "position_id": "position_010",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_010_var_06.jpg": {
+    "path": "data/raw/position_010_var_06.jpg",
+    "position_id": "position_010",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_010_var_07.jpg": {
+    "path": "data/raw/position_010_var_07.jpg",
+    "position_id": "position_010",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_010_var_08.jpg": {
+    "path": "data/raw/position_010_var_08.jpg",
+    "position_id": "position_010",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_010_var_09.jpg": {
+    "path": "data/raw/position_010_var_09.jpg",
+    "position_id": "position_010",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_010_var_10.jpg": {
+    "path": "data/raw/position_010_var_10.jpg",
+    "position_id": "position_010",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
     "development_subset": false
   },
   "position_011_var_01.jpg": {
@@ -516,6 +1143,72 @@
     "notes": "White’s side on the left; Black’s side on the right.",
     "development_subset": false
   },
+  "position_011_var_05.jpg": {
+    "path": "data/raw/position_011_var_05.jpg",
+    "position_id": "position_011",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_011_var_06.jpg": {
+    "path": "data/raw/position_011_var_06.jpg",
+    "position_id": "position_011",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_011_var_07.jpg": {
+    "path": "data/raw/position_011_var_07.jpg",
+    "position_id": "position_011",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_011_var_08.jpg": {
+    "path": "data/raw/position_011_var_08.jpg",
+    "position_id": "position_011",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_011_var_09.jpg": {
+    "path": "data/raw/position_011_var_09.jpg",
+    "position_id": "position_011",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_011_var_10.jpg": {
+    "path": "data/raw/position_011_var_10.jpg",
+    "position_id": "position_011",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
   "position_012_var_01.jpg": {
     "path": "data/raw/position_012_var_01.jpg",
     "position_id": "position_012",
@@ -560,6 +1253,72 @@
     "notes": "White’s side on the left; Black’s side on the right.",
     "development_subset": true
   },
+  "position_012_var_05.jpg": {
+    "path": "data/raw/position_012_var_05.jpg",
+    "position_id": "position_012",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_012_var_06.jpg": {
+    "path": "data/raw/position_012_var_06.jpg",
+    "position_id": "position_012",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_012_var_07.jpg": {
+    "path": "data/raw/position_012_var_07.jpg",
+    "position_id": "position_012",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_012_var_08.jpg": {
+    "path": "data/raw/position_012_var_08.jpg",
+    "position_id": "position_012",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_012_var_09.jpg": {
+    "path": "data/raw/position_012_var_09.jpg",
+    "position_id": "position_012",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_012_var_10.jpg": {
+    "path": "data/raw/position_012_var_10.jpg",
+    "position_id": "position_012",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
   "position_013_var_01.jpg": {
     "path": "data/raw/position_013_var_01.jpg",
     "position_id": "position_013",
@@ -602,6 +1361,72 @@
     "lighting": "overhead",
     "orientation": "white_left",
     "notes": "White’s side on the left; Black’s side on the right.",
+    "development_subset": false
+  },
+  "position_013_var_05.jpg": {
+    "path": "data/raw/position_013_var_05.jpg",
+    "position_id": "position_013",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_013_var_06.jpg": {
+    "path": "data/raw/position_013_var_06.jpg",
+    "position_id": "position_013",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_013_var_07.jpg": {
+    "path": "data/raw/position_013_var_07.jpg",
+    "position_id": "position_013",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_013_var_08.jpg": {
+    "path": "data/raw/position_013_var_08.jpg",
+    "position_id": "position_013",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_013_var_09.jpg": {
+    "path": "data/raw/position_013_var_09.jpg",
+    "position_id": "position_013",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_013_var_10.jpg": {
+    "path": "data/raw/position_013_var_10.jpg",
+    "position_id": "position_013",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
     "development_subset": false
   },
   "position_014_var_01.jpg": {
@@ -648,6 +1473,72 @@
     "notes": "White’s side on the left; Black’s side on the right.",
     "development_subset": false
   },
+  "position_014_var_05.jpg": {
+    "path": "data/raw/position_014_var_05.jpg",
+    "position_id": "position_014",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_014_var_06.jpg": {
+    "path": "data/raw/position_014_var_06.jpg",
+    "position_id": "position_014",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_014_var_07.jpg": {
+    "path": "data/raw/position_014_var_07.jpg",
+    "position_id": "position_014",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_014_var_08.jpg": {
+    "path": "data/raw/position_014_var_08.jpg",
+    "position_id": "position_014",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_014_var_09.jpg": {
+    "path": "data/raw/position_014_var_09.jpg",
+    "position_id": "position_014",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_014_var_10.jpg": {
+    "path": "data/raw/position_014_var_10.jpg",
+    "position_id": "position_014",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
   "position_015_var_01.jpg": {
     "path": "data/raw/position_015_var_01.jpg",
     "position_id": "position_015",
@@ -692,6 +1583,72 @@
     "notes": "White’s side on the left; Black’s side on the right.",
     "development_subset": true
   },
+  "position_015_var_05.jpg": {
+    "path": "data/raw/position_015_var_05.jpg",
+    "position_id": "position_015",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_015_var_06.jpg": {
+    "path": "data/raw/position_015_var_06.jpg",
+    "position_id": "position_015",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_015_var_07.jpg": {
+    "path": "data/raw/position_015_var_07.jpg",
+    "position_id": "position_015",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_015_var_08.jpg": {
+    "path": "data/raw/position_015_var_08.jpg",
+    "position_id": "position_015",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_015_var_09.jpg": {
+    "path": "data/raw/position_015_var_09.jpg",
+    "position_id": "position_015",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_015_var_10.jpg": {
+    "path": "data/raw/position_015_var_10.jpg",
+    "position_id": "position_015",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
   "position_016_var_01.jpg": {
     "path": "data/raw/position_016_var_01.jpg",
     "position_id": "position_016",
@@ -734,6 +1691,72 @@
     "lighting": "overhead",
     "orientation": "white_left",
     "notes": "White’s side on the left; Black’s side on the right.",
+    "development_subset": false
+  },
+  "position_016_var_05.jpg": {
+    "path": "data/raw/position_016_var_05.jpg",
+    "position_id": "position_016",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_016_var_06.jpg": {
+    "path": "data/raw/position_016_var_06.jpg",
+    "position_id": "position_016",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_016_var_07.jpg": {
+    "path": "data/raw/position_016_var_07.jpg",
+    "position_id": "position_016",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_016_var_08.jpg": {
+    "path": "data/raw/position_016_var_08.jpg",
+    "position_id": "position_016",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_016_var_09.jpg": {
+    "path": "data/raw/position_016_var_09.jpg",
+    "position_id": "position_016",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_016_var_10.jpg": {
+    "path": "data/raw/position_016_var_10.jpg",
+    "position_id": "position_016",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
     "development_subset": false
   },
   "position_017_var_01.jpg": {
@@ -780,6 +1803,72 @@
     "notes": "White’s side on the left; Black’s side on the right.",
     "development_subset": false
   },
+  "position_017_var_05.jpg": {
+    "path": "data/raw/position_017_var_05.jpg",
+    "position_id": "position_017",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_017_var_06.jpg": {
+    "path": "data/raw/position_017_var_06.jpg",
+    "position_id": "position_017",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_017_var_07.jpg": {
+    "path": "data/raw/position_017_var_07.jpg",
+    "position_id": "position_017",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_017_var_08.jpg": {
+    "path": "data/raw/position_017_var_08.jpg",
+    "position_id": "position_017",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_017_var_09.jpg": {
+    "path": "data/raw/position_017_var_09.jpg",
+    "position_id": "position_017",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_017_var_10.jpg": {
+    "path": "data/raw/position_017_var_10.jpg",
+    "position_id": "position_017",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
   "position_018_var_01.jpg": {
     "path": "data/raw/position_018_var_01.jpg",
     "position_id": "position_018",
@@ -823,5 +1912,71 @@
     "orientation": "white_left",
     "notes": "White’s side on the left; Black’s side on the right.",
     "development_subset": true
+  },
+  "position_018_var_05.jpg": {
+    "path": "data/raw/position_018_var_05.jpg",
+    "position_id": "position_018",
+    "variation_id": "var_05",
+    "camera_angle_degrees": 90,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_018_var_06.jpg": {
+    "path": "data/raw/position_018_var_06.jpg",
+    "position_id": "position_018",
+    "variation_id": "var_06",
+    "camera_angle_degrees": 75,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "white_right",
+    "notes": "White’s side on the right; Black’s side on the left. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_018_var_07.jpg": {
+    "path": "data/raw/position_018_var_07.jpg",
+    "position_id": "position_018",
+    "variation_id": "var_07",
+    "camera_angle_degrees": 60,
+    "environment": "office",
+    "lighting": "overhead",
+    "orientation": "black_near_camera",
+    "notes": "Black’s side nearest the camera. Office contact-sheet review: full playing area appears visible; orientation confirmed from board markings. Angle and lighting follow the capture plan.",
+    "development_subset": false
+  },
+  "position_018_var_08.jpg": {
+    "path": "data/raw/position_018_var_08.jpg",
+    "position_id": "position_018",
+    "variation_id": "var_08",
+    "camera_angle_degrees": 90,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Board centered; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_018_var_09.jpg": {
+    "path": "data/raw/position_018_var_09.jpg",
+    "position_id": "position_018",
+    "variation_id": "var_09",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "White’s side nearest the camera; board rotated slightly, about 15 degrees. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
+  },
+  "position_018_var_10.jpg": {
+    "path": "data/raw/position_018_var_10.jpg",
+    "position_id": "position_018",
+    "variation_id": "var_10",
+    "camera_angle_degrees": 75,
+    "environment": "outdoors",
+    "lighting": "even_natural",
+    "orientation": "white_near_camera",
+    "notes": "Farther camera distance to include more background; orientation not specified in the capture plan. Outdoor contact-sheet review: White’s side toward the bottom; full playing area appears visible. Capture angle and lighting follow the supplied variation plan.",
+    "development_subset": false
   }
 }

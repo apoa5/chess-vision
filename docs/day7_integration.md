@@ -1,5 +1,11 @@
 # Day 7: square extraction and Week 1 integration
 
+This document records the original Week 1 stage. The pipeline now additionally
+resolves orientation from printed border coordinates before saving boards and
+crops; see [board_orientation.md](board_orientation.md). Historical metrics
+remain snapshots, and rotated outputs require fresh warp review.
+
+
 The full automatic pipeline is now photo → ordered playing-area corners →
 800×800 board → indexed grid preview → 64 crops. No corner editing is required.
 

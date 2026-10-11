@@ -36,3 +36,23 @@ def test_invalid_context_settings(tmp_path, key, value):
     path.write_text(text.replace(f"{key}: {old}", f"{key}: {value}"))
     with pytest.raises(ValueError):
         load_config(path)
+
+
+def test_classifier_config_paths_and_defaults():
+    classifier = load_config()['classifier']
+    assert classifier['architecture'] == 'mobilenet_v3_small'
+    assert classifier['input_size'] == 224
+    assert classifier['dataset_paths']['train'] == PROJECT_ROOT/'data/classification/train'
+    assert classifier['checkpoint_path'].is_absolute()
+
+
+@pytest.mark.parametrize('replacement', ['batch_size: 0', 'learning_rate: .nan', 'epochs: true'])
+def test_invalid_classifier_config(tmp_path, replacement):
+    key = replacement.split(':')[0]
+    import yaml
+    data = yaml.safe_load(DEFAULT_CONFIG.read_text())
+    data['classifier'][key] = yaml.safe_load(replacement)[key]
+    path = tmp_path/'config.yaml'
+    path.write_text(yaml.safe_dump(data))
+    with pytest.raises(ValueError, match=key):
+        load_config(path)
