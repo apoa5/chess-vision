@@ -18,8 +18,8 @@ def semantic_mapping(turns):
 def bootstrap_image(image,config,semantic_corners=None):
     assisted=semantic_corners is not None
     learned=None;learned_config=config.get('learned_markings',{});learned_enabled=learned_config.get('enabled',False)
-    observations=None
-    result={'schema_version':'guided_bootstrap_v1','status':'uncertain','review_required':True,'mode':'assisted' if assisted else 'automatic','geometry':None,'square_polygons':None,'recognition_connected':False}
+    observations=None;raw_all=None;fast_seed=None;fast_attempt=None
+    result={'implementation_version':'board_reader_multi_seed_v5','schema_version':'guided_bootstrap_v1','status':'uncertain','review_required':True,'mode':'assisted' if assisted else 'automatic','geometry':None,'square_polygons':None,'recognition_connected':False}
     if assisted:
         semantic=np.asarray(semantic_corners,np.float32)
         # Validate winding, bounds and semantic identity before any sorting.
@@ -29,17 +29,79 @@ def bootstrap_image(image,config,semantic_corners=None):
         anchor=int(np.argmin(np.linalg.norm(seed-semantic[0],axis=1)))
         turns={3:0,0:1,1:2,2:3}[anchor]
     else:
-        detection=detect_board_corners(image,DetectionSettings(**config.get('board_detection',{})))
-        result['detection']={'success':detection.success,'reason':detection.reason,'score':detection.score,'corners':None if detection.corners is None else detection.corners.tolist()}
-        seed=detection.corners;turns=None
-        if learned_enabled:
+        # A marked wooden board can be registered directly from independently
+        # recognized letters/numbers. Keep the expensive checker detector as a
+        # fallback, never accept a color outline by itself.
+        if learned_enabled and config.get('scan_fast_acquisition',False):
+            from src.scanning.marking_model import read_components
+            from src.scanning.learned_markings import fast_marking_geometry
             try:
-                from src.scanning.marking_model import read_components
-                from src.scanning.learned_markings import fit_marking_geometry,coarse_board_seed
-                observations=read_components(image,threshold=learned_config.get('min_character_confidence',.80))
+                raw_all=read_components(image,threshold=learned_config.get('min_character_confidence',.80),retain_poses=True)
+                fast_attempt=fast_marking_geometry(image,raw_all,learned_config.get('min_character_confidence',.80))
+                if fast_attempt.get('reason')=='competing_alternative_seed_geometries':
+                    return result|{'reason':fast_attempt['reason'],'learned_marking_evidence':fast_attempt}
+                if fast_attempt['status']=='candidate':
+                    learned=fast_attempt;fast_seed=order_corners(np.asarray(learned['corners'],np.float32))
+            except (ImportError,OSError,ValueError,RuntimeError):
+                pass  # The established detector/reader path still reports failures.
+        if fast_seed is not None:
+            seed=fast_seed;turns=None
+            result['detection']={'success':True,'reason':None,'score':None,'corners':seed.tolist(),'source':'verified_marking_outlines'}
+            result['marking_attempts']=[{'path':learned.get('acquisition_path','fast_marking_outlines'),'status':'candidate','reason':None}]
+            result['learned_marking_evidence']=learned
+        else:
+            detection=detect_board_corners(image,DetectionSettings(**config.get('board_detection',{})))
+            result['detection']={'success':detection.success,'reason':detection.reason,'score':detection.score,'corners':None if detection.corners is None else detection.corners.tolist()}
+            seed=None if detection.corners is None else order_corners(detection.corners);turns=None
+        if learned_enabled and fast_seed is None:
+            try:
+                from src.scanning.marking_model import read_components,read_plane_components
+                from src.scanning.learned_markings import fit_marking_geometry,coarse_board_seed,coarse_board_seeds,fit_alternative_seeds
+                threshold=learned_config.get('min_character_confidence',.80)
                 if seed is None:seed=coarse_board_seed(image)
-                if seed is not None:learned=fit_marking_geometry(observations,seed,image.shape)
-                else:learned={'status':'uncertain','reason':'no_geometry_seed','observations':observations}
+                if seed is None:
+                    available=coarse_board_seeds(image)
+                    seed=available[0] if available else None
+                if seed is not None:
+                    seed=order_corners(seed)
+                    # Preserve the pre-update reader path before making any assumptions
+                    # about how this board's characters face on individual edges.
+                    if raw_all is None:raw_all=read_components(image,threshold=threshold,retain_poses=True)
+                    best={}
+                    for index,obs in enumerate(raw_all):
+                        key=(obs.get('proposal_id',index),obs['label'])
+                        if key not in best or best[key]['confidence']<obs['confidence']:best[key]=obs
+                    observations=list(best.values())
+                    learned=fit_marking_geometry(observations,seed,image.shape)
+                    result['marking_attempts']=[{'path':'original_raw','status':learned['status'],'reason':learned.get('reason')}]
+                    if learned['status']!='candidate':
+                        alternatives=coarse_board_seeds(image)
+                        learned=fit_alternative_seeds(raw_all,alternatives,image.shape)
+                        result['marking_attempts'].append({'path':'alternative_outlines','status':learned['status'],'reason':learned.get('reason'),'seed_count':len(alternatives)})
+                        if learned.get('reason')=='competing_alternative_seed_geometries':
+                            return result|{'reason':learned['reason'],'learned_marking_evidence':learned}
+                    if learned['status']!='candidate':
+                        # Rectify the board alternatives too, not just a failed table outline.
+                        plane_seeds=[]
+                        for proposed in [*alternatives[:2],seed]:
+                            if not any(np.max(np.linalg.norm(proposed-other,axis=1))<10 for other in plane_seeds):plane_seeds.append(proposed)
+                        for proposed in plane_seeds:
+                            plane=read_plane_components(image,proposed,threshold=threshold)
+                            learned=fit_marking_geometry(plane,proposed,image.shape,max_seed_distance=7.)
+                            observations=plane
+                            result['marking_attempts'].append({'path':'rectified_plane','status':learned['status'],'reason':learned.get('reason')})
+                            if learned['status']!='candidate':
+                                edge=proposed[1]-proposed[0]
+                                angle=float(np.degrees(np.arctan2(edge[1],edge[0])))
+                                quarter=round(angle/90)
+                                raw=raw_all
+                                if abs(angle-90*quarter)<=22:
+                                    raw=[o|{'glyph_seed_turns':(o['glyph_turns']-quarter)%4} if 'glyph_turns' in o else o for o in raw_all]
+                                observations=plane+raw
+                                learned=fit_marking_geometry(observations,proposed,image.shape,max_seed_distance=7.)
+                                result['marking_attempts'].append({'path':'combined_pose','status':learned['status'],'reason':learned.get('reason')})
+                            if learned['status']=='candidate':break
+                else:learned={'status':'uncertain','reason':'no_geometry_seed','observations':[]}
                 result['learned_marking_evidence']=learned
             except (ImportError,OSError,ValueError,RuntimeError) as error:
                 result['learned_marking_evidence']={'status':'unavailable','reason':str(error)}
@@ -67,7 +129,8 @@ def bootstrap_image(image,config,semantic_corners=None):
                 if dx==dy==0:continue
                 proposed=cv2.perspectiveTransform((canvas_seed+np.float32([dx*step,dy*step]))[:,None,:],inverse).reshape(4,2)
                 if np.any(proposed<0) or np.any(proposed[:,0]>=image.shape[1]) or np.any(proposed[:,1]>=image.shape[0]):continue
-                candidate=rectify_with_config(image,order_corners(proposed),config)
+                proposed=order_corners(proposed)
+                candidate=rectify_with_config(image,proposed,config)
                 evidence=resolve_orientation(candidate,OrientationSettings(**config.get('orientation',{})))
                 if evidence.rotation_quarters_ccw is not None:hypotheses.append((evidence.score,proposed,candidate,evidence,dx,dy))
         hypotheses.sort(key=lambda h:h[0],reverse=True)

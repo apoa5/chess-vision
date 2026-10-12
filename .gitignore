@@ -24,3 +24,8 @@ web/node_modules/
 web/dist/
 web/.certs/
 outputs/scanning/
+
+# Local phone alignment diagnostics
+alignment-diagnostic*.zip
+
+recognition-observation*.zip

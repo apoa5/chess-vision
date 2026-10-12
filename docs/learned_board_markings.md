@@ -120,3 +120,29 @@ Optional pretrained OCR reproduction:
 
 Restart the server after retraining, as the reader is cached in memory. Model and
 source hashes are retained in reports so comparisons can identify the weights used.
+
+
+## Subsequent orientation correction
+
+The earlier measurements above describe the initial reader pipeline. The current
+reader first removes board perspective for border proposals, retains character
+rotation hypotheses and checks the printed-edge pose. Image-wide proposals remain
+a fallback. Registration can now correct a larger coarse-outline error while
+keeping its geometric and distinct-label acceptance checks. The character weights
+have not changed.
+
+Six current development photos covering all four sides now pass, including the
+earlier uncertain White-right example `position_003_var_06` and Black-side
+`position_007_var_05`. Ten synthetic rotations of a real photo, including all four
+diagonal views, also pass. These selected engineering checks do not replace the
+historical 11-frame evaluation or establish general board-recognition accuracy.
+See [tracking and orientation verification](guided_scan_tracking.md) for the
+implementation, limits and repeatable check.
+
+
+The actual uploaded phone diagnostic exposed a separate localization failure: the
+wood-color fallback outlined the table. Revision `board_reader_multi_seed_v5`
+verifies several color-outline proposals using recognized labels, tries perspective
+sampling on board alternatives, and makes component aspect filters quarter-turn
+symmetric. The exact Black-side diagnostic and all ten tested image rotations now
+produce valid candidates. Details and limits are in the tracking verification doc.

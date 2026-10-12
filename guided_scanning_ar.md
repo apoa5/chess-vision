@@ -571,6 +571,18 @@ experiment is chosen. No mandatory permanent modification to the board.
 
 **Goal:** keep square overlays attached as the camera moves.
 
+**Prototype implemented:** [perspective-aware browser tracking](docs/guided_scan_tracking.md)
+compares flat-border features in fixed board coordinates, refreshes reference views
+and features, preserves refined square identities, and suppresses stale geometry.
+Motion prediction and convex-hull coverage improve diagonal transitions.
+Perspective-corrected marking reads and corrected seed ordering handle diagonal
+and reversed Black-side markings. Selected-frame marking checks verify orientation; automatic recovery requires
+consistent semantic markings and valid square geometry before restarting tracking.
+A 120-frame synthetic 360°/perspective sequence passed with maximum corner error
+2.62 pixels in a 512 × 512 image. Four controlled steps on a phone photo also passed.
+Actual full-circle iPhone acceptance, long-session performance and a WASM backend
+remain pending; these synthetic tests do not establish reliable physical 360° tracking.
+
 - [ ] Track border/grid-plane features in a WASM worker; avoid piece tops and hands.
 - [ ] Fit robust homographies with forward/backward tracking checks, spatially distributed
   inliers and projection residual tests. Do not rely on inlier count alone.
@@ -590,6 +602,17 @@ board location after tracking loss; a1 remains a1 throughout a walk around the b
 ### Step 06 — Connect selected-frame recognition
 
 **Goal:** reuse the existing model without blocking the live view.
+
+**Provider implemented:** [selected-frame recognition](docs/guided_scan_recognition.md)
+reuses the existing threaded HTTPS server and a shared bounded inference lock rather
+than adding FastAPI/another port. Session/keyframe endpoints return all 13 logits and
+probabilities, canonical IDs, coverage diagnostics and baseline hashes. The client
+sends exact tracked frames, rejects stale results and displays a single-frame digital
+preview. Four-orientation crop parity and real-checkpoint probability parity pass.
+Warm laptop latency was about 0.65 s on the diagnostic photo; JPEG95 re-encoding
+changed no argmaxes there, but scores changed. On-phone responsiveness, shared-load
+benchmarks and a true lossless compression comparison remain pending. No completion
+or fusion is enabled.
 
 - [ ] Add a small FastAPI service loading one classifier per bounded inference worker.
 - [ ] Create session/keyframe endpoints and model/preprocessing version metadata.

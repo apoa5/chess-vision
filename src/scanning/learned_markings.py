@@ -43,9 +43,19 @@ def marker_positions(label,offset=2.):
     raise ValueError('Unknown marking')
 
 
-def fit_marking_geometry(observations,seed,image_shape):
+def fit_marking_geometry(observations,seed,image_shape,*,max_seed_distance=3.5):
     """Fit recognized labels, checking both axes; no slot-derived character labels."""
     candidates=[];height,width=image_shape[:2]
+    rows=[]
+    for obs in sorted(observations,key=lambda x:x['confidence'],reverse=True):
+        label=obs.get('label')
+        if not isinstance(label,str) or len(label)!=1 or label not in ALPHABET:continue
+        center=np.asarray(obs['center'],np.float32)
+        if center.shape!=(2,) or not np.isfinite(center).all():continue
+        rows.append((label,center,marker_positions(label),obs.get('glyph_seed_turns',obs.get('glyph_turns') if obs.get('sampling')=='rectified_board_plane' else None)))
+    if not rows:return {'status':'uncertain','reason':'insufficient_spatially_consistent_ocr','observations':observations}
+    centers=np.asarray([row[1] for row in rows],np.float32)
+    slots=np.asarray([row[2] for row in rows],np.float64)
     seed=np.asarray(seed,np.float32)
     camera=cv2.getPerspectiveTransform(np.float32([[0,0],[32,0],[32,32],[0,32]]),seed)
     indices=[[3,2,1,0],[0,3,2,1],[1,0,3,2],[2,1,0,3]]
@@ -55,15 +65,17 @@ def fit_marking_geometry(observations,seed,image_shape):
             for turns,order in enumerate(indices):
                 initial=cv2.getPerspectiveTransform(np.float32([[0,0],[32,0],[32,32],[0,32]]),shifted[order])
                 inverse=np.linalg.inv(initial);source=[];target=[];labels=[];used=set()
-                for obs in sorted(observations,key=lambda x:x['confidence'],reverse=True):
-                    label=obs.get('label')
-                    if not isinstance(label,str) or len(label)!=1 or label not in ALPHABET:continue
-                    center=np.asarray(obs['center'],np.float32)
-                    if center.shape!=(2,) or not np.isfinite(center).all():continue
-                    point=cv2.perspectiveTransform(center.reshape(1,1,2),inverse).reshape(2)
-                    slots=marker_positions(label);distance=[np.linalg.norm(point-p) for p in slots];which=int(np.argmin(distance));key=(label,which)
-                    if distance[which]>3.5 or key in used:continue
-                    used.add(key);source.append(slots[which]);target.append(center);labels.append(label)
+                # Transform all proposals together, retaining the same confidence
+                # order, pose checks and unique (label, edge) assignment as before.
+                points=cv2.perspectiveTransform(centers[:,None,:],inverse).reshape(-1,2)
+                distances=np.linalg.norm(points[:,None,:].astype(np.float64)-slots,axis=2)
+                closest=np.argmin(distances,axis=1)
+                nearby=np.flatnonzero(distances[np.arange(len(rows)),closest]<=max_seed_distance)
+                for index in nearby:
+                    label,center,positions,pose=rows[index];which=int(closest[index]);key=(label,which)
+                    if pose is not None and pose!=(turns+2*which)%4:continue
+                    if key in used:continue
+                    used.add(key);source.append(positions[which]);target.append(center);labels.append(label)
                 if len(source)<8:continue
                 model,mask=cv2.findHomography(np.float32(source),np.float32(target),cv2.RANSAC,6.)
                 if model is None:continue
@@ -116,3 +128,87 @@ def coarse_board_seed(image):
         transform=cv2.getPerspectiveTransform(np.float32([[0,0],[39,0],[39,39],[0,39]]),outer)
         return cv2.perspectiveTransform(np.float32([[3.5,3.5],[35.5,3.5],[35.5,35.5],[3.5,35.5]])[:,None,:],transform).reshape(4,2)
     return None
+
+
+def coarse_board_seeds(image,limit=6):
+    """Bounded alternative wood outlines; labels, never color, establish identity.
+
+    A single low-saturation mask can merge a wooden board with its wooden table.
+    Use several contrasts and contour candidates rather than trusting the largest.
+    """
+    from src.vision.perspective import order_corners
+    scale=min(1.,960/max(image.shape[:2]));small=cv2.resize(image,None,fx=scale,fy=scale)
+    hsv=cv2.cvtColor(small,cv2.COLOR_BGR2HSV);seeds=[]
+    for saturation in (80,120,60,45):
+        mask=cv2.inRange(hsv,np.array([0,saturation,20],np.uint8),np.array([40,255,255],np.uint8))
+        mask=cv2.morphologyEx(mask,cv2.MORPH_CLOSE,np.ones((11,11),np.uint8))
+        contours,_=cv2.findContours(mask,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
+        for contour in sorted(contours,key=cv2.contourArea,reverse=True)[:3]:
+            if cv2.contourArea(contour)<small.shape[0]*small.shape[1]*.05:continue
+            hull=cv2.convexHull(contour)
+            for epsilon in (.025,.04,.06):
+                quad=cv2.approxPolyDP(hull,epsilon*cv2.arcLength(hull,True),True)
+                if len(quad)!=4:continue
+                outer=order_corners(quad.reshape(4,2)/scale)
+                transform=cv2.getPerspectiveTransform(np.float32([[0,0],[39,0],[39,39],[0,39]]),outer)
+                seed=order_corners(cv2.perspectiveTransform(np.float32([[3.5,3.5],[35.5,3.5],[35.5,35.5],[3.5,35.5]])[:,None,:],transform).reshape(4,2))
+                if not any(np.max(np.linalg.norm(seed-other,axis=1))<10 for other in seeds):seeds.append(seed)
+                break
+            if len(seeds)>=limit:return seeds
+    return seeds
+
+
+def fit_alternative_seeds(observations,seeds,image_shape):
+    """Compare independent outline hypotheses using the same recognized glyphs."""
+    candidates=[]
+    for index,seed in enumerate(seeds):
+        edge=seed[1]-seed[0]
+        angle=float(np.degrees(np.arctan2(edge[1],edge[0])))
+        quarter=round(angle/90)
+        rows=observations
+        if abs(angle-90*quarter)<=22:
+            rows=[o|{'glyph_seed_turns':(o['glyph_turns']-quarter)%4} if 'glyph_turns' in o else o for o in observations]
+        result=fit_marking_geometry(rows,seed,image_shape)
+        if result['status']!='candidate':continue
+        corners=np.asarray(result['corners']);entry=result|{'geometry_seed_index':index}
+        match=next((i for i,c in enumerate(candidates) if np.max(np.linalg.norm(corners-np.asarray(c['corners']),axis=1))<8),None)
+        if match is None:candidates.append(entry)
+        elif result['inliers']>candidates[match]['inliers']:candidates[match]=entry
+    candidates.sort(key=lambda c:(-c['inliers'],c['median_residual_px']))
+    if not candidates:return {'status':'uncertain','reason':'no_alternative_seed_verified'}
+    if len(candidates)>1 and candidates[0]['inliers']-candidates[1]['inliers']<3:
+        return {'status':'uncertain','reason':'competing_alternative_seed_geometries','candidates':candidates}
+    return candidates[0]
+
+
+def select_marking_candidate(candidates):
+    """Merge equivalent fits, then retain the existing competing-board guard."""
+    unique=[]
+    for entry in candidates:
+        corners=np.asarray(entry['corners'])
+        match=next((i for i,c in enumerate(unique) if np.max(np.linalg.norm(corners-np.asarray(c['corners']),axis=1))<8),None)
+        if match is None:unique.append(entry)
+        elif entry['inliers']>unique[match]['inliers']:unique[match]=entry
+    unique.sort(key=lambda c:(-c['inliers'],c['median_residual_px']))
+    if not unique:return {'status':'uncertain','reason':'no_alternative_seed_verified'}
+    if len(unique)>1 and unique[0]['inliers']-unique[1]['inliers']<3:
+        return {'status':'uncertain','reason':'competing_alternative_seed_geometries','candidates':unique}
+    return {'status':'candidate',**unique[0]}
+
+
+def fast_marking_geometry(image,observations,threshold=.8):
+    """Try raw recognized glyphs, then bounded board-plane glyph sampling."""
+    from src.scanning.marking_model import read_plane_components
+    seeds=coarse_board_seeds(image)
+    raw=fit_alternative_seeds(observations,seeds,image.shape)
+    if raw['status']=='candidate':return raw|{'acquisition_path':'fast_marking_outlines'}
+    candidates=list(raw.get('candidates',[]))
+    # Perspective/diagonal views can make raw glyph poses ambiguous. Read all
+    # bounded outlines in their board planes, comparing competing fits rather
+    # than accepting the first color contour or assuming any character's slot.
+    for index,seed in enumerate(seeds):
+        plane=read_plane_components(image,seed,threshold)
+        result=fit_marking_geometry(plane,seed,image.shape,max_seed_distance=7.)
+        fits=[result] if result['status']=='candidate' else result.get('candidates',[])
+        candidates.extend(fit|{'geometry_seed_index':index,'acquisition_path':'fast_marking_planes'} for fit in fits)
+    return select_marking_candidate(candidates)

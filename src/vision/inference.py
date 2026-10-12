@@ -31,19 +31,23 @@ class PieceClassifier:
         self.model.eval()
 
     def predict(self, crops):
-        """Crops are dictionaries with image, target_polygon, row, col."""
+        return self.predict_with_logits(crops)[0]
+
+    def predict_with_logits(self, crops):
+        """Same baseline forward pass, retaining logits for later calibration."""
         if not crops:
             raise ValueError('At least one crop is required.')
         tensors = [torch.from_numpy(preprocess_context_crop(c['image'], c['target_polygon'], self.input_size)) for c in crops]
-        predictions = []
+        predictions = []; all_logits = []
         with torch.inference_mode():
             for start in range(0, len(crops), self.batch_size):
                 logits = self.model(torch.stack(tensors[start:start+self.batch_size]))
                 if logits.shape != (len(tensors[start:start+self.batch_size]), 13) or not torch.isfinite(logits).all():
                     raise ValueError('Model returned invalid logits.')
+                all_logits.extend(logits.tolist())
                 for crop, probabilities in zip(crops[start:start+self.batch_size], logits.softmax(dim=1).tolist()):
                     predictions.append(SquarePrediction.from_probabilities(crop['row'], crop['col'], probabilities))
-        return predictions
+        return predictions, all_logits
 
 
 def reconstruct_board(predictions, rotation_quarters_ccw):

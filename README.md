@@ -340,11 +340,13 @@ implementation has not started.
 ### Guided scan prototype
 
 The first browser camera and manual square-alignment prototype is available in
-`web/`. See [setup and iPhone testing](docs/guided_scan_prototype.md). Live tracking
-and classifier integration are planned next; the shell does not recognize pieces yet.
+`web/`. See [setup and iPhone testing](docs/guided_scan_prototype.md). A local tracker can follow a reviewed alignment as you move slowly.
+The [selected-frame recognition provider](docs/guided_scan_recognition.md) can now
+classify tracked frames and show a digital preview; fusion and completion remain pending.
 
 The phone prototype can now [capture and export scan sessions](docs/guided_scan_capture.md)
-for deterministic local replay. Recording does not yet run recognition or tracking.
+for deterministic local replay. Continuous recordings do not yet include recognition or tracking geometry.
+See [live tracking and phone testing](docs/guided_scan_tracking.md) for the next prototype step.
 
 [Still-frame board proposals and corner refinement](docs/guided_scan_bootstrap.md)
 are available on the phone. Automatic candidates require review; uncertain

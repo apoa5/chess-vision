@@ -2,8 +2,8 @@ import React,{useEffect,useRef,useState} from 'react';
 import {homography,Point} from './geometry';
 import {CapturedFrame,CaptureEvent,SESSION_VERSION,MAX_FRAMES,MAX_BYTES,imageBytes,sha256,sessionZip} from './recording';
 
-type Props={video:React.RefObject<HTMLVideoElement|null>;canvas:React.RefObject<HTMLCanvasElement|null>;phase:string;corners:Point[];source:'camera'|'demo';frozenAt:number;refinedPolygons:Record<string,Point[]>|null};
-export function Recorder({video,canvas,phase,corners,source,frozenAt,refinedPolygons}:Props){
+type Props={video:React.RefObject<HTMLVideoElement|null>;canvas:React.RefObject<HTMLCanvasElement|null>;phase:string;corners:Point[];source:'camera'|'demo';frozenAt:number;refinedPolygons:Record<string,Point[]>|null;onBoardChange:()=>void};
+export function Recorder({video,canvas,phase,corners,source,frozenAt,refinedPolygons,onBoardChange}:Props){
  const [position,setPosition]=useState(''),[fen,setFen]=useState(''),[lighting,setLighting]=useState(''),[view,setView]=useState('overhead'),[count,setCount]=useState(0),[running,setRunning]=useState(false),[exists,setExists]=useState(false),[status,setStatus]=useState('No scan recorded yet.');
  const session=useRef<{id:string;created:string;start:number;metadata:object;frames:CapturedFrame[];files:{name:string;data:Uint8Array}[];events:CaptureEvent[];epoch:number;bytes:number}|null>(null);
  const active=useRef(false),busy=useRef(false),version=useRef(0),viewRef=useRef(view),sourceRef=useRef(source);viewRef.current=view;sourceRef.current=source;
@@ -51,7 +51,7 @@ export function Recorder({video,canvas,phase,corners,source,frozenAt,refinedPoly
  <button disabled={exists} onClick={create}>Create session</button>
  <label>Current view <select value={view} onChange={e=>{setView(e.target.value);event(`view:${e.target.value}`);}}>{['overhead','white-side','black-side','left-side','right-side','other'].map(v=><option key={v}>{v}</option>)}</select></label>
  <div className="buttons"><button disabled={!exists||running||phase!=='live'} onClick={resume}>Record scan</button><button disabled={!running} onClick={()=>pause()}>Pause recording</button><button disabled={!exists||phase!=='frozen'||corners.length!==4} onClick={()=>void capture(true)}>Save aligned frame</button><button disabled={!count} onClick={()=>void exportScan()}>Export ZIP</button></div>
- <button disabled={!exists} onClick={()=>event('hand_occlusion')}>Mark hand/occlusion</button><button disabled={!exists} onClick={()=>event('blur_or_board_loss')}>Mark blur/board loss</button><button disabled={!exists} onClick={()=>{pause('board_change');if(session.current){session.current.epoch++;event('new_board_epoch');}setStatus('New board epoch. Old observations will not be combined with this position.');}}>Mark board/piece change</button>
+ <button disabled={!exists} onClick={()=>event('hand_occlusion')}>Mark hand/occlusion</button><button disabled={!exists} onClick={()=>event('blur_or_board_loss')}>Mark blur/board loss</button><button disabled={!exists} onClick={()=>{pause('board_change');onBoardChange();if(session.current){session.current.epoch++;event('new_board_epoch');}setStatus('New board epoch. Old observations will not be combined with this position.');}}>Mark board/piece change</button>
  <button disabled={!exists||running} onClick={()=>{if(confirm('Discard frames in memory? Export first if you need them.')){session.current=null;setExists(false);setCount(0);setStatus('Session discarded.');}}}>Discard / new session</button>
  <p role="status">{status}</p><p>Continuous captures have no alignment yet. “Save aligned frame” stores corners only for that frozen image. View labels are user notes, not proof of independent evidence. No completion score is calculated.</p></section>;
 }
