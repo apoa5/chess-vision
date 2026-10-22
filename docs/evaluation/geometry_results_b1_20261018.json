@@ -1,0 +1,3714 @@
+{
+  "task": "B.1",
+  "source_commit": "15a5a8792a41f1a11c9287f6061f90fb126858a3",
+  "baseline_id": "a1_20261018_15a5a879",
+  "failure_counts": {
+    "white_near_camera": {
+      "localization": 6
+    },
+    "white_left": {
+      "localization": 1
+    },
+    "black_near_camera": {
+      "orientation": 2,
+      "localization": 2
+    },
+    "white_right": {
+      "localization": 3
+    }
+  },
+  "crop_count": 1472,
+  "contract_mismatches": 0,
+  "prepared_contract": [
+    {
+      "image_id": "position_006_var_05.jpg",
+      "orientation": "black_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 6.823938019806519e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_006_var_05/source_grid.jpg"
+    },
+    {
+      "image_id": "position_006_var_06.jpg",
+      "orientation": "white_right",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 8.63167442730628e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_006_var_06/source_grid.jpg"
+    },
+    {
+      "image_id": "position_006_var_07.jpg",
+      "orientation": "black_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 8.63167442730628e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_006_var_07/source_grid.jpg"
+    },
+    {
+      "image_id": "position_010_var_01.jpg",
+      "orientation": "white_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 8.63167442730628e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_010_var_01/source_grid.jpg"
+    },
+    {
+      "image_id": "position_010_var_02.jpg",
+      "orientation": "white_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 8.63167442730628e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_010_var_02/source_grid.jpg"
+    },
+    {
+      "image_id": "position_010_var_03.jpg",
+      "orientation": "white_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 6.823938019806519e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_010_var_03/source_grid.jpg"
+    },
+    {
+      "image_id": "position_010_var_04.jpg",
+      "orientation": "white_left",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 8.63167442730628e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_010_var_04/source_grid.jpg"
+    },
+    {
+      "image_id": "position_010_var_05.jpg",
+      "orientation": "black_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 6.291359750321135e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_010_var_05/source_grid.jpg"
+    },
+    {
+      "image_id": "position_010_var_06.jpg",
+      "orientation": "white_right",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 6.291359750321135e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_010_var_06/source_grid.jpg"
+    },
+    {
+      "image_id": "position_010_var_07.jpg",
+      "orientation": "black_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 8.63167442730628e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_010_var_07/source_grid.jpg"
+    },
+    {
+      "image_id": "position_010_var_08.jpg",
+      "orientation": "white_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 6.823938019806519e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_010_var_08/source_grid.jpg"
+    },
+    {
+      "image_id": "position_010_var_09.jpg",
+      "orientation": "white_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 6.823938019806519e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_010_var_09/source_grid.jpg"
+    },
+    {
+      "image_id": "position_010_var_10.jpg",
+      "orientation": "white_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 0.0001100326917367056,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_010_var_10/source_grid.jpg"
+    },
+    {
+      "image_id": "position_016_var_01.jpg",
+      "orientation": "white_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 6.291359750321135e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_016_var_01/source_grid.jpg"
+    },
+    {
+      "image_id": "position_016_var_02.jpg",
+      "orientation": "white_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 8.63167442730628e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_016_var_02/source_grid.jpg"
+    },
+    {
+      "image_id": "position_016_var_03.jpg",
+      "orientation": "white_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 8.63167442730628e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_016_var_03/source_grid.jpg"
+    },
+    {
+      "image_id": "position_016_var_04.jpg",
+      "orientation": "white_left",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 8.63167442730628e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_016_var_04/source_grid.jpg"
+    },
+    {
+      "image_id": "position_016_var_05.jpg",
+      "orientation": "black_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 6.823938019806519e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_016_var_05/source_grid.jpg"
+    },
+    {
+      "image_id": "position_016_var_06.jpg",
+      "orientation": "white_right",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 6.823938019806519e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_016_var_06/source_grid.jpg"
+    },
+    {
+      "image_id": "position_016_var_07.jpg",
+      "orientation": "black_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 8.63167442730628e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_016_var_07/source_grid.jpg"
+    },
+    {
+      "image_id": "position_016_var_08.jpg",
+      "orientation": "white_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 6.823938019806519e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_016_var_08/source_grid.jpg"
+    },
+    {
+      "image_id": "position_016_var_09.jpg",
+      "orientation": "white_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 8.63167442730628e-05,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_016_var_09/source_grid.jpg"
+    },
+    {
+      "image_id": "position_016_var_10.jpg",
+      "orientation": "white_near_camera",
+      "crops_checked": 64,
+      "mismatches": [],
+      "roundtrip_max_context_px": 0.0001100326917367056,
+      "overlay": "outputs/evaluation/geometry_b1_20261018_run1/prepared/position_016_var_10/source_grid.jpg"
+    }
+  ],
+  "limitations": [
+    "Only historical positions 006/010/016; no new final holdout accessed.",
+    "Historical human reviews are references, not independently measured corner ground truth.",
+    "Roundtrip/crop parity measures internal consistency, not physical base accuracy.",
+    "Manual reference injection is diagnostic, not improved automatic performance."
+  ],
+  "rescues": [
+    {
+      "image_id": "position_006_var_05.jpg",
+      "mode": "reviewed_corners_only",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.953125,
+      "piece_errors": 3,
+      "exact_match": false,
+      "incorrect_squares": [
+        "d7",
+        "d4",
+        "e3"
+      ],
+      "ground_truth_placement": "r1bq1rk1/pp1nbppp/2n1p3/2ppP3/3P1P2/2N1BN2/PPPQ2PP/2KR1B1R",
+      "predicted_placement": "r1bq1rk1/pp1pbppp/2n1p3/2ppP3/3N1P2/2N1NN2/PPPQ2PP/2KR1B1R",
+      "rotation_quarters_ccw": 2,
+      "localization_source": "provided_corners",
+      "orientation_source": "border_markings",
+      "orientation_evidence": {
+        "status": "resolved",
+        "rotation_quarters_ccw": 2,
+        "score": 0.53125,
+        "reason": null,
+        "candidates": [
+          {
+            "rotation_quarters_ccw": 0,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "bottom",
+                "index": 0,
+                "expected": "A",
+                "predicted": "H",
+                "similarity": 0.877,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 1,
+                "expected": "B",
+                "predicted": "G",
+                "similarity": 0.866,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 2,
+                "expected": "C",
+                "predicted": "F",
+                "similarity": 0.886,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 0,
+                "expected": "A",
+                "predicted": "H",
+                "similarity": 0.868,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 1,
+                "expected": "B",
+                "predicted": "G",
+                "similarity": 0.861,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 3,
+                "expected": "D",
+                "predicted": "E",
+                "similarity": 0.873,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 6,
+                "expected": "G",
+                "predicted": "B",
+                "similarity": 0.938,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 7,
+                "expected": "H",
+                "predicted": "A",
+                "similarity": 0.927,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "2",
+                "similarity": 0.899,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 0,
+                "expected": "8",
+                "predicted": "1",
+                "similarity": 0.905,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 1,
+                "expected": "7",
+                "predicted": "2",
+                "similarity": 0.854,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 2,
+                "expected": "6",
+                "predicted": "3",
+                "similarity": 0.925,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 3,
+                "expected": "5",
+                "predicted": "4",
+                "similarity": 0.846,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 4,
+                "expected": "4",
+                "predicted": "5",
+                "similarity": 0.866,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 5,
+                "expected": "3",
+                "predicted": "6",
+                "similarity": 0.927,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "7",
+                "similarity": 0.951,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 7,
+                "expected": "1",
+                "predicted": "8",
+                "similarity": 0.917,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 1,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "G",
+                "similarity": 0.614,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 2,
+            "score": 0.53125,
+            "match_count": 17,
+            "matched_edges": [
+              "bottom",
+              "left",
+              "right",
+              "top"
+            ],
+            "evidence": [
+              {
+                "edge": "bottom",
+                "index": 0,
+                "expected": "A",
+                "predicted": "A",
+                "similarity": 0.927,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 1,
+                "expected": "B",
+                "predicted": "B",
+                "similarity": 0.938,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 4,
+                "expected": "E",
+                "predicted": "E",
+                "similarity": 0.873,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 6,
+                "expected": "G",
+                "predicted": "G",
+                "similarity": 0.861,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 7,
+                "expected": "H",
+                "predicted": "H",
+                "similarity": 0.868,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 5,
+                "expected": "F",
+                "predicted": "F",
+                "similarity": 0.886,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 6,
+                "expected": "G",
+                "predicted": "G",
+                "similarity": 0.866,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 7,
+                "expected": "H",
+                "predicted": "H",
+                "similarity": 0.877,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 0,
+                "expected": "8",
+                "predicted": "8",
+                "similarity": 0.917,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "7",
+                "similarity": 0.951,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 2,
+                "expected": "6",
+                "predicted": "6",
+                "similarity": 0.927,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 3,
+                "expected": "5",
+                "predicted": "5",
+                "similarity": 0.866,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 4,
+                "expected": "4",
+                "predicted": "4",
+                "similarity": 0.846,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 5,
+                "expected": "3",
+                "predicted": "3",
+                "similarity": 0.925,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 6,
+                "expected": "2",
+                "predicted": "2",
+                "similarity": 0.854,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 7,
+                "expected": "1",
+                "predicted": "1",
+                "similarity": 0.905,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "2",
+                "similarity": 0.899,
+                "matches": true
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 3,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "G",
+                "similarity": 0.614,
+                "matches": false
+              }
+            ]
+          }
+        ],
+        "source": "border_markings"
+      },
+      "source_corners": [
+        [
+          192.0,
+          358.0
+        ],
+        [
+          756.0,
+          346.0
+        ],
+        [
+          816.0,
+          930.0
+        ],
+        [
+          156.0,
+          948.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 3
+    },
+    {
+      "image_id": "position_006_var_05.jpg",
+      "mode": "reviewed_corners_and_orientation",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.953125,
+      "piece_errors": 3,
+      "exact_match": false,
+      "incorrect_squares": [
+        "d7",
+        "d4",
+        "e3"
+      ],
+      "ground_truth_placement": "r1bq1rk1/pp1nbppp/2n1p3/2ppP3/3P1P2/2N1BN2/PPPQ2PP/2KR1B1R",
+      "predicted_placement": "r1bq1rk1/pp1pbppp/2n1p3/2ppP3/3N1P2/2N1NN2/PPPQ2PP/2KR1B1R",
+      "rotation_quarters_ccw": 2,
+      "localization_source": "provided_corners",
+      "orientation_source": "provided_white_side",
+      "orientation_evidence": null,
+      "source_corners": [
+        [
+          192.0,
+          358.0
+        ],
+        [
+          756.0,
+          346.0
+        ],
+        [
+          816.0,
+          930.0
+        ],
+        [
+          156.0,
+          948.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 3
+    },
+    {
+      "image_id": "position_006_var_05.jpg",
+      "mode": "automatic_corners_reference_orientation",
+      "status": "failed",
+      "failure_stage": "grid",
+      "reason": "Grid fit rejected."
+    },
+    {
+      "image_id": "position_006_var_06.jpg",
+      "mode": "reviewed_corners_only",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.953125,
+      "piece_errors": 3,
+      "exact_match": false,
+      "incorrect_squares": [
+        "e7",
+        "e3",
+        "d2"
+      ],
+      "ground_truth_placement": "r1bq1rk1/pp1nbppp/2n1p3/2ppP3/3P1P2/2N1BN2/PPPQ2PP/2KR1B1R",
+      "predicted_placement": "r1bq1rk1/pp1npppp/2n1p3/2ppP3/3P1P2/2N1NN2/PPPP2PP/2KR1B1R",
+      "rotation_quarters_ccw": 3,
+      "localization_source": "provided_corners",
+      "orientation_source": "border_markings",
+      "orientation_evidence": {
+        "status": "resolved",
+        "rotation_quarters_ccw": 3,
+        "score": 0.34375,
+        "reason": null,
+        "candidates": [
+          {
+            "rotation_quarters_ccw": 0,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "right",
+                "index": 1,
+                "expected": "7",
+                "predicted": "4",
+                "similarity": 0.686,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 1,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "bottom",
+                "index": 0,
+                "expected": "A",
+                "predicted": "H",
+                "similarity": 0.771,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 4,
+                "expected": "E",
+                "predicted": "D",
+                "similarity": 0.769,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 5,
+                "expected": "F",
+                "predicted": "C",
+                "similarity": 0.841,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 6,
+                "expected": "G",
+                "predicted": "B",
+                "similarity": 0.849,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 7,
+                "expected": "H",
+                "predicted": "A",
+                "similarity": 0.947,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 3,
+                "expected": "5",
+                "predicted": "4",
+                "similarity": 0.894,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 4,
+                "expected": "4",
+                "predicted": "5",
+                "similarity": 0.851,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 5,
+                "expected": "3",
+                "predicted": "6",
+                "similarity": 0.812,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 7,
+                "expected": "1",
+                "predicted": "6",
+                "similarity": 0.848,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 0,
+                "expected": "8",
+                "predicted": "1",
+                "similarity": 0.939,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "7",
+                "similarity": 0.678,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 7,
+                "expected": "1",
+                "predicted": "8",
+                "similarity": 0.904,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 2,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "left",
+                "index": 6,
+                "expected": "2",
+                "predicted": "4",
+                "similarity": 0.686,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 3,
+            "score": 0.34375,
+            "match_count": 11,
+            "matched_edges": [
+              "left",
+              "right",
+              "top"
+            ],
+            "evidence": [
+              {
+                "edge": "top",
+                "index": 0,
+                "expected": "A",
+                "predicted": "A",
+                "similarity": 0.947,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 1,
+                "expected": "B",
+                "predicted": "B",
+                "similarity": 0.849,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 2,
+                "expected": "C",
+                "predicted": "C",
+                "similarity": 0.841,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 3,
+                "expected": "D",
+                "predicted": "D",
+                "similarity": 0.769,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 7,
+                "expected": "H",
+                "predicted": "H",
+                "similarity": 0.771,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 0,
+                "expected": "8",
+                "predicted": "8",
+                "similarity": 0.904,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "7",
+                "similarity": 0.678,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 7,
+                "expected": "1",
+                "predicted": "1",
+                "similarity": 0.939,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 0,
+                "expected": "8",
+                "predicted": "6",
+                "similarity": 0.848,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 2,
+                "expected": "6",
+                "predicted": "6",
+                "similarity": 0.812,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 3,
+                "expected": "5",
+                "predicted": "5",
+                "similarity": 0.851,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 4,
+                "expected": "4",
+                "predicted": "4",
+                "similarity": 0.894,
+                "matches": true
+              }
+            ]
+          }
+        ],
+        "source": "border_markings"
+      },
+      "source_corners": [
+        [
+          222.0,
+          328.0
+        ],
+        [
+          750.0,
+          338.0
+        ],
+        [
+          854.0,
+          814.0
+        ],
+        [
+          118.0,
+          814.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 3
+    },
+    {
+      "image_id": "position_006_var_06.jpg",
+      "mode": "reviewed_corners_and_orientation",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.953125,
+      "piece_errors": 3,
+      "exact_match": false,
+      "incorrect_squares": [
+        "e7",
+        "e3",
+        "d2"
+      ],
+      "ground_truth_placement": "r1bq1rk1/pp1nbppp/2n1p3/2ppP3/3P1P2/2N1BN2/PPPQ2PP/2KR1B1R",
+      "predicted_placement": "r1bq1rk1/pp1npppp/2n1p3/2ppP3/3P1P2/2N1NN2/PPPP2PP/2KR1B1R",
+      "rotation_quarters_ccw": 3,
+      "localization_source": "provided_corners",
+      "orientation_source": "provided_white_side",
+      "orientation_evidence": null,
+      "source_corners": [
+        [
+          222.0,
+          328.0
+        ],
+        [
+          750.0,
+          338.0
+        ],
+        [
+          854.0,
+          814.0
+        ],
+        [
+          118.0,
+          814.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 3
+    },
+    {
+      "image_id": "position_006_var_07.jpg",
+      "mode": "reviewed_corners_only",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.953125,
+      "piece_errors": 3,
+      "exact_match": false,
+      "incorrect_squares": [
+        "f8",
+        "c5",
+        "f3"
+      ],
+      "ground_truth_placement": "r1bq1rk1/pp1nbppp/2n1p3/2ppP3/3P1P2/2N1BN2/PPPQ2PP/2KR1B1R",
+      "predicted_placement": "r1bq1bk1/pp1nbppp/2n1p3/2npP3/3P1P2/2N1BP2/PPPQ2PP/2KR1B1R",
+      "rotation_quarters_ccw": 2,
+      "localization_source": "provided_corners",
+      "orientation_source": "border_markings",
+      "orientation_evidence": {
+        "status": "resolved",
+        "rotation_quarters_ccw": 2,
+        "score": 0.5,
+        "reason": null,
+        "candidates": [
+          {
+            "rotation_quarters_ccw": 0,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "bottom",
+                "index": 0,
+                "expected": "A",
+                "predicted": "H",
+                "similarity": 0.821,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 1,
+                "expected": "B",
+                "predicted": "G",
+                "similarity": 0.877,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 3,
+                "expected": "D",
+                "predicted": "E",
+                "similarity": 0.764,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 6,
+                "expected": "G",
+                "predicted": "B",
+                "similarity": 0.872,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 7,
+                "expected": "H",
+                "predicted": "A",
+                "similarity": 0.902,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 0,
+                "expected": "8",
+                "predicted": "1",
+                "similarity": 0.697,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "2",
+                "similarity": 0.684,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 5,
+                "expected": "3",
+                "predicted": "6",
+                "similarity": 0.756,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 7,
+                "expected": "1",
+                "predicted": "B",
+                "similarity": 0.714,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 0,
+                "expected": "8",
+                "predicted": "1",
+                "similarity": 0.825,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 1,
+                "expected": "7",
+                "predicted": "2",
+                "similarity": 0.926,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 2,
+                "expected": "6",
+                "predicted": "3",
+                "similarity": 0.893,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 3,
+                "expected": "5",
+                "predicted": "4",
+                "similarity": 0.898,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 4,
+                "expected": "4",
+                "predicted": "5",
+                "similarity": 0.909,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 5,
+                "expected": "3",
+                "predicted": "6",
+                "similarity": 0.917,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "7",
+                "similarity": 0.888,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 7,
+                "expected": "1",
+                "predicted": "8",
+                "similarity": 0.92,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 1,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "left",
+                "index": 0,
+                "expected": "8",
+                "predicted": "A",
+                "similarity": 0.601,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 2,
+            "score": 0.5,
+            "match_count": 16,
+            "matched_edges": [
+              "bottom",
+              "left",
+              "right",
+              "top"
+            ],
+            "evidence": [
+              {
+                "edge": "bottom",
+                "index": 0,
+                "expected": "A",
+                "predicted": "A",
+                "similarity": 0.902,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 1,
+                "expected": "B",
+                "predicted": "B",
+                "similarity": 0.872,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 4,
+                "expected": "E",
+                "predicted": "E",
+                "similarity": 0.764,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 6,
+                "expected": "G",
+                "predicted": "G",
+                "similarity": 0.877,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 7,
+                "expected": "H",
+                "predicted": "H",
+                "similarity": 0.821,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 0,
+                "expected": "8",
+                "predicted": "8",
+                "similarity": 0.92,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "7",
+                "similarity": 0.888,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 2,
+                "expected": "6",
+                "predicted": "6",
+                "similarity": 0.917,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 3,
+                "expected": "5",
+                "predicted": "5",
+                "similarity": 0.909,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 4,
+                "expected": "4",
+                "predicted": "4",
+                "similarity": 0.898,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 5,
+                "expected": "3",
+                "predicted": "3",
+                "similarity": 0.893,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 6,
+                "expected": "2",
+                "predicted": "2",
+                "similarity": 0.926,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 7,
+                "expected": "1",
+                "predicted": "1",
+                "similarity": 0.825,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 0,
+                "expected": "8",
+                "predicted": "B",
+                "similarity": 0.714,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 2,
+                "expected": "6",
+                "predicted": "6",
+                "similarity": 0.756,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "2",
+                "similarity": 0.684,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 7,
+                "expected": "1",
+                "predicted": "1",
+                "similarity": 0.697,
+                "matches": true
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 3,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "right",
+                "index": 7,
+                "expected": "1",
+                "predicted": "A",
+                "similarity": 0.601,
+                "matches": false
+              }
+            ]
+          }
+        ],
+        "source": "border_markings"
+      },
+      "source_corners": [
+        [
+          228.0,
+          356.0
+        ],
+        [
+          704.0,
+          362.0
+        ],
+        [
+          826.0,
+          812.0
+        ],
+        [
+          126.0,
+          806.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 3
+    },
+    {
+      "image_id": "position_006_var_07.jpg",
+      "mode": "reviewed_corners_and_orientation",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.953125,
+      "piece_errors": 3,
+      "exact_match": false,
+      "incorrect_squares": [
+        "f8",
+        "c5",
+        "f3"
+      ],
+      "ground_truth_placement": "r1bq1rk1/pp1nbppp/2n1p3/2ppP3/3P1P2/2N1BN2/PPPQ2PP/2KR1B1R",
+      "predicted_placement": "r1bq1bk1/pp1nbppp/2n1p3/2npP3/3P1P2/2N1BP2/PPPQ2PP/2KR1B1R",
+      "rotation_quarters_ccw": 2,
+      "localization_source": "provided_corners",
+      "orientation_source": "provided_white_side",
+      "orientation_evidence": null,
+      "source_corners": [
+        [
+          228.0,
+          356.0
+        ],
+        [
+          704.0,
+          362.0
+        ],
+        [
+          826.0,
+          812.0
+        ],
+        [
+          126.0,
+          806.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 3
+    },
+    {
+      "image_id": "position_010_var_05.jpg",
+      "mode": "reviewed_corners_only",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.890625,
+      "piece_errors": 7,
+      "exact_match": false,
+      "incorrect_squares": [
+        "e8",
+        "f8",
+        "b7",
+        "d7",
+        "d6",
+        "g3",
+        "e1"
+      ],
+      "ground_truth_placement": "r2qrbk1/1bpn1p1p/p2p1np1/1p2p3/3PP3/2P2NNP/PPB2PP1/R1BQR1K1",
+      "predicted_placement": "r2qkrk1/1npp1p1p/p2n1np1/1p2p3/3PP3/2P2NPP/PPB2PP1/R1BQB1K1",
+      "rotation_quarters_ccw": 2,
+      "localization_source": "provided_corners",
+      "orientation_source": "border_markings",
+      "orientation_evidence": {
+        "status": "resolved",
+        "rotation_quarters_ccw": 2,
+        "score": 0.78125,
+        "reason": null,
+        "candidates": [
+          {
+            "rotation_quarters_ccw": 0,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "bottom",
+                "index": 0,
+                "expected": "A",
+                "predicted": "H",
+                "similarity": 0.758,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 1,
+                "expected": "B",
+                "predicted": "G",
+                "similarity": 0.88,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 2,
+                "expected": "C",
+                "predicted": "F",
+                "similarity": 0.93,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 3,
+                "expected": "D",
+                "predicted": "E",
+                "similarity": 0.821,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 4,
+                "expected": "E",
+                "predicted": "D",
+                "similarity": 0.92,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 5,
+                "expected": "F",
+                "predicted": "C",
+                "similarity": 0.922,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 6,
+                "expected": "G",
+                "predicted": "B",
+                "similarity": 0.923,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 7,
+                "expected": "H",
+                "predicted": "A",
+                "similarity": 0.93,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 2,
+                "expected": "C",
+                "predicted": "F",
+                "similarity": 0.903,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 5,
+                "expected": "F",
+                "predicted": "C",
+                "similarity": 0.965,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 6,
+                "expected": "G",
+                "predicted": "B",
+                "similarity": 0.901,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 7,
+                "expected": "H",
+                "predicted": "A",
+                "similarity": 0.923,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "2",
+                "similarity": 0.812,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 2,
+                "expected": "6",
+                "predicted": "3",
+                "similarity": 0.9,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 3,
+                "expected": "5",
+                "predicted": "4",
+                "similarity": 0.912,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 4,
+                "expected": "4",
+                "predicted": "5",
+                "similarity": 0.911,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 5,
+                "expected": "3",
+                "predicted": "6",
+                "similarity": 0.926,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 0,
+                "expected": "8",
+                "predicted": "1",
+                "similarity": 0.887,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 1,
+                "expected": "7",
+                "predicted": "2",
+                "similarity": 0.894,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 2,
+                "expected": "6",
+                "predicted": "3",
+                "similarity": 0.926,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 3,
+                "expected": "5",
+                "predicted": "4",
+                "similarity": 0.901,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 4,
+                "expected": "4",
+                "predicted": "5",
+                "similarity": 0.911,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 5,
+                "expected": "3",
+                "predicted": "6",
+                "similarity": 0.916,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "7",
+                "similarity": 0.93,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 7,
+                "expected": "1",
+                "predicted": "8",
+                "similarity": 0.883,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 1,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "left",
+                "index": 0,
+                "expected": "8",
+                "predicted": "A",
+                "similarity": 0.603,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 0,
+                "expected": "8",
+                "predicted": "A",
+                "similarity": 0.625,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "G",
+                "similarity": 0.663,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 2,
+            "score": 0.78125,
+            "match_count": 25,
+            "matched_edges": [
+              "bottom",
+              "left",
+              "right",
+              "top"
+            ],
+            "evidence": [
+              {
+                "edge": "bottom",
+                "index": 0,
+                "expected": "A",
+                "predicted": "A",
+                "similarity": 0.923,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 1,
+                "expected": "B",
+                "predicted": "B",
+                "similarity": 0.901,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 2,
+                "expected": "C",
+                "predicted": "C",
+                "similarity": 0.965,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 5,
+                "expected": "F",
+                "predicted": "F",
+                "similarity": 0.903,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 0,
+                "expected": "A",
+                "predicted": "A",
+                "similarity": 0.93,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 1,
+                "expected": "B",
+                "predicted": "B",
+                "similarity": 0.923,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 2,
+                "expected": "C",
+                "predicted": "C",
+                "similarity": 0.922,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 3,
+                "expected": "D",
+                "predicted": "D",
+                "similarity": 0.92,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 4,
+                "expected": "E",
+                "predicted": "E",
+                "similarity": 0.821,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 5,
+                "expected": "F",
+                "predicted": "F",
+                "similarity": 0.93,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 6,
+                "expected": "G",
+                "predicted": "G",
+                "similarity": 0.88,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 7,
+                "expected": "H",
+                "predicted": "H",
+                "similarity": 0.758,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 0,
+                "expected": "8",
+                "predicted": "8",
+                "similarity": 0.883,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "7",
+                "similarity": 0.93,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 2,
+                "expected": "6",
+                "predicted": "6",
+                "similarity": 0.916,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 3,
+                "expected": "5",
+                "predicted": "5",
+                "similarity": 0.911,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 4,
+                "expected": "4",
+                "predicted": "4",
+                "similarity": 0.901,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 5,
+                "expected": "3",
+                "predicted": "3",
+                "similarity": 0.926,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 6,
+                "expected": "2",
+                "predicted": "2",
+                "similarity": 0.894,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 7,
+                "expected": "1",
+                "predicted": "1",
+                "similarity": 0.887,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 2,
+                "expected": "6",
+                "predicted": "6",
+                "similarity": 0.926,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 3,
+                "expected": "5",
+                "predicted": "5",
+                "similarity": 0.911,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 4,
+                "expected": "4",
+                "predicted": "4",
+                "similarity": 0.912,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 5,
+                "expected": "3",
+                "predicted": "3",
+                "similarity": 0.9,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "2",
+                "similarity": 0.812,
+                "matches": true
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 3,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "G",
+                "similarity": 0.663,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 7,
+                "expected": "1",
+                "predicted": "A",
+                "similarity": 0.625,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 7,
+                "expected": "1",
+                "predicted": "A",
+                "similarity": 0.603,
+                "matches": false
+              }
+            ]
+          }
+        ],
+        "source": "border_markings"
+      },
+      "source_corners": [
+        [
+          156.0,
+          286.0
+        ],
+        [
+          796.0,
+          276.0
+        ],
+        [
+          836.0,
+          924.0
+        ],
+        [
+          138.0,
+          942.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 7
+    },
+    {
+      "image_id": "position_010_var_05.jpg",
+      "mode": "reviewed_corners_and_orientation",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.890625,
+      "piece_errors": 7,
+      "exact_match": false,
+      "incorrect_squares": [
+        "e8",
+        "f8",
+        "b7",
+        "d7",
+        "d6",
+        "g3",
+        "e1"
+      ],
+      "ground_truth_placement": "r2qrbk1/1bpn1p1p/p2p1np1/1p2p3/3PP3/2P2NNP/PPB2PP1/R1BQR1K1",
+      "predicted_placement": "r2qkrk1/1npp1p1p/p2n1np1/1p2p3/3PP3/2P2NPP/PPB2PP1/R1BQB1K1",
+      "rotation_quarters_ccw": 2,
+      "localization_source": "provided_corners",
+      "orientation_source": "provided_white_side",
+      "orientation_evidence": null,
+      "source_corners": [
+        [
+          156.0,
+          286.0
+        ],
+        [
+          796.0,
+          276.0
+        ],
+        [
+          836.0,
+          924.0
+        ],
+        [
+          138.0,
+          942.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 7
+    },
+    {
+      "image_id": "position_010_var_06.jpg",
+      "mode": "reviewed_corners_only",
+      "status": "failed",
+      "failure_stage": "orientation",
+      "reason": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    },
+    {
+      "image_id": "position_010_var_06.jpg",
+      "mode": "reviewed_corners_and_orientation",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.953125,
+      "piece_errors": 3,
+      "exact_match": false,
+      "incorrect_squares": [
+        "e8",
+        "f8",
+        "g3"
+      ],
+      "ground_truth_placement": "r2qrbk1/1bpn1p1p/p2p1np1/1p2p3/3PP3/2P2NNP/PPB2PP1/R1BQR1K1",
+      "predicted_placement": "r2qkrk1/1bpn1p1p/p2p1np1/1p2p3/3PP3/2P2NPP/PPB2PP1/R1BQR1K1",
+      "rotation_quarters_ccw": 3,
+      "localization_source": "provided_corners",
+      "orientation_source": "provided_white_side",
+      "orientation_evidence": null,
+      "source_corners": [
+        [
+          222.0,
+          402.0
+        ],
+        [
+          742.0,
+          402.0
+        ],
+        [
+          854.0,
+          910.0
+        ],
+        [
+          110.0,
+          914.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 3
+    },
+    {
+      "image_id": "position_010_var_07.jpg",
+      "mode": "reviewed_corners_only",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.90625,
+      "piece_errors": 6,
+      "exact_match": false,
+      "incorrect_squares": [
+        "d8",
+        "f8",
+        "b7",
+        "c3",
+        "c2",
+        "e1"
+      ],
+      "ground_truth_placement": "r2qrbk1/1bpn1p1p/p2p1np1/1p2p3/3PP3/2P2NNP/PPB2PP1/R1BQR1K1",
+      "predicted_placement": "r2krrk1/1npn1p1p/p2p1np1/1p2p3/3PP3/2N2NNP/PPQ2PP1/R1BQB1K1",
+      "rotation_quarters_ccw": 2,
+      "localization_source": "provided_corners",
+      "orientation_source": "border_markings",
+      "orientation_evidence": {
+        "status": "resolved",
+        "rotation_quarters_ccw": 2,
+        "score": 0.34375,
+        "reason": null,
+        "candidates": [
+          {
+            "rotation_quarters_ccw": 0,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "bottom",
+                "index": 0,
+                "expected": "A",
+                "predicted": "H",
+                "similarity": 0.731,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 1,
+                "expected": "B",
+                "predicted": "G",
+                "similarity": 0.915,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 2,
+                "expected": "C",
+                "predicted": "F",
+                "similarity": 0.841,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 0,
+                "expected": "A",
+                "predicted": "H",
+                "similarity": 0.862,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 2,
+                "expected": "C",
+                "predicted": "F",
+                "similarity": 0.879,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 7,
+                "expected": "1",
+                "predicted": "8",
+                "similarity": 0.74,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 2,
+                "expected": "6",
+                "predicted": "3",
+                "similarity": 0.832,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 3,
+                "expected": "5",
+                "predicted": "4",
+                "similarity": 0.865,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 4,
+                "expected": "4",
+                "predicted": "5",
+                "similarity": 0.881,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 5,
+                "expected": "3",
+                "predicted": "6",
+                "similarity": 0.914,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "7",
+                "similarity": 0.885,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 7,
+                "expected": "1",
+                "predicted": "6",
+                "similarity": 0.784,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 1,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "G",
+                "similarity": 0.712,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 2,
+            "score": 0.34375,
+            "match_count": 11,
+            "matched_edges": [
+              "bottom",
+              "left",
+              "right",
+              "top"
+            ],
+            "evidence": [
+              {
+                "edge": "bottom",
+                "index": 5,
+                "expected": "F",
+                "predicted": "F",
+                "similarity": 0.879,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 7,
+                "expected": "H",
+                "predicted": "H",
+                "similarity": 0.862,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 5,
+                "expected": "F",
+                "predicted": "F",
+                "similarity": 0.841,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 6,
+                "expected": "G",
+                "predicted": "G",
+                "similarity": 0.915,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 7,
+                "expected": "H",
+                "predicted": "H",
+                "similarity": 0.731,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 0,
+                "expected": "8",
+                "predicted": "6",
+                "similarity": 0.784,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "7",
+                "similarity": 0.885,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 2,
+                "expected": "6",
+                "predicted": "6",
+                "similarity": 0.914,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 3,
+                "expected": "5",
+                "predicted": "5",
+                "similarity": 0.881,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 4,
+                "expected": "4",
+                "predicted": "4",
+                "similarity": 0.865,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 5,
+                "expected": "3",
+                "predicted": "3",
+                "similarity": 0.832,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 0,
+                "expected": "8",
+                "predicted": "8",
+                "similarity": 0.74,
+                "matches": true
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 3,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "G",
+                "similarity": 0.712,
+                "matches": false
+              }
+            ]
+          }
+        ],
+        "source": "border_markings"
+      },
+      "source_corners": [
+        [
+          216.0,
+          332.0
+        ],
+        [
+          708.0,
+          340.0
+        ],
+        [
+          856.0,
+          820.0
+        ],
+        [
+          128.0,
+          828.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 6
+    },
+    {
+      "image_id": "position_010_var_07.jpg",
+      "mode": "reviewed_corners_and_orientation",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.90625,
+      "piece_errors": 6,
+      "exact_match": false,
+      "incorrect_squares": [
+        "d8",
+        "f8",
+        "b7",
+        "c3",
+        "c2",
+        "e1"
+      ],
+      "ground_truth_placement": "r2qrbk1/1bpn1p1p/p2p1np1/1p2p3/3PP3/2P2NNP/PPB2PP1/R1BQR1K1",
+      "predicted_placement": "r2krrk1/1npn1p1p/p2p1np1/1p2p3/3PP3/2N2NNP/PPQ2PP1/R1BQB1K1",
+      "rotation_quarters_ccw": 2,
+      "localization_source": "provided_corners",
+      "orientation_source": "provided_white_side",
+      "orientation_evidence": null,
+      "source_corners": [
+        [
+          216.0,
+          332.0
+        ],
+        [
+          708.0,
+          340.0
+        ],
+        [
+          856.0,
+          820.0
+        ],
+        [
+          128.0,
+          828.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 6
+    },
+    {
+      "image_id": "position_010_var_07.jpg",
+      "mode": "automatic_corners_reference_orientation",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.921875,
+      "piece_errors": 5,
+      "exact_match": false,
+      "incorrect_squares": [
+        "d8",
+        "f8",
+        "b7",
+        "c3",
+        "g1"
+      ],
+      "ground_truth_placement": "r2qrbk1/1bpn1p1p/p2p1np1/1p2p3/3PP3/2P2NNP/PPB2PP1/R1BQR1K1",
+      "predicted_placement": "r2krrk1/1npn1p1p/p2p1np1/1p2p3/3PP3/2N2NNP/PPB2PP1/R1BQR1R1",
+      "rotation_quarters_ccw": 2,
+      "localization_source": "provided_corners",
+      "orientation_source": "provided_white_side",
+      "orientation_evidence": null,
+      "source_corners": [
+        [
+          212.809814453125,
+          310.8773193359375
+        ],
+        [
+          725.745849609375,
+          337.9975891113281
+        ],
+        [
+          847.11865234375,
+          829.2313842773438
+        ],
+        [
+          98.4310073852539,
+          846.5075073242188
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 6
+    },
+    {
+      "image_id": "position_016_var_06.jpg",
+      "mode": "reviewed_corners_only",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.96875,
+      "piece_errors": 2,
+      "exact_match": false,
+      "incorrect_squares": [
+        "d5",
+        "a1"
+      ],
+      "ground_truth_placement": "8/8/1KP5/3r4/8/8/8/k7",
+      "predicted_placement": "8/8/1KP5/3k4/8/8/8/q7",
+      "rotation_quarters_ccw": 3,
+      "localization_source": "provided_corners",
+      "orientation_source": "border_markings",
+      "orientation_evidence": {
+        "status": "resolved",
+        "rotation_quarters_ccw": 3,
+        "score": 0.875,
+        "reason": null,
+        "candidates": [
+          {
+            "rotation_quarters_ccw": 0,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "left",
+                "index": 7,
+                "expected": "1",
+                "predicted": "A",
+                "similarity": 0.623,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 7,
+                "expected": "1",
+                "predicted": "A",
+                "similarity": 0.6,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 1,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "bottom",
+                "index": 0,
+                "expected": "A",
+                "predicted": "H",
+                "similarity": 0.827,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 5,
+                "expected": "F",
+                "predicted": "C",
+                "similarity": 0.875,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 6,
+                "expected": "G",
+                "predicted": "B",
+                "similarity": 0.908,
+                "matches": false
+              },
+              {
+                "edge": "bottom",
+                "index": 7,
+                "expected": "H",
+                "predicted": "A",
+                "similarity": 0.96,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 0,
+                "expected": "A",
+                "predicted": "H",
+                "similarity": 0.902,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 1,
+                "expected": "B",
+                "predicted": "G",
+                "similarity": 0.905,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 2,
+                "expected": "C",
+                "predicted": "F",
+                "similarity": 0.852,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 3,
+                "expected": "D",
+                "predicted": "E",
+                "similarity": 0.821,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 4,
+                "expected": "E",
+                "predicted": "D",
+                "similarity": 0.828,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 5,
+                "expected": "F",
+                "predicted": "C",
+                "similarity": 0.938,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 6,
+                "expected": "G",
+                "predicted": "B",
+                "similarity": 0.909,
+                "matches": false
+              },
+              {
+                "edge": "top",
+                "index": 7,
+                "expected": "H",
+                "predicted": "A",
+                "similarity": 0.953,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 0,
+                "expected": "8",
+                "predicted": "1",
+                "similarity": 0.87,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "2",
+                "similarity": 0.861,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 2,
+                "expected": "6",
+                "predicted": "3",
+                "similarity": 0.879,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 3,
+                "expected": "5",
+                "predicted": "4",
+                "similarity": 0.856,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 4,
+                "expected": "4",
+                "predicted": "5",
+                "similarity": 0.867,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 5,
+                "expected": "3",
+                "predicted": "6",
+                "similarity": 0.879,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 6,
+                "expected": "2",
+                "predicted": "7",
+                "similarity": 0.658,
+                "matches": false
+              },
+              {
+                "edge": "left",
+                "index": 7,
+                "expected": "1",
+                "predicted": "8",
+                "similarity": 0.917,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 0,
+                "expected": "8",
+                "predicted": "1",
+                "similarity": 0.958,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 1,
+                "expected": "7",
+                "predicted": "2",
+                "similarity": 0.875,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 2,
+                "expected": "6",
+                "predicted": "3",
+                "similarity": 0.889,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 3,
+                "expected": "5",
+                "predicted": "4",
+                "similarity": 0.901,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 4,
+                "expected": "4",
+                "predicted": "5",
+                "similarity": 0.887,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 5,
+                "expected": "3",
+                "predicted": "6",
+                "similarity": 0.945,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "7",
+                "similarity": 0.838,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 7,
+                "expected": "1",
+                "predicted": "8",
+                "similarity": 0.915,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 2,
+            "score": 0.0,
+            "match_count": 0,
+            "matched_edges": [],
+            "evidence": [
+              {
+                "edge": "left",
+                "index": 0,
+                "expected": "8",
+                "predicted": "A",
+                "similarity": 0.6,
+                "matches": false
+              },
+              {
+                "edge": "right",
+                "index": 0,
+                "expected": "8",
+                "predicted": "A",
+                "similarity": 0.623,
+                "matches": false
+              }
+            ]
+          },
+          {
+            "rotation_quarters_ccw": 3,
+            "score": 0.875,
+            "match_count": 28,
+            "matched_edges": [
+              "bottom",
+              "left",
+              "right",
+              "top"
+            ],
+            "evidence": [
+              {
+                "edge": "bottom",
+                "index": 0,
+                "expected": "A",
+                "predicted": "A",
+                "similarity": 0.953,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 1,
+                "expected": "B",
+                "predicted": "B",
+                "similarity": 0.909,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 2,
+                "expected": "C",
+                "predicted": "C",
+                "similarity": 0.938,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 3,
+                "expected": "D",
+                "predicted": "D",
+                "similarity": 0.828,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 4,
+                "expected": "E",
+                "predicted": "E",
+                "similarity": 0.821,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 5,
+                "expected": "F",
+                "predicted": "F",
+                "similarity": 0.852,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 6,
+                "expected": "G",
+                "predicted": "G",
+                "similarity": 0.905,
+                "matches": true
+              },
+              {
+                "edge": "bottom",
+                "index": 7,
+                "expected": "H",
+                "predicted": "H",
+                "similarity": 0.902,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 0,
+                "expected": "A",
+                "predicted": "A",
+                "similarity": 0.96,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 1,
+                "expected": "B",
+                "predicted": "B",
+                "similarity": 0.908,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 2,
+                "expected": "C",
+                "predicted": "C",
+                "similarity": 0.875,
+                "matches": true
+              },
+              {
+                "edge": "top",
+                "index": 7,
+                "expected": "H",
+                "predicted": "H",
+                "similarity": 0.827,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 0,
+                "expected": "8",
+                "predicted": "8",
+                "similarity": 0.915,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 1,
+                "expected": "7",
+                "predicted": "7",
+                "similarity": 0.838,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 2,
+                "expected": "6",
+                "predicted": "6",
+                "similarity": 0.945,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 3,
+                "expected": "5",
+                "predicted": "5",
+                "similarity": 0.887,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 4,
+                "expected": "4",
+                "predicted": "4",
+                "similarity": 0.901,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 5,
+                "expected": "3",
+                "predicted": "3",
+                "similarity": 0.889,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 6,
+                "expected": "2",
+                "predicted": "2",
+                "similarity": 0.875,
+                "matches": true
+              },
+              {
+                "edge": "left",
+                "index": 7,
+                "expected": "1",
+                "predicted": "1",
+                "similarity": 0.958,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 0,
+                "expected": "8",
+                "predicted": "8",
+                "similarity": 0.917,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 1,
+                "expected": "7",
+                "predicted": "7",
+                "similarity": 0.658,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 2,
+                "expected": "6",
+                "predicted": "6",
+                "similarity": 0.879,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 3,
+                "expected": "5",
+                "predicted": "5",
+                "similarity": 0.867,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 4,
+                "expected": "4",
+                "predicted": "4",
+                "similarity": 0.856,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 5,
+                "expected": "3",
+                "predicted": "3",
+                "similarity": 0.879,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 6,
+                "expected": "2",
+                "predicted": "2",
+                "similarity": 0.861,
+                "matches": true
+              },
+              {
+                "edge": "right",
+                "index": 7,
+                "expected": "1",
+                "predicted": "1",
+                "similarity": 0.87,
+                "matches": true
+              }
+            ]
+          }
+        ],
+        "source": "border_markings"
+      },
+      "source_corners": [
+        [
+          228.0,
+          394.0
+        ],
+        [
+          720.0,
+          400.0
+        ],
+        [
+          820.0,
+          872.0
+        ],
+        [
+          126.0,
+          874.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 2
+    },
+    {
+      "image_id": "position_016_var_06.jpg",
+      "mode": "reviewed_corners_and_orientation",
+      "status": "predicted",
+      "failure_stage": null,
+      "square_accuracy": 0.96875,
+      "piece_errors": 2,
+      "exact_match": false,
+      "incorrect_squares": [
+        "d5",
+        "a1"
+      ],
+      "ground_truth_placement": "8/8/1KP5/3r4/8/8/8/k7",
+      "predicted_placement": "8/8/1KP5/3k4/8/8/8/q7",
+      "rotation_quarters_ccw": 3,
+      "localization_source": "provided_corners",
+      "orientation_source": "provided_white_side",
+      "orientation_evidence": null,
+      "source_corners": [
+        [
+          228.0,
+          394.0
+        ],
+        [
+          720.0,
+          400.0
+        ],
+        [
+          820.0,
+          872.0
+        ],
+        [
+          126.0,
+          874.0
+        ]
+      ],
+      "orientation_correct": true,
+      "saved_prepared_piece_errors": 2
+    }
+  ],
+  "full_report_path": "outputs/evaluation/geometry_b1_20261018_run1/summary.json",
+  "full_report_sha256": "4de1122f54b58ad7dc8a6abdcb65e79c458515fcd4dd8a504adf79d508f4221f",
+  "unchanged_protected_input_count": 99,
+  "completed_raw_semantic_checks": [
+    {
+      "image_id": "position_010_var_01.jpg",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "image_id": "position_010_var_02.jpg",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "image_id": "position_010_var_03.jpg",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "image_id": "position_010_var_04.jpg",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "image_id": "position_010_var_08.jpg",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "image_id": "position_010_var_09.jpg",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "image_id": "position_010_var_10.jpg",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "image_id": "position_016_var_01.jpg",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "image_id": "position_016_var_02.jpg",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "image_id": "position_016_var_03.jpg",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "image_id": "position_016_var_04.jpg",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "image_id": "position_016_var_05.jpg",
+      "observed": 2,
+      "expected": 2
+    },
+    {
+      "image_id": "position_016_var_07.jpg",
+      "observed": 2,
+      "expected": 2
+    },
+    {
+      "image_id": "position_016_var_08.jpg",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "image_id": "position_016_var_09.jpg",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "image_id": "position_016_var_10.jpg",
+      "observed": 0,
+      "expected": 0
+    }
+  ],
+  "failures": [
+    {
+      "image_id": "position_006_var_01.jpg",
+      "orientation": "white_near_camera",
+      "failure_stage": "localization",
+      "reference_available": false,
+      "detection_success": false,
+      "detection_reason": "No candidate passed the checkerboard evidence thresholds.",
+      "candidate_count": 398,
+      "best_candidate": {
+        "corners": [
+          [
+            161.78717041015625,
+            249.01895141601562
+          ],
+          [
+            787.0713500976562,
+            315.5577087402344
+          ],
+          [
+            809.4323120117188,
+            926.6339721679688
+          ],
+          [
+            166.26596069335938,
+            939.986328125
+          ]
+        ],
+        "score": 0.4517318158619388,
+        "area_fraction": 0.3357239658388801,
+        "aspect_ratio": 1.0238560438156128,
+        "border_inset": 0.09,
+        "source": "closed_edges",
+        "rectangularity": 0.9281629540462922,
+        "checker_correlation": 0.3353196306345182,
+        "checker_contrast": 29.97265625,
+        "accepted": false,
+        "refinement_max_shift": 23.013675689697266
+      }
+    },
+    {
+      "image_id": "position_006_var_02.jpg",
+      "orientation": "white_near_camera",
+      "failure_stage": "localization",
+      "reference_available": false,
+      "detection_success": false,
+      "detection_reason": "No candidate passed the checkerboard evidence thresholds.",
+      "candidate_count": 618,
+      "best_candidate": {
+        "corners": [
+          [
+            225.34768676757812,
+            322.65057373046875
+          ],
+          [
+            710.5795288085938,
+            315.46112060546875
+          ],
+          [
+            829.4378662109375,
+            772.8995361328125
+          ],
+          [
+            158.39471435546875,
+            764.2396240234375
+          ]
+        ],
+        "score": 0.45723660542361766,
+        "area_fraction": 0.21147596289954967,
+        "aspect_ratio": 1.2579457759857178,
+        "border_inset": 0.09,
+        "source": "wood_color",
+        "rectangularity": 0.8494109799132257,
+        "checker_correlation": 0.4344587147767253,
+        "checker_contrast": 22.1640625,
+        "accepted": false,
+        "refinement_max_shift": 23.53961181640625
+      }
+    },
+    {
+      "image_id": "position_006_var_03.jpg",
+      "orientation": "white_near_camera",
+      "failure_stage": "localization",
+      "reference_available": false,
+      "detection_success": false,
+      "detection_reason": "No candidate passed the checkerboard evidence thresholds.",
+      "candidate_count": 463,
+      "best_candidate": {
+        "corners": [
+          [
+            204.80783081054688,
+            291.4709167480469
+          ],
+          [
+            486.8453369140625,
+            530.6617431640625
+          ],
+          [
+            488.43743896484375,
+            797.4066772460938
+          ],
+          [
+            29.652385711669922,
+            789.8284301757812
+          ]
+        ],
+        "score": 0.35854598699214446,
+        "area_fraction": 0.12403060276070557,
+        "aspect_ratio": 1.042344093322754,
+        "border_inset": 0.0,
+        "source": "line_geometry",
+        "rectangularity": 0.6627440431193823,
+        "checker_correlation": 0.30606811277143336,
+        "checker_contrast": 23.8984375,
+        "accepted": false,
+        "refinement_max_shift": 21.10405731201172
+      }
+    },
+    {
+      "image_id": "position_006_var_04.jpg",
+      "orientation": "white_left",
+      "failure_stage": "localization",
+      "reference_available": false,
+      "detection_success": false,
+      "detection_reason": "No candidate passed the checkerboard evidence thresholds.",
+      "candidate_count": 468,
+      "best_candidate": {
+        "corners": [
+          [
+            251.13717651367188,
+            407.07733154296875
+          ],
+          [
+            719.5524291992188,
+            410.3580627441406
+          ],
+          [
+            802.599609375,
+            857.9247436523438
+          ],
+          [
+            162.4886474609375,
+            852.8628540039062
+          ]
+        ],
+        "score": 0.5355503718061377,
+        "area_fraction": 0.20148744023334567,
+        "aspect_ratio": 1.2185693979263306,
+        "border_inset": 0.11,
+        "source": "edges",
+        "rectangularity": 0.865473633839646,
+        "checker_correlation": 0.5395911732278122,
+        "checker_contrast": 23.5078125,
+        "accepted": false,
+        "refinement_max_shift": 3.93280029296875
+      }
+    },
+    {
+      "image_id": "position_006_var_05.jpg",
+      "orientation": "black_near_camera",
+      "failure_stage": "orientation",
+      "reference_available": true,
+      "candidate_vs_reviewed": {
+        "iou": 0.6968657509687488,
+        "rms_corner_error_px": 106.8498306274414,
+        "max_corner_error_px": 152.8634033203125,
+        "rms_corner_error_squares": 1.423155665397644
+      },
+      "detection_success": true,
+      "detection_reason": null,
+      "candidate_count": 623,
+      "best_candidate": {
+        "corners": [
+          [
+            341.77606201171875,
+            327.432861328125
+          ],
+          [
+            793.567138671875,
+            293.7164306640625
+          ],
+          [
+            922.0746459960938,
+            933.701416015625
+          ],
+          [
+            133.86569213867188,
+            1028.0
+          ]
+        ],
+        "score": 0.5666426815121315,
+        "area_fraction": 0.3361246574070538,
+        "aspect_ratio": 1.1095936298370361,
+        "border_inset": 0.0,
+        "source": "wood_color",
+        "rectangularity": 0.7755155864142872,
+        "checker_correlation": 0.45889198665102954,
+        "checker_contrast": 35.638671875,
+        "accepted": true,
+        "refinement_max_shift": 66.2774658203125
+      }
+    },
+    {
+      "image_id": "position_006_var_06.jpg",
+      "orientation": "white_right",
+      "failure_stage": "localization",
+      "reference_available": true,
+      "candidate_vs_reviewed": {
+        "iou": 0.4574296175468378,
+        "rms_corner_error_px": 170.3975067138672,
+        "max_corner_error_px": 193.36155700683594,
+        "rms_corner_error_squares": 2.425234794616699
+      },
+      "detection_success": false,
+      "detection_reason": "No candidate passed the checkerboard evidence thresholds.",
+      "candidate_count": 538,
+      "best_candidate": {
+        "corners": [
+          [
+            238.24710083007812,
+            192.62008666992188
+          ],
+          [
+            682.1624145507812,
+            199.6050262451172
+          ],
+          [
+            807.8306274414062,
+            628.8672485351562
+          ],
+          [
+            167.7798614501953,
+            627.1560668945312
+          ]
+        ],
+        "score": 0.3710404437595015,
+        "area_fraction": 0.19039874611106786,
+        "aspect_ratio": 1.2214462757110596,
+        "border_inset": 0.11,
+        "source": "line_geometry",
+        "rectangularity": 0.8408469178011282,
+        "checker_correlation": 0.2690593627318399,
+        "checker_contrast": 28.923828125,
+        "accepted": false,
+        "refinement_max_shift": 15.24603271484375
+      }
+    },
+    {
+      "image_id": "position_006_var_07.jpg",
+      "orientation": "black_near_camera",
+      "failure_stage": "localization",
+      "reference_available": true,
+      "candidate_vs_reviewed": {
+        "iou": 0.6270448961950464,
+        "rms_corner_error_px": 99.83287811279297,
+        "max_corner_error_px": 128.82777404785156,
+        "rms_corner_error_squares": 1.5185704231262207
+      },
+      "detection_success": false,
+      "detection_reason": "No candidate passed the checkerboard evidence thresholds.",
+      "candidate_count": 653,
+      "best_candidate": {
+        "corners": [
+          [
+            289.1204833984375,
+            323.0
+          ],
+          [
+            755.926513671875,
+            332.1535949707031
+          ],
+          [
+            920.26171875,
+            889.2830200195312
+          ],
+          [
+            228.76138305664062,
+            883.6961669921875
+          ]
+        ],
+        "score": 0.4992409944522628,
+        "area_fraction": 0.26311276142106255,
+        "aspect_ratio": 1.0118993520736694,
+        "border_inset": 0.0,
+        "source": "line_geometry",
+        "rectangularity": 0.8331543323978922,
+        "checker_correlation": 0.3555347164900718,
+        "checker_contrast": 39.548828125,
+        "accepted": false,
+        "refinement_max_shift": 27.460784912109375
+      }
+    },
+    {
+      "image_id": "position_006_var_08.jpg",
+      "orientation": "white_near_camera",
+      "failure_stage": "localization",
+      "reference_available": false,
+      "detection_success": false,
+      "detection_reason": "No candidate passed the checkerboard evidence thresholds.",
+      "candidate_count": 568,
+      "best_candidate": {
+        "corners": [
+          [
+            141.92459106445312,
+            299.7913513183594
+          ],
+          [
+            779.8880615234375,
+            302.78900146484375
+          ],
+          [
+            773.9169311523438,
+            937.2515869140625
+          ],
+          [
+            150.27781677246094,
+            949.1607055664062
+          ]
+        ],
+        "score": 0.5033268072434847,
+        "area_fraction": 0.32953021679450273,
+        "aspect_ratio": 1.017587423324585,
+        "border_inset": 0.09,
+        "source": "wood_color",
+        "rectangularity": 0.9774962252502664,
+        "checker_correlation": 0.46606984126369166,
+        "checker_contrast": 22.234375,
+        "accepted": false,
+        "refinement_max_shift": 29.749269485473633
+      }
+    },
+    {
+      "image_id": "position_006_var_09.jpg",
+      "orientation": "white_near_camera",
+      "failure_stage": "localization",
+      "reference_available": false,
+      "detection_success": false,
+      "detection_reason": "No candidate passed the checkerboard evidence thresholds.",
+      "candidate_count": 518,
+      "best_candidate": {
+        "corners": [
+          [
+            194.4139862060547,
+            378.2294006347656
+          ],
+          [
+            879.239990234375,
+            517.219482421875
+          ],
+          [
+            895.7993774414062,
+            926.3158569335938
+          ],
+          [
+            108.02291107177734,
+            931.9749755859375
+          ]
+        ],
+        "score": 0.3768202690757573,
+        "area_fraction": 0.2903633950989779,
+        "aspect_ratio": 1.5327585935592651,
+        "border_inset": 0.04,
+        "source": "line_geometry",
+        "rectangularity": 0.8188358838307875,
+        "checker_correlation": 0.27905626704423103,
+        "checker_contrast": 24.681640625,
+        "accepted": false,
+        "refinement_max_shift": 4.7989501953125
+      }
+    },
+    {
+      "image_id": "position_006_var_10.jpg",
+      "orientation": "white_near_camera",
+      "failure_stage": "localization",
+      "reference_available": false,
+      "detection_success": false,
+      "detection_reason": "No candidate passed the checkerboard evidence thresholds.",
+      "candidate_count": 173,
+      "best_candidate": {
+        "corners": [
+          [
+            274.3225402832031,
+            614.9232788085938
+          ],
+          [
+            608.9345092773438,
+            597.5919189453125
+          ],
+          [
+            663.294189453125,
+            919.4635620117188
+          ],
+          [
+            252.8816375732422,
+            924.9171142578125
+          ]
+        ],
+        "score": 0.40654132239762575,
+        "area_fraction": 0.09592800432113563,
+        "aspect_ratio": 1.170042872428894,
+        "border_inset": 0.11,
+        "source": "wood_color",
+        "rectangularity": 0.8903276598115766,
+        "checker_correlation": 0.4068251379048552,
+        "checker_contrast": 20.515625,
+        "accepted": false,
+        "refinement_max_shift": 11.966880798339844
+      }
+    },
+    {
+      "image_id": "position_010_var_05.jpg",
+      "orientation": "black_near_camera",
+      "failure_stage": "localization",
+      "reference_available": true,
+      "candidate_vs_reviewed": {
+        "iou": 0.7010241426342543,
+        "rms_corner_error_px": 103.72635650634766,
+        "max_corner_error_px": 135.67657470703125,
+        "rms_corner_error_squares": 1.2554864883422852
+      },
+      "detection_success": false,
+      "detection_reason": "No candidate passed the checkerboard evidence thresholds.",
+      "candidate_count": 928,
+      "best_candidate": {
+        "corners": [
+          [
+            187.3323211669922,
+            406.5604553222656
+          ],
+          [
+            844.0216674804688,
+            326.7198486328125
+          ],
+          [
+            889.94677734375,
+            1048.490478515625
+          ],
+          [
+            200.68016052246094,
+            924.5479736328125
+          ]
+        ],
+        "score": 0.5386119390284639,
+        "area_fraction": 0.33895789038771584,
+        "aspect_ratio": 1.097033977508545,
+        "border_inset": 0.07,
+        "source": "line_geometry",
+        "rectangularity": 0.8469117477271293,
+        "checker_correlation": 0.38688622992988686,
+        "checker_contrast": 42.953125,
+        "accepted": false,
+        "refinement_max_shift": 47.70799255371094
+      }
+    },
+    {
+      "image_id": "position_010_var_06.jpg",
+      "orientation": "white_right",
+      "failure_stage": "localization",
+      "reference_available": true,
+      "candidate_vs_reviewed": {
+        "iou": 0.27466958239085787,
+        "rms_corner_error_px": 280.7306213378906,
+        "max_corner_error_px": 435.3748474121094,
+        "rms_corner_error_squares": 3.8917434215545654
+      },
+      "detection_success": false,
+      "detection_reason": "No candidate passed the checkerboard evidence thresholds.",
+      "candidate_count": 423,
+      "best_candidate": {
+        "corners": [
+          [
+            151.10842895507812,
+            270.38580322265625
+          ],
+          [
+            562.0125732421875,
+            582.5968017578125
+          ],
+          [
+            443.4368591308594,
+            765.1236572265625
+          ],
+          [
+            46.11698913574219,
+            728.9381713867188
+          ]
+        ],
+        "score": 0.36725654554678266,
+        "area_fraction": 0.121261725677208,
+        "aspect_ratio": 1.3298239707946777,
+        "border_inset": 0.0,
+        "source": "line_geometry",
+        "rectangularity": 0.6736260531246306,
+        "checker_correlation": 0.20429171487334433,
+        "checker_contrast": 41.1796875,
+        "accepted": false,
+        "refinement_max_shift": 26.97113800048828
+      }
+    },
+    {
+      "image_id": "position_010_var_07.jpg",
+      "orientation": "black_near_camera",
+      "failure_stage": "orientation",
+      "reference_available": true,
+      "candidate_vs_reviewed": {
+        "iou": 0.9131458099564174,
+        "rms_corner_error_px": 23.21755599975586,
+        "max_corner_error_px": 34.8834228515625,
+        "rms_corner_error_squares": 0.3337423503398895
+      },
+      "detection_success": true,
+      "detection_reason": null,
+      "candidate_count": 753,
+      "best_candidate": {
+        "corners": [
+          [
+            212.809814453125,
+            310.8773193359375
+          ],
+          [
+            725.745849609375,
+            337.9975891113281
+          ],
+          [
+            847.11865234375,
+            829.2313842773438
+          ],
+          [
+            98.4310073852539,
+            846.5075073242188
+          ]
+        ],
+        "score": 0.5906459934432552,
+        "area_fraction": 0.2635593805918072,
+        "aspect_ratio": 1.1981823444366455,
+        "border_inset": 0.07,
+        "source": "line_geometry",
+        "rectangularity": 0.8115948673904972,
+        "checker_correlation": 0.48276302474984806,
+        "checker_contrast": 45.265625,
+        "accepted": true,
+        "refinement_max_shift": 23.028697967529297
+      }
+    },
+    {
+      "image_id": "position_016_var_06.jpg",
+      "orientation": "white_right",
+      "failure_stage": "localization",
+      "reference_available": true,
+      "candidate_vs_reviewed": {
+        "iou": 0.4664145000318398,
+        "rms_corner_error_px": 151.65188598632812,
+        "max_corner_error_px": 246.1422882080078,
+        "rms_corner_error_squares": 2.2474915981292725
+      },
+      "detection_success": false,
+      "detection_reason": "No candidate passed the checkerboard evidence thresholds.",
+      "candidate_count": 533,
+      "best_candidate": {
+        "corners": [
+          [
+            353.9783630371094,
+            451.78851318359375
+          ],
+          [
+            724.0189208984375,
+            446.1331787109375
+          ],
+          [
+            809.8802490234375,
+            772.2490234375
+          ],
+          [
+            347.4721374511719,
+            766.5936889648438
+          ]
+        ],
+        "score": 0.3620275995777919,
+        "area_fraction": 0.10854773981399528,
+        "aspect_ratio": 1.276681661605835,
+        "border_inset": 0.04,
+        "source": "line_geometry",
+        "rectangularity": 0.8873712085864511,
+        "checker_correlation": 0.3034398505214184,
+        "checker_contrast": 25.58203125,
+        "accepted": false,
+        "refinement_max_shift": 17.883737564086914
+      }
+    }
+  ],
+  "audit_source_sha256": {
+    "scripts/audit_board_geometry.py": "fb3cef2a606caa0377ca3a42071a4338291048a69407667721654e0ee4dae8b2",
+    "src/vision/geometry_audit.py": "a3254f79014f74e606b420bf3e3aec2ac6871f58367e0dee33105ba7858d4cad",
+    "tests/test_geometry_audit.py": "73c749249d7a8caa5980464a92d1ae11e435bd1e09e69274dae469c6493c6104"
+  },
+  "diagnostic_sha256": {
+    "docs/evaluation/geometry_examples_b1/priority_candidates.jpg": "13f60f0db7a5987fc46d166cc8ba831d3a03017efcad8aec6db1050fe0c41b23",
+    "docs/evaluation/geometry_examples_b1/mislocalized_black_near.jpg": "50073992edf5f06e539acb4845a228eac05be31070cff994ccad6a82214b944b",
+    "docs/evaluation/geometry_examples_b1/canonical_four_views.jpg": "106e7e44ae9e8ed629d5173e3b4c0f78b686f2634ae50cf9f0c9e0b52345cbec",
+    "docs/evaluation/geometry_examples_b1/target_masks.png": "b4cc488c250167856d63010ae1a2075816b36ef7791363c6958e8c3f65f30f41",
+    "docs/evaluation/geometry_examples_b1/reviewed_white_right_grid.jpg": "2e3a85b44b037c91434b5eb6e69c67338228382b014cc9b3d149321aba4cf581"
+  },
+  "validation": {
+    "audit_focused": {
+      "passed": 14,
+      "command": ".venv/bin/python -m pytest tests/test_geometry_audit.py -q"
+    },
+    "geometry_focused": {
+      "passed": 45,
+      "note": "Run before seven additional reviewed-case tests were added.",
+      "command": ".venv/bin/python -m pytest tests/test_geometry_audit.py tests/test_perspective.py tests/test_grid_geometry.py tests/test_scan_recognition.py -q"
+    },
+    "broader_python": {
+      "passed": 378,
+      "note": "Collected before the last seven reviewed-case tests, subsequently checked in the 14-test focused run. Stockfish engine tests excluded as unrelated to B.1.",
+      "command": ".venv/bin/python -m pytest tests --ignore=tests/test_engine.py -q"
+    },
+    "browser": {
+      "passed": 39,
+      "command": "PATH=\"$PWD/tools/node/bin:$PATH\" npm --prefix web test",
+      "full_circle_max_corner_error_px": 2.62
+    },
+    "reuse_output_rejected": true,
+    "protected_files_verified_after_tests": 99,
+    "a3_source_files_unchanged": 8,
+    "diff_check": "passed",
+    "remaining_test_failures": 0
+  },
+  "acceptance": {
+    "coordinate_mappings_synthetic_and_reviewed": "passed",
+    "no_unintended_semantic_rotation_in_tested_paths": "passed",
+    "recognition_separated_from_alignment": "passed_with_documented_reference_limits",
+    "task_complete": true,
+    "automatic_localization_fixed": false,
+    "production_algorithm_changes": false
+  }
+}

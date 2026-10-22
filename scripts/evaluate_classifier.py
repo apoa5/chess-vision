@@ -63,6 +63,8 @@ def confusion_plot(matrix, path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--config', type=Path)
+    parser.add_argument('--no-metadata-report', action='store_true',
+                        help='Write only to --output-dir; preserve the historical metadata report.')
     parser.add_argument('--output-dir', type=Path, default=Path('outputs/week2/classifier_evaluation'))
     args = parser.parse_args()
     config = load_config(args.config) if args.config else load_config()
@@ -119,7 +121,8 @@ def main():
                   'Confidence bins are descriptive; no test-driven calibration or model selection performed.']}
     destination = args.output_dir; destination.mkdir(parents=True, exist_ok=True)
     write_json(destination/'evaluation.json', report); write_json(destination/'predictions.json', rows)
-    write_json(config['data']['metadata']/'day12_classifier_evaluation.json', report)
+    if not args.no_metadata_report:
+        write_json(config['data']['metadata']/'day12_classifier_evaluation.json', report)
     with (destination/'per_class.csv').open('w', newline='') as handle:
         writer = csv.DictWriter(handle, fieldnames=['class_name','support','precision','recall','f1'])
         writer.writeheader(); writer.writerows(metrics['per_class'])

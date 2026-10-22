@@ -1,0 +1,61 @@
+{
+  "schema_version": "pilot_owner_attestations_v1",
+  "recorded_at_utc": "2026-10-19 20:48:11 UTC",
+  "actor": "dataset_owner",
+  "evidence": "Explicit response to joint photo/FEN agreement and recording-stability question: Confirm both for all five recordings",
+  "scope": "All five pilot sessions, both representations of each same recording",
+  "verified_corners": false,
+  "per_frame_semantic_orientation_verified": false,
+  "sessions": [
+    {
+      "capture_session_id": "a3_pilot_01_01_starting_take01",
+      "position_id": "a3_pilot_01_01_starting",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "reference_sha256": "d9bee52bfa172678a6ad9bbe2a6d7b0082a204e9988e3a1b999427fd0ebb59fb",
+      "low_video_sha256": "40efd302abd1e1c129381cc32a04f48639dba09401321e7d6fee2685e24b8eaa",
+      "high_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+      "photo_fen_agreement": "owner_confirmed",
+      "unchanged_position_full_recording": "owner_confirmed"
+    },
+    {
+      "capture_session_id": "a3_pilot_01_02_opening_take01",
+      "position_id": "a3_pilot_01_02_opening",
+      "fen": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R w KQkq - 0 1",
+      "reference_sha256": "c0b0312cd75c4f6a6d78cd13276c3795c136e633b76f4d4ec44ebfec16ff6c3e",
+      "low_video_sha256": "caee817536f19ee01d7e6a79c9c1b486e6daf470b2c30ccb70a5da46210af014",
+      "high_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+      "photo_fen_agreement": "owner_confirmed",
+      "unchanged_position_full_recording": "owner_confirmed"
+    },
+    {
+      "capture_session_id": "a3_pilot_01_03_middlegame_take01",
+      "position_id": "a3_pilot_01_03_middlegame",
+      "fen": "r2q1rk1/1b1nbpp1/p2ppn1p/1p4P1/3NP2P/2N1BP2/PPPQ4/2KR1B1R w - - 1 13",
+      "reference_sha256": "e2ae41127417e67131d48994b86f81144b1738cf875369f2c8d32579f147bf75",
+      "low_video_sha256": "33beee5dab41c0add32012bf916239ac696d800ec4cad51f42f3b8ef8fec9274",
+      "high_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+      "photo_fen_agreement": "owner_confirmed",
+      "unchanged_position_full_recording": "owner_confirmed"
+    },
+    {
+      "capture_session_id": "a3_pilot_01_04_endgame_take01",
+      "position_id": "a3_pilot_01_04_endgame",
+      "fen": "8/5pk1/6p1/3n3p/2B1P2P/6P1/5PK1/8 w - - 0 1",
+      "reference_sha256": "a236ede8a7e2e454f0434feefd8d7ec0a84d2b7b360d1a6ce2b8250186ef4583",
+      "low_video_sha256": "ce312ed6887b0cdb8786bec9ec2b4010cc0580be95b72c47cc173cc15be8eebc",
+      "high_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+      "photo_fen_agreement": "owner_confirmed",
+      "unchanged_position_full_recording": "owner_confirmed"
+    },
+    {
+      "capture_session_id": "a3_pilot_01_05_puzzle_take01",
+      "position_id": "a3_pilot_01_05_puzzle",
+      "fen": "8/3N4/p7/4P3/8/1K2k3/1P6/r7 w - - 0 1",
+      "reference_sha256": "4d170919534294a9b176213d4e5f848d3a9a6c0d1d2835baf1d80ffaf35237ef",
+      "low_video_sha256": "1003a3c4f4e9e9be27cd29599ad8c492ad1105abe4206ed779916b79d30b7958",
+      "high_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+      "photo_fen_agreement": "owner_confirmed",
+      "unchanged_position_full_recording": "owner_confirmed"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "low_source": "outputs/scanning/pilot_01/native_run1/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_frame_000120.png",
+  "high_source": "outputs/scanning/pilot_01/hd_aligned_run1/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000122.png",
+  "low_source_sha256": "eb86e9e14d4c186619dea61971b9c3fee0d172d259331aec6f27ab352b1c5f2a",
+  "high_source_sha256": "e424d6da99be3f70347fdb1808b59fd47317efe64a9ea604f00f3d1fbb6adea6",
+  "low_bounds_exclusive": [
+    73,
+    442,
+    164,
+    555
+  ],
+  "high_bounds_exclusive": [
+    169,
+    1000,
+    380,
+    1257
+  ],
+  "display_interpolation": "Low ROI nearest-upsampled to native high ROI dimensions; no new detail claimed.",
+  "label_source": "Existing automatic geometry used for diagnostic ROI only; no training labels generated."
+}

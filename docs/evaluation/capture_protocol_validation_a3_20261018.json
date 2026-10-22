@@ -1,0 +1,84 @@
+{
+  "task": "A.3",
+  "status": "protocol_and_tooling_complete_awaiting_review",
+  "source_commit": "15a5a8792a41f1a11c9287f6061f90fb126858a3",
+  "physical_capture_performed": false,
+  "new_photographs": 0,
+  "verified_ground_truth_frames": 0,
+  "planning": {
+    "schema_version": "capture_validation_v1",
+    "dataset_id": "a3_collection_01",
+    "purpose": "audit",
+    "planned_sessions": 52,
+    "captured_sessions": 0,
+    "frame_count": 0,
+    "fully_reviewed_frames": 0,
+    "expected_matrix_cells": 624,
+    "verified_matrix_cells": 0,
+    "matrix_by_split": {
+      "pilot": {
+        "expected": 48,
+        "verified": 0
+      },
+      "train": {
+        "expected": 384,
+        "verified": 0
+      },
+      "val": {
+        "expected": 96,
+        "verified": 0
+      },
+      "final_holdout": {
+        "expected": 96,
+        "verified": 0
+      }
+    },
+    "collection_complete": false,
+    "selected_frame_ids": [],
+    "limitations": [
+      "Human attestations cannot be verified as truthful by software.",
+      "Hashes catch exact duplicates; session provenance must group near-duplicates.",
+      "This companion format is not consumed by the legacy training loader."
+    ]
+  },
+  "verification": {
+    "focused_replay_split_tests_passed": 53,
+    "broader_python_tests_passed": 353,
+    "test_note": "One additional cross-split archive-image leakage test was added after broader test collection and passed in the focused run. All fixtures are synthetic temporary test data.",
+    "engine_tests": "excluded; outside A.3",
+    "browser_tests": "not repeated; no browser changes",
+    "expected_rejections": [
+      "--require-complete: 624 cells missing",
+      "--purpose training: no reviewed train frames",
+      "--purpose final_evaluation: final holdout sealed"
+    ],
+    "git_diff_check": "passed",
+    "preserved_a1_artifacts_verified": 58,
+    "a2_summary_and_all_recorded_prediction_source_hashes_verified": true
+  },
+  "acceptance": {
+    "phone_executable_protocol": true,
+    "required_metadata_and_ground_truth_rules": true,
+    "schema_and_validator": true,
+    "leakage_checks_and_final_holdout_isolation_defined": true,
+    "existing_capture_and_replay_reused": true,
+    "independent_localization_and_semantic_orientation_evaluation_defined": true,
+    "no_invented_collected_photographs": true,
+    "no_training_architecture_yolo_or_live_workflow_changes": true
+  },
+  "files_sha256": {
+    "configs/capture/capture_manifest.schema.json": "569dddf0383dcf1d6ee01a1e1e24cf1a393e8d33b5fb0f838dc34e3f4e6c2973",
+    "configs/capture/a3_plan.json": "9c7ad9a4760a60f704bc83a4662756177b3c2ca00f3372f5a3630e890a5558a7",
+    "src/scanning/capture_protocol.py": "f038e2f4e76ebc184d5918bf9a919598b462edf1d3f807c6301a28b3166178d9",
+    "scripts/validate_capture_manifest.py": "ad8dea8d995571c347a3ce4eec13b8859a4533c71518d41c4677c336a9d42ccf",
+    "tests/test_capture_protocol.py": "b76b212dc4395467d76b5344cd5e196e25f40934e33cf54cc27ce83b7a96f5ff"
+  },
+  "limitations": [
+    "Pilot and main physical capture and human verification remain user tasks.",
+    "Purpose gates do not replace storage permissions or human holdout discipline.",
+    "Exact hashes do not detect all recompressed or near-duplicate images.",
+    "Current replay supports only existing board dimensions.",
+    "Legacy classifier loaders do not consume this companion format."
+  ],
+  "next_task": "No next task authorized. Specific B.1 investigations recommended in docs/evaluation/capture_protocol.md."
+}

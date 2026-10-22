@@ -1,0 +1,553 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Chess-Vision A.3 capture companion manifest",
+  "description": "Continuous original camera sequences are primary; sparse image derivatives require independent human review.",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "capture_protocol_v2"
+    },
+    "dataset_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9_-]+$"
+    },
+    "matrix": {
+      "type": "object",
+      "properties": {
+        "environments": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 2,
+          "uniqueItems": true
+        },
+        "lighting": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "diffuse",
+              "directional"
+            ]
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "uniqueItems": true
+        },
+        "orientations": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "white_near_camera",
+              "black_near_camera",
+              "white_left",
+              "white_right"
+            ]
+          },
+          "minItems": 4,
+          "maxItems": 4,
+          "uniqueItems": true
+        },
+        "elevations": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "low",
+              "medium",
+              "overhead"
+            ]
+          },
+          "minItems": 3,
+          "maxItems": 3,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "environments",
+        "lighting",
+        "orientations",
+        "elevations"
+      ],
+      "additionalProperties": false
+    },
+    "boards": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/board"
+      },
+      "minItems": 1
+    },
+    "positions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/position"
+      },
+      "minItems": 1
+    },
+    "sessions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/session"
+      },
+      "minItems": 1
+    },
+    "frames": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/frame"
+      }
+    },
+    "split_lock_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "frame_selection": {
+      "type": "object",
+      "properties": {
+        "max_frames_per_session": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12
+        },
+        "min_gap_ms": {
+          "type": "number",
+          "minimum": 2000
+        }
+      },
+      "required": [
+        "max_frames_per_session",
+        "min_gap_ms"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "matrix",
+    "boards",
+    "positions",
+    "sessions",
+    "frames",
+    "split_lock_sha256",
+    "frame_selection"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "split": {
+      "enum": [
+        "pilot",
+        "train",
+        "val",
+        "final_holdout"
+      ]
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "pending",
+            "verified",
+            "rejected"
+          ]
+        },
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "annotation_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "status",
+        "reviewer",
+        "reviewed_at",
+        "annotation_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "frame": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "session_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "archive_frame_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12000
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12000
+        },
+        "board_epoch": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "camera_orientation": {
+          "enum": [
+            "white_near_camera",
+            "black_near_camera",
+            "white_left",
+            "white_right"
+          ]
+        },
+        "elevation": {
+          "enum": [
+            "low",
+            "medium",
+            "overhead"
+          ]
+        },
+        "elevation_degrees": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 90
+        },
+        "elevation_method": {
+          "enum": [
+            "estimated",
+            "measured"
+          ]
+        },
+        "selected_for_matrix": {
+          "type": "boolean"
+        },
+        "quality": {
+          "enum": [
+            "pending",
+            "usable",
+            "excluded"
+          ]
+        },
+        "quality_reasons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "verified_corners_px": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "number",
+              "minimum": 0
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "verified_semantic_orientation": {
+          "enum": [
+            null,
+            "white_near_camera",
+            "black_near_camera",
+            "white_left",
+            "white_right"
+          ]
+        },
+        "reviews": {
+          "type": "object",
+          "properties": {
+            "quality": {
+              "$ref": "#/$defs/review"
+            },
+            "corners": {
+              "$ref": "#/$defs/review"
+            },
+            "orientation": {
+              "$ref": "#/$defs/review"
+            },
+            "placement": {
+              "$ref": "#/$defs/review"
+            }
+          },
+          "required": [
+            "quality",
+            "corners",
+            "orientation",
+            "placement"
+          ],
+          "additionalProperties": false
+        },
+        "timestamp_ms": {
+          "type": "number",
+          "minimum": 0
+        },
+        "near_duplicate_group_id": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "session_id",
+        "archive_frame_id",
+        "source_sha256",
+        "width",
+        "height",
+        "board_epoch",
+        "camera_orientation",
+        "elevation",
+        "elevation_degrees",
+        "elevation_method",
+        "selected_for_matrix",
+        "quality",
+        "quality_reasons",
+        "verified_corners_px",
+        "verified_semantic_orientation",
+        "reviews",
+        "timestamp_ms",
+        "near_duplicate_group_id"
+      ],
+      "additionalProperties": false
+    },
+    "position": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "split": {
+          "$ref": "#/$defs/split"
+        },
+        "previously_seen": {
+          "type": "boolean"
+        },
+        "fen": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "split",
+        "previously_seen",
+        "fen"
+      ],
+      "additionalProperties": false
+    },
+    "session": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "position_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "split": {
+          "$ref": "#/$defs/split"
+        },
+        "independence_group_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "board_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "camera_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "environment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lighting": {
+          "enum": [
+            "diffuse",
+            "directional"
+          ]
+        },
+        "started_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "archive": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "recorder_session_id": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[A-Za-z0-9_-]+$"
+            }
+          },
+          "required": [
+            "path",
+            "sha256",
+            "recorder_session_id"
+          ],
+          "additionalProperties": false
+        },
+        "capture_mode": {
+          "const": "continuous_sequence"
+        },
+        "sequence_review": {
+          "$ref": "#/$defs/review"
+        },
+        "view_intervals": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "start_ms": {
+                "type": "number",
+                "minimum": 0
+              },
+              "end_ms": {
+                "type": "number",
+                "minimum": 0
+              },
+              "camera_orientation": {
+                "enum": [
+                  null,
+                  "white_near_camera",
+                  "black_near_camera",
+                  "white_left",
+                  "white_right"
+                ]
+              },
+              "elevation": {
+                "enum": [
+                  null,
+                  "low",
+                  "medium",
+                  "overhead"
+                ]
+              },
+              "notes": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "start_ms",
+              "end_ms",
+              "camera_orientation",
+              "elevation",
+              "notes"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "id",
+        "position_id",
+        "split",
+        "independence_group_id",
+        "board_id",
+        "camera_id",
+        "environment",
+        "lighting",
+        "started_at",
+        "archive",
+        "capture_mode",
+        "sequence_review",
+        "view_intervals"
+      ],
+      "additionalProperties": false
+    },
+    "board": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "piece_set_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "square_cm": {
+          "type": "number",
+          "minimum": 0.1
+        },
+        "border_cm": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "id",
+        "piece_set_id",
+        "square_cm",
+        "border_cm"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

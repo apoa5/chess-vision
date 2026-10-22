@@ -1,0 +1,24 @@
+{
+  "experiment": "b2_crop_resolution_v1",
+  "geometry": "Frozen approved saved crops; no detector, orientation, grid fit, raw recovery or warp rerun",
+  "selection": "Best weighted validation loss within each arm including epoch zero; rank configurations by validation occupied accuracy, macro F1, then lower inference cost. Historical test is descriptive only.",
+  "training": {"epochs": 3, "seed": 42, "learning_rate": 0.0001, "batch_size": 16, "cpu_threads": 4, "mode": "fine_tune", "initialization": "Every arm independently starts from the frozen epoch-16 checkpoint; fresh Adam state; no test samples used"},
+  "variants": [
+    {"name": "context2_224", "input_size": 224, "padding_squares": 2, "train": true},
+    {"name": "context2_320", "input_size": 320, "padding_squares": 2, "train": true},
+    {"name": "context1_224", "input_size": 224, "padding_squares": 1, "train": true},
+    {"name": "context_half_224", "input_size": 224, "padding_squares": 0.5, "train": false},
+    {"name": "target_only_224", "input_size": 224, "padding_squares": 0, "train": false},
+    {"name": "suppress_outer_224", "input_size": 224, "padding_squares": 2, "suppress_outer_context": true, "train": false},
+    {"name": "quarter_detail_224", "input_size": 224, "padding_squares": 2, "detail_factor": 0.25, "train": false},
+    {"name": "quarter_detail_320", "input_size": 320, "padding_squares": 2, "detail_factor": 0.25, "train": false}
+  ],
+  "interpretation": [
+    "Frozen-weight transformed inputs are sensitivity diagnostics, not fair estimates of optimally retrained crop architectures.",
+    "Three equal-budget adapted arms include an unchanged-crop continuation control; one seed and three epochs are a bounded adaptation screen, not convergence or a full from-scratch benchmark.",
+    "Context removal and tighter cropping affect different things: suppression preserves target scale, while subcropping changes context and target scale together.",
+    "Quarter-detail arms deliberately remove RGB information before restoration; masks and physical targets are unchanged. Upsampling restores dimensions, not source detail.",
+    "Historical sessions/timestamps are unavailable. Existing position/source/placement grouping is preserved; independent-session generalization cannot be certified.",
+    "No A.3 capture or untouched final holdout is loaded. No geometric augmentation or confidence calibration is implemented."
+  ]
+}

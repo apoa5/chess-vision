@@ -1,0 +1,96 @@
+{
+  "task": "A.3 revision 2",
+  "architecture_target": "continuous multi-angle smartphone scanning",
+  "status": "protocol_and_tooling_complete_awaiting_review",
+  "source_commit": "15a5a8792a41f1a11c9287f6061f90fb126858a3",
+  "capture_schema_version": "capture_protocol_v2",
+  "physical_capture_performed": false,
+  "new_verified_ground_truth_frames": 0,
+  "plan": {
+    "schema_version": "capture_validation_v2",
+    "dataset_id": "a3_sequence_collection_01",
+    "purpose": "audit",
+    "planned_sessions": 52,
+    "captured_sessions": 0,
+    "frame_count": 0,
+    "fully_reviewed_frames": 0,
+    "expected_matrix_cells": 624,
+    "verified_matrix_cells": 0,
+    "matrix_by_split": {
+      "pilot": {
+        "expected": 48,
+        "verified": 0
+      },
+      "train": {
+        "expected": 384,
+        "verified": 0
+      },
+      "val": {
+        "expected": 96,
+        "verified": 0
+      },
+      "final_holdout": {
+        "expected": 96,
+        "verified": 0
+      }
+    },
+    "collection_complete": false,
+    "selected_frame_ids": [],
+    "selected_session_ids": [],
+    "sequence_diagnostics": {},
+    "limitations": [
+      "Human attestations cannot be verified as truthful by software.",
+      "Hashes catch exact duplicates; session provenance must group near-duplicates.",
+      "This companion format is not consumed by the legacy training loader."
+    ]
+  },
+  "verification": {
+    "focused_tests_passed": 70,
+    "broader_python_tests_passed": 371,
+    "engine_tests": "excluded",
+    "git_diff_check": "passed",
+    "preserved_a1_artifacts_verified": 58,
+    "a2_summary_and_prediction_source_hashes_verified": true,
+    "expected_rejections": [
+      "incomplete coverage on empty plan",
+      "no reviewed scan validation sessions",
+      "final scan holdout sealed without explicit release"
+    ]
+  },
+  "historical_extraction_smoke": {
+    "source_archive": "outputs/scanning/captures/scan_e3117de7-c7cb-415f-9581-18bcc316a9d7.zip",
+    "source_sha256": "66f81c288b6cd2a03698c39fdb1511a3714e8a96dad391116d32f7f5a70a7771",
+    "source_frames": 30,
+    "unverified_candidates": 12,
+    "exact_source_bytes_and_timestamps_verified": true,
+    "new_capture": false
+  },
+  "acceptance": {
+    "continuous_original_sequences_primary": true,
+    "sparse_diverse_image_derivatives": true,
+    "original_timeline_events_and_view_metadata_retained": true,
+    "near_duplicate_and_temporal_controls": true,
+    "position_and_session_leakage_prevention": true,
+    "phone_pilot_and_existing_replay_reused": true,
+    "recognition_and_full_scan_evaluation_separated": true,
+    "existing_ground_truth_schema_and_review_requirements_retained": true,
+    "no_video_native_recognition_or_model_replacement": true
+  },
+  "files_sha256": {
+    "configs/capture/capture_manifest.schema.json": "a8586b18122528521aa5eba239973708b87414cd4501f30eef3646a1eec6f84e",
+    "configs/capture/a3_plan.json": "350bd55b9e65788cf3f6160a432541833d57b273048cf9c65cf85c18bddf621d",
+    "src/scanning/capture_protocol.py": "5cdd333b66984104d48974fab3782a77772e595b12522ba30aa28fc60c4862ae",
+    "src/scanning/frame_selection.py": "90cbe803834ccc2f95e25bd180268f2295c78b3eda5759d119d00e37f47c1ef3",
+    "scripts/validate_capture_manifest.py": "68e3dee8a844af1b671853fd0dc3bf743e044354537f298bd3a27592878b27c5",
+    "scripts/extract_scan_frames.py": "d2a054855bd1ac9174873dd8347e8b8ace55ef1435d4f09a88934583235ebc26",
+    "tests/test_capture_protocol.py": "0587117659de3bd952859cf8af00015fe53738c8810c81fad742cd5b04ac6312",
+    "tests/test_frame_selection.py": "9479ca6b30f7ac46550b5df35e554b4f71244914dfc4835504a3aec7cdd12e75"
+  },
+  "limitations": [
+    "Current guided recorder is approximately 1 Hz, not native full-rate video.",
+    "Native MOV/MP4 PTS-aware import is outside supported ZIP intake; originals should be preserved.",
+    "View novelty/quality heuristics do not verify physical labels or independence.",
+    "Actual pilot capture and human review remain user tasks.",
+    "Future live tracking/keyframe/fusion evaluation and model-loader integration are not implemented."
+  ]
+}

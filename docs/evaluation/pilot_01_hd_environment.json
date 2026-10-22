@@ -1,0 +1,46 @@
+{
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "opencv": "5.0.0",
+  "pyav": "19.0.1",
+  "ffmpeg_libraries": {
+    "libavutil": [
+      61,
+      1,
+      102
+    ],
+    "libavcodec": [
+      63,
+      1,
+      102
+    ],
+    "libavformat": [
+      63,
+      1,
+      102
+    ],
+    "libavdevice": [
+      63,
+      1,
+      102
+    ],
+    "libavfilter": [
+      12,
+      1,
+      102
+    ],
+    "libswscale": [
+      10,
+      1,
+      102
+    ],
+    "libswresample": [
+      7,
+      1,
+      102
+    ]
+  },
+  "evaluator_sha256": "1b9e33f89a122c0b29a681c55b028088ae48635230c3352544e72572bfb8ac94",
+  "opencv_threads_in_run": 1,
+  "marking_reader_torch_threads": 4
+}

@@ -27,6 +27,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('image',type=Path)
     parser.add_argument('--mode',choices=['raw','rectified'],default='raw')
+    parser.add_argument('--geometry-policy', choices=['legacy', 'marked-board'], default='legacy',
+                        help='Opt-in raw recovery using the existing board-font reader; geometry still requires review.')
     parser.add_argument('--geometry',type=Path,help='Rectified geometry JSON or prepared_boards.json; never uses its FEN/labels.')
     parser.add_argument('--corners',type=Path,help='Explicit raw-image playing-area corners JSON: {"corners": [[x,y], ...]}.')
     parser.add_argument('--white-side',choices=list(SIDES),help='White side in camera-view rectified image, if markings are unreadable.')
@@ -38,7 +40,11 @@ def main():
     parser.add_argument('--halfmove-clock',type=int,default=None)
     parser.add_argument('--fullmove-number',type=int,default=None)
     args = parser.parse_args()
+    if args.geometry_policy != 'legacy' and (args.mode != 'raw' or args.corners or args.white_side):
+        parser.error('--geometry-policy marked-board requires automatic raw input without manual overrides.')
     destination = args.output_dir / args.image.stem
+    if args.geometry_policy != 'legacy' and destination.exists():
+        parser.error('Marked-board runs require a new unused image output directory.')
     destination.mkdir(parents=True,exist_ok=True)
     try:
         supplied = {name:getattr(args,name) for name in GameState.__dataclass_fields__ if getattr(args,name) is not None}
@@ -48,8 +54,12 @@ def main():
         if args.mode == 'raw':
             if args.geometry: raise ValueError('--geometry is for rectified input only.')
             provided_corners = json.loads(args.corners.read_text())['corners'] if args.corners else None
-            rectified,grid,turns,provenance = prepare_raw_photo(args.image,config,destination,
-                                                              corners=provided_corners,white_side=args.white_side)
+            if args.geometry_policy == 'marked-board':
+                from src.vision.geometry_reliability import prepare_reliable_raw_photo
+                rectified,grid,turns,provenance = prepare_reliable_raw_photo(args.image,config,destination)
+            else:
+                rectified,grid,turns,provenance = prepare_raw_photo(args.image,config,destination,
+                                                                  corners=provided_corners,white_side=args.white_side)
             localization = provenance['localization_source']
             orientation_source = provenance['orientation_source']
         else:
@@ -76,6 +86,8 @@ def main():
         result = predict_rectified(classifier,rectified,grid,turns,padding=padding)
         result.update(fen_result(BoardState(result['board']['rows'],'white_at_bottom'),game_state,supplied))
         if args.mode == 'raw': result['source_corners'] = provenance['source_corners']
+        if args.geometry_policy == 'marked-board':
+            result['geometry_reliability'] = provenance['geometry_reliability']
         result.update(source_image=str(args.image.resolve()),source_sha256=file_hash(args.image),
                       checkpoint_path=str(config['classifier']['checkpoint_path']),
                       checkpoint_sha256=file_hash(config['classifier']['checkpoint_path']),
@@ -88,7 +100,7 @@ def main():
                       class_names=list(CLASS_NAMES),
                       status='predicted',warnings=['Predictions are uncorrected model outputs; confidence does not guarantee correctness.',
                            'Inspect grid alignment; automatic geometry has not been manually approved for this run.']
-                      if localization == 'automatic' else ['Predictions are uncorrected model outputs; confidence does not guarantee correctness.'])
+                      if localization in ('automatic', 'learned_border_markings_fallback') else ['Predictions are uncorrected model outputs; confidence does not guarantee correctness.'])
         save_image(destination/'context.png',rectified.image)
         save_image(destination/'context_valid.png',rectified.valid_mask)
         save_image(destination/'prediction_overlay.png',prediction_overlay(rectified.image,result['predictions'],config['classifier']['confidence_threshold']))

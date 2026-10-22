@@ -1,0 +1,4417 @@
+{
+  "schema_version": "pilot_resolution_comparison_v1",
+  "comparison_script_sha256": "26f5a529dfda3cfefdf0d4aa8729ed230509b091dc97c7ab4e2eeb6e888c7b83",
+  "designation": "development_only",
+  "same_recordings_not_independent": true,
+  "ground_truth_geometry_available": false,
+  "input_sha256": {
+    "outputs/scanning/pilot_01/hd_aligned_run1/manifest.json": "61c083c4a69844719c4994e8e26b3b2128f522d68ea83bde3f5088c55af9cdff",
+    "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json": "f76629077616978787f358a2d9ec5713e1ddacacbdfbae781301262ac2f8e1db",
+    "outputs/scanning/pilot_01/geometry_run1/results.json": "74040ed05feed13f341fb4e2501c9cccf64493af7d865ff7fd47a7b06be402ed"
+  },
+  "summary": {
+    "legacy": {
+      "low_completed": 32,
+      "high_completed": 30,
+      "transitions": {
+        "regressed": 8,
+        "retained": 24,
+        "rescued": 6,
+        "still_unresolved": 22
+      },
+      "high_failure_stages": {
+        "orientation": 6,
+        "localization": 24
+      },
+      "low_runtime_seconds": 93.51376128126867,
+      "high_runtime_seconds": 194.7966444150079,
+      "low_runtime_median_seconds": 1.490502072381787,
+      "high_runtime_median_seconds": 3.0189250635448843
+    },
+    "marked-board": {
+      "low_completed": 51,
+      "high_completed": 53,
+      "transitions": {
+        "retained": 49,
+        "rescued": 4,
+        "still_unresolved": 5,
+        "regressed": 2
+      },
+      "high_failure_stages": {
+        "localization": 7
+      },
+      "low_runtime_seconds": 153.38661454385146,
+      "high_runtime_seconds": 393.65687626297586,
+      "low_runtime_median_seconds": 2.2147493875818327,
+      "high_runtime_median_seconds": 5.978445507469587
+    }
+  },
+  "frames": [
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "candidate": 1,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 4.0,
+      "high_timestamp_seconds": 4.066666666666666,
+      "offset_ms": 66.66666666666652,
+      "correlation": 0.9678407907485962,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4351936131114689,
+            0.0010140538890313232,
+            -1.6029956405536154
+          ],
+          [
+            0.0008499509265171802,
+            0.44429630199669684,
+            -1.3946268228873993
+          ],
+          [
+            1.1086176915716968e-06,
+            2.93504294910782e-06,
+            1.0
+          ]
+        ],
+        "inliers": 985,
+        "matches": 1189,
+        "median_inlier_error_low_px": 0.5668299198150635,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": false,
+          "transition": "regressed",
+          "low_stage": null,
+          "high_stage": "orientation",
+          "high_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+          "high_recovery_reason": null,
+          "low_seconds": 2.3042115909047425,
+          "high_seconds": 4.106057523982599,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 1.920396005967632,
+          "high_seconds": 12.399016979150474,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 3.550833962911076,
+            "semantic_square_centre_rms_low_pixels": 1.1642514844754304,
+            "max_semantic_square_centre_shift_low_pixels": 2.1337041194746322,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/starting_01_paired.jpg"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "candidate": 2,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 9.0,
+      "high_timestamp_seconds": 9.068333333333333,
+      "offset_ms": 68.33333333333394,
+      "correlation": 0.9561676383018494,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4342515808869805,
+            0.0002173217279406528,
+            -0.18493558723896983
+          ],
+          [
+            0.000946466579444985,
+            0.44276567122084154,
+            -0.3585046900916097
+          ],
+          [
+            2.59536313642703e-06,
+            1.0450309951838816e-06,
+            1.0
+          ]
+        ],
+        "inliers": 967,
+        "matches": 1155,
+        "median_inlier_error_low_px": 0.5930864810943604,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": false,
+          "transition": "regressed",
+          "low_stage": null,
+          "high_stage": "orientation",
+          "high_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.3571778947953135,
+          "high_seconds": 2.3820772559847683,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 1.4724218789488077,
+          "high_seconds": 7.054744054097682,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 2.3102606048052174,
+            "semantic_square_centre_rms_low_pixels": 0.8681680122270832,
+            "max_semantic_square_centre_shift_low_pixels": 1.5312664819367334,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/starting_02_paired.jpg"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "candidate": 3,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 18.5,
+      "high_timestamp_seconds": 18.57,
+      "offset_ms": 70.0,
+      "correlation": 0.9435509443283081,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4320119233782127,
+            0.0003267981581394063,
+            0.07238851556313707
+          ],
+          [
+            -0.000977364331887822,
+            0.441720680943252,
+            0.3465851483001616
+          ],
+          [
+            -2.2037060931992774e-06,
+            6.644618791613596e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1255,
+        "matches": 1433,
+        "median_inlier_error_low_px": 0.5575745105743408,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.1667275200597942,
+          "high_seconds": 3.832096425117925,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 11.406044709218682,
+            "semantic_square_centre_rms_low_pixels": 0.6161253536253946,
+            "max_semantic_square_centre_shift_low_pixels": 1.775846888381088,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.1395187308080494,
+          "high_seconds": 3.044361067004502,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 11.406044709218682,
+            "semantic_square_centre_rms_low_pixels": 0.6161253536253946,
+            "max_semantic_square_centre_shift_low_pixels": 1.775846888381088,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/starting_03_paired.jpg"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "candidate": 4,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 21.0,
+      "high_timestamp_seconds": 21.07,
+      "offset_ms": 70.0,
+      "correlation": 0.9406947493553162,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4298946135428165,
+            5.9364612160453475e-05,
+            0.4141663494496974
+          ],
+          [
+            -0.002636636388107377,
+            0.4390857025811027,
+            2.137154913002182
+          ],
+          [
+            -6.605035252019267e-06,
+            -7.84574403328314e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1219,
+        "matches": 1434,
+        "median_inlier_error_low_px": 0.6742697954177856,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": true,
+          "transition": "rescued",
+          "low_stage": "rectification_validation",
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 0.6977597309742123,
+          "high_seconds": 2.6219195621088147,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": false,
+          "high_completed": true,
+          "transition": "rescued",
+          "low_stage": "rectification_validation",
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 0.7429183460772038,
+          "high_seconds": 2.391710903029889,
+          "geometry_agreement": null
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/starting_04_paired.jpg"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "candidate": 5,
+      "observed_side_unverified": "white_right",
+      "low_timestamp_seconds": 28.0,
+      "high_timestamp_seconds": 28.07,
+      "offset_ms": 70.0,
+      "correlation": 0.9046842455863953,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43227415802420877,
+            -0.00012702656747372255,
+            0.4025389716954224
+          ],
+          [
+            -0.0003099526228505459,
+            0.44129308762482766,
+            0.4236687259510254
+          ],
+          [
+            -7.62462924659753e-07,
+            -3.202411726027489e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1021,
+        "matches": 1216,
+        "median_inlier_error_low_px": 0.5812601447105408,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.200756962178275,
+          "high_seconds": 5.063604810973629,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 2.276466924546262,
+            "semantic_square_centre_rms_low_pixels": 0.8479063428894167,
+            "max_semantic_square_centre_shift_low_pixels": 1.942139249892622,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.15299547300674,
+          "high_seconds": 4.416778338141739,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 2.276466924546262,
+            "semantic_square_centre_rms_low_pixels": 0.8479063428894167,
+            "max_semantic_square_centre_shift_low_pixels": 1.942139249892622,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/starting_05_paired.jpg"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "candidate": 6,
+      "observed_side_unverified": "white_right",
+      "low_timestamp_seconds": 32.0,
+      "high_timestamp_seconds": 32.071666666666665,
+      "offset_ms": 71.66666666666788,
+      "correlation": 0.9471957683563232,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4312091699989619,
+            -0.0003475321536643862,
+            0.6107557683121089
+          ],
+          [
+            -0.0015182524610077978,
+            0.4399923632434474,
+            1.438710703151205
+          ],
+          [
+            -3.962599396407638e-06,
+            -4.33171318357118e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1079,
+        "matches": 1297,
+        "median_inlier_error_low_px": 0.6439098715782166,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "orientation",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.693702541058883,
+          "high_seconds": 2.3827167279087007,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 10.4436148670502,
+          "high_seconds": 7.571873745881021,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 2.1741035947796457,
+            "semantic_square_centre_rms_low_pixels": 0.5950516331360404,
+            "max_semantic_square_centre_shift_low_pixels": 1.2474590695058008,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/starting_06_paired.jpg"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "candidate": 7,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 40.0,
+      "high_timestamp_seconds": 40.07333333333334,
+      "offset_ms": 73.33333333333576,
+      "correlation": 0.9594634771347046,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43209672541579114,
+            -0.002063056419602989,
+            1.8539348423795836
+          ],
+          [
+            0.0008467220569865335,
+            0.4387618946901274,
+            1.1761229779257065
+          ],
+          [
+            1.790839988382841e-06,
+            -4.1493722789951545e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1161,
+        "matches": 1374,
+        "median_inlier_error_low_px": 0.6240332722663879,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": true,
+          "transition": "rescued",
+          "low_stage": "localization",
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.068140096962452,
+          "high_seconds": 3.1381430600304157,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.9691697340458632,
+          "high_seconds": 3.220613341080025,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 8.401745733623244,
+            "semantic_square_centre_rms_low_pixels": 0.7347718305049002,
+            "max_semantic_square_centre_shift_low_pixels": 1.6413683714330587,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/starting_07_paired.jpg"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "candidate": 8,
+      "observed_side_unverified": "black_near",
+      "low_timestamp_seconds": 44.0,
+      "high_timestamp_seconds": 44.07333333333334,
+      "offset_ms": 73.33333333333576,
+      "correlation": 0.9594260454177856,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.432413333905449,
+            -0.0008288101268269355,
+            1.4660861524238624
+          ],
+          [
+            6.598987615362381e-05,
+            0.4421247260127112,
+            -0.20607528846129153
+          ],
+          [
+            2.67367711311159e-08,
+            3.24674963477101e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1039,
+        "matches": 1277,
+        "median_inlier_error_low_px": 0.6433033347129822,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.484595927875489,
+          "high_seconds": 3.1105821391101927,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 6.828000016269005,
+            "semantic_square_centre_rms_low_pixels": 1.1124650316903346,
+            "max_semantic_square_centre_shift_low_pixels": 3.029284270054913,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.3918809539172798,
+          "high_seconds": 3.3960800799541175,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 6.828000016269005,
+            "semantic_square_centre_rms_low_pixels": 1.1124650316903346,
+            "max_semantic_square_centre_shift_low_pixels": 3.029284270054913,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/starting_08_paired.jpg"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "candidate": 9,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 54.5,
+      "high_timestamp_seconds": 54.575,
+      "offset_ms": 75.0,
+      "correlation": 0.9581844806671143,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4340858950449311,
+            -9.214639535343889e-05,
+            0.00882922172075845
+          ],
+          [
+            0.0011969306275128467,
+            0.4423238649930525,
+            -0.6097979734421872
+          ],
+          [
+            2.4605332682641345e-06,
+            -5.166282121119146e-08,
+            1.0
+          ]
+        ],
+        "inliers": 1121,
+        "matches": 1314,
+        "median_inlier_error_low_px": 0.6554034352302551,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "orientation",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.2868557039182633,
+          "high_seconds": 1.4551599719561636,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 2.800788515014574,
+          "high_seconds": 8.963946857955307,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 6.769183208064607,
+            "semantic_square_centre_rms_low_pixels": 0.5894942339862984,
+            "max_semantic_square_centre_shift_low_pixels": 0.7601034349746415,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/starting_09_paired.jpg"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "candidate": 10,
+      "observed_side_unverified": "white_left",
+      "low_timestamp_seconds": 57.0,
+      "high_timestamp_seconds": 57.075,
+      "offset_ms": 75.0,
+      "correlation": 0.9710819125175476,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43249752911302386,
+            -0.0007870491448987842,
+            0.6536782827001627
+          ],
+          [
+            0.00014924834920465704,
+            0.4407998497537628,
+            0.23026024723443053
+          ],
+          [
+            -2.2106047074550536e-07,
+            -1.5150360075283454e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1124,
+        "matches": 1271,
+        "median_inlier_error_low_px": 0.6420485377311707,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 0.8198930341750383,
+          "high_seconds": 2.440127840032801,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+          "high_recovery_reason": "localization_failed",
+          "low_seconds": 2.8060407310258597,
+          "high_seconds": 8.476610883837566,
+          "geometry_agreement": null
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/starting_10_paired.jpg"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "candidate": 11,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 68.5,
+      "high_timestamp_seconds": 68.57666666666667,
+      "offset_ms": 76.66666666667152,
+      "correlation": 0.9735618233680725,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4332055323088186,
+            -4.092197418855346e-05,
+            -0.07063605751643064
+          ],
+          [
+            -0.00018380375596538774,
+            0.4414519335738409,
+            0.3393646231404752
+          ],
+          [
+            -5.632330336858643e-07,
+            -3.557351208910294e-08,
+            1.0
+          ]
+        ],
+        "inliers": 915,
+        "matches": 1094,
+        "median_inlier_error_low_px": 0.6972450613975525,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 0.905848704976961,
+          "high_seconds": 2.7859881320036948,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": false,
+          "high_completed": true,
+          "transition": "rescued",
+          "low_stage": "localization",
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 2.7492510131560266,
+          "high_seconds": 9.989114835159853,
+          "geometry_agreement": null
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/starting_11_paired.jpg"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "candidate": 12,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 71.5,
+      "high_timestamp_seconds": 71.57666666666667,
+      "offset_ms": 76.66666666667152,
+      "correlation": 0.9689655303955078,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4356527432043143,
+            0.00014710985554528558,
+            -1.0432703411786748
+          ],
+          [
+            0.0011064407523381436,
+            0.4431681696421779,
+            -0.9242896833906293
+          ],
+          [
+            3.1663892920970585e-06,
+            4.918407492634134e-07,
+            1.0
+          ]
+        ],
+        "inliers": 958,
+        "matches": 1134,
+        "median_inlier_error_low_px": 0.6601107120513916,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": false,
+          "transition": "regressed",
+          "low_stage": null,
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.6158702608663589,
+          "high_seconds": 2.9836658511776477,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 1.6486380728892982,
+          "high_seconds": 7.055746336933225,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 11.479084808352258,
+            "semantic_square_centre_rms_low_pixels": 0.5947510422674714,
+            "max_semantic_square_centre_shift_low_pixels": 1.1993880045328058,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/starting_12_paired.jpg"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "candidate": 1,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 0.0,
+      "high_timestamp_seconds": 0.06666666666666667,
+      "offset_ms": 66.66666666666667,
+      "correlation": 0.9454967379570007,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4334212702361918,
+            0.00010250000697645382,
+            0.15678584455992448
+          ],
+          [
+            0.00028067008250180975,
+            0.44246095400164287,
+            -0.44689160956732404
+          ],
+          [
+            6.161126869081154e-07,
+            8.151007956462912e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1056,
+        "matches": 1213,
+        "median_inlier_error_low_px": 0.49877452850341797,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.135857808869332,
+          "high_seconds": 2.4322060600388795,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 2.57812827039327,
+            "semantic_square_centre_rms_low_pixels": 1.2314372691713737,
+            "max_semantic_square_centre_shift_low_pixels": 3.1222533074197765,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.1707314669620246,
+          "high_seconds": 3.0337727470323443,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 2.57812827039327,
+            "semantic_square_centre_rms_low_pixels": 1.2314372691713737,
+            "max_semantic_square_centre_shift_low_pixels": 3.1222533074197765,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/opening_01_paired.jpg"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "candidate": 2,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 9.0,
+      "high_timestamp_seconds": 9.068333333333333,
+      "offset_ms": 68.33333333333394,
+      "correlation": 0.9699707627296448,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43031587792601134,
+            0.0001707425415155254,
+            0.7035024018034665
+          ],
+          [
+            -0.00226256866291075,
+            0.4410227592357484,
+            1.111161383402519
+          ],
+          [
+            -4.384391055383845e-06,
+            1.1431541379020282e-07,
+            0.9999999999999999
+          ]
+        ],
+        "inliers": 1082,
+        "matches": 1244,
+        "median_inlier_error_low_px": 0.7067911624908447,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 0.7376667088828981,
+          "high_seconds": 5.405505788978189,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": false,
+          "high_completed": true,
+          "transition": "rescued",
+          "low_stage": "localization",
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 2.21752124116756,
+          "high_seconds": 12.966586316935718,
+          "geometry_agreement": null
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/opening_02_paired.jpg"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "candidate": 3,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 15.5,
+      "high_timestamp_seconds": 15.568333333333333,
+      "offset_ms": 68.33333333333394,
+      "correlation": 0.9709192514419556,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.42727355958939994,
+            -6.379626412398375e-05,
+            1.0048626696256504
+          ],
+          [
+            -0.002787073723241072,
+            0.4364299079320946,
+            2.9652597799273637
+          ],
+          [
+            -7.824215127263561e-06,
+            -4.852928518320874e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1130,
+        "matches": 1304,
+        "median_inlier_error_low_px": 0.7120456695556641,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": false,
+          "transition": "regressed",
+          "low_stage": null,
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.0358347380533814,
+          "high_seconds": 3.46700010006316,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 1.008430000860244,
+          "high_seconds": 9.30451303301379,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 5.212056782918973,
+            "semantic_square_centre_rms_low_pixels": 0.6122018794682365,
+            "max_semantic_square_centre_shift_low_pixels": 1.5629339843651398,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/opening_03_paired.jpg"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "candidate": 4,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 21.0,
+      "high_timestamp_seconds": 21.07,
+      "offset_ms": 70.0,
+      "correlation": 0.9334499835968018,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4321636666569993,
+            -0.0005115587499694241,
+            0.6976009495242993
+          ],
+          [
+            -0.00031376783225282976,
+            0.44059852286398665,
+            0.6995288385608036
+          ],
+          [
+            -6.720346692938046e-07,
+            -1.2132282281240334e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1331,
+        "matches": 1486,
+        "median_inlier_error_low_px": 0.6380026936531067,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": true,
+          "transition": "rescued",
+          "low_stage": "localization",
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 0.8679256159812212,
+          "high_seconds": 3.897852092050016,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.0711153268348426,
+          "high_seconds": 3.3697813141625375,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 7.662111517846104,
+            "semantic_square_centre_rms_low_pixels": 0.5314671268990651,
+            "max_semantic_square_centre_shift_low_pixels": 0.9744819360143988,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/opening_04_paired.jpg"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "candidate": 5,
+      "observed_side_unverified": "white_right",
+      "low_timestamp_seconds": 28.0,
+      "high_timestamp_seconds": 28.07,
+      "offset_ms": 70.0,
+      "correlation": 0.9127277731895447,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4329096240592614,
+            0.00013573681455734452,
+            0.09883807676626935
+          ],
+          [
+            0.00019378689630753163,
+            0.44171057696028776,
+            0.02341169913674852
+          ],
+          [
+            5.141910769555808e-07,
+            -1.4656398818995624e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1117,
+        "matches": 1280,
+        "median_inlier_error_low_px": 0.5642462968826294,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 3.022768269991502,
+          "high_seconds": 3.4643960029352456,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 7.221209752062345,
+            "semantic_square_centre_rms_low_pixels": 1.2666373631914316,
+            "max_semantic_square_centre_shift_low_pixels": 2.3716812190839556,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.964957306860015,
+          "high_seconds": 3.6855451341252774,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 7.221209752062345,
+            "semantic_square_centre_rms_low_pixels": 1.2666373631914316,
+            "max_semantic_square_centre_shift_low_pixels": 2.3716812190839556,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/opening_05_paired.jpg"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "candidate": 6,
+      "observed_side_unverified": "white_right",
+      "low_timestamp_seconds": 31.0,
+      "high_timestamp_seconds": 31.07166666666667,
+      "offset_ms": 71.66666666666788,
+      "correlation": 0.9208077192306519,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43214286361161547,
+            -0.0014982158908986999,
+            1.5860074182557402
+          ],
+          [
+            0.0024836178538839462,
+            0.4379054744009185,
+            1.2409733805673406
+          ],
+          [
+            4.9283244266395795e-06,
+            -5.536629910778752e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1116,
+        "matches": 1318,
+        "median_inlier_error_low_px": 0.6876083612442017,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.579213618999347,
+          "high_seconds": 4.2387930429540575,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 4.995153641308473,
+            "semantic_square_centre_rms_low_pixels": 0.7363892899228613,
+            "max_semantic_square_centre_shift_low_pixels": 1.4061525325335036,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.603939178865403,
+          "high_seconds": 4.329135515959933,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 4.995153641308473,
+            "semantic_square_centre_rms_low_pixels": 0.7363892899228613,
+            "max_semantic_square_centre_shift_low_pixels": 1.4061525325335036,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/opening_06_paired.jpg"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "candidate": 7,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 40.5,
+      "high_timestamp_seconds": 40.57333333333334,
+      "offset_ms": 73.33333333333576,
+      "correlation": 0.9607524275779724,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43123805284480377,
+            -0.0023305773418250617,
+            1.9726258887958301
+          ],
+          [
+            0.002014490926320886,
+            0.43587818360979597,
+            2.0926854445830014
+          ],
+          [
+            5.423641386829331e-06,
+            -9.139735459315053e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1246,
+        "matches": 1417,
+        "median_inlier_error_low_px": 0.687682032585144,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.5444967199582607,
+          "high_seconds": 2.4704892069566995,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 2.5812597980257124,
+          "high_seconds": 12.599096660036594,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 1.275184823685737,
+            "semantic_square_centre_rms_low_pixels": 0.296231584044148,
+            "max_semantic_square_centre_shift_low_pixels": 0.521513355888798,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/opening_07_paired.jpg"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "candidate": 8,
+      "observed_side_unverified": "black_near",
+      "low_timestamp_seconds": 48.5,
+      "high_timestamp_seconds": 48.57333333333334,
+      "offset_ms": 73.33333333333576,
+      "correlation": 0.9443999528884888,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4323567618578294,
+            -2.6082200273678896e-05,
+            0.4274524543541368
+          ],
+          [
+            -0.0004991687390722263,
+            0.4420617385648302,
+            0.21336791636060604
+          ],
+          [
+            -9.416697675076687e-07,
+            9.430923733594554e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1063,
+        "matches": 1203,
+        "median_inlier_error_low_px": 0.6088789105415344,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.496408216888085,
+          "high_seconds": 2.6497529519256204,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 1.5278063063448575,
+            "semantic_square_centre_rms_low_pixels": 0.5262032801927586,
+            "max_semantic_square_centre_shift_low_pixels": 0.882789322035534,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.6087847009766847,
+          "high_seconds": 2.5651633930392563,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 1.5278063063448575,
+            "semantic_square_centre_rms_low_pixels": 0.5262032801927586,
+            "max_semantic_square_centre_shift_low_pixels": 0.882789322035534,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/opening_08_paired.jpg"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "candidate": 9,
+      "observed_side_unverified": "black_near",
+      "low_timestamp_seconds": 52.5,
+      "high_timestamp_seconds": 52.575,
+      "offset_ms": 75.0,
+      "correlation": 0.9598388671875,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4316376900917565,
+            0.00012327045044854,
+            0.3074364056690776
+          ],
+          [
+            -0.0006152013959322097,
+            0.4410593363673295,
+            0.5688168288466311
+          ],
+          [
+            -1.1332972213158327e-06,
+            -4.775241931499763e-07,
+            0.9999999999999999
+          ]
+        ],
+        "inliers": 1208,
+        "matches": 1387,
+        "median_inlier_error_low_px": 0.6595290899276733,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.9043220721650869,
+          "high_seconds": 4.797675884794444,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 5.510083195986226,
+          "high_seconds": 11.995133969001472,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 1.8986248640429892,
+            "semantic_square_centre_rms_low_pixels": 0.6346205454965889,
+            "max_semantic_square_centre_shift_low_pixels": 1.3271772346176212,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/opening_09_paired.jpg"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "candidate": 10,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 56.5,
+      "high_timestamp_seconds": 56.575,
+      "offset_ms": 75.0,
+      "correlation": 0.9569292664527893,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43197493864103703,
+            -0.0004184016229311921,
+            0.6664278464315062
+          ],
+          [
+            0.0004334427567054319,
+            0.4402510852694115,
+            0.30824160533165734
+          ],
+          [
+            -6.807288230371164e-07,
+            -1.6311398593666164e-06,
+            0.9999999999999999
+          ]
+        ],
+        "inliers": 971,
+        "matches": 1128,
+        "median_inlier_error_low_px": 0.7444301843643188,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 0.8656859011389315,
+          "high_seconds": 1.8093328149989247,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+          "high_recovery_reason": "orientation_uncertain",
+          "low_seconds": 4.017910522874445,
+          "high_seconds": 10.673507290892303,
+          "geometry_agreement": null
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/opening_10_paired.jpg"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "candidate": 11,
+      "observed_side_unverified": "white_left",
+      "low_timestamp_seconds": 63.0,
+      "high_timestamp_seconds": 63.07666666666666,
+      "offset_ms": 76.66666666666424,
+      "correlation": 0.9538848996162415,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4331613521155183,
+            0.00036412805825787684,
+            -0.2702411220015855
+          ],
+          [
+            -0.00016587556771555955,
+            0.44229548422824616,
+            -0.04991392598093726
+          ],
+          [
+            -2.2213022517918422e-07,
+            7.281765232381914e-07,
+            1.0
+          ]
+        ],
+        "inliers": 942,
+        "matches": 1081,
+        "median_inlier_error_low_px": 0.6300663352012634,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "orientation",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.5057931968476623,
+          "high_seconds": 2.3956987760029733,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": false,
+          "transition": "regressed",
+          "low_stage": null,
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries",
+          "high_recovery_reason": "competing_alternative_seed_geometries",
+          "low_seconds": 2.7876278629992157,
+          "high_seconds": 7.7944206590764225,
+          "geometry_agreement": null
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/opening_11_paired.jpg"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "candidate": 12,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 73.0,
+      "high_timestamp_seconds": 73.07666666666667,
+      "offset_ms": 76.66666666667152,
+      "correlation": 0.9699392318725586,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43125256311943333,
+            -0.0007797685334934933,
+            0.9402568826212981
+          ],
+          [
+            -0.0007782776873541433,
+            0.4401146878904146,
+            0.8856877567289173
+          ],
+          [
+            -2.2383944673758213e-06,
+            -1.755268764955108e-06,
+            0.9999999999999999
+          ]
+        ],
+        "inliers": 1076,
+        "matches": 1230,
+        "median_inlier_error_low_px": 0.6748903393745422,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.7545778809580952,
+          "high_seconds": 4.534614796983078,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 3.358017213176936,
+          "high_seconds": 9.188331078970805,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 1.599866799175895,
+            "semantic_square_centre_rms_low_pixels": 0.41375145660848067,
+            "max_semantic_square_centre_shift_low_pixels": 0.8933902869159241,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/opening_12_paired.jpg"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "candidate": 1,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 0.0,
+      "high_timestamp_seconds": 0.06666666666666667,
+      "offset_ms": 66.66666666666667,
+      "correlation": 0.9547091722488403,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4326625282319952,
+            -0.0005559756186824976,
+            0.22631800941727884
+          ],
+          [
+            0.00020227518048967816,
+            0.44114105551453514,
+            0.8917351737483866
+          ],
+          [
+            -2.9965689074474707e-07,
+            -4.44779131781994e-07,
+            1.0
+          ]
+        ],
+        "inliers": 940,
+        "matches": 1144,
+        "median_inlier_error_low_px": 0.8438010215759277,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": false,
+          "transition": "regressed",
+          "low_stage": null,
+          "high_stage": "orientation",
+          "high_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+          "high_recovery_reason": null,
+          "low_seconds": 0.995248134015128,
+          "high_seconds": 4.226158513920382,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 1.0288906840141863,
+          "high_seconds": 11.09465901600197,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 10.91422746942019,
+            "semantic_square_centre_rms_low_pixels": 0.9247189288093738,
+            "max_semantic_square_centre_shift_low_pixels": 2.507565017848202,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/middlegame_01_paired.jpg"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "candidate": 2,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 9.0,
+      "high_timestamp_seconds": 9.068333333333333,
+      "offset_ms": 68.33333333333394,
+      "correlation": 0.9561430215835571,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4321514656318856,
+            0.00017702310220067604,
+            0.14318157701084203
+          ],
+          [
+            -0.0005986297365386268,
+            0.44079492223912325,
+            0.8057036879056236
+          ],
+          [
+            -1.5992486646131788e-06,
+            -2.401003915742871e-07,
+            0.9999999999999999
+          ]
+        ],
+        "inliers": 1070,
+        "matches": 1253,
+        "median_inlier_error_low_px": 0.5934020280838013,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": false,
+          "transition": "regressed",
+          "low_stage": null,
+          "high_stage": "orientation",
+          "high_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.0999942931812257,
+          "high_seconds": 3.4054757768753916,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 1.0864952141419053,
+          "high_seconds": 8.438759075012058,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 7.585288332636719,
+            "semantic_square_centre_rms_low_pixels": 1.3426973163142117,
+            "max_semantic_square_centre_shift_low_pixels": 1.9205004556991438,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/middlegame_02_paired.jpg"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "candidate": 3,
+      "observed_side_unverified": "white_right",
+      "low_timestamp_seconds": 17.5,
+      "high_timestamp_seconds": 17.57,
+      "offset_ms": 70.0,
+      "correlation": 0.9060503244400024,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4309063741806574,
+            -8.132383846503564e-05,
+            0.7745292037024235
+          ],
+          [
+            -0.0025980193167522907,
+            0.440489013065647,
+            1.9866652970573138
+          ],
+          [
+            -3.6135638175415594e-06,
+            -8.013159780960158e-08,
+            1.0
+          ]
+        ],
+        "inliers": 1118,
+        "matches": 1283,
+        "median_inlier_error_low_px": 0.7289316058158875,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No plausible board quadrilateral found.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.2263953301589936,
+          "high_seconds": 1.0952804239932448,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 2.8642601168248802,
+          "high_seconds": 5.111157891107723,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 1.4987147545592936,
+            "semantic_square_centre_rms_low_pixels": 0.6857314391715162,
+            "max_semantic_square_centre_shift_low_pixels": 1.3357233186888369,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/middlegame_03_paired.jpg"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "candidate": 4,
+      "observed_side_unverified": "white_right",
+      "low_timestamp_seconds": 19.5,
+      "high_timestamp_seconds": 19.57,
+      "offset_ms": 70.0,
+      "correlation": 0.8978109955787659,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4320008322569887,
+            0.00029615606250470156,
+            0.02635116722083044
+          ],
+          [
+            -0.0004359467941398071,
+            0.4410755593186257,
+            0.4285781437288303
+          ],
+          [
+            -1.2057647003358907e-06,
+            -5.664554324821192e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1164,
+        "matches": 1326,
+        "median_inlier_error_low_px": 0.5863548517227173,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.041013741865754,
+          "high_seconds": 7.848918328993022,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 10.073238405275719,
+            "semantic_square_centre_rms_low_pixels": 0.6725199647852811,
+            "max_semantic_square_centre_shift_low_pixels": 1.685751741841786,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.8688732930459082,
+          "high_seconds": 7.173334263032302,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 10.073238405275719,
+            "semantic_square_centre_rms_low_pixels": 0.6725199647852811,
+            "max_semantic_square_centre_shift_low_pixels": 1.685751741841786,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/middlegame_04_paired.jpg"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "candidate": 5,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 27.0,
+      "high_timestamp_seconds": 27.07,
+      "offset_ms": 70.0,
+      "correlation": 0.9442026615142822,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4301528867009334,
+            0.0004952719275976802,
+            0.6761081487728935
+          ],
+          [
+            -0.001830408203548584,
+            0.4411024785866907,
+            0.7497180985873934
+          ],
+          [
+            -6.03035021599251e-06,
+            1.002693082596681e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1243,
+        "matches": 1414,
+        "median_inlier_error_low_px": 0.6527136564254761,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": true,
+          "transition": "rescued",
+          "low_stage": "localization",
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 0.6443508118391037,
+          "high_seconds": 2.3338236820418388,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.9478663601912558,
+          "high_seconds": 2.721433249069378,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 3.5851090236768015,
+            "semantic_square_centre_rms_low_pixels": 1.3964822132209722,
+            "max_semantic_square_centre_shift_low_pixels": 4.550512847158516,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/middlegame_05_paired.jpg"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "candidate": 6,
+      "observed_side_unverified": "black_near",
+      "low_timestamp_seconds": 32.0,
+      "high_timestamp_seconds": 32.071666666666665,
+      "offset_ms": 71.66666666666788,
+      "correlation": 0.9487378001213074,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4326662293447765,
+            -2.86916517957884e-05,
+            0.26736236847325473
+          ],
+          [
+            -0.00012790302465385945,
+            0.4411090612063741,
+            0.45790989668377896
+          ],
+          [
+            -2.8602607870712337e-07,
+            -4.6388840129626156e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1127,
+        "matches": 1301,
+        "median_inlier_error_low_px": 0.5565648078918457,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.4703700959216803,
+          "high_seconds": 5.996674390044063,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 8.926774028924665,
+            "semantic_square_centre_rms_low_pixels": 0.6836426893258329,
+            "max_semantic_square_centre_shift_low_pixels": 1.1376109530932565,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.3617604800965637,
+          "high_seconds": 6.448429030831903,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 8.926774028924665,
+            "semantic_square_centre_rms_low_pixels": 0.6836426893258329,
+            "max_semantic_square_centre_shift_low_pixels": 1.1376109530932565,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/middlegame_06_paired.jpg"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "candidate": 7,
+      "observed_side_unverified": "black_near",
+      "low_timestamp_seconds": 40.5,
+      "high_timestamp_seconds": 40.57333333333334,
+      "offset_ms": 73.33333333333576,
+      "correlation": 0.9630212187767029,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43572981866073845,
+            -4.401367865928872e-05,
+            -0.16648965076112335
+          ],
+          [
+            0.0014090451448732525,
+            0.4448000603285543,
+            -1.7047826545763654
+          ],
+          [
+            3.6141595257472064e-06,
+            2.356635997307143e-06,
+            0.9999999999999999
+          ]
+        ],
+        "inliers": 1179,
+        "matches": 1369,
+        "median_inlier_error_low_px": 0.6788882613182068,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 0.861771411029622,
+          "high_seconds": 3.214719305979088,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 2.3801903859712183,
+          "high_seconds": 10.068754270905629,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 3.09524335863536,
+            "semantic_square_centre_rms_low_pixels": 0.9260294396436372,
+            "max_semantic_square_centre_shift_low_pixels": 1.6756078312850637,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/middlegame_07_paired.jpg"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "candidate": 8,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 46.0,
+      "high_timestamp_seconds": 46.07333333333334,
+      "offset_ms": 73.33333333333576,
+      "correlation": 0.9583405256271362,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4330119922256494,
+            -0.000790151518951791,
+            0.5364436126697157
+          ],
+          [
+            0.00020152929627582344,
+            0.4415374916944421,
+            0.017441861192478324
+          ],
+          [
+            7.562465823248286e-07,
+            -9.757630947874018e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1093,
+        "matches": 1249,
+        "median_inlier_error_low_px": 0.7383245825767517,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.5209659680258483,
+          "high_seconds": 1.4966094561386853,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": false,
+          "high_completed": true,
+          "transition": "rescued",
+          "low_stage": "localization",
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 2.886363672092557,
+          "high_seconds": 8.18944757222198,
+          "geometry_agreement": null
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/middlegame_08_paired.jpg"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "candidate": 9,
+      "observed_side_unverified": "white_left",
+      "low_timestamp_seconds": 52.5,
+      "high_timestamp_seconds": 52.575,
+      "offset_ms": 75.0,
+      "correlation": 0.936484158039093,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43646995390397064,
+            0.0005614675745535116,
+            -0.5962650629121643
+          ],
+          [
+            0.001842457761478192,
+            0.4457798333225775,
+            -2.060106847281541
+          ],
+          [
+            5.247119843307603e-06,
+            3.6273832079177716e-06,
+            1.0
+          ]
+        ],
+        "inliers": 869,
+        "matches": 1053,
+        "median_inlier_error_low_px": 0.6857244372367859,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.7741201459430158,
+          "high_seconds": 4.984421313041821,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 18.468299123954317,
+            "semantic_square_centre_rms_low_pixels": 1.4133757444111914,
+            "max_semantic_square_centre_shift_low_pixels": 2.6642262250984037,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.211977533996105,
+          "high_seconds": 4.852978262817487,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 18.468299123954317,
+            "semantic_square_centre_rms_low_pixels": 1.4133757444111914,
+            "max_semantic_square_centre_shift_low_pixels": 2.6642262250984037,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/middlegame_09_paired.jpg"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "candidate": 10,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 61.0,
+      "high_timestamp_seconds": 61.075,
+      "offset_ms": 75.0,
+      "correlation": 0.9735174775123596,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43472916898042774,
+            -0.0011587555551323887,
+            0.574244069428008
+          ],
+          [
+            0.003138795241550743,
+            0.43940708067016104,
+            0.8037354861346998
+          ],
+          [
+            6.9097029526598884e-06,
+            -3.367046589311062e-06,
+            1.0
+          ]
+        ],
+        "inliers": 996,
+        "matches": 1199,
+        "median_inlier_error_low_px": 0.7485334873199463,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 2.1411416628398,
+          "high_seconds": 2.4164558488409966,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+          "high_recovery_reason": "orientation_uncertain",
+          "low_seconds": 7.631949114846066,
+          "high_seconds": 9.282442155992612,
+          "geometry_agreement": null
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/middlegame_10_paired.jpg"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "candidate": 11,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 67.5,
+      "high_timestamp_seconds": 67.57666666666667,
+      "offset_ms": 76.66666666667152,
+      "correlation": 0.9542086720466614,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43432170130244513,
+            -0.0003300982900675651,
+            0.17473209428774772
+          ],
+          [
+            0.0008856944210167707,
+            0.4435328735379974,
+            -0.743796018143504
+          ],
+          [
+            2.5680049346731444e-06,
+            2.064151583773216e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1050,
+        "matches": 1233,
+        "median_inlier_error_low_px": 0.6524014472961426,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": true,
+          "transition": "rescued",
+          "low_stage": "orientation",
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.5785851820837706,
+          "high_seconds": 3.731526867952198,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 3.5080121429637074,
+          "high_seconds": 3.952048311010003,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 15.351251870504976,
+            "semantic_square_centre_rms_low_pixels": 1.0905208509645374,
+            "max_semantic_square_centre_shift_low_pixels": 2.0156556051604912,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/middlegame_11_paired.jpg"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "candidate": 12,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 75.0,
+      "high_timestamp_seconds": 75.07833333333333,
+      "offset_ms": 78.33333333332848,
+      "correlation": 0.9674597978591919,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4322440103590497,
+            0.0007174291383566718,
+            0.17683512570850982
+          ],
+          [
+            -0.0002629718821723823,
+            0.4424871847247899,
+            -0.017816013022016602
+          ],
+          [
+            -8.072028061726457e-07,
+            1.8351631407608911e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1154,
+        "matches": 1316,
+        "median_inlier_error_low_px": 0.6287755966186523,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 2.7034100161399692,
+          "high_seconds": 3.0298931470606476,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 5.874573020962998,
+          "high_seconds": 9.401459289016202,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 0.7684547785587922,
+            "semantic_square_centre_rms_low_pixels": 0.3944651093226225,
+            "max_semantic_square_centre_shift_low_pixels": 0.8300640023056501,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/middlegame_12_paired.jpg"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "candidate": 1,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 0.0,
+      "high_timestamp_seconds": 0.06666666666666667,
+      "offset_ms": 66.66666666666667,
+      "correlation": 0.9318971037864685,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4431598895505278,
+            0.001208687312265516,
+            -2.4712259959632097
+          ],
+          [
+            0.009184388588932144,
+            0.4524139546436299,
+            -7.84885156013132
+          ],
+          [
+            1.846529807355865e-05,
+            6.342248243612084e-06,
+            1.0
+          ]
+        ],
+        "inliers": 719,
+        "matches": 954,
+        "median_inlier_error_low_px": 0.9727650284767151,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.4825639419723302,
+          "high_seconds": 5.474592039827257,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 5.326781692264834,
+            "semantic_square_centre_rms_low_pixels": 0.8075957133251523,
+            "max_semantic_square_centre_shift_low_pixels": 1.4550205665941518,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.6111882640980184,
+          "high_seconds": 5.385891929036006,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 5.326781692264834,
+            "semantic_square_centre_rms_low_pixels": 0.8075957133251523,
+            "max_semantic_square_centre_shift_low_pixels": 1.4550205665941518,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/endgame_01_paired.jpg"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "candidate": 2,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 10.5,
+      "high_timestamp_seconds": 10.568333333333333,
+      "offset_ms": 68.33333333333394,
+      "correlation": 0.9161797165870667,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4325475263721029,
+            -0.00024869849921287985,
+            0.44249533941481684
+          ],
+          [
+            -2.970741478804353e-05,
+            0.4410831948157841,
+            0.3835415623488865
+          ],
+          [
+            -4.210046925510324e-08,
+            -7.122538066716416e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1148,
+        "matches": 1331,
+        "median_inlier_error_low_px": 0.5610490441322327,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No plausible board quadrilateral found.",
+          "high_recovery_reason": null,
+          "low_seconds": 0.22833364317193627,
+          "high_seconds": 1.3174062641337514,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 1.8038895279169083,
+          "high_seconds": 10.627184042008594,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 0.46764988260155455,
+            "semantic_square_centre_rms_low_pixels": 0.5700121458261864,
+            "max_semantic_square_centre_shift_low_pixels": 1.0388712960916762,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/endgame_02_paired.jpg"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "candidate": 3,
+      "observed_side_unverified": "white_right",
+      "low_timestamp_seconds": 15.5,
+      "high_timestamp_seconds": 15.568333333333333,
+      "offset_ms": 68.33333333333394,
+      "correlation": 0.9085657596588135,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4309294012816813,
+            -0.0009948381499515668,
+            1.0980960157116222
+          ],
+          [
+            -0.00041536469932234525,
+            0.43772708059874765,
+            2.0127130629500627
+          ],
+          [
+            -1.2633479205874853e-06,
+            -4.35905659691578e-06,
+            1.0
+          ]
+        ],
+        "inliers": 943,
+        "matches": 1109,
+        "median_inlier_error_low_px": 0.6612812280654907,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 3.716632875846699,
+          "high_seconds": 4.462717942893505,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 1.3118800804920852,
+            "semantic_square_centre_rms_low_pixels": 0.8002679483658324,
+            "max_semantic_square_centre_shift_low_pixels": 1.37656608596003,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 3.0910960838664323,
+          "high_seconds": 5.508461984107271,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 1.3118800804920852,
+            "semantic_square_centre_rms_low_pixels": 0.8002679483658324,
+            "max_semantic_square_centre_shift_low_pixels": 1.37656608596003,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/endgame_03_paired.jpg"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "candidate": 4,
+      "observed_side_unverified": "white_right",
+      "low_timestamp_seconds": 17.5,
+      "high_timestamp_seconds": 17.57,
+      "offset_ms": 70.0,
+      "correlation": 0.9254624247550964,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4311757265779781,
+            -0.00011314264584470147,
+            0.5104641439542607
+          ],
+          [
+            -0.0012843902728133347,
+            0.4405267223779577,
+            0.9611294441774205
+          ],
+          [
+            -2.5774423918976015e-06,
+            -7.875060981000099e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1032,
+        "matches": 1215,
+        "median_inlier_error_low_px": 0.6117465496063232,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 3.363898096838966,
+          "high_seconds": 3.4558899221010506,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 5.140769898344809,
+            "semantic_square_centre_rms_low_pixels": 0.5341675687675128,
+            "max_semantic_square_centre_shift_low_pixels": 1.1439917751390083,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 3.532498965971172,
+          "high_seconds": 3.4516313108615577,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 5.140769898344809,
+            "semantic_square_centre_rms_low_pixels": 0.5341675687675128,
+            "max_semantic_square_centre_shift_low_pixels": 1.1439917751390083,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/endgame_04_paired.jpg"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "candidate": 5,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 26.0,
+      "high_timestamp_seconds": 26.07,
+      "offset_ms": 70.0,
+      "correlation": 0.9580101370811462,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4332831103593717,
+            -0.001941756111873199,
+            1.2090017948825
+          ],
+          [
+            0.0010167008611715593,
+            0.43924242848336,
+            0.9289953695189149
+          ],
+          [
+            2.8167624750532786e-06,
+            -3.8829337475675665e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1170,
+        "matches": 1358,
+        "median_inlier_error_low_px": 0.6686689853668213,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.8601073438767344,
+          "high_seconds": 2.5466185400728136,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 1.3947022595916154,
+            "semantic_square_centre_rms_low_pixels": 0.4779273646892712,
+            "max_semantic_square_centre_shift_low_pixels": 0.9989996152566781,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.3494716410059482,
+          "high_seconds": 3.5596984189469367,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 1.3947022595916154,
+            "semantic_square_centre_rms_low_pixels": 0.4779273646892712,
+            "max_semantic_square_centre_shift_low_pixels": 0.9989996152566781,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/endgame_05_paired.jpg"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "candidate": 6,
+      "observed_side_unverified": "black_near",
+      "low_timestamp_seconds": 33.5,
+      "high_timestamp_seconds": 33.571666666666665,
+      "offset_ms": 71.66666666666424,
+      "correlation": 0.9510440826416016,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43109375311296066,
+            -0.0007486675350688552,
+            1.4237736495458166
+          ],
+          [
+            -0.000986391045620027,
+            0.43997391177744855,
+            1.0827832736092213
+          ],
+          [
+            -2.2878273314060325e-06,
+            -1.554902218250161e-06,
+            1.0
+          ]
+        ],
+        "inliers": 990,
+        "matches": 1159,
+        "median_inlier_error_low_px": 0.6136996746063232,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.134216916980222,
+          "high_seconds": 3.854690205072984,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 3.2743107142699603,
+            "semantic_square_centre_rms_low_pixels": 1.2700233557679879,
+            "max_semantic_square_centre_shift_low_pixels": 2.678578890094532,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.370098951039836,
+          "high_seconds": 3.775822900934145,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 3.2743107142699603,
+            "semantic_square_centre_rms_low_pixels": 1.2700233557679879,
+            "max_semantic_square_centre_shift_low_pixels": 2.678578890094532,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/endgame_06_paired.jpg"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "candidate": 7,
+      "observed_side_unverified": "black_near",
+      "low_timestamp_seconds": 37.5,
+      "high_timestamp_seconds": 37.571666666666665,
+      "offset_ms": 71.66666666666424,
+      "correlation": 0.9659111499786377,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.430686007927719,
+            -0.0004747745210940081,
+            1.1659412906063713
+          ],
+          [
+            -0.0007571198804041985,
+            0.4391979214181142,
+            1.6388511944085096
+          ],
+          [
+            -1.6732639922970133e-06,
+            -2.139544965624346e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1083,
+        "matches": 1239,
+        "median_inlier_error_low_px": 0.6513004899024963,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.2784510888159275,
+          "high_seconds": 4.73805752187036,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 2.0434370701977556,
+            "semantic_square_centre_rms_low_pixels": 0.8686440540050254,
+            "max_semantic_square_centre_shift_low_pixels": 2.1819280390551987,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.495735774980858,
+          "high_seconds": 4.470364578068256,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 2.0434370701977556,
+            "semantic_square_centre_rms_low_pixels": 0.8686440540050254,
+            "max_semantic_square_centre_shift_low_pixels": 2.1819280390551987,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/endgame_07_paired.jpg"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "candidate": 8,
+      "observed_side_unverified": "black_near",
+      "low_timestamp_seconds": 42.5,
+      "high_timestamp_seconds": 42.57333333333334,
+      "offset_ms": 73.33333333333576,
+      "correlation": 0.9623854160308838,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43583478810839515,
+            0.00017193106172441015,
+            -0.5884269694902494
+          ],
+          [
+            0.0021667085347065723,
+            0.4432996735066044,
+            -0.9702667967585614
+          ],
+          [
+            4.615943800301503e-06,
+            1.3680342386082634e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1129,
+        "matches": 1312,
+        "median_inlier_error_low_px": 0.6207557320594788,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": false,
+          "transition": "regressed",
+          "low_stage": null,
+          "high_stage": "orientation",
+          "high_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+          "high_recovery_reason": null,
+          "low_seconds": 2.2852116408757865,
+          "high_seconds": 2.5545182609930634,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 2.607446410926059,
+          "high_seconds": 6.772190788993612,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 3.836659919428856,
+            "semantic_square_centre_rms_low_pixels": 0.947402854519066,
+            "max_semantic_square_centre_shift_low_pixels": 1.9504623042228513,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/endgame_08_paired.jpg"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "candidate": 9,
+      "observed_side_unverified": "white_left",
+      "low_timestamp_seconds": 52.0,
+      "high_timestamp_seconds": 52.075,
+      "offset_ms": 75.0,
+      "correlation": 0.9515766501426697,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43183443520728904,
+            -0.0005359483573074731,
+            0.38876775229813565
+          ],
+          [
+            0.0009530792736381817,
+            0.43809171447567624,
+            1.3397239967811485
+          ],
+          [
+            2.019913835212319e-06,
+            -5.074285556903292e-06,
+            1.0
+          ]
+        ],
+        "inliers": 812,
+        "matches": 965,
+        "median_inlier_error_low_px": 0.6664572954177856,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": false,
+          "transition": "regressed",
+          "low_stage": null,
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 2.21084870910272,
+          "high_seconds": 2.2655982438009232,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 2.00189051986672,
+          "high_seconds": 10.451418380951509,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 10.613409369717209,
+            "semantic_square_centre_rms_low_pixels": 0.5896960244337999,
+            "max_semantic_square_centre_shift_low_pixels": 1.4661963227034491,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/endgame_09_paired.jpg"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "candidate": 10,
+      "observed_side_unverified": "white_left",
+      "low_timestamp_seconds": 55.0,
+      "high_timestamp_seconds": 55.075,
+      "offset_ms": 75.0,
+      "correlation": 0.9688965678215027,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4325784151776917,
+            -0.0005376547050490385,
+            0.33456428642992325
+          ],
+          [
+            -0.00016949762248034378,
+            0.4399648627589899,
+            0.5854347367773738
+          ],
+          [
+            -7.310084374318826e-07,
+            -2.250125520279858e-06,
+            0.9999999999999999
+          ]
+        ],
+        "inliers": 1030,
+        "matches": 1146,
+        "median_inlier_error_low_px": 0.6068189144134521,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 0.7049469519406557,
+          "high_seconds": 3.6688818628899753,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+          "high_recovery_reason": "localization_failed",
+          "low_seconds": 2.7568143161479384,
+          "high_seconds": 11.047733701998368,
+          "geometry_agreement": null
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/endgame_10_paired.jpg"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "candidate": 11,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 61.0,
+      "high_timestamp_seconds": 61.075,
+      "offset_ms": 75.0,
+      "correlation": 0.9740063548088074,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.42465043553934967,
+            -0.0028116972924771316,
+            4.345329096150389
+          ],
+          [
+            -0.004131640261187806,
+            0.4341316853969132,
+            4.683624919441974
+          ],
+          [
+            -1.0052373614767524e-05,
+            -6.416235498248127e-06,
+            1.0
+          ]
+        ],
+        "inliers": 903,
+        "matches": 1116,
+        "median_inlier_error_low_px": 0.8507431149482727,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.8649306970182806,
+          "high_seconds": 1.9852967120241374,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": false,
+          "transition": "regressed",
+          "low_stage": null,
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+          "high_recovery_reason": "orientation_uncertain",
+          "low_seconds": 6.402065163012594,
+          "high_seconds": 10.451542377006263,
+          "geometry_agreement": null
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/endgame_11_paired.jpg"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "candidate": 12,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 66.5,
+      "high_timestamp_seconds": 66.57666666666667,
+      "offset_ms": 76.66666666667152,
+      "correlation": 0.9691358208656311,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4329045858733305,
+            -0.000326146822877511,
+            0.730355488468759
+          ],
+          [
+            0.000488392395796311,
+            0.44258997855355253,
+            -0.34080367864090394
+          ],
+          [
+            1.3975254980262643e-06,
+            8.796629174134463e-07,
+            1.0
+          ]
+        ],
+        "inliers": 1008,
+        "matches": 1187,
+        "median_inlier_error_low_px": 0.6442456245422363,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.4747281530871987,
+          "high_seconds": 2.993551694089547,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 4.679471130655304,
+            "semantic_square_centre_rms_low_pixels": 0.6640714658628203,
+            "max_semantic_square_centre_shift_low_pixels": 1.2143704686980328,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.208169006044045,
+          "high_seconds": 3.1202749020885676,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 4.679471130655304,
+            "semantic_square_centre_rms_low_pixels": 0.6640714658628203,
+            "max_semantic_square_centre_shift_low_pixels": 1.2143704686980328,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/endgame_12_paired.jpg"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "candidate": 1,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 0.0,
+      "high_timestamp_seconds": 0.06666666666666667,
+      "offset_ms": 66.66666666666667,
+      "correlation": 0.9516814351081848,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43284956579284106,
+            -7.676574991068787e-05,
+            0.24580693797600026
+          ],
+          [
+            0.0004848110170809691,
+            0.4406811988013474,
+            0.9770771831357152
+          ],
+          [
+            6.587248388709887e-07,
+            -1.284363889163581e-06,
+            1.0
+          ]
+        ],
+        "inliers": 658,
+        "matches": 845,
+        "median_inlier_error_low_px": 0.8120412826538086,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.8715308939572424,
+          "high_seconds": 3.2368165149819106,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 8.088966608277651,
+            "semantic_square_centre_rms_low_pixels": 1.140456672107485,
+            "max_semantic_square_centre_shift_low_pixels": 2.6919313022715396,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.385019815992564,
+          "high_seconds": 3.9145086051430553,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 8.088966608277651,
+            "semantic_square_centre_rms_low_pixels": 1.140456672107485,
+            "max_semantic_square_centre_shift_low_pixels": 2.6919313022715396,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/puzzle_01_paired.jpg"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "candidate": 2,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 6.0,
+      "high_timestamp_seconds": 6.068333333333333,
+      "offset_ms": 68.33333333333303,
+      "correlation": 0.9722548723220825,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4327032922512194,
+            -8.224524068155401e-05,
+            0.3909928701664206
+          ],
+          [
+            -3.2579310431056824e-05,
+            0.4421456826283486,
+            -0.007248485560055417
+          ],
+          [
+            3.514113187465109e-07,
+            4.928390238326356e-07,
+            1.0
+          ]
+        ],
+        "inliers": 846,
+        "matches": 1009,
+        "median_inlier_error_low_px": 0.6496710181236267,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.591276498977095,
+          "high_seconds": 4.773535054875538,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 4.938312210694798,
+            "semantic_square_centre_rms_low_pixels": 0.6769434438291749,
+            "max_semantic_square_centre_shift_low_pixels": 1.4655938819255894,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.558604072080925,
+          "high_seconds": 3.8529541541356593,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 4.938312210694798,
+            "semantic_square_centre_rms_low_pixels": 0.6769434438291749,
+            "max_semantic_square_centre_shift_low_pixels": 1.4655938819255894,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/puzzle_02_paired.jpg"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "candidate": 3,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 15.5,
+      "high_timestamp_seconds": 15.568333333333333,
+      "offset_ms": 68.33333333333394,
+      "correlation": 0.9095853567123413,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43441149999296425,
+            -0.0006785834331356515,
+            0.3617512659732007
+          ],
+          [
+            0.0018165079268616675,
+            0.44165648011043795,
+            -0.20948818268856315
+          ],
+          [
+            6.925071815898619e-06,
+            -2.3031672286071235e-06,
+            1.0
+          ]
+        ],
+        "inliers": 940,
+        "matches": 1109,
+        "median_inlier_error_low_px": 0.6853843927383423,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.001626230077818,
+          "high_seconds": 2.882224112050608,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 2.1676726575538607,
+            "semantic_square_centre_rms_low_pixels": 0.8867947309862619,
+            "max_semantic_square_centre_shift_low_pixels": 1.9516724004067452,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.0235077808611095,
+          "high_seconds": 2.6335969110950828,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 2.1676726575538607,
+            "semantic_square_centre_rms_low_pixels": 0.8867947309862619,
+            "max_semantic_square_centre_shift_low_pixels": 1.9516724004067452,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/puzzle_03_paired.jpg"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "candidate": 4,
+      "observed_side_unverified": "white_right",
+      "low_timestamp_seconds": 19.5,
+      "high_timestamp_seconds": 19.57,
+      "offset_ms": 70.0,
+      "correlation": 0.9086290597915649,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43279753264287835,
+            -0.0002835372146684418,
+            0.4081658829727507
+          ],
+          [
+            -4.255112011915907e-05,
+            0.4414193048224929,
+            0.1910341312774234
+          ],
+          [
+            -2.484945322634663e-07,
+            -3.0119338607134375e-07,
+            1.0
+          ]
+        ],
+        "inliers": 907,
+        "matches": 1081,
+        "median_inlier_error_low_px": 0.5992897748947144,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.5414846860803664,
+          "high_seconds": 4.268153734970838,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 2.9832428956601884,
+            "semantic_square_centre_rms_low_pixels": 0.785801439094366,
+            "max_semantic_square_centre_shift_low_pixels": 2.1631929570774138,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.319259096868336,
+          "high_seconds": 4.743774347938597,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 2.9832428956601884,
+            "semantic_square_centre_rms_low_pixels": 0.785801439094366,
+            "max_semantic_square_centre_shift_low_pixels": 2.1631929570774138,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/puzzle_04_paired.jpg"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "candidate": 5,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 28.0,
+      "high_timestamp_seconds": 28.07,
+      "offset_ms": 70.0,
+      "correlation": 0.9541140198707581,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4306931770178969,
+            0.0004721609474593291,
+            0.5548193053790716
+          ],
+          [
+            -0.0018579799160183142,
+            0.4416562849132901,
+            0.5664573142342233
+          ],
+          [
+            -4.478366461965967e-06,
+            1.1020949992379637e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1082,
+        "matches": 1248,
+        "median_inlier_error_low_px": 0.6403548121452332,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No plausible board quadrilateral found.",
+          "high_recovery_reason": null,
+          "low_seconds": 0.17129338183440268,
+          "high_seconds": 0.6188339730724692,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 1.4990069239865988,
+          "high_seconds": 8.862661689985543,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 0.8493793512023335,
+            "semantic_square_centre_rms_low_pixels": 0.6474024841898871,
+            "max_semantic_square_centre_shift_low_pixels": 1.4683287824560045,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/puzzle_05_paired.jpg"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "candidate": 6,
+      "observed_side_unverified": "transition_or_uncertain",
+      "low_timestamp_seconds": 30.0,
+      "high_timestamp_seconds": 30.07166666666667,
+      "offset_ms": 71.66666666666788,
+      "correlation": 0.9596839547157288,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43172695153566365,
+            -0.000639155267479979,
+            1.303295112253576
+          ],
+          [
+            0.00024783376559178044,
+            0.43993472435849784,
+            0.957210580061366
+          ],
+          [
+            4.726868635586204e-07,
+            -1.8890085335493423e-06,
+            1.0
+          ]
+        ],
+        "inliers": 1097,
+        "matches": 1313,
+        "median_inlier_error_low_px": 0.6186357736587524,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No plausible board quadrilateral found.",
+          "high_recovery_reason": null,
+          "low_seconds": 0.9029916801955551,
+          "high_seconds": 0.8265739548951387,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 2.334136461140588,
+          "high_seconds": 5.322054921183735,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 1.676212495942264,
+            "semantic_square_centre_rms_low_pixels": 0.6147833684009881,
+            "max_semantic_square_centre_shift_low_pixels": 1.1811540026099052,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/puzzle_06_paired.jpg"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "candidate": 7,
+      "observed_side_unverified": "black_near",
+      "low_timestamp_seconds": 36.5,
+      "high_timestamp_seconds": 36.571666666666665,
+      "offset_ms": 71.66666666666424,
+      "correlation": 0.9480122923851013,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4329370038150764,
+            -0.00026673468804805074,
+            0.2795480340247918
+          ],
+          [
+            0.00029908801299339876,
+            0.4408681218781568,
+            0.4008754060210418
+          ],
+          [
+            7.036939165990951e-07,
+            -1.124490233081989e-06,
+            1.0
+          ]
+        ],
+        "inliers": 961,
+        "matches": 1107,
+        "median_inlier_error_low_px": 0.6017781496047974,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.0456419461406767,
+          "high_seconds": 2.9093786678276956,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 7.482876709071468,
+            "semantic_square_centre_rms_low_pixels": 1.2077396614122449,
+            "max_semantic_square_centre_shift_low_pixels": 3.764975600495885,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 2.1514059379696846,
+          "high_seconds": 3.2369282650761306,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 7.482876709071468,
+            "semantic_square_centre_rms_low_pixels": 1.2077396614122449,
+            "max_semantic_square_centre_shift_low_pixels": 3.764975600495885,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/puzzle_07_paired.jpg"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "candidate": 8,
+      "observed_side_unverified": "black_near",
+      "low_timestamp_seconds": 40.5,
+      "high_timestamp_seconds": 40.57333333333334,
+      "offset_ms": 73.33333333333576,
+      "correlation": 0.9622992277145386,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.44047605588273603,
+            0.0018750933343509432,
+            -2.7733267832171187
+          ],
+          [
+            0.004676539731372323,
+            0.44959515909187325,
+            -4.667008148290895
+          ],
+          [
+            1.0765958046713274e-05,
+            6.890095152892477e-06,
+            1.0
+          ]
+        ],
+        "inliers": 992,
+        "matches": 1256,
+        "median_inlier_error_low_px": 0.7047379016876221,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": true,
+          "transition": "rescued",
+          "low_stage": "orientation",
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.9695385510567576,
+          "high_seconds": 3.007956980029121,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 4.2599424759391695,
+          "high_seconds": 3.187814631033689,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 11.338253775675003,
+            "semantic_square_centre_rms_low_pixels": 0.9758025879778869,
+            "max_semantic_square_centre_shift_low_pixels": 2.5220941518003457,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/puzzle_08_paired.jpg"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "candidate": 9,
+      "observed_side_unverified": "white_left",
+      "low_timestamp_seconds": 50.5,
+      "high_timestamp_seconds": 50.57333333333334,
+      "offset_ms": 73.33333333333576,
+      "correlation": 0.9570677280426025,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.4336644926585703,
+            0.00031839227030729594,
+            -0.2716968660802784
+          ],
+          [
+            0.00011357200218902537,
+            0.4424927419104652,
+            -0.14251073378401352
+          ],
+          [
+            3.7787603346877355e-07,
+            1.222807583699723e-06,
+            1.0
+          ]
+        ],
+        "inliers": 762,
+        "matches": 889,
+        "median_inlier_error_low_px": 0.5891197919845581,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.6234332569874823,
+          "high_seconds": 2.4746433328837156,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 6.381597078490754,
+            "semantic_square_centre_rms_low_pixels": 0.4683212454777983,
+            "max_semantic_square_centre_shift_low_pixels": 1.159334679554954,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.5715430828277022,
+          "high_seconds": 2.8862937989179045,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 6.381597078490754,
+            "semantic_square_centre_rms_low_pixels": 0.4683212454777983,
+            "max_semantic_square_centre_shift_low_pixels": 1.159334679554954,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/puzzle_09_paired.jpg"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "candidate": 10,
+      "observed_side_unverified": "white_left",
+      "low_timestamp_seconds": 53.0,
+      "high_timestamp_seconds": 53.075,
+      "offset_ms": 75.0,
+      "correlation": 0.9711156487464905,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.433508290469552,
+            -0.0008073446092301886,
+            0.36653892027373614
+          ],
+          [
+            0.00030310638332878563,
+            0.44113680609164724,
+            0.22707804861395756
+          ],
+          [
+            2.7985826915481453e-06,
+            -2.681331853570526e-06,
+            1.0
+          ]
+        ],
+        "inliers": 885,
+        "matches": 991,
+        "median_inlier_error_low_px": 0.6480885744094849,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+          "high_recovery_reason": null,
+          "low_seconds": 0.6748043019324541,
+          "high_seconds": 2.2378352279774845,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "localization",
+          "high_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+          "high_recovery_reason": "localization_failed",
+          "low_seconds": 2.2383995938580483,
+          "high_seconds": 8.557348306989297,
+          "geometry_agreement": null
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/puzzle_10_paired.jpg"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "candidate": 11,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 61.5,
+      "high_timestamp_seconds": 61.575,
+      "offset_ms": 75.0,
+      "correlation": 0.9733902215957642,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43290376719486257,
+            -0.0004000520912582861,
+            0.5229041774613086
+          ],
+          [
+            0.0005091089490638459,
+            0.4413924688994232,
+            0.18340355145597553
+          ],
+          [
+            1.8641421243172676e-06,
+            -7.572050357918989e-07,
+            1.0
+          ]
+        ],
+        "inliers": 926,
+        "matches": 1112,
+        "median_inlier_error_low_px": 0.6780270338058472,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": false,
+          "high_completed": false,
+          "transition": "still_unresolved",
+          "low_stage": "localization",
+          "high_stage": "orientation",
+          "high_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+          "high_recovery_reason": null,
+          "low_seconds": 1.186416212003678,
+          "high_seconds": 3.9810785478912294,
+          "geometry_agreement": null
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": "review_grid_before_use",
+          "low_seconds": 2.8120320378802717,
+          "high_seconds": 8.320128357037902,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 0.8552596409130003,
+            "semantic_square_centre_rms_low_pixels": 0.6472650599822489,
+            "max_semantic_square_centre_shift_low_pixels": 1.5693772379054158,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/puzzle_11_paired.jpg"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "candidate": 12,
+      "observed_side_unverified": "white_near",
+      "low_timestamp_seconds": 63.5,
+      "high_timestamp_seconds": 63.57666666666666,
+      "offset_ms": 76.66666666666424,
+      "correlation": 0.9637311697006226,
+      "registration": {
+        "status": "registered",
+        "high_display_to_low_pixels": [
+          [
+            0.43281192565707877,
+            0.00015440884340855128,
+            0.12434006284764636
+          ],
+          [
+            -0.00017987564680865253,
+            0.4419049310426534,
+            0.17678805648906046
+          ],
+          [
+            -4.5653726323790774e-07,
+            7.255568798541053e-07,
+            1.0
+          ]
+        ],
+        "inliers": 925,
+        "matches": 1090,
+        "median_inlier_error_low_px": 0.5835247039794922,
+        "meaning": "Cross-version registration only; not reviewed board geometry."
+      },
+      "policies": {
+        "legacy": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.219396071974188,
+          "high_seconds": 2.6163812298327684,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 3.8616082698492478,
+            "semantic_square_centre_rms_low_pixels": 0.6815008287280391,
+            "max_semantic_square_centre_shift_low_pixels": 1.543666316862288,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        },
+        "marked-board": {
+          "low_completed": true,
+          "high_completed": true,
+          "transition": "retained",
+          "low_stage": null,
+          "high_stage": null,
+          "high_error": null,
+          "high_recovery_reason": null,
+          "low_seconds": 1.2141684829257429,
+          "high_seconds": 3.2961100379470736,
+          "geometry_agreement": {
+            "corner_rms_low_pixels": 3.8616082698492478,
+            "semantic_square_centre_rms_low_pixels": 0.6815008287280391,
+            "max_semantic_square_centre_shift_low_pixels": 1.543666316862288,
+            "rectification_quarter_turn_agrees": true,
+            "meaning": "Representation agreement, not ground-truth geometry error. Registration residual and timestamp mismatch also contribute."
+          }
+        }
+      },
+      "paired_overlay": "outputs/scanning/pilot_01/hd_comparison_run1/puzzle_12_paired.jpg"
+    }
+  ],
+  "limitations": [
+    "Timestamp match chosen by visual correlation only; no geometry-conditioned selection.",
+    "Completion and cross-representation agreement do not establish geometric correctness.",
+    "Old and new wall times are descriptive runs, not controlled benchmark or mobile latency.",
+    "HEVC/H.264, color/exposure processing, timebase and resampling differ; not a pure resolution-only intervention."
+  ],
+  "by_position": [
+    {
+      "position": "starting",
+      "frames": 12,
+      "legacy": {
+        "low_completed": 6,
+        "high_completed": 5,
+        "high_failure_stages": {
+          "orientation": 2,
+          "localization": 5
+        }
+      },
+      "marked-board": {
+        "low_completed": 9,
+        "high_completed": 11,
+        "high_failure_stages": {
+          "localization": 1
+        }
+      }
+    },
+    {
+      "position": "opening",
+      "frames": 12,
+      "legacy": {
+        "low_completed": 5,
+        "high_completed": 5,
+        "high_failure_stages": {
+          "localization": 7
+        }
+      },
+      "marked-board": {
+        "low_completed": 10,
+        "high_completed": 10,
+        "high_failure_stages": {
+          "localization": 2
+        }
+      }
+    },
+    {
+      "position": "middlegame",
+      "frames": 12,
+      "legacy": {
+        "low_completed": 5,
+        "high_completed": 5,
+        "high_failure_stages": {
+          "orientation": 2,
+          "localization": 5
+        }
+      },
+      "marked-board": {
+        "low_completed": 10,
+        "high_completed": 11,
+        "high_failure_stages": {
+          "localization": 1
+        }
+      }
+    },
+    {
+      "position": "endgame",
+      "frames": 12,
+      "legacy": {
+        "low_completed": 9,
+        "high_completed": 7,
+        "high_failure_stages": {
+          "localization": 4,
+          "orientation": 1
+        }
+      },
+      "marked-board": {
+        "low_completed": 11,
+        "high_completed": 10,
+        "high_failure_stages": {
+          "localization": 2
+        }
+      }
+    },
+    {
+      "position": "puzzle",
+      "frames": 12,
+      "legacy": {
+        "low_completed": 7,
+        "high_completed": 8,
+        "high_failure_stages": {
+          "localization": 3,
+          "orientation": 1
+        }
+      },
+      "marked-board": {
+        "low_completed": 11,
+        "high_completed": 11,
+        "high_failure_stages": {
+          "localization": 1
+        }
+      }
+    }
+  ],
+  "by_qualitatively_observed_viewpoint": {
+    "white_near": {
+      "frames": 16,
+      "legacy_low": 11,
+      "legacy_high": 7,
+      "marked_low": 15,
+      "marked_high": 16,
+      "high_legacy_stages": {
+        "orientation": 5,
+        "localization": 4
+      },
+      "high_marked_stages": {}
+    },
+    "transition_or_uncertain": {
+      "frames": 18,
+      "legacy_low": 4,
+      "legacy_high": 7,
+      "marked_low": 13,
+      "marked_high": 15,
+      "high_legacy_stages": {
+        "localization": 11
+      },
+      "high_marked_stages": {
+        "localization": 3
+      }
+    },
+    "white_right": {
+      "frames": 9,
+      "legacy_low": 7,
+      "legacy_high": 7,
+      "marked_low": 9,
+      "marked_high": 9,
+      "high_legacy_stages": {
+        "localization": 2
+      },
+      "high_marked_stages": {}
+    },
+    "black_near": {
+      "frames": 10,
+      "legacy_low": 7,
+      "legacy_high": 7,
+      "marked_low": 10,
+      "marked_high": 10,
+      "high_legacy_stages": {
+        "localization": 2,
+        "orientation": 1
+      },
+      "high_marked_stages": {}
+    },
+    "white_left": {
+      "frames": 7,
+      "legacy_low": 3,
+      "legacy_high": 2,
+      "marked_low": 4,
+      "marked_high": 3,
+      "high_legacy_stages": {
+        "localization": 5
+      },
+      "high_marked_stages": {
+        "localization": 4
+      }
+    }
+  },
+  "remaining_opt_in_failures": [
+    {
+      "position": "starting",
+      "candidate": 10,
+      "low_timestamp_seconds": 57.0,
+      "high_timestamp_seconds": 57.075,
+      "viewpoint_unverified": "white_left",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+      "recovery_reason": "localization_failed",
+      "previously_completed": false
+    },
+    {
+      "position": "opening",
+      "candidate": 10,
+      "low_timestamp_seconds": 56.5,
+      "high_timestamp_seconds": 56.575,
+      "viewpoint_unverified": "transition_or_uncertain",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+      "recovery_reason": "orientation_uncertain",
+      "previously_completed": false
+    },
+    {
+      "position": "opening",
+      "candidate": 11,
+      "low_timestamp_seconds": 63.0,
+      "high_timestamp_seconds": 63.07666666666666,
+      "viewpoint_unverified": "white_left",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries",
+      "recovery_reason": "competing_alternative_seed_geometries",
+      "previously_completed": true
+    },
+    {
+      "position": "middlegame",
+      "candidate": 10,
+      "low_timestamp_seconds": 61.0,
+      "high_timestamp_seconds": 61.075,
+      "viewpoint_unverified": "transition_or_uncertain",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+      "recovery_reason": "orientation_uncertain",
+      "previously_completed": false
+    },
+    {
+      "position": "endgame",
+      "candidate": 10,
+      "low_timestamp_seconds": 55.0,
+      "high_timestamp_seconds": 55.075,
+      "viewpoint_unverified": "white_left",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+      "recovery_reason": "localization_failed",
+      "previously_completed": false
+    },
+    {
+      "position": "endgame",
+      "candidate": 11,
+      "low_timestamp_seconds": 61.0,
+      "high_timestamp_seconds": 61.075,
+      "viewpoint_unverified": "transition_or_uncertain",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+      "recovery_reason": "orientation_uncertain",
+      "previously_completed": true
+    },
+    {
+      "position": "puzzle",
+      "candidate": 10,
+      "low_timestamp_seconds": 53.0,
+      "high_timestamp_seconds": 53.075,
+      "viewpoint_unverified": "white_left",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+      "recovery_reason": "localization_failed",
+      "previously_completed": false
+    }
+  ],
+  "review_summary": {
+    "schema_version": "pilot_hd_visual_review_v1",
+    "ground_truth_geometry": false,
+    "reviewer": "assistant_visual_inspection",
+    "full_policy_overlays_reviewed": 20,
+    "distinct_matched_frames": 18,
+    "completed_overlays_reviewed": 12,
+    "all_five_marked_policy_contact_sheets_gross_screened": true,
+    "contact_sheet_scope": "All 60 inputs, including 53 completed grids; fine corner/semantic correctness is not certified.",
+    "incorrect_completed_geometry_observed_in_review": false,
+    "warning": "No incorrect completed geometry identified in this limited review is not a measured zero false-accept rate.",
+    "assessments": {
+      "incorrect_localization_gate_then_orientation_rejected": 6,
+      "visually_plausible": 12,
+      "unresolved_rejected_candidate": 2
+    },
+    "supersedes": "pilot_01_hd_geometry_review.json",
+    "revision_reason": "Clarify starting #4 first geometric anchor (min x+y) as left a8; the far apex h8 was incorrectly called TL in the initial observation. No emitted semantic mismatch."
+  },
+  "owner_placement_and_stability_attestations": "data/metadata/a3_pilot_01_attestations_v1.json",
+  "primary_source_catalog": "data/metadata/a3_pilot_01_sources_v2.json",
+  "tests": {
+    "full_suite_passed": 130,
+    "full_suite_seconds": 89.92,
+    "focused_after_diagnostic_rendering_passed": 9
+  },
+  "preservation": {
+    "old_file_count": 872,
+    "protected_sources_configurations_models_and_prior_artifacts_unchanged": true
+  },
+  "execution_note": "Interrupted monolithic geometry run retained; 15 completed pairs reused with hash/config checks, 45 evaluated in bounded session runs. Interruption is not a geometry failure."
+}

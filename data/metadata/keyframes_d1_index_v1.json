@@ -1,0 +1,310 @@
+{
+  "schema_version": "offline_keyframe_artifact_index_d1_v1",
+  "designation": "development_only",
+  "training_eligible": false,
+  "final_holdout": false,
+  "run": "outputs/scanning/d1_pilot_run1/selection_run2",
+  "recommended_experimental_manifest": "data/metadata/keyframes_d1_pilot_v1.json",
+  "recommended_manifest_sha256": "21a4203f1168cf169e1617c34d7744a601678fbf2bd39b3879e9f418ac86cd15",
+  "protected_artifacts_checked": 1746,
+  "holdout_used": false,
+  "geometry_certification": "none; all selected geometry completed_unverified",
+  "manifests": [
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/legacy/quality/budget_10/selected.json",
+      "sha256": "696e340ece26b0f6ef22715270d43da2291d21f9b0757a6bde2f7746cddbf7ed"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/legacy/quality/budget_20/selected.json",
+      "sha256": "de78b6ee1e8a1103e9cb0038e39f2abc83c069bf46b1af6ee9958170027f8bf3"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/legacy/quality/budget_5/selected.json",
+      "sha256": "e424ab218d624fcf278741794878e550908a8079cdeb6d61f5eec7646dd9e538"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/legacy/quality_diverse/budget_10/selected.json",
+      "sha256": "7253d39db3ed7ac2d3c275daea6caa2e4e97504321eb30deedc4235f033da307"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/legacy/quality_diverse/budget_20/selected.json",
+      "sha256": "03be6a55818b1dd4b404ecf48b07bd9224d8b55c212b7678816ef0e11cc55983"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/legacy/quality_diverse/budget_5/selected.json",
+      "sha256": "db8e6a024ce70f2f9e52357bfdcbb0132a7e040bba9a5922c55e1359dbc7f6bb"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/legacy/quality_temporal/budget_10/selected.json",
+      "sha256": "982ac948e76221c38f9115870a39ddacc4826b7db28664bc6fa1db6642b44fa0"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/legacy/quality_temporal/budget_20/selected.json",
+      "sha256": "814c10d7f03e30ef6c204ce56cef90f65379b74742b3a96c1697d40f961c1326"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/legacy/quality_temporal/budget_5/selected.json",
+      "sha256": "25a915d589d08a1fe95583c48930d7af8af7200037b637dfb73634f475ef2109"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/legacy/uniform/budget_10/selected.json",
+      "sha256": "70e380050722e3779afcd2c08fc449b296d85ba42f4f36f417f97dfc3d0554e4"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/legacy/uniform/budget_20/selected.json",
+      "sha256": "9105b16f6362cef22f81027b22f6dc0c8c82d38192da8e8c6b51df8ebbf6efd6"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/legacy/uniform/budget_5/selected.json",
+      "sha256": "684c6baa10723fef15a0f7ca2940bfba08f95e07afedc68fd9451592fa2036aa"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/marked-board/quality/budget_10/selected.json",
+      "sha256": "bd230b299d3e73c43c92721bc78fd981b5343805458d77e2eb3e40b26efa0ce3"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/marked-board/quality/budget_20/selected.json",
+      "sha256": "c8e9d4487595b0146b158a070358aed81c5a3e98e339739d6df98a0158388d56"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/marked-board/quality/budget_5/selected.json",
+      "sha256": "1d2f0cb712099c5126453bc840bee086e4e793703c61f254fb18964a7acdc5da"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/marked-board/quality_diverse/budget_10/selected.json",
+      "sha256": "25186904ddb4b1aebb47f52f53fc963262e155604580e1f366c8ff7fa430f4fb"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/marked-board/quality_diverse/budget_20/selected.json",
+      "sha256": "ae84ea5d718fd7c88392830401bcc74989e9fbaf88d902bbe86acaa8a46e9edd"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/marked-board/quality_diverse/budget_5/selected.json",
+      "sha256": "b7527c7b276d5e547c4e14f3f7945dd4eef0bab887ffb9d05a6fe405106c5474"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/marked-board/quality_temporal/budget_10/selected.json",
+      "sha256": "0fa8cc161f98a2a8bb64c0745a57e38e5a7e8225b499b3d290b4b7144301477f"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/marked-board/quality_temporal/budget_20/selected.json",
+      "sha256": "466e33b298235c9bd50f88753ea12a3ad3cf29e4b0aeea9a1e2ead1f16e903ef"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/marked-board/quality_temporal/budget_5/selected.json",
+      "sha256": "171241db6e74c71692d9e85da13a6f16603b0c5b1b0a78966cd1164241cc85b2"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/marked-board/uniform/budget_10/selected.json",
+      "sha256": "62e450adb981cd37316a58c110749d372c623a2f6c0ba230e6e68625eddc72a4"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/marked-board/uniform/budget_20/selected.json",
+      "sha256": "edff991623c1e7c8d650b4175fac1ccf289b99aef65217fe212610a0f7c984c3"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_compressed/marked-board/uniform/budget_5/selected.json",
+      "sha256": "f8c87e3aceb96275e496a6cf9e02cf327e2547c19f33f54291b65f2ebcc0cd10"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/legacy/quality/budget_10/selected.json",
+      "sha256": "f5df73a0bf5e5301dbf6bed3ce760f7a72f63f7dc1dbfcd7bb2434e1ab87a363"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/legacy/quality/budget_20/selected.json",
+      "sha256": "9b76eb898378e3a212e75e0e6fa90631808ce39393e360efc539a585f9f30773"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/legacy/quality/budget_5/selected.json",
+      "sha256": "b81754efcfac21f54ec995da2ffad5ea6d2f4c56fbd7e0b71cdc95c485f1f50f"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/legacy/quality_diverse/budget_10/selected.json",
+      "sha256": "13e94344e2d12410c5e1a8ced8089c8df32b4ff771023a44f7a65a01961a1f4b"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/legacy/quality_diverse/budget_20/selected.json",
+      "sha256": "92d26690208f8cb87fdac8e1cf81f86cdfae9700f3eb0eefc13e7ec5c23f0207"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/legacy/quality_diverse/budget_5/selected.json",
+      "sha256": "fc93acc9319ff09bd14a8361756363a05a3b63dd9c7697d501264b65a83501f1"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/legacy/quality_temporal/budget_10/selected.json",
+      "sha256": "5ac83bb077cd00465f04442a597e5f29421991e8b70f6c5d40bf620e4f22de70"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/legacy/quality_temporal/budget_20/selected.json",
+      "sha256": "69efc01c13dc599f2548c4c54b19e21742d3a9f5da8886f2af38c99670a0b4fc"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/legacy/quality_temporal/budget_5/selected.json",
+      "sha256": "20c7a180cf79529d93074844f97bdd6097e48b90242f3a6ecee12f1297917f35"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/legacy/uniform/budget_10/selected.json",
+      "sha256": "18b7cbbee322274688d69fda205062a51f13102e2aed3b7e06078c973577f807"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/legacy/uniform/budget_20/selected.json",
+      "sha256": "4fdf9e05fc2b557b5392b3f0dd836fc73f396140c76264dcc649abc5e210d60e"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/legacy/uniform/budget_5/selected.json",
+      "sha256": "14121e259b6bcec5036ebd3e4d37de6ab88d5f8537f13c3160c521dfae858e17"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/marked-board/quality/budget_10/selected.json",
+      "sha256": "597f547ad8ebcf4aee2f0bae01560b04e80e474a374e3821c5e16f7aca65b4bd"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/marked-board/quality/budget_20/selected.json",
+      "sha256": "97fbead4f874b741485f1303a497c4877ee4ed22b00aa5637bcb4f1f30ad4b33"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/marked-board/quality/budget_5/selected.json",
+      "sha256": "7955349b736045797de6cb9034263ea65953909c18be1d73cb4f85fd0edada1d"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/marked-board/quality_diverse/budget_10/selected.json",
+      "sha256": "b969d43cf4ff4534f0e24cb759bc9fde0d9d786d669fd856e6db197d6a8fbb6a"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/marked-board/quality_diverse/budget_20/selected.json",
+      "sha256": "b30eeeed54a731d8a97ae32a4bcb28218b5c46334431743fb5cbdef65d973ef9"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/marked-board/quality_diverse/budget_5/selected.json",
+      "sha256": "c74b6fc450c0597b816bbe3307270931124039a9d51d725528e058f0fa21c15f"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/marked-board/quality_temporal/budget_10/selected.json",
+      "sha256": "7da6a4f4f7ff5b751fbf51d2087548d06d2ada3e64e654ea8c255ecec5abe1db"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/marked-board/quality_temporal/budget_20/selected.json",
+      "sha256": "c2d07dd6ccf0e9536acdf6c67f4f67a56ee680c76cb7198be00eea7e4be2e895"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/marked-board/quality_temporal/budget_5/selected.json",
+      "sha256": "9caf1ae17018a2cdf6cfced224ed7398c16ffbfeb4766659d5869552e40cbe8e"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/marked-board/uniform/budget_10/selected.json",
+      "sha256": "d4007c1d8632be1dcac19401044c6357e2677fc6451c70728f965e18dd1c35d5"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/marked-board/uniform/budget_20/selected.json",
+      "sha256": "59e10214a54316fbdd6b4984750dc246cc1040bfe980eaf457c369bc6ac6ed05"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/paired_frozen_high/marked-board/uniform/budget_5/selected.json",
+      "sha256": "8a78580900a894c9e4595eece8bd3d832ac4b5d3b5ecce73ae9cc4e63b9a673a"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/legacy/quality/budget_10/selected.json",
+      "sha256": "4550947375492459fde2b8c87f690f862310cef130bc5cd3924167d7b236c1e3"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/legacy/quality/budget_20/selected.json",
+      "sha256": "e2db3928dcd0c0b37b7c022ffcd284680f791324d0c5400b3bd8680200d9a484"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/legacy/quality/budget_5/selected.json",
+      "sha256": "c1f2c5ff758b74fc9f498ad9e026a87e76521cfe5c311cf582f250b36d123cef"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/legacy/quality_diverse/budget_10/selected.json",
+      "sha256": "3a512e9a985ba502973dd727a2cb5ad9bf7a21afedf8b8dbb4d8f6e3754f0242"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/legacy/quality_diverse/budget_20/selected.json",
+      "sha256": "e2c28d617a36ea3b13f88b5e53ed8001b5798e318d6f176e4c6cf5be98873b99"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/legacy/quality_diverse/budget_5/selected.json",
+      "sha256": "8e96bbeffa913b106d1dd7c6a7e8e7bc67900f264d9171eafbff767576a22a1f"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/legacy/quality_temporal/budget_10/selected.json",
+      "sha256": "da98c538ba08420e339d5d6ca2a35bc86dad0e5531e908750669343bad9955e6"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/legacy/quality_temporal/budget_20/selected.json",
+      "sha256": "18f3423d610f90a0eb6583d0f015ec357ad5776311f178dd53e87ab8653890e7"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/legacy/quality_temporal/budget_5/selected.json",
+      "sha256": "67f5e5f8b3018936bc145f240b82ad72b8cf0863af3afd2ff39759f095eab0b8"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/legacy/uniform/budget_10/selected.json",
+      "sha256": "5db7f4da213e616c42152942b588db02f283cbe40c1e322885c4066494a4e893"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/legacy/uniform/budget_20/selected.json",
+      "sha256": "484fea433d7f95eb86722e48cc2363dddcaa3d304856e68f7a0227e22f5f93cb"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/legacy/uniform/budget_5/selected.json",
+      "sha256": "20df536a7bea6ca6634f16ad0b225f3d2afa69cacefde16622b18962785965d3"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality/budget_10/selected.json",
+      "sha256": "0daf055996a9c6b3365c5679bdf8116cdf9d4aee37ab347028b78be08bdc9ba0"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality/budget_20/selected.json",
+      "sha256": "fe72d66cb15c10c8cc838454ecc4e8cdeb8b8ec476f9dd91a6c04a4744d620bb"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality/budget_5/selected.json",
+      "sha256": "85677d5e46309185619850f2f04509ab9183bb0498197d9a70d6d313085171af"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality_diverse/budget_10/selected.json",
+      "sha256": "7aa6e58dcd94ea1038421f3cf6e81c666725adbbcf06941a0dad27374a0ac9fc"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality_diverse/budget_20/selected.json",
+      "sha256": "0e6bb960ddb220bdaa05f963aa2121ede7d8b4b6b199ca5016336ace708639f9"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality_diverse/budget_5/selected.json",
+      "sha256": "21a4203f1168cf169e1617c34d7744a601678fbf2bd39b3879e9f418ac86cd15"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality_temporal/budget_10/selected.json",
+      "sha256": "493cef7382a27311efa3e181dd22b5e28abcad60581976b38ca28f2a09b0ba60"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality_temporal/budget_20/selected.json",
+      "sha256": "3f04e152af3a279cb967ff67d754377022a6ebad699b1f47f8567479ba75d2a9"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality_temporal/budget_5/selected.json",
+      "sha256": "4033f934755edd1dd97d2f80f181a867093af42bf6a807f10f32120a2120047b"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/uniform/budget_10/selected.json",
+      "sha256": "93b59827d50a782c90f8cd764f5d3a23f36e87bead6c353f2e9a4f3f58f6767e"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/uniform/budget_20/selected.json",
+      "sha256": "a6a96f40ae0c4ae6622761a7aa9e8c2c888e7dbd1986cbb3f738b49a87b57dbd"
+    },
+    {
+      "path": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/uniform/budget_5/selected.json",
+      "sha256": "85950580ac8931c7c9daa497c66d902b6659b9635a3f16c98786077d80b2f2bb"
+    }
+  ],
+  "artifacts": {
+    "outputs/scanning/d1_pilot_run1/selection_run2/features.json": "ed74a3b945c9c36a33ec992a7d787c31b07d36876c1b5bfeb6cf182ed0154734",
+    "outputs/scanning/d1_pilot_run1/selection_run2/metrics.json": "edaf3359fcc137d281685eb887ef9e4327afd3529563d6ea8db2172b26ec7264",
+    "outputs/scanning/d1_pilot_run1/selection_run2/preservation.json": "4c486aa3f8e10fa721a6a0fb1a7045f69074eed2091963ac5575374f0d0db654",
+    "outputs/scanning/d1_pilot_run1/selection_run2/reproduction_validation.json": "da7b2262672160647f3fd169b3600f6a41a8b1a2af5faf5090b86c0dea5d6c92",
+    "outputs/scanning/d1_pilot_run1/selection_run2/manifest_validation.json": "00c0ffaad9c304b5fe969ff26a1dad7654fd6133249a98bd54e057244314b1d4",
+    "outputs/scanning/d1_pilot_run1/selection_run2/final_preservation.json": "3cb91943b9567a9cc43114a638c3b8ab3c90ecb6070cebd40715cec14234cbbb"
+  }
+}

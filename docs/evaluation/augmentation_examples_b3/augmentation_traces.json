@@ -1,0 +1,610 @@
+[
+  {
+    "crop_id": "position_001_var_01_r2_c0",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "none",
+    "applied": false,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "crop_id": "position_001_var_01_r2_c0",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "legacy_visual",
+    "applied": true,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "legacy_visual_rng_seed": 42
+  },
+  {
+    "crop_id": "position_001_var_01_r2_c0",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "perspective_affine",
+    "applied": true,
+    "matrix": [
+      [
+        1.0184530176997058,
+        0.04923234611953675,
+        -5.556578954459583
+      ],
+      [
+        0.05348504483816985,
+        1.0026779839655018,
+        -6.682522726381247
+      ],
+      [
+        0.00012725407797989144,
+        -7.876764731469458e-05,
+        0.9997660588451623
+      ]
+    ],
+    "rejected_guard": false
+  },
+  {
+    "crop_id": "position_001_var_01_r2_c0",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "framing",
+    "applied": true,
+    "matrix": [
+      [
+        0.9533273008949463,
+        -0.03832512508617495,
+        2.9793888188254236
+      ],
+      [
+        0.03832512508617495,
+        0.9533273008949463,
+        5.141106517956639
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rejected_guard": false
+  },
+  {
+    "crop_id": "position_001_var_01_r2_c0",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "lighting",
+    "applied": true,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "gamma": 0.8622920571808583,
+    "contrast": 0.8549582906585587,
+    "exposure": 0.03759242870403269,
+    "gradient": 0.1238266731833165
+  },
+  {
+    "crop_id": "position_001_var_01_r2_c0",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "video_quality",
+    "applied": true,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "quality_kind": 1
+  },
+  {
+    "crop_id": "position_001_var_01_r7_c1",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "none",
+    "applied": false,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "crop_id": "position_001_var_01_r7_c1",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "legacy_visual",
+    "applied": true,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "legacy_visual_rng_seed": 42
+  },
+  {
+    "crop_id": "position_001_var_01_r7_c1",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "perspective_affine",
+    "applied": true,
+    "matrix": [
+      [
+        1.0184530176997058,
+        0.04923234611953675,
+        -5.556578954459583
+      ],
+      [
+        0.05348504483816985,
+        1.0026779839655018,
+        -6.682522726381247
+      ],
+      [
+        0.00012725407797989144,
+        -7.876764731469458e-05,
+        0.9997660588451623
+      ]
+    ],
+    "rejected_guard": false
+  },
+  {
+    "crop_id": "position_001_var_01_r7_c1",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "framing",
+    "applied": true,
+    "matrix": [
+      [
+        0.9533273008949463,
+        -0.03832512508617495,
+        2.9793888188254236
+      ],
+      [
+        0.03832512508617495,
+        0.9533273008949463,
+        5.141106517956639
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rejected_guard": false
+  },
+  {
+    "crop_id": "position_001_var_01_r7_c1",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "lighting",
+    "applied": true,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "gamma": 0.8622920571808583,
+    "contrast": 0.8549582906585587,
+    "exposure": 0.03759242870403269,
+    "gradient": 0.1238266731833165
+  },
+  {
+    "crop_id": "position_001_var_01_r7_c1",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "video_quality",
+    "applied": true,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "quality_kind": 1
+  },
+  {
+    "crop_id": "position_001_var_01_r0_c0",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "none",
+    "applied": false,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "crop_id": "position_001_var_01_r0_c0",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "legacy_visual",
+    "applied": true,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "legacy_visual_rng_seed": 42
+  },
+  {
+    "crop_id": "position_001_var_01_r0_c0",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "perspective_affine",
+    "applied": true,
+    "matrix": [
+      [
+        1.0184530176997058,
+        0.04923234611953675,
+        -5.556578954459583
+      ],
+      [
+        0.05348504483816985,
+        1.0026779839655018,
+        -6.682522726381247
+      ],
+      [
+        0.00012725407797989144,
+        -7.876764731469458e-05,
+        0.9997660588451623
+      ]
+    ],
+    "rejected_guard": false
+  },
+  {
+    "crop_id": "position_001_var_01_r0_c0",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "framing",
+    "applied": true,
+    "matrix": [
+      [
+        0.9533273008949463,
+        -0.03832512508617495,
+        2.9793888188254236
+      ],
+      [
+        0.03832512508617495,
+        0.9533273008949463,
+        5.141106517956639
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rejected_guard": false
+  },
+  {
+    "crop_id": "position_001_var_01_r0_c0",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "lighting",
+    "applied": true,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "gamma": 0.8622920571808583,
+    "contrast": 0.8549582906585587,
+    "exposure": 0.03759242870403269,
+    "gradient": 0.1238266731833165
+  },
+  {
+    "crop_id": "position_001_var_01_r0_c0",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "video_quality",
+    "applied": true,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "quality_kind": 1
+  },
+  {
+    "crop_id": "position_001_var_01_r0_c4",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "none",
+    "applied": false,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "crop_id": "position_001_var_01_r0_c4",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "legacy_visual",
+    "applied": true,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "legacy_visual_rng_seed": 42
+  },
+  {
+    "crop_id": "position_001_var_01_r0_c4",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "perspective_affine",
+    "applied": true,
+    "matrix": [
+      [
+        1.0184530176997058,
+        0.04923234611953675,
+        -5.556578954459583
+      ],
+      [
+        0.05348504483816985,
+        1.0026779839655018,
+        -6.682522726381247
+      ],
+      [
+        0.00012725407797989144,
+        -7.876764731469458e-05,
+        0.9997660588451623
+      ]
+    ],
+    "rejected_guard": false
+  },
+  {
+    "crop_id": "position_001_var_01_r0_c4",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "framing",
+    "applied": true,
+    "matrix": [
+      [
+        0.9533273008949463,
+        -0.03832512508617495,
+        2.9793888188254236
+      ],
+      [
+        0.03832512508617495,
+        0.9533273008949463,
+        5.141106517956639
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rejected_guard": false
+  },
+  {
+    "crop_id": "position_001_var_01_r0_c4",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "lighting",
+    "applied": true,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "gamma": 0.8622920571808583,
+    "contrast": 0.8549582906585587,
+    "exposure": 0.03759242870403269,
+    "gradient": 0.1238266731833165
+  },
+  {
+    "crop_id": "position_001_var_01_r0_c4",
+    "split": "train",
+    "recipe_rng_seed": 0,
+    "family": "video_quality",
+    "applied": true,
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "quality_kind": 1
+  }
+]

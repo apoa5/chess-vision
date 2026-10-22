@@ -1,0 +1,21 @@
+{
+  "schema_version": "offline_keyframes_d1_v1",
+  "interval_ms": 3000,
+  "candidate_limit": 256,
+  "budgets": [5, 10, 20],
+  "quality_warp_size": 512,
+  "min_sharpness": 25,
+  "sharpness_scale": 1500,
+  "min_board_fraction": 0.04,
+  "max_extreme_fraction": 0.45,
+  "quality_weights": {"sharpness": 0.35, "contrast": 0.2, "exposure": 0.15, "board_size": 0.2, "perspective": 0.1},
+  "temporal_gap_ms": 5000,
+  "diverse_gap_ms": 2000,
+  "duplicate_hamming": 6,
+  "duplicate_view_distance": 0.12,
+  "diversity_weight": 0.55,
+  "geometry_policies": ["legacy", "marked-board"],
+  "color_conversion": "PyAV BGR8 + exact display rotation; unchanged A.3 convention, no HDR tone mapping",
+  "development_only": true,
+  "production_default_changed": false
+}

@@ -23,6 +23,8 @@ from src.vision.position_evaluation import compare_position,summarize_positions
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--config',type=Path)
+    parser.add_argument('--no-metadata-report', action='store_true',
+                        help='Write only to --output-dir; preserve the historical metadata report.')
     parser.add_argument('--mode',choices=['both','prepared','raw'],default='both')
     parser.add_argument('--output-dir',type=Path,default=Path('outputs/evaluation/week2'))
     args = parser.parse_args()
@@ -102,7 +104,8 @@ def main():
                 'Existing holdout has three positions and has already been inspected; no newly captured images tested.',
                 'Model inference latency includes preprocessing and batches but not model loading or raw localization; total time includes preparation and artifact writing.']}
     (args.output_dir/'summary.json').write_text(json.dumps(report,indent=2)+'\n')
-    (config['data']['metadata']/'day14_position_evaluation.json').write_text(json.dumps(report,indent=2)+'\n')
+    if not args.no_metadata_report:
+        (config['data']['metadata']/'day14_position_evaluation.json').write_text(json.dumps(report,indent=2)+'\n')
     fields=['mode','image_id','position_id','status','ground_truth_placement','predicted_placement','square_accuracy','piece_errors','exact_match','avg_confidence','inference_time_ms','total_time_ms','validation_status','failure_stage','notes']
     with (args.output_dir/'week2_positions.csv').open('w',newline='') as handle:
         writer = csv.DictWriter(handle,fieldnames=fields,extrasaction='ignore');writer.writeheader();writer.writerows(all_rows)

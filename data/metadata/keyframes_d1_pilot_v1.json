@@ -1,0 +1,2891 @@
+{
+  "schema_version": "offline_selected_keyframes_d1_v1",
+  "dataset": "primary_3s_high",
+  "source_catalog": "data/metadata/a3_pilot_01_sources_v2.json",
+  "source_catalog_sha256": "f1bfb923812ce5f4535ff46ea5472419096d11881fbec6c275a7ac15942cf521",
+  "designation": "development_only",
+  "split": "pilot",
+  "training_eligible": false,
+  "final_holdout": false,
+  "policy": "marked-board",
+  "strategy": "quality_diverse",
+  "budget": 5,
+  "settings": {
+    "schema_version": "offline_keyframes_d1_v1",
+    "interval_ms": 3000,
+    "candidate_limit": 256,
+    "budgets": [
+      5,
+      10,
+      20
+    ],
+    "quality_warp_size": 512,
+    "min_sharpness": 25,
+    "sharpness_scale": 1500,
+    "min_board_fraction": 0.04,
+    "max_extreme_fraction": 0.45,
+    "quality_weights": {
+      "sharpness": 0.35,
+      "contrast": 0.2,
+      "exposure": 0.15,
+      "board_size": 0.2,
+      "perspective": 0.1
+    },
+    "temporal_gap_ms": 5000,
+    "diverse_gap_ms": 2000,
+    "duplicate_hamming": 6,
+    "duplicate_view_distance": 0.12,
+    "diversity_weight": 0.55,
+    "geometry_policies": [
+      "legacy",
+      "marked-board"
+    ],
+    "color_conversion": "PyAV BGR8 + exact display rotation; unchanged A.3 convention, no HDR tone mapping",
+    "development_only": true,
+    "production_default_changed": false
+  },
+  "sessions": [
+    {
+      "capture_session_id": "a3_pilot_01_01_starting_take01",
+      "position_id": "a3_pilot_01_01_starting",
+      "position_group_id": "position_001",
+      "independence_group_id": "a3_pilot_01_cohort_pending_setup_review",
+      "source_video": {
+        "path": "data/raw/a3_pilot_01/new_position_001_hd.MOV",
+        "sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "bytes": 83441135,
+        "container_format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "container_metadata": {
+          "major_brand": "qt  ",
+          "minor_version": "0",
+          "compatible_brands": "qt  ",
+          "creation_time": "2026-10-19T15:59:00.000000Z",
+          "com.apple.quicktime.full-frame-rate-playback-intent": "0",
+          "com.apple.quicktime.make": "Apple",
+          "com.apple.quicktime.model": "iPhone 13 Pro",
+          "com.apple.quicktime.software": "27.0.1",
+          "com.apple.quicktime.creationdate": "2026-10-19T15:59:00+0000"
+        },
+        "container_duration_seconds": 75.41,
+        "codec": "hevc",
+        "pixel_format": "yuv420p10le",
+        "encoded_width": 1920,
+        "encoded_height": 1080,
+        "declared_frames": 2262,
+        "stream_time_base": "1/600",
+        "stream_start_pts": 0,
+        "stream_duration_pts": 45246,
+        "stream_metadata": {
+          "creation_time": "2026-10-19T15:59:00.000000Z",
+          "language": "und",
+          "handler_name": "Core Media Video",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "HEVC"
+        },
+        "average_rate": "1357200/45247",
+        "nominal_rate": "30/1",
+        "streams": [
+          {
+            "index": 0,
+            "type": "video",
+            "codec": "hevc",
+            "metadata": {
+              "creation_time": "2026-10-19T15:59:00.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Video",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "HEVC"
+            }
+          },
+          {
+            "index": 1,
+            "type": "audio",
+            "codec": "aac",
+            "metadata": {
+              "creation_time": "2026-10-19T15:59:00.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Audio",
+              "vendor_id": "[0][0][0][0]"
+            }
+          },
+          {
+            "index": 2,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T15:59:00.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 3,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T15:59:00.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 4,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T15:59:00.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 5,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T15:59:00.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 6,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T15:59:00.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          }
+        ],
+        "display_width": 1080,
+        "display_height": 1920,
+        "encoded_rotation_degrees": -90,
+        "encoded_to_display_matrix": [
+          [
+            0.0,
+            -1.0,
+            1079.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "selected": [
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000270",
+          "pts": 5401,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            5401,
+            600
+          ],
+          "timestamp_ms": 9001.666666666666,
+          "relative_timestamp_ms": 9001.666666666666,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000270.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+          "derivative_sha256": "18fa78b8cc1b338fc1238ea73b95364d821aad2927ecf4fd3ad085a36158cbf4",
+          "decoded_pixel_sha256": "0fbe8d2908ba280196ff2ebcfff916cf770fa6a06cd84d4a1d469c4f6b845fd6",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000270/pair.json",
+          "geometry_reference_sha256": "6cba395b39af80719a4097fe3e492e9ae504d791bcfc038cbfe92e4f4c0c0bdd",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8677088345004333,
+          "quality_components": {
+            "sharpness": 0.9034914577221765,
+            "contrast": 1.0,
+            "exposure": 0.991455078125,
+            "board_size": 0.601570299981858,
+            "perspective": 0.8245450258255005
+          },
+          "view_descriptor": [
+            -0.0017766173199392418,
+            0.103616788244456,
+            -0.1692229337079212,
+            -0.016473169859017957
+          ],
+          "predicted_orientation": "white_near_camera",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000630",
+          "pts": 12602,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            6301,
+            300
+          ],
+          "timestamp_ms": 21003.333333333332,
+          "relative_timestamp_ms": 21003.333333333332,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000630.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+          "derivative_sha256": "22c50d1a27107468fe929dfdb4f3991b4a0561e2a0d85365bcad8274f5620679",
+          "decoded_pixel_sha256": "dee0a3d639d53808e9f30a57c85938d8d597ffab34cf412fc79de28aa671ae15",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000630/pair.json",
+          "geometry_reference_sha256": "0f2fd5f7748fb5923cffb1c3baabd0f6dc8352d0706418b868f563d1c6b73265",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.7434925445836038,
+          "quality_components": {
+            "sharpness": 0.7652239984105434,
+            "contrast": 1.0,
+            "exposure": 0.9971809387207031,
+            "board_size": 0.26682540967097323,
+            "perspective": 0.7272192239761353
+          },
+          "view_descriptor": [
+            -0.8960698049333659,
+            -0.21795895313432334,
+            -0.017288015095944725,
+            -0.19307961041766325
+          ],
+          "predicted_orientation": "white_near_camera",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000810",
+          "pts": 16202,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            8101,
+            300
+          ],
+          "timestamp_ms": 27003.333333333332,
+          "relative_timestamp_ms": 27003.333333333332,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000810.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+          "derivative_sha256": "3ae64f567ce5b628e86c637119627bcab75e90a4b0bd25d946854dc34a945213",
+          "decoded_pixel_sha256": "9c4db9eb32ac88d15d0f27788e7145467d2a5eb0f8b346b0d7e3687fde294b48",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000810/pair.json",
+          "geometry_reference_sha256": "a645a3a30cda0f6887070b305043c9ca0d2a2c090d8d559c33204972e9cd9b45",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8285270278876354,
+          "quality_components": {
+            "sharpness": 0.8735379165167265,
+            "contrast": 1.0,
+            "exposure": 0.9902610778808594,
+            "board_size": 0.49702027450561614,
+            "perspective": 0.7484554052352905
+          },
+          "view_descriptor": [
+            -1.6511820702363889,
+            0.19579661460065434,
+            -0.17472743650205275,
+            -0.020682316133813272
+          ],
+          "predicted_orientation": "white_right",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001170",
+          "pts": 23403,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            7801,
+            200
+          ],
+          "timestamp_ms": 39005.0,
+          "relative_timestamp_ms": 39005.0,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001170.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+          "derivative_sha256": "4f72d93e65fe5f6cdfa8d3924ee20c357f9f4db62edaa003f50bed781db3a4ff",
+          "decoded_pixel_sha256": "eb90c5823a5133a2a49cd1526789e9cc99a51829beda7d7dcbb06537bf2ecacf",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001170/pair.json",
+          "geometry_reference_sha256": "548f27071cae2b5fbc994c9e3044a6112861c81afd6b8b269c6eb94cb922441a",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.7713156398534063,
+          "quality_components": {
+            "sharpness": 0.7859605566809285,
+            "contrast": 1.0,
+            "exposure": 0.9852943420410156,
+            "board_size": 0.3077111198240947,
+            "perspective": 0.8689306974411011
+          },
+          "view_descriptor": [
+            -2.464583652679426,
+            0.03623426988423516,
+            -0.10976075337226184,
+            -0.09930072307049899
+          ],
+          "predicted_orientation": "white_right",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001350",
+          "pts": 27004,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            6751,
+            150
+          ],
+          "timestamp_ms": 45006.666666666664,
+          "relative_timestamp_ms": 45006.666666666664,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001350.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+          "derivative_sha256": "f7384f632f73a5755a1819296f2a960137f299de2c5e0078932a5ada11b17663",
+          "decoded_pixel_sha256": "ccae6894c858eb0941713e845c67a632ceacca07fac790676612f9fff391f491",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001350/pair.json",
+          "geometry_reference_sha256": "1a8e494667471d53b5623e8b1c288e5527ed22c7df8c5bbfcd0d445019545d7a",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.7539757410252408,
+          "quality_components": {
+            "sharpness": 0.7920458137460561,
+            "contrast": 1.0,
+            "exposure": 0.9769401550292969,
+            "board_size": 0.3860320363196291,
+            "perspective": 0.5301227569580078
+          },
+          "view_descriptor": [
+            -3.1164447502172252,
+            0.4962756712618947,
+            -0.2984013985520133,
+            -0.0005192316287631228
+          ],
+          "predicted_orientation": "black_near_camera",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        }
+      ],
+      "selection_trace": [
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000270",
+          "selection_rank": 1,
+          "quality_score": 0.8677088345004333,
+          "min_view_distance_to_selected": 0.0,
+          "selection_merit": 0.390468975525195,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001350",
+          "selection_rank": 2,
+          "quality_score": 0.7539757410252408,
+          "min_view_distance_to_selected": 0.7952809538879992,
+          "selection_merit": 0.776693608099758,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000810",
+          "selection_rank": 3,
+          "quality_score": 0.8285270278876354,
+          "min_view_distance_to_selected": 0.39050072622861687,
+          "selection_merit": 0.5876125619751752,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001170",
+          "selection_rank": 4,
+          "quality_score": 0.7713156398534063,
+          "min_view_distance_to_selected": 0.21785679457033083,
+          "selection_merit": 0.4669132749477148,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000630",
+          "selection_rank": 5,
+          "quality_score": 0.7434925445836038,
+          "min_view_distance_to_selected": 0.2396548614985512,
+          "selection_merit": 0.46638181888682484,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        }
+      ],
+      "candidate_decisions": [
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000000",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000090",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000180",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000270",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000360",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000450",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000540",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000630",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000720",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000810",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000900",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000990",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001080",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001170",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001260",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001350",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001440",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001530",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001620",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: competing_alternative_seed_geometries"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001710",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001800",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001890",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001980",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_002070",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_002160",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_002250",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        }
+      ]
+    },
+    {
+      "capture_session_id": "a3_pilot_01_02_opening_take01",
+      "position_id": "a3_pilot_01_02_opening",
+      "position_group_id": "a3_pilot_01_02_opening",
+      "independence_group_id": "a3_pilot_01_cohort_pending_setup_review",
+      "source_video": {
+        "path": "data/raw/a3_pilot_01/new_position_002_hd.MOV",
+        "sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "bytes": 81090707,
+        "container_format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "container_metadata": {
+          "major_brand": "qt  ",
+          "minor_version": "0",
+          "compatible_brands": "qt  ",
+          "creation_time": "2026-10-19T16:01:14.000000Z",
+          "com.apple.quicktime.full-frame-rate-playback-intent": "0",
+          "com.apple.quicktime.make": "Apple",
+          "com.apple.quicktime.model": "iPhone 13 Pro",
+          "com.apple.quicktime.software": "27.0.1",
+          "com.apple.quicktime.creationdate": "2026-10-19T16:01:14+0000"
+        },
+        "container_duration_seconds": 73.443333,
+        "codec": "hevc",
+        "pixel_format": "yuv420p10le",
+        "encoded_width": 1920,
+        "encoded_height": 1080,
+        "declared_frames": 2203,
+        "stream_time_base": "1/600",
+        "stream_start_pts": 0,
+        "stream_duration_pts": 44066,
+        "stream_metadata": {
+          "creation_time": "2026-10-19T16:01:14.000000Z",
+          "language": "und",
+          "handler_name": "Core Media Video",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "HEVC"
+        },
+        "average_rate": "660900/22033",
+        "nominal_rate": "30/1",
+        "streams": [
+          {
+            "index": 0,
+            "type": "video",
+            "codec": "hevc",
+            "metadata": {
+              "creation_time": "2026-10-19T16:01:14.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Video",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "HEVC"
+            }
+          },
+          {
+            "index": 1,
+            "type": "audio",
+            "codec": "aac",
+            "metadata": {
+              "creation_time": "2026-10-19T16:01:14.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Audio",
+              "vendor_id": "[0][0][0][0]"
+            }
+          },
+          {
+            "index": 2,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:01:14.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 3,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:01:14.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 4,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:01:14.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 5,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:01:14.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 6,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:01:14.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          }
+        ],
+        "display_width": 1080,
+        "display_height": 1920,
+        "encoded_rotation_degrees": -90,
+        "encoded_to_display_matrix": [
+          [
+            0.0,
+            -1.0,
+            1079.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "selected": [
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000000",
+          "pts": 0,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            0,
+            1
+          ],
+          "timestamp_ms": 0.0,
+          "relative_timestamp_ms": 0.0,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000000.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+          "derivative_sha256": "433dc541fb9da900b891ba70cd95f1321f556d2adfadae98907af95cb6c813eb",
+          "decoded_pixel_sha256": "1dc6962f461f7f876373299fc4c2b486f9592e0d04539e4b1b8fa24061278107",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000000/pair.json",
+          "geometry_reference_sha256": "c8574d379a5d2970c674ed07e6fc24b0b1a51b8dc63b107e422bf4c765fb794c",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.875645101369723,
+          "quality_components": {
+            "sharpness": 0.9035733714143982,
+            "contrast": 1.0,
+            "exposure": 0.99151611328125,
+            "board_size": 0.611260812460805,
+            "perspective": 0.8841484189033508
+          },
+          "view_descriptor": [
+            -0.03225170585540511,
+            0.052671863425457044,
+            -0.12313033575018076,
+            -0.02028096762910387
+          ],
+          "predicted_orientation": "white_near_camera",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000900",
+          "pts": 18003,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            6001,
+            200
+          ],
+          "timestamp_ms": 30005.0,
+          "relative_timestamp_ms": 30005.0,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000900.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+          "derivative_sha256": "fdb8b008ddcefa4e0ea8389e35de68e6b6345c9e30a2cbd1957fe8c7e16b68cf",
+          "decoded_pixel_sha256": "fc967df19602f3d032a1545151fcb3154e5836c2c4ac2c42cdc563e8b831ca7a",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000900/pair.json",
+          "geometry_reference_sha256": "61500a10147def2985f30b7e4c0294b1b0142783a1df154ccb0beeed6b749ecd",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8568883506902999,
+          "quality_components": {
+            "sharpness": 0.9040800837506258,
+            "contrast": 1.0,
+            "exposure": 0.990692138671875,
+            "board_size": 0.5618548545781051,
+            "perspective": 0.7948552966117859
+          },
+          "view_descriptor": [
+            -1.6171200350242905,
+            0.1335501083078426,
+            -0.179201215549476,
+            -0.020798546853260748
+          ],
+          "predicted_orientation": "white_right",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001170",
+          "pts": 23403,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            7801,
+            200
+          ],
+          "timestamp_ms": 39005.0,
+          "relative_timestamp_ms": 39005.0,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001170.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+          "derivative_sha256": "87a57d2b528833b8d8a7e546d06e272b1eb3ce06b494674301cc1078938171b3",
+          "decoded_pixel_sha256": "272640f26ab2046c3e2bdf7f7378842d6aa99047dcb39667bf99eb9db1bd8a46",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001170/pair.json",
+          "geometry_reference_sha256": "ec83e450c4ee14dfcf53a5938973eb1c3715f8f1b14e9ed5e13213c9f52077cb",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.765559391714882,
+          "quality_components": {
+            "sharpness": 0.799092793525904,
+            "contrast": 1.0,
+            "exposure": 0.9859848022460938,
+            "board_size": 0.30203856088804076,
+            "perspective": 0.7757148146629333
+          },
+          "view_descriptor": [
+            -2.3006260491398476,
+            0.14645283649063506,
+            -0.15447331220501154,
+            -0.06545052237421106
+          ],
+          "predicted_orientation": "white_right",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001440",
+          "pts": 28804,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            7201,
+            150
+          ],
+          "timestamp_ms": 48006.666666666664,
+          "relative_timestamp_ms": 48006.666666666664,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001440.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+          "derivative_sha256": "bc7b232d7500208475fb3d7ee62500a56c03b256a30f68e2d8e99e456e17d129",
+          "decoded_pixel_sha256": "9bf770bdd2507757366014479ffd10dba27fa29cf05fd9920b940b3a5ab4f078",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001440/pair.json",
+          "geometry_reference_sha256": "e23f8dbdf5aa058fe4738f1593d6bba40ef4224139a3711702cb9954627024da",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8844528703776504,
+          "quality_components": {
+            "sharpness": 0.9442106595448424,
+            "contrast": 1.0,
+            "exposure": 0.9787025451660156,
+            "board_size": 0.6033410380797518,
+            "perspective": 0.865055501461029
+          },
+          "view_descriptor": [
+            3.1404653975843804,
+            0.06788104822156,
+            -0.12730540562778664,
+            -0.030669721293526856
+          ],
+          "predicted_orientation": "black_near_camera",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001890",
+          "pts": 37806,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            6301,
+            100
+          ],
+          "timestamp_ms": 63010.0,
+          "relative_timestamp_ms": 63010.0,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001890.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+          "derivative_sha256": "86e9137c87fac1cc2dd2e086fe126cf1db3c61bced5b3ef7223ab6a4563e2f17",
+          "decoded_pixel_sha256": "d933babd67f0740e0be9f5c0d6c01e3d268d376559a0cbc4c67b4d3044637dbb",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001890/pair.json",
+          "geometry_reference_sha256": "fc2bf9b109e14f06013a59c2cb57599a5446bfcb4ccb30714f499b1ca39d4fc1",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8592715819877201,
+          "quality_components": {
+            "sharpness": 0.9107845271061762,
+            "contrast": 1.0,
+            "exposure": 0.9745674133300781,
+            "board_size": 0.545990966087082,
+            "perspective": 0.8511369228363037
+          },
+          "view_descriptor": [
+            1.557333999897909,
+            0.08388003702552004,
+            -0.13177973368368454,
+            -0.02698100450526627
+          ],
+          "predicted_orientation": "white_left",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        }
+      ],
+      "selection_trace": [
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001440",
+          "selection_rank": 1,
+          "quality_score": 0.8844528703776504,
+          "min_view_distance_to_selected": 0.0,
+          "selection_merit": 0.39800379166994265,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000000",
+          "selection_rank": 2,
+          "quality_score": 0.875645101369723,
+          "min_view_distance_to_selected": 0.744930320760277,
+          "selection_merit": 0.8037519720345276,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001890",
+          "selection_rank": 3,
+          "quality_score": 0.8592715819877201,
+          "min_view_distance_to_selected": 0.3800719635419612,
+          "selection_merit": 0.5957117918425527,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000900",
+          "selection_rank": 4,
+          "quality_score": 0.8568883506902999,
+          "min_view_distance_to_selected": 0.3747450841512036,
+          "selection_merit": 0.5917095540937969,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001170",
+          "selection_rank": 5,
+          "quality_score": 0.765559391714882,
+          "min_view_distance_to_selected": 0.16975596591944334,
+          "selection_merit": 0.4378675075273907,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        }
+      ],
+      "candidate_decisions": [
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000000",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000090",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000180",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000270",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000360",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000450",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000540",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000630",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000720",
+          "selected": false,
+          "reasons": [
+            "rectification_validation",
+            "ValueError: Corners must be ordered TL, TR, BR, BL; use order_corners first."
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000810",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000900",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000990",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001080",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001170",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001260",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001350",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001440",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001530",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001620",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001710",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001800",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001890",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001980",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_002070",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_002160",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        }
+      ]
+    },
+    {
+      "capture_session_id": "a3_pilot_01_03_middlegame_take01",
+      "position_id": "a3_pilot_01_03_middlegame",
+      "position_group_id": "position_005",
+      "independence_group_id": "a3_pilot_01_cohort_pending_setup_review",
+      "source_video": {
+        "path": "data/raw/a3_pilot_01/new_position_003_hd.MOV",
+        "sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "bytes": 83294163,
+        "container_format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "container_metadata": {
+          "major_brand": "qt  ",
+          "minor_version": "0",
+          "compatible_brands": "qt  ",
+          "creation_time": "2026-10-19T16:13:59.000000Z",
+          "com.apple.quicktime.full-frame-rate-playback-intent": "0",
+          "com.apple.quicktime.make": "Apple",
+          "com.apple.quicktime.model": "iPhone 13 Pro",
+          "com.apple.quicktime.software": "27.0.1",
+          "com.apple.quicktime.creationdate": "2026-10-19T16:13:59+0000"
+        },
+        "container_duration_seconds": 75.543333,
+        "codec": "hevc",
+        "pixel_format": "yuv420p10le",
+        "encoded_width": 1920,
+        "encoded_height": 1080,
+        "declared_frames": 2266,
+        "stream_time_base": "1/600",
+        "stream_start_pts": 0,
+        "stream_duration_pts": 45326,
+        "stream_metadata": {
+          "creation_time": "2026-10-19T16:13:59.000000Z",
+          "language": "und",
+          "handler_name": "Core Media Video",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "HEVC"
+        },
+        "average_rate": "453200/15109",
+        "nominal_rate": "30/1",
+        "streams": [
+          {
+            "index": 0,
+            "type": "video",
+            "codec": "hevc",
+            "metadata": {
+              "creation_time": "2026-10-19T16:13:59.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Video",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "HEVC"
+            }
+          },
+          {
+            "index": 1,
+            "type": "audio",
+            "codec": "aac",
+            "metadata": {
+              "creation_time": "2026-10-19T16:13:59.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Audio",
+              "vendor_id": "[0][0][0][0]"
+            }
+          },
+          {
+            "index": 2,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:13:59.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 3,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:13:59.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 4,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:13:59.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 5,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:13:59.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 6,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:13:59.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          }
+        ],
+        "display_width": 1080,
+        "display_height": 1920,
+        "encoded_rotation_degrees": -90,
+        "encoded_to_display_matrix": [
+          [
+            0.0,
+            -1.0,
+            1079.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "selected": [
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000090",
+          "pts": 1800,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            3,
+            1
+          ],
+          "timestamp_ms": 3000.0,
+          "relative_timestamp_ms": 3000.0,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000090.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+          "derivative_sha256": "5537adb53efdeac25d6ae7c9b02002bccaea65b11bab611abe532e7a1ce9e50b",
+          "decoded_pixel_sha256": "cfe01cb19a802616544227570938335477447bd306a2376545a9599454353870",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000090/pair.json",
+          "geometry_reference_sha256": "8b2d8445c22018be8db012a086772766ee206e055f7c6767f6faa53abc3352d3",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.827286224908708,
+          "quality_components": {
+            "sharpness": 0.8624956920612028,
+            "contrast": 1.0,
+            "exposure": 0.9881210327148438,
+            "board_size": 0.5384286658301575,
+            "perspective": 0.6950884461402893
+          },
+          "view_descriptor": [
+            0.010719260353289519,
+            0.22923922702045926,
+            -0.27139357880644804,
+            -0.015854810853088933
+          ],
+          "predicted_orientation": "white_near_camera",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000540",
+          "pts": 10802,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            5401,
+            300
+          ],
+          "timestamp_ms": 18003.333333333332,
+          "relative_timestamp_ms": 18003.333333333332,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000540.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+          "derivative_sha256": "6e0ea94b52b7de4eae32240c1fb735fdd71061cb2868df6b575a1de19e73dd76",
+          "decoded_pixel_sha256": "927d8f8bb57e7d58e64e12a709abf72eaff89480feccca1f10b90bcffb81b52a",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000540/pair.json",
+          "geometry_reference_sha256": "df465d4b08c072c17338d1903e666ac62c44f210d0820385bee95f6a0876a920",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8555934477753749,
+          "quality_components": {
+            "sharpness": 0.8836742877022963,
+            "contrast": 1.0,
+            "exposure": 0.9875755310058594,
+            "board_size": 0.5773172205872942,
+            "perspective": 0.8270767331123352
+          },
+          "view_descriptor": [
+            -1.599377983370857,
+            0.12359033561503292,
+            -0.13671019968781062,
+            0.0004934047146118148
+          ],
+          "predicted_orientation": "white_right",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000810",
+          "pts": 16202,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            8101,
+            300
+          ],
+          "timestamp_ms": 27003.333333333332,
+          "relative_timestamp_ms": 27003.333333333332,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000810.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+          "derivative_sha256": "816f8fe925c824273ed29a09e415d5bd3f41218ef6b976f195c041b076a77f2f",
+          "decoded_pixel_sha256": "9b8aa6cb69fb25bbec6ec57827ab9d1003d4449905a71511201c7e90beaf4490",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000810/pair.json",
+          "geometry_reference_sha256": "2a085afb2fa69cde0dbf99d9e072c8cfe3a2b7ee3fe5ddbaff55766c17fc6760",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.7863528140599758,
+          "quality_components": {
+            "sharpness": 0.8080605806233482,
+            "contrast": 1.0,
+            "exposure": 0.9847679138183594,
+            "board_size": 0.3441316479208727,
+            "perspective": 0.8699009418487549
+          },
+          "view_descriptor": [
+            -2.399018825326092,
+            0.036974384362237794,
+            -0.1135935557397454,
+            -0.09230444645172776
+          ],
+          "predicted_orientation": "white_right",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000990",
+          "pts": 19803,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            6601,
+            200
+          ],
+          "timestamp_ms": 33005.0,
+          "relative_timestamp_ms": 33005.0,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000990.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+          "derivative_sha256": "4b6ef38075bfcbeaa3f0e39aea254041454503068b95f59bd95bf93a9c5bd5bf",
+          "decoded_pixel_sha256": "47c1d55273d98d11149e96f0354aeb20fc8f101eba750767e8bb361c403aa7c4",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000990/pair.json",
+          "geometry_reference_sha256": "6f9dc2d74d3ad8b087178b692c3d2b81c625a29ed7765b805f3fe5137b4d4782",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8971663511226251,
+          "quality_components": {
+            "sharpness": 0.9362632700197794,
+            "contrast": 1.0,
+            "exposure": 0.9759788513183594,
+            "board_size": 0.6729409905732475,
+            "perspective": 0.8848918080329895
+          },
+          "view_descriptor": [
+            -3.126823965243514,
+            0.05968846095470265,
+            -0.11307304743766247,
+            -0.015266428591552085
+          ],
+          "predicted_orientation": "black_near_camera",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001620",
+          "pts": 32405,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            6481,
+            120
+          ],
+          "timestamp_ms": 54008.333333333336,
+          "relative_timestamp_ms": 54008.333333333336,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001620.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+          "derivative_sha256": "4573966fed067c12f8601520813e0ad6b3878d8381ee6b858edbbef29323c2e7",
+          "decoded_pixel_sha256": "53ad51da94827412a7dc5bbfeaa8855fbe938e4de3fe650d683cecf3bed78113",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001620/pair.json",
+          "geometry_reference_sha256": "4665e49e8f30b190efb75ccb72ced304b7845d0bd49ca14bfbda9f8e8cc8f824",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8439538569815583,
+          "quality_components": {
+            "sharpness": 0.8877542583959322,
+            "contrast": 1.0,
+            "exposure": 0.9811820983886719,
+            "board_size": 0.5302456679352473,
+            "perspective": 0.8001341819763184
+          },
+          "view_descriptor": [
+            1.5689088584093802,
+            0.13095598968585154,
+            -0.17434029123857742,
+            -0.017214335290215044
+          ],
+          "predicted_orientation": "white_left",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        }
+      ],
+      "selection_trace": [
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000990",
+          "selection_rank": 1,
+          "quality_score": 0.8971663511226251,
+          "min_view_distance_to_selected": 0.0,
+          "selection_merit": 0.40372485800518126,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000090",
+          "selection_rank": 2,
+          "quality_score": 0.827286224908708,
+          "min_view_distance_to_selected": 0.7780303604115332,
+          "selection_merit": 0.8001954994352618,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001620",
+          "selection_rank": 3,
+          "quality_score": 0.8439538569815583,
+          "min_view_distance_to_selected": 0.38925701644415006,
+          "selection_merit": 0.5938705946859838,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000540",
+          "selection_rank": 4,
+          "quality_score": 0.8555934477753749,
+          "min_view_distance_to_selected": 0.3733924141993025,
+          "selection_merit": 0.5903828793085351,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000810",
+          "selection_rank": 5,
+          "quality_score": 0.7863528140599758,
+          "min_view_distance_to_selected": 0.18379048701481066,
+          "selection_merit": 0.45494353418513495,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        }
+      ],
+      "candidate_decisions": [
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000000",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000090",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000180",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000270",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000360",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000450",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000540",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000630",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000720",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000810",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000900",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000990",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001080",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001170",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001260",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001350",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001440",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001530",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001620",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001710",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001800",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001890",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001980",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_002070",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_002160",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_002250",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        }
+      ]
+    },
+    {
+      "capture_session_id": "a3_pilot_01_04_endgame_take01",
+      "position_id": "a3_pilot_01_04_endgame",
+      "position_group_id": "position_013",
+      "independence_group_id": "a3_pilot_01_cohort_pending_setup_review",
+      "source_video": {
+        "path": "data/raw/a3_pilot_01/new_position_004_hd.MOV",
+        "sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+        "bytes": 77563272,
+        "container_format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "container_metadata": {
+          "major_brand": "qt  ",
+          "minor_version": "0",
+          "compatible_brands": "qt  ",
+          "creation_time": "2026-10-19T16:17:53.000000Z",
+          "com.apple.quicktime.full-frame-rate-playback-intent": "0",
+          "com.apple.quicktime.make": "Apple",
+          "com.apple.quicktime.model": "iPhone 13 Pro",
+          "com.apple.quicktime.software": "27.0.1",
+          "com.apple.quicktime.creationdate": "2026-10-19T16:17:53+0000"
+        },
+        "container_duration_seconds": 70.276667,
+        "codec": "hevc",
+        "pixel_format": "yuv420p10le",
+        "encoded_width": 1920,
+        "encoded_height": 1080,
+        "declared_frames": 2108,
+        "stream_time_base": "1/600",
+        "stream_start_pts": 0,
+        "stream_duration_pts": 42166,
+        "stream_metadata": {
+          "creation_time": "2026-10-19T16:17:53.000000Z",
+          "language": "und",
+          "handler_name": "Core Media Video",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "HEVC"
+        },
+        "average_rate": "632400/21083",
+        "nominal_rate": "30/1",
+        "streams": [
+          {
+            "index": 0,
+            "type": "video",
+            "codec": "hevc",
+            "metadata": {
+              "creation_time": "2026-10-19T16:17:53.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Video",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "HEVC"
+            }
+          },
+          {
+            "index": 1,
+            "type": "audio",
+            "codec": "aac",
+            "metadata": {
+              "creation_time": "2026-10-19T16:17:53.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Audio",
+              "vendor_id": "[0][0][0][0]"
+            }
+          },
+          {
+            "index": 2,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:17:53.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 3,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:17:53.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 4,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:17:53.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 5,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:17:53.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 6,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:17:53.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          }
+        ],
+        "display_width": 1080,
+        "display_height": 1920,
+        "encoded_rotation_degrees": -90,
+        "encoded_to_display_matrix": [
+          [
+            0.0,
+            -1.0,
+            1079.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "selected": [
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000090",
+          "pts": 1800,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            3,
+            1
+          ],
+          "timestamp_ms": 3000.0,
+          "relative_timestamp_ms": 3000.0,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000090.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+          "derivative_sha256": "61a99cae84c759144388eba7789749c8faa3bac654d2732a6ddebbf766bcadf7",
+          "decoded_pixel_sha256": "e9ace5f599ea7d2b31956e1174ed669beb04dda75d553da893283be8f4b67c47",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000090/pair.json",
+          "geometry_reference_sha256": "3516960702aae53d795befc13cc19b6e4bfbbbe866bb5891e54b8580ce5f7277",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8618851456194581,
+          "quality_components": {
+            "sharpness": 0.8777998633720338,
+            "contrast": 1.0,
+            "exposure": 0.9919013977050781,
+            "board_size": 0.6278904634273101,
+            "perspective": 0.8029189109802246
+          },
+          "view_descriptor": [
+            -0.009613706245983003,
+            0.09641920802109989,
+            -0.2195015527244671,
+            -0.01825229574397135
+          ],
+          "predicted_orientation": "white_near_camera",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000270",
+          "pts": 5401,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            5401,
+            600
+          ],
+          "timestamp_ms": 9001.666666666666,
+          "relative_timestamp_ms": 9001.666666666666,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000270.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+          "derivative_sha256": "ca252bf2373f582cd66393722f3efaec460f6a6cb36ef67f7f657af81d276d7d",
+          "decoded_pixel_sha256": "9c5b63bd97478421ca5416bb51dad9eb1de686484ce602b8e2c74b55fa513523",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000270/pair.json",
+          "geometry_reference_sha256": "b3331318ea91e72e5fe29c2d0aaf66f2d5075bbd6f4ba3223a05344a8f6a6108",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8153180534791474,
+          "quality_components": {
+            "sharpness": 0.8336273125148657,
+            "contrast": 1.0,
+            "exposure": 0.9911346435546875,
+            "board_size": 0.43400209306857485,
+            "perspective": 0.8807787895202637
+          },
+          "view_descriptor": [
+            -0.5780625983749634,
+            -0.01318018827668909,
+            -0.1096829286542407,
+            -0.11834759136935288
+          ],
+          "predicted_orientation": "white_near_camera",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000450",
+          "pts": 9001,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            9001,
+            600
+          ],
+          "timestamp_ms": 15001.666666666666,
+          "relative_timestamp_ms": 15001.666666666666,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000450.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+          "derivative_sha256": "ab24a0ae2f9300739302a21349aba3d77a4e99d92fabd5a43d15d9c1a1d68699",
+          "decoded_pixel_sha256": "98f18acb479dab4c1528007d3ae60289e00b8bf88e6dcf7dc0ffc494c8f65161",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000450/pair.json",
+          "geometry_reference_sha256": "1f5dbee6bc550fd876012e42d9ef49574b5d06abd619d7066873e03c74751723",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8295650260831253,
+          "quality_components": {
+            "sharpness": 0.8527931910396754,
+            "contrast": 1.0,
+            "exposure": 0.9934120178222656,
+            "board_size": 0.5177140174363742,
+            "perspective": 0.7853280305862427
+          },
+          "view_descriptor": [
+            -1.6158574646238846,
+            0.14298418657303377,
+            -0.18760739000767243,
+            -0.018433266436410432
+          ],
+          "predicted_orientation": "white_right",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000990",
+          "pts": 19803,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            6601,
+            200
+          ],
+          "timestamp_ms": 33005.0,
+          "relative_timestamp_ms": 33005.0,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000990.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+          "derivative_sha256": "0ba369f0570543ba88e2ba085cb898532d78c9a3d930b25891eb3763cb561e74",
+          "decoded_pixel_sha256": "1e0b0d8ca8e380bd01f2821097ced3fe3097c63e7bb1cd492c1dde172d278665",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000990/pair.json",
+          "geometry_reference_sha256": "7e6fcfbd6bcfe2a4f9b561fa14af5470a8c2ebe13c0991008397ef5d9a05b6b1",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.9135417448847519,
+          "quality_components": {
+            "sharpness": 0.9641684496711741,
+            "contrast": 1.0,
+            "exposure": 0.9910659790039062,
+            "board_size": 0.7050458966991102,
+            "perspective": 0.8641371130943298
+          },
+          "view_descriptor": [
+            -3.1080627686854565,
+            0.0773048522599163,
+            -0.1382411513842891,
+            -0.00396685769721152
+          ],
+          "predicted_orientation": "black_near_camera",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001530",
+          "pts": 30604,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            7651,
+            150
+          ],
+          "timestamp_ms": 51006.666666666664,
+          "relative_timestamp_ms": 51006.666666666664,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001530.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+          "derivative_sha256": "71dc7e0454c6887c68c6193a921d59afdd395fa59f4616033b19b8d5d9e2349d",
+          "decoded_pixel_sha256": "dcb24b3c2bab019f502dfd9f82a1c10a904c267e9769b289573b894064acbaf3",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001530/pair.json",
+          "geometry_reference_sha256": "b040430bcd5444d7dec5f1cf45c4ffbdeed5df055c5c493a0b5356f5e369bd9f",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8707696395649677,
+          "quality_components": {
+            "sharpness": 0.8930030621021496,
+            "contrast": 1.0,
+            "exposure": 0.99652099609375,
+            "board_size": 0.6148763560299266,
+            "perspective": 0.8576514720916748
+          },
+          "view_descriptor": [
+            1.5805731129041545,
+            0.08029382260479019,
+            -0.13399430427342235,
+            -0.016946283629762263
+          ],
+          "predicted_orientation": "white_left",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        }
+      ],
+      "selection_trace": [
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000990",
+          "selection_rank": 1,
+          "quality_score": 0.9135417448847519,
+          "min_view_distance_to_selected": 0.0,
+          "selection_merit": 0.41109378519813833,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000090",
+          "selection_rank": 2,
+          "quality_score": 0.8618851456194581,
+          "min_view_distance_to_selected": 0.7502866896302149,
+          "selection_merit": 0.8005059948253743,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001530",
+          "selection_rank": 3,
+          "quality_score": 0.8707696395649677,
+          "min_view_distance_to_selected": 0.3824181111666435,
+          "selection_merit": 0.6021762989458893,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000450",
+          "selection_rank": 4,
+          "quality_score": 0.8295650260831253,
+          "min_view_distance_to_selected": 0.3666661602062931,
+          "selection_merit": 0.5749706498508675,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000270",
+          "selection_rank": 5,
+          "quality_score": 0.8153180534791474,
+          "min_view_distance_to_selected": 0.15878693847173547,
+          "selection_merit": 0.4542259402250708,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        }
+      ],
+      "candidate_decisions": [
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000000",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000090",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000180",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000270",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000360",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000450",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000540",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000630",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000720",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000810",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000900",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000990",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001080",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001170",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001260",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001350",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001440",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001530",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001620",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001710",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001800",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001890",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001980",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_002070",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+          ]
+        }
+      ]
+    },
+    {
+      "capture_session_id": "a3_pilot_01_05_puzzle_take01",
+      "position_id": "a3_pilot_01_05_puzzle",
+      "position_group_id": "position_017",
+      "independence_group_id": "a3_pilot_01_cohort_pending_setup_review",
+      "source_video": {
+        "path": "data/raw/a3_pilot_01/new_position_005_hd.MOV",
+        "sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+        "bytes": 75776610,
+        "container_format": "mov,mp4,m4a,3gp,3g2,mj2",
+        "container_metadata": {
+          "major_brand": "qt  ",
+          "minor_version": "0",
+          "compatible_brands": "qt  ",
+          "creation_time": "2026-10-19T16:20:34.000000Z",
+          "com.apple.quicktime.full-frame-rate-playback-intent": "0",
+          "com.apple.quicktime.make": "Apple",
+          "com.apple.quicktime.model": "iPhone 13 Pro",
+          "com.apple.quicktime.software": "27.0.1",
+          "com.apple.quicktime.creationdate": "2026-10-19T16:20:34+0000"
+        },
+        "container_duration_seconds": 68.575,
+        "codec": "hevc",
+        "pixel_format": "yuv420p10le",
+        "encoded_width": 1920,
+        "encoded_height": 1080,
+        "declared_frames": 2057,
+        "stream_time_base": "1/600",
+        "stream_start_pts": 0,
+        "stream_duration_pts": 41145,
+        "stream_metadata": {
+          "creation_time": "2026-10-19T16:20:34.000000Z",
+          "language": "und",
+          "handler_name": "Core Media Video",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "HEVC"
+        },
+        "average_rate": "617100/20573",
+        "nominal_rate": "30/1",
+        "streams": [
+          {
+            "index": 0,
+            "type": "video",
+            "codec": "hevc",
+            "metadata": {
+              "creation_time": "2026-10-19T16:20:34.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Video",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "HEVC"
+            }
+          },
+          {
+            "index": 1,
+            "type": "audio",
+            "codec": "aac",
+            "metadata": {
+              "creation_time": "2026-10-19T16:20:34.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Audio",
+              "vendor_id": "[0][0][0][0]"
+            }
+          },
+          {
+            "index": 2,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:20:34.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 3,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:20:34.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 4,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:20:34.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 5,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:20:34.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          },
+          {
+            "index": 6,
+            "type": "data",
+            "codec": null,
+            "metadata": {
+              "creation_time": "2026-10-19T16:20:34.000000Z",
+              "language": "und",
+              "handler_name": "Core Media Metadata"
+            }
+          }
+        ],
+        "display_width": 1080,
+        "display_height": 1920,
+        "encoded_rotation_degrees": -90,
+        "encoded_to_display_matrix": [
+          [
+            0.0,
+            -1.0,
+            1079.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "selected": [
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000090",
+          "pts": 1800,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            3,
+            1
+          ],
+          "timestamp_ms": 3000.0,
+          "relative_timestamp_ms": 3000.0,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_000090.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+          "derivative_sha256": "f6b20eb6757cb832e1ec2d7ca484394cd83cceb2568298a8730ce89f2fc9049c",
+          "decoded_pixel_sha256": "240b57fd9ad9d447a2d7be9493731659c62d7daa7a650b8242cc6b8533e42356",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_000090/pair.json",
+          "geometry_reference_sha256": "bf698e33399605ca874ff7323b3f70fc24efc0536c594c1ce4e7b5c96eb3f950",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8513623400363428,
+          "quality_components": {
+            "sharpness": 0.859199984272687,
+            "contrast": 1.0,
+            "exposure": 0.995941162109375,
+            "board_size": 0.6076050907034743,
+            "perspective": 0.7973015308380127
+          },
+          "view_descriptor": [
+            0.0014343275372084882,
+            0.10098802946926749,
+            -0.2265223394479215,
+            -0.0035518229516137215
+          ],
+          "predicted_orientation": "white_near_camera",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000540",
+          "pts": 10802,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            5401,
+            300
+          ],
+          "timestamp_ms": 18003.333333333332,
+          "relative_timestamp_ms": 18003.333333333332,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_000540.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+          "derivative_sha256": "d3ed26fe43eab963fc1e2574fcff6a180f8ddc27048343748aa4dd3eea53e61d",
+          "decoded_pixel_sha256": "7ee0952277192053524abe19bd0b22163206ce399dd80a6348d6969e4dc2e24a",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_000540/pair.json",
+          "geometry_reference_sha256": "675854a827ea689b55ce8a5e94a9580ace7e2835595e09a5ecfa2f7f7554fe28",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8217854283643387,
+          "quality_components": {
+            "sharpness": 0.8240841702238035,
+            "contrast": 1.0,
+            "exposure": 0.9968833923339844,
+            "board_size": 0.532884446743758,
+            "perspective": 0.772465705871582
+          },
+          "view_descriptor": [
+            -1.608305177730254,
+            0.16616750825178817,
+            -0.1858128949011426,
+            -0.006795195666545009
+          ],
+          "predicted_orientation": "white_right",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000810",
+          "pts": 16202,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            8101,
+            300
+          ],
+          "timestamp_ms": 27003.333333333332,
+          "relative_timestamp_ms": 27003.333333333332,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_000810.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+          "derivative_sha256": "332db4e247e91a0e09f1b54c615ce8a907c0434d4970145b9acea0a4f23a5c40",
+          "decoded_pixel_sha256": "64e0ccc97f65d699fa8c12f6e31f4b6bd05b6c6c4b88d9a80d0fa79643f364fd",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_000810/pair.json",
+          "geometry_reference_sha256": "8c11bb494559364958f00f323721c965e2981a70d5d8c654fde88e40ca6bf18a",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.7566832286549852,
+          "quality_components": {
+            "sharpness": 0.7657648558224032,
+            "contrast": 1.0,
+            "exposure": 0.9975967407226562,
+            "board_size": 0.35803500823754486,
+            "perspective": 0.6741901636123657
+          },
+          "view_descriptor": [
+            -2.0844910524211824,
+            0.27893689813178457,
+            -0.23737759126214047,
+            -0.007275459379626195
+          ],
+          "predicted_orientation": "white_right",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001080",
+          "pts": 21603,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            7201,
+            200
+          ],
+          "timestamp_ms": 36005.0,
+          "relative_timestamp_ms": 36005.0,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001080.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+          "derivative_sha256": "abcec03228d5850b0ffd41b263de0376a16a0d9d9237592b9d8cf8e5a35e68eb",
+          "decoded_pixel_sha256": "17459bf08494a52a87eec975f79d0b56213bcdda066de35377fb57405f8d862a",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001080/pair.json",
+          "geometry_reference_sha256": "34b0d686fd88111c3c182c1c2e726fd7ce956b4a015d9f1eb0ec42880d6273c3",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8804372390444871,
+          "quality_components": {
+            "sharpness": 0.9283108849914087,
+            "contrast": 1.0,
+            "exposure": 0.9933204650878906,
+            "board_size": 0.6098895229294261,
+            "perspective": 0.8455245494842529
+          },
+          "view_descriptor": [
+            3.1082551249924952,
+            0.08259909918381844,
+            -0.14650353160827315,
+            -0.029044476707754483
+          ],
+          "predicted_orientation": "black_near_camera",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001530",
+          "pts": 30604,
+          "time_base": [
+            1,
+            600
+          ],
+          "pts_time": [
+            7651,
+            150
+          ],
+          "timestamp_ms": 51006.666666666664,
+          "relative_timestamp_ms": 51006.666666666664,
+          "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001530.png",
+          "width": 1080,
+          "height": 1920,
+          "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+          "derivative_sha256": "d181e11a0db6e47a41ebc8b27dea63db588a6473af5d158de24cb839e903c0dc",
+          "decoded_pixel_sha256": "de85c882fad90608bcc78d4e3cd7120fe40809aeaa8eda52fd48fca50b2df062",
+          "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001530/pair.json",
+          "geometry_reference_sha256": "ecdb74397e0dd5a092e416f05c32bdd81a2c49180aeba3cc2b11aca5172ed44e",
+          "geometry_state": "completed_unverified",
+          "review_annotation": null,
+          "quality_score": 0.8537803232178609,
+          "quality_components": {
+            "sharpness": 0.8976289395817703,
+            "contrast": 0.96,
+            "exposure": 0.9947929382324219,
+            "board_size": 0.5880734964164673,
+            "perspective": 0.807765543460846
+          },
+          "view_descriptor": [
+            1.5551096703307523,
+            0.12734459889702676,
+            -0.16772039392185423,
+            -0.011548306890147016
+          ],
+          "predicted_orientation": "white_left",
+          "visibility": "unknown_occlusion",
+          "elevation_degrees": null
+        }
+      ],
+      "selection_trace": [
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001080",
+          "selection_rank": 1,
+          "quality_score": 0.8804372390444871,
+          "min_view_distance_to_selected": 0.0,
+          "selection_merit": 0.39619675757001915,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000090",
+          "selection_rank": 2,
+          "quality_score": 0.8513623400363428,
+          "min_view_distance_to_selected": 0.7524452239398756,
+          "selection_merit": 0.7969579261832858,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001530",
+          "selection_rank": 3,
+          "quality_score": 0.8537803232178609,
+          "min_view_distance_to_selected": 0.37735126053000173,
+          "selection_merit": 0.5917443387395384,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000540",
+          "selection_rank": 4,
+          "quality_score": 0.8217854283643387,
+          "min_view_distance_to_selected": 0.3858784698250182,
+          "selection_merit": 0.5820366011677124,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000810",
+          "selection_rank": 5,
+          "quality_score": 0.7566832286549852,
+          "min_view_distance_to_selected": 0.12918104594844929,
+          "selection_merit": 0.4115570281663904,
+          "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+        }
+      ],
+      "candidate_decisions": [
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000000",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000090",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000180",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000270",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000360",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000450",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: competing_alternative_seed_geometries"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000540",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000630",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000720",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000810",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000900",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000990",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001080",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001170",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001260",
+          "selected": false,
+          "reasons": [
+            "budget_or_rank"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001350",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001440",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001530",
+          "selected": true,
+          "reasons": [
+            "selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001620",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001710",
+          "selected": false,
+          "reasons": [
+            "localization",
+            "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001800",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001890",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        },
+        {
+          "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001980",
+          "selected": false,
+          "reasons": [
+            "redundant_with_selected"
+          ]
+        }
+      ]
+    }
+  ],
+  "ground_truth_FEN_used_for_selection": false,
+  "D2_input_role": "primary_candidates",
+  "quality_score_kind": "uncalibrated_image_heuristic",
+  "geometry_config_sha256": "d600a2c0a7e4893f5d6cbe89d1887a82b4bd53c491527e0fc35e0b7f85b06f6d",
+  "geometry_evaluator_sha256": "1b9e33f89a122c0b29a681c55b028088ae48635230c3352544e72572bfb8ac94",
+  "piece_recognition_evaluated": false,
+  "per_square_evidence_or_fusion_implemented": false,
+  "geometry_warning": "Completed unverified geometry is provisional usability, not certified correctness.",
+  "representation_warning": "High and compressed copies share recording/session/position groups; never independent samples."
+}

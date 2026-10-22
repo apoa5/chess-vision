@@ -1,0 +1,426 @@
+{
+  "schema_version": "pilot_quality_report_v1",
+  "designation": "development_only",
+  "training_eligible": false,
+  "final_holdout": false,
+  "native_integrity_passed": true,
+  "ground_truth_verified": false,
+  "capture_protocol_v2_accepted": false,
+  "manifest": "data/metadata/a3_pilot_01_native.json",
+  "full_native_run": "outputs/scanning/pilot_01/native_run1",
+  "geometry_run": "outputs/scanning/pilot_01/geometry_run1",
+  "media": [
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "duration_seconds": 75.333333,
+      "decoded_frames": 2259,
+      "resolution": [
+        464,
+        848
+      ],
+      "nominal_fps": "30/1",
+      "observed_mean_fps": 29.9867197875166,
+      "interval_seconds_histogram": {
+        "1/30": 2257,
+        "1/15": 1
+      },
+      "reference": {
+        "path": "data/raw/a3_pilot_01/01_starting/reference/new_position_001.jpg",
+        "sha256": "d9bee52bfa172678a6ad9bbe2a6d7b0082a204e9988e3a1b999427fd0ebb59fb",
+        "width": 960,
+        "height": 1280,
+        "photographic_placement_review": "pending"
+      },
+      "video_path": "data/raw/a3_pilot_01/01_starting/video/new_position_001_vd.MOV",
+      "video_sha256": "40efd302abd1e1c129381cc32a04f48639dba09401321e7d6fee2685e24b8eaa",
+      "position_group_id": "position_001"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "duration_seconds": 73.366667,
+      "decoded_frames": 2200,
+      "resolution": [
+        464,
+        848
+      ],
+      "nominal_fps": "30/1",
+      "observed_mean_fps": 29.986363636363638,
+      "interval_seconds_histogram": {
+        "1/30": 2198,
+        "1/15": 1
+      },
+      "reference": {
+        "path": "data/raw/a3_pilot_01/02_opening/reference/new_position_002.jpg",
+        "sha256": "c0b0312cd75c4f6a6d78cd13276c3795c136e633b76f4d4ec44ebfec16ff6c3e",
+        "width": 960,
+        "height": 1280,
+        "photographic_placement_review": "pending"
+      },
+      "video_path": "data/raw/a3_pilot_01/02_opening/video/new_position_002_vd.MOV",
+      "video_sha256": "caee817536f19ee01d7e6a79c9c1b486e6daf470b2c30ccb70a5da46210af014",
+      "position_group_id": "a3_pilot_01_02_opening"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "duration_seconds": 75.466667,
+      "decoded_frames": 2263,
+      "resolution": [
+        464,
+        848
+      ],
+      "nominal_fps": "30/1",
+      "observed_mean_fps": 29.986743261157756,
+      "interval_seconds_histogram": {
+        "1/30": 2261,
+        "1/15": 1
+      },
+      "reference": {
+        "path": "data/raw/a3_pilot_01/03_middlegame/reference/new_position_003.jpg",
+        "sha256": "e2ae41127417e67131d48994b86f81144b1738cf875369f2c8d32579f147bf75",
+        "width": 960,
+        "height": 1280,
+        "photographic_placement_review": "pending"
+      },
+      "video_path": "data/raw/a3_pilot_01/03_middlegame/video/new_position_003_vd.MOV",
+      "video_sha256": "33beee5dab41c0add32012bf916239ac696d800ec4cad51f42f3b8ef8fec9274",
+      "position_group_id": "position_005"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "duration_seconds": 70.2,
+      "decoded_frames": 2105,
+      "resolution": [
+        464,
+        848
+      ],
+      "nominal_fps": "30/1",
+      "observed_mean_fps": 29.985748218527316,
+      "interval_seconds_histogram": {
+        "1/30": 2103,
+        "1/15": 1
+      },
+      "reference": {
+        "path": "data/raw/a3_pilot_01/04_endgame/reference/new_position_004.jpg",
+        "sha256": "a236ede8a7e2e454f0434feefd8d7ec0a84d2b7b360d1a6ce2b8250186ef4583",
+        "width": 960,
+        "height": 1280,
+        "photographic_placement_review": "pending"
+      },
+      "video_path": "data/raw/a3_pilot_01/04_endgame/video/new_position_004_vd.MOV",
+      "video_sha256": "ce312ed6887b0cdb8786bec9ec2b4010cc0580be95b72c47cc173cc15be8eebc",
+      "position_group_id": "position_013"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "duration_seconds": 68.5,
+      "decoded_frames": 2054,
+      "resolution": [
+        464,
+        848
+      ],
+      "nominal_fps": "30/1",
+      "observed_mean_fps": 29.98539435248296,
+      "interval_seconds_histogram": {
+        "1/30": 2052,
+        "1/15": 1
+      },
+      "reference": {
+        "path": "data/raw/a3_pilot_01/05_puzzle/reference/new_position_005.jpg",
+        "sha256": "4d170919534294a9b176213d4e5f848d3a9a6c0d1d2835baf1d80ffaf35237ef",
+        "width": 960,
+        "height": 1280,
+        "photographic_placement_review": "pending"
+      },
+      "video_path": "data/raw/a3_pilot_01/05_puzzle/video/new_position_005_vd.MOV",
+      "video_sha256": "1003a3c4f4e9e9be27cd29599ad8c492ad1105abe4206ed779916b79d30b7958",
+      "position_group_id": "position_017"
+    }
+  ],
+  "geometry_completion_by_position": [
+    {
+      "position": "starting",
+      "legacy": 6,
+      "marked-board": 9
+    },
+    {
+      "position": "opening",
+      "legacy": 5,
+      "marked-board": 10
+    },
+    {
+      "position": "middlegame",
+      "legacy": 5,
+      "marked-board": 10
+    },
+    {
+      "position": "endgame",
+      "legacy": 9,
+      "marked-board": 11
+    },
+    {
+      "position": "puzzle",
+      "legacy": 7,
+      "marked-board": 11
+    }
+  ],
+  "geometry_completion_by_qualitatively_observed_side": {
+    "white_near": {
+      "frames": 16,
+      "legacy_completed": 11,
+      "marked_board_completed": 15
+    },
+    "transition_or_uncertain": {
+      "frames": 18,
+      "legacy_completed": 4,
+      "marked_board_completed": 13
+    },
+    "white_right": {
+      "frames": 9,
+      "legacy_completed": 7,
+      "marked_board_completed": 9
+    },
+    "black_near": {
+      "frames": 10,
+      "legacy_completed": 7,
+      "marked_board_completed": 10
+    },
+    "white_left": {
+      "frames": 7,
+      "legacy_completed": 3,
+      "marked_board_completed": 4
+    }
+  },
+  "side_labels_verified": false,
+  "raw_policy_counts": {
+    "legacy": {
+      "completed": 32,
+      "failures": {
+        "dependency_or_runtime": 1,
+        "orientation": 5,
+        "localization": 22
+      },
+      "recovery_attempts": 0
+    },
+    "marked-board": {
+      "completed": 51,
+      "failures": {
+        "dependency_or_runtime": 1,
+        "localization": 8
+      },
+      "recovery_attempts": 27
+    }
+  },
+  "unresolved": [
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "frame_id": "a3_pilot_01_01_starting_take01_frame_000629",
+      "candidate_number": 4,
+      "timestamp_seconds": 21.0,
+      "observed_side_unverified": "transition_or_uncertain",
+      "policy": "marked-board",
+      "completed": false,
+      "failure_stage": "rectification_validation",
+      "raw_failure_stage": "dependency_or_runtime",
+      "localization_gate_passed": true,
+      "recovery_attempted": false,
+      "predicted_orientation": null,
+      "geometry_correctness": "unverified",
+      "semantic_orientation_correctness": "unverified",
+      "error": "ValueError: Corners must be ordered TL, TR, BR, BL; use order_corners first.",
+      "overlay_path": "outputs/scanning/pilot_01/geometry_run1/a3_pilot_01_01_starting_take01/candidate_04/marked-board/geometry_overlay.png"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "frame_id": "a3_pilot_01_01_starting_take01_frame_001709",
+      "candidate_number": 10,
+      "timestamp_seconds": 57.0,
+      "observed_side_unverified": "white_left",
+      "policy": "marked-board",
+      "completed": false,
+      "failure_stage": "localization",
+      "raw_failure_stage": "localization",
+      "localization_gate_passed": false,
+      "recovery_attempted": true,
+      "predicted_orientation": null,
+      "geometry_correctness": "unverified",
+      "semantic_orientation_correctness": "unverified",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+      "overlay_path": "outputs/scanning/pilot_01/geometry_run1/a3_pilot_01_01_starting_take01/candidate_10/marked-board/geometry_overlay.png"
+    },
+    {
+      "position": "starting",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "frame_id": "a3_pilot_01_01_starting_take01_frame_002054",
+      "candidate_number": 11,
+      "timestamp_seconds": 68.5,
+      "observed_side_unverified": "transition_or_uncertain",
+      "policy": "marked-board",
+      "completed": false,
+      "failure_stage": "localization",
+      "raw_failure_stage": "localization",
+      "localization_gate_passed": false,
+      "recovery_attempted": true,
+      "predicted_orientation": null,
+      "geometry_correctness": "unverified",
+      "semantic_orientation_correctness": "unverified",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries",
+      "overlay_path": "outputs/scanning/pilot_01/geometry_run1/a3_pilot_01_01_starting_take01/candidate_11/marked-board/geometry_overlay.png"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "frame_id": "a3_pilot_01_02_opening_take01_frame_000269",
+      "candidate_number": 2,
+      "timestamp_seconds": 9.0,
+      "observed_side_unverified": "white_near",
+      "policy": "marked-board",
+      "completed": false,
+      "failure_stage": "localization",
+      "raw_failure_stage": "localization",
+      "localization_gate_passed": false,
+      "recovery_attempted": true,
+      "predicted_orientation": null,
+      "geometry_correctness": "unverified",
+      "semantic_orientation_correctness": "unverified",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift",
+      "overlay_path": "outputs/scanning/pilot_01/geometry_run1/a3_pilot_01_02_opening_take01/candidate_02/marked-board/geometry_overlay.png"
+    },
+    {
+      "position": "opening",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "frame_id": "a3_pilot_01_02_opening_take01_frame_001694",
+      "candidate_number": 10,
+      "timestamp_seconds": 56.5,
+      "observed_side_unverified": "transition_or_uncertain",
+      "policy": "marked-board",
+      "completed": false,
+      "failure_stage": "localization",
+      "raw_failure_stage": "localization",
+      "localization_gate_passed": false,
+      "recovery_attempted": true,
+      "predicted_orientation": null,
+      "geometry_correctness": "unverified",
+      "semantic_orientation_correctness": "unverified",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+      "overlay_path": "outputs/scanning/pilot_01/geometry_run1/a3_pilot_01_02_opening_take01/candidate_10/marked-board/geometry_overlay.png"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "frame_id": "a3_pilot_01_03_middlegame_take01_frame_001379",
+      "candidate_number": 8,
+      "timestamp_seconds": 46.0,
+      "observed_side_unverified": "transition_or_uncertain",
+      "policy": "marked-board",
+      "completed": false,
+      "failure_stage": "localization",
+      "raw_failure_stage": "localization",
+      "localization_gate_passed": false,
+      "recovery_attempted": true,
+      "predicted_orientation": null,
+      "geometry_correctness": "unverified",
+      "semantic_orientation_correctness": "unverified",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift",
+      "overlay_path": "outputs/scanning/pilot_01/geometry_run1/a3_pilot_01_03_middlegame_take01/candidate_08/marked-board/geometry_overlay.png"
+    },
+    {
+      "position": "middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "frame_id": "a3_pilot_01_03_middlegame_take01_frame_001829",
+      "candidate_number": 10,
+      "timestamp_seconds": 61.0,
+      "observed_side_unverified": "transition_or_uncertain",
+      "policy": "marked-board",
+      "completed": false,
+      "failure_stage": "localization",
+      "raw_failure_stage": "localization",
+      "localization_gate_passed": false,
+      "recovery_attempted": true,
+      "predicted_orientation": null,
+      "geometry_correctness": "unverified",
+      "semantic_orientation_correctness": "unverified",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+      "overlay_path": "outputs/scanning/pilot_01/geometry_run1/a3_pilot_01_03_middlegame_take01/candidate_10/marked-board/geometry_overlay.png"
+    },
+    {
+      "position": "endgame",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "frame_id": "a3_pilot_01_04_endgame_take01_frame_001649",
+      "candidate_number": 10,
+      "timestamp_seconds": 55.0,
+      "observed_side_unverified": "white_left",
+      "policy": "marked-board",
+      "completed": false,
+      "failure_stage": "localization",
+      "raw_failure_stage": "localization",
+      "localization_gate_passed": false,
+      "recovery_attempted": true,
+      "predicted_orientation": null,
+      "geometry_correctness": "unverified",
+      "semantic_orientation_correctness": "unverified",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+      "overlay_path": "outputs/scanning/pilot_01/geometry_run1/a3_pilot_01_04_endgame_take01/candidate_10/marked-board/geometry_overlay.png"
+    },
+    {
+      "position": "puzzle",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "frame_id": "a3_pilot_01_05_puzzle_take01_frame_001589",
+      "candidate_number": 10,
+      "timestamp_seconds": 53.0,
+      "observed_side_unverified": "white_left",
+      "policy": "marked-board",
+      "completed": false,
+      "failure_stage": "localization",
+      "raw_failure_stage": "localization",
+      "localization_gate_passed": false,
+      "recovery_attempted": true,
+      "predicted_orientation": null,
+      "geometry_correctness": "unverified",
+      "semantic_orientation_correctness": "unverified",
+      "error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+      "overlay_path": "outputs/scanning/pilot_01/geometry_run1/a3_pilot_01_05_puzzle_take01/candidate_10/marked-board/geometry_overlay.png"
+    }
+  ],
+  "visual_review": {
+    "basis": "Assistant qualitative visual inspection of 60 candidate images, 10 policy contact sheets, and selected full diagnostic overlays; not human-verified ground truth.",
+    "verified_corners": false,
+    "verified_semantic_orientation": false,
+    "accepted_localization_clearly_incorrect": [
+      {
+        "position": "starting",
+        "candidate": 6,
+        "seconds": 32,
+        "observation": "Polygon shifted downward: upper edge crosses playing area and lower edge lies on table."
+      },
+      {
+        "position": "starting",
+        "candidate": 9,
+        "seconds": 54.5,
+        "observation": "Polygon incorporates border instead of intended inner playing area."
+      },
+      {
+        "position": "opening",
+        "candidate": 11,
+        "seconds": 63,
+        "observation": "Skewed shifted polygon cuts upper rows and includes outer border."
+      }
+    ],
+    "important": "All three were subsequently rejected by legacy orientation; recovery completed. They are accepted localization gates, not incorrectly completed legacy preparations.",
+    "completed_polygon_review": "No grossly incorrect completed polygon identified in contact-sheet inspection; fine alignment and semantic correctness remain unverified.",
+    "coverage": "All four physical board sides appear among selected frames in each session, including high and oblique views. Angles and balanced elevation bins are unverified. Full playing area appears visible in selected frames only; entire recordings not visually certified.",
+    "lighting": "One apparently bright ambient daylight/patio scene; device, lighting setup and actual capture time unconfirmed. Some exposure variation and crowded-piece occlusion visible.",
+    "blur": "Global sharpness heuristic passed; textured background can inflate score and does not establish piece detail."
+  },
+  "tests": {
+    "passed": 121,
+    "seconds": 78.66
+  },
+  "recognition_metrics": "Not run: no classifier inference, accuracy, exact-board metric or training performed."
+}

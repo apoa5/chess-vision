@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="360" viewBox="0 0 1240 360">
+<rect width="100%" height="100%" fill="white"/>
+<text x="10" y="22" font-size="16" font-family="sans-serif">a3_pilot_01_05_puzzle — original PTS timeline</text>
+<text x="10" y="44" font-size="12" font-family="sans-serif">Blue: completed unverified; red: unresolved; orange: quality gate; selection ticks: black. No tracking/recognition accuracy.</text>
+<text x="10" y="84" font-size="12" font-family="sans-serif">legacy geometry</text>
+<circle cx="180.000" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000000: completed_unverified []</title></circle>
+<circle cx="225.060" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000090: completed_unverified []</title></circle>
+<circle cx="270.145" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000180: completed_unverified []</title></circle>
+<circle cx="315.205" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000270: completed_unverified []</title></circle>
+<circle cx="360.266" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000360: completed_unverified []</title></circle>
+<circle cx="405.326" cy="80" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000450: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No plausible board quadrilateral found.&#x27;]</title></circle>
+<circle cx="450.411" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000540: completed_unverified []</title></circle>
+<circle cx="495.471" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000630: completed_unverified []</title></circle>
+<circle cx="540.531" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000720: completed_unverified []</title></circle>
+<circle cx="585.591" cy="80" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000810: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No candidate passed the checkerboard evidence thresholds.&#x27;]</title></circle>
+<circle cx="630.677" cy="80" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000900: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No candidate passed the checkerboard evidence thresholds.&#x27;]</title></circle>
+<circle cx="675.737" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000990: completed_unverified []</title></circle>
+<circle cx="720.797" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001080: completed_unverified []</title></circle>
+<circle cx="765.857" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001170: completed_unverified []</title></circle>
+<circle cx="810.942" cy="80" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001260: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No candidate passed the checkerboard evidence thresholds.&#x27;]</title></circle>
+<circle cx="856.002" cy="80" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001350: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No candidate passed the checkerboard evidence thresholds.&#x27;]</title></circle>
+<circle cx="901.063" cy="80" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001440: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No candidate passed the checkerboard evidence thresholds.&#x27;]</title></circle>
+<circle cx="946.123" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001530: completed_unverified []</title></circle>
+<circle cx="991.208" cy="80" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001620: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No plausible board quadrilateral found.&#x27;]</title></circle>
+<circle cx="1036.268" cy="80" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001710: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No candidate passed the checkerboard evidence thresholds.&#x27;]</title></circle>
+<circle cx="1081.328" cy="80" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001800: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No candidate passed the checkerboard evidence thresholds.&#x27;]</title></circle>
+<circle cx="1126.413" cy="80" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001890: completed_unverified []</title></circle>
+<circle cx="1171.474" cy="80" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001980: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No candidate passed the checkerboard evidence thresholds.&#x27;]</title></circle>
+<text x="10" y="119" font-size="12" font-family="sans-serif">marked-board geometry</text>
+<circle cx="180.000" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000000: completed_unverified []</title></circle>
+<circle cx="225.060" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000090: completed_unverified []</title></circle>
+<circle cx="270.145" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000180: completed_unverified []</title></circle>
+<circle cx="315.205" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000270: completed_unverified []</title></circle>
+<circle cx="360.266" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000360: completed_unverified []</title></circle>
+<circle cx="405.326" cy="115" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000450: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: competing_alternative_seed_geometries&#x27;]</title></circle>
+<circle cx="450.411" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000540: completed_unverified []</title></circle>
+<circle cx="495.471" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000630: completed_unverified []</title></circle>
+<circle cx="540.531" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000720: completed_unverified []</title></circle>
+<circle cx="585.591" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000810: completed_unverified []</title></circle>
+<circle cx="630.677" cy="115" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000900: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries&#x27;]</title></circle>
+<circle cx="675.737" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_000990: completed_unverified []</title></circle>
+<circle cx="720.797" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001080: completed_unverified []</title></circle>
+<circle cx="765.857" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001170: completed_unverified []</title></circle>
+<circle cx="810.942" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001260: completed_unverified []</title></circle>
+<circle cx="856.002" cy="115" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001350: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed&#x27;]</title></circle>
+<circle cx="901.063" cy="115" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001440: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed&#x27;]</title></circle>
+<circle cx="946.123" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001530: completed_unverified []</title></circle>
+<circle cx="991.208" cy="115" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001620: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: localization_failed&#x27;]</title></circle>
+<circle cx="1036.268" cy="115" r="4" fill="#e05242"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001710: unresolved [&#x27;localization&#x27;, &#x27;Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed&#x27;]</title></circle>
+<circle cx="1081.328" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001800: completed_unverified []</title></circle>
+<circle cx="1126.413" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001890: completed_unverified []</title></circle>
+<circle cx="1171.474" cy="115" r="4" fill="#276cb4"><title>a3_pilot_01_05_puzzle_take01_hd_frame_001980: completed_unverified []</title></circle>
+<text x="10" y="164" font-size="12" font-family="sans-serif">uniform @5</text>
+<circle cx="180.000" cy="160" r="2" fill="#ccc"/>
+<line x1="180.000" x2="180.000" y1="151" y2="169" stroke="#111" stroke-width="3"/>
+<circle cx="225.060" cy="160" r="2" fill="#ccc"/>
+<circle cx="270.145" cy="160" r="2" fill="#ccc"/>
+<circle cx="315.205" cy="160" r="2" fill="#ccc"/>
+<circle cx="360.266" cy="160" r="2" fill="#ccc"/>
+<circle cx="405.326" cy="160" r="2" fill="#ccc"/>
+<circle cx="450.411" cy="160" r="2" fill="#ccc"/>
+<line x1="450.411" x2="450.411" y1="151" y2="169" stroke="#111" stroke-width="3"/>
+<circle cx="495.471" cy="160" r="2" fill="#ccc"/>
+<circle cx="540.531" cy="160" r="2" fill="#ccc"/>
+<circle cx="585.591" cy="160" r="2" fill="#ccc"/>
+<circle cx="630.677" cy="160" r="2" fill="#ccc"/>
+<circle cx="675.737" cy="160" r="2" fill="#ccc"/>
+<line x1="675.737" x2="675.737" y1="151" y2="169" stroke="#111" stroke-width="3"/>
+<circle cx="720.797" cy="160" r="2" fill="#ccc"/>
+<circle cx="765.857" cy="160" r="2" fill="#ccc"/>
+<circle cx="810.942" cy="160" r="2" fill="#ccc"/>
+<circle cx="856.002" cy="160" r="2" fill="#ccc"/>
+<circle cx="901.063" cy="160" r="2" fill="#ccc"/>
+<circle cx="946.123" cy="160" r="2" fill="#ccc"/>
+<line x1="946.123" x2="946.123" y1="151" y2="169" stroke="#111" stroke-width="3"/>
+<circle cx="991.208" cy="160" r="2" fill="#ccc"/>
+<circle cx="1036.268" cy="160" r="2" fill="#ccc"/>
+<circle cx="1081.328" cy="160" r="2" fill="#ccc"/>
+<line x1="1081.328" x2="1081.328" y1="151" y2="169" stroke="#111" stroke-width="3"/>
+<circle cx="1126.413" cy="160" r="2" fill="#ccc"/>
+<circle cx="1171.474" cy="160" r="2" fill="#ccc"/>
+<text x="10" y="200" font-size="12" font-family="sans-serif">quality @5</text>
+<circle cx="180.000" cy="196" r="2" fill="#ccc"/>
+<line x1="180.000" x2="180.000" y1="187" y2="205" stroke="#111" stroke-width="3"/>
+<circle cx="225.060" cy="196" r="2" fill="#ccc"/>
+<circle cx="270.145" cy="196" r="2" fill="#ccc"/>
+<circle cx="315.205" cy="196" r="2" fill="#ccc"/>
+<circle cx="360.266" cy="196" r="2" fill="#ccc"/>
+<circle cx="405.326" cy="196" r="2" fill="#ccc"/>
+<circle cx="450.411" cy="196" r="2" fill="#ccc"/>
+<line x1="450.411" x2="450.411" y1="187" y2="205" stroke="#111" stroke-width="3"/>
+<circle cx="495.471" cy="196" r="2" fill="#ccc"/>
+<circle cx="540.531" cy="196" r="2" fill="#ccc"/>
+<circle cx="585.591" cy="196" r="2" fill="#ccc"/>
+<line x1="585.591" x2="585.591" y1="187" y2="205" stroke="#111" stroke-width="3"/>
+<circle cx="630.677" cy="196" r="2" fill="#ccc"/>
+<circle cx="675.737" cy="196" r="2" fill="#ccc"/>
+<circle cx="720.797" cy="196" r="2" fill="#ccc"/>
+<line x1="720.797" x2="720.797" y1="187" y2="205" stroke="#111" stroke-width="3"/>
+<circle cx="765.857" cy="196" r="2" fill="#ccc"/>
+<circle cx="810.942" cy="196" r="2" fill="#ccc"/>
+<circle cx="856.002" cy="196" r="2" fill="#ccc"/>
+<circle cx="901.063" cy="196" r="2" fill="#ccc"/>
+<circle cx="946.123" cy="196" r="2" fill="#ccc"/>
+<line x1="946.123" x2="946.123" y1="187" y2="205" stroke="#111" stroke-width="3"/>
+<circle cx="991.208" cy="196" r="2" fill="#ccc"/>
+<circle cx="1036.268" cy="196" r="2" fill="#ccc"/>
+<circle cx="1081.328" cy="196" r="2" fill="#ccc"/>
+<circle cx="1126.413" cy="196" r="2" fill="#ccc"/>
+<circle cx="1171.474" cy="196" r="2" fill="#ccc"/>
+<text x="10" y="236" font-size="12" font-family="sans-serif">quality_temporal @5</text>
+<circle cx="180.000" cy="232" r="2" fill="#ccc"/>
+<line x1="180.000" x2="180.000" y1="223" y2="241" stroke="#111" stroke-width="3"/>
+<circle cx="225.060" cy="232" r="2" fill="#ccc"/>
+<circle cx="270.145" cy="232" r="2" fill="#ccc"/>
+<circle cx="315.205" cy="232" r="2" fill="#ccc"/>
+<circle cx="360.266" cy="232" r="2" fill="#ccc"/>
+<circle cx="405.326" cy="232" r="2" fill="#ccc"/>
+<circle cx="450.411" cy="232" r="2" fill="#ccc"/>
+<line x1="450.411" x2="450.411" y1="223" y2="241" stroke="#111" stroke-width="3"/>
+<circle cx="495.471" cy="232" r="2" fill="#ccc"/>
+<circle cx="540.531" cy="232" r="2" fill="#ccc"/>
+<circle cx="585.591" cy="232" r="2" fill="#ccc"/>
+<line x1="585.591" x2="585.591" y1="223" y2="241" stroke="#111" stroke-width="3"/>
+<circle cx="630.677" cy="232" r="2" fill="#ccc"/>
+<circle cx="675.737" cy="232" r="2" fill="#ccc"/>
+<circle cx="720.797" cy="232" r="2" fill="#ccc"/>
+<line x1="720.797" x2="720.797" y1="223" y2="241" stroke="#111" stroke-width="3"/>
+<circle cx="765.857" cy="232" r="2" fill="#ccc"/>
+<circle cx="810.942" cy="232" r="2" fill="#ccc"/>
+<circle cx="856.002" cy="232" r="2" fill="#ccc"/>
+<circle cx="901.063" cy="232" r="2" fill="#ccc"/>
+<circle cx="946.123" cy="232" r="2" fill="#ccc"/>
+<line x1="946.123" x2="946.123" y1="223" y2="241" stroke="#111" stroke-width="3"/>
+<circle cx="991.208" cy="232" r="2" fill="#ccc"/>
+<circle cx="1036.268" cy="232" r="2" fill="#ccc"/>
+<circle cx="1081.328" cy="232" r="2" fill="#ccc"/>
+<circle cx="1126.413" cy="232" r="2" fill="#ccc"/>
+<circle cx="1171.474" cy="232" r="2" fill="#ccc"/>
+<text x="10" y="272" font-size="12" font-family="sans-serif">quality_diverse @5</text>
+<circle cx="180.000" cy="268" r="2" fill="#ccc"/>
+<circle cx="225.060" cy="268" r="2" fill="#ccc"/>
+<line x1="225.060" x2="225.060" y1="259" y2="277" stroke="#111" stroke-width="3"/>
+<circle cx="270.145" cy="268" r="2" fill="#ccc"/>
+<circle cx="315.205" cy="268" r="2" fill="#ccc"/>
+<circle cx="360.266" cy="268" r="2" fill="#ccc"/>
+<circle cx="405.326" cy="268" r="2" fill="#ccc"/>
+<circle cx="450.411" cy="268" r="2" fill="#ccc"/>
+<line x1="450.411" x2="450.411" y1="259" y2="277" stroke="#111" stroke-width="3"/>
+<circle cx="495.471" cy="268" r="2" fill="#ccc"/>
+<circle cx="540.531" cy="268" r="2" fill="#ccc"/>
+<circle cx="585.591" cy="268" r="2" fill="#ccc"/>
+<line x1="585.591" x2="585.591" y1="259" y2="277" stroke="#111" stroke-width="3"/>
+<circle cx="630.677" cy="268" r="2" fill="#ccc"/>
+<circle cx="675.737" cy="268" r="2" fill="#ccc"/>
+<circle cx="720.797" cy="268" r="2" fill="#ccc"/>
+<line x1="720.797" x2="720.797" y1="259" y2="277" stroke="#111" stroke-width="3"/>
+<circle cx="765.857" cy="268" r="2" fill="#ccc"/>
+<circle cx="810.942" cy="268" r="2" fill="#ccc"/>
+<circle cx="856.002" cy="268" r="2" fill="#ccc"/>
+<circle cx="901.063" cy="268" r="2" fill="#ccc"/>
+<circle cx="946.123" cy="268" r="2" fill="#ccc"/>
+<line x1="946.123" x2="946.123" y1="259" y2="277" stroke="#111" stroke-width="3"/>
+<circle cx="991.208" cy="268" r="2" fill="#ccc"/>
+<circle cx="1036.268" cy="268" r="2" fill="#ccc"/>
+<circle cx="1081.328" cy="268" r="2" fill="#ccc"/>
+<circle cx="1126.413" cy="268" r="2" fill="#ccc"/>
+<circle cx="1171.474" cy="268" r="2" fill="#ccc"/>
+<line x1="180" x2="1210" y1="320" y2="320" stroke="#555"/>
+<text x="180" y="342" font-size="12" font-family="sans-serif">0s</text>
+<text x="330" y="342" font-size="12" font-family="sans-serif">10s</text>
+<text x="480" y="342" font-size="12" font-family="sans-serif">20s</text>
+<text x="631" y="342" font-size="12" font-family="sans-serif">30s</text>
+<text x="781" y="342" font-size="12" font-family="sans-serif">40s</text>
+<text x="931" y="342" font-size="12" font-family="sans-serif">50s</text>
+<text x="1081" y="342" font-size="12" font-family="sans-serif">60s</text>
+</svg>

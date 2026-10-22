@@ -1,0 +1,30 @@
+{
+  "basis": "Assistant qualitative visual inspection of 60 candidate images, 10 policy contact sheets, and selected full diagnostic overlays; not human-verified ground truth.",
+  "verified_corners": false,
+  "verified_semantic_orientation": false,
+  "accepted_localization_clearly_incorrect": [
+    {
+      "position": "starting",
+      "candidate": 6,
+      "seconds": 32,
+      "observation": "Polygon shifted downward: upper edge crosses playing area and lower edge lies on table."
+    },
+    {
+      "position": "starting",
+      "candidate": 9,
+      "seconds": 54.5,
+      "observation": "Polygon incorporates border instead of intended inner playing area."
+    },
+    {
+      "position": "opening",
+      "candidate": 11,
+      "seconds": 63,
+      "observation": "Skewed shifted polygon cuts upper rows and includes outer border."
+    }
+  ],
+  "important": "All three were subsequently rejected by legacy orientation; recovery completed. They are accepted localization gates, not incorrectly completed legacy preparations.",
+  "completed_polygon_review": "No grossly incorrect completed polygon identified in contact-sheet inspection; fine alignment and semantic correctness remain unverified.",
+  "coverage": "All four physical board sides appear among selected frames in each session, including high and oblique views. Angles and balanced elevation bins are unverified. Full playing area appears visible in selected frames only; entire recordings not visually certified.",
+  "lighting": "One apparently bright ambient daylight/patio scene; device, lighting setup and actual capture time unconfirmed. Some exposure variation and crowded-piece occlusion visible.",
+  "blur": "Global sharpness heuristic passed; textured background can inflate score and does not establish piece detail."
+}

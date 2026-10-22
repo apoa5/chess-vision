@@ -1,0 +1,3698 @@
+[
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000000",
+    "pts": 0,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 0.0,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000000/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000090",
+    "pts": 1800,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 3000.0,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000090/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000180",
+    "pts": 3601,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 6001.666666666667,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000180/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000270",
+    "pts": 5401,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 9001.666666666666,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000270/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000360",
+    "pts": 7201,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 12001.666666666666,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000360/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000450",
+    "pts": 9001,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 15001.666666666666,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000450/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001440",
+    "pts": 28804,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 48006.666666666664,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001440/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001620",
+    "pts": 32405,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 54008.333333333336,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001620/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001710",
+    "pts": 34205,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57008.333333333336,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001710/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001800",
+    "pts": 36005,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 60008.333333333336,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001800/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001890",
+    "pts": 37806,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 63010.0,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001890/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001980",
+    "pts": 39606,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 66010.0,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001980/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_002070",
+    "pts": 41406,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 69010.0,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_002070/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_002160",
+    "pts": 43206,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 72010.0,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_002160/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001440",
+    "pts": 28804,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 48006.666666666664,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001440/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001620",
+    "pts": 32405,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 54008.333333333336,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: competing_alternative_seed_geometries",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: competing_alternative_seed_geometries"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001620/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001710",
+    "pts": 34205,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57008.333333333336,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001710/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001800",
+    "pts": 36005,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 60008.333333333336,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001800/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001890",
+    "pts": 37806,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 63010.0,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001890/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001980",
+    "pts": 39606,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 66010.0,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001980/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000090",
+    "pts": 1800,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 3000.0,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000090/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000180",
+    "pts": 3601,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 6001.666666666667,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000180/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000270",
+    "pts": 5401,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 9001.666666666666,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000270/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000360",
+    "pts": 7201,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 12001.666666666666,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000360/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000540",
+    "pts": 10802,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 18003.333333333332,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000540/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000720",
+    "pts": 14402,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 24003.333333333332,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "dependency_or_runtime",
+    "geometry_error": "ValueError: Corners must be ordered TL, TR, BR, BL; use order_corners first.",
+    "unusable_reasons": [
+      "rectification_validation",
+      "ValueError: Corners must be ordered TL, TR, BR, BL; use order_corners first."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000720/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000810",
+    "pts": 16202,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 27003.333333333332,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000810/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000990",
+    "pts": 19803,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 33005.0,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000990/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001080",
+    "pts": 21603,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 36005.0,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001080/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001260",
+    "pts": 25204,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 42006.666666666664,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001260/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001530",
+    "pts": 30604,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 51006.666666666664,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001530/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001620",
+    "pts": 32405,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 54008.333333333336,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001620/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001710",
+    "pts": 34205,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57008.333333333336,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001710/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001800",
+    "pts": 36005,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 60008.333333333336,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001800/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001980",
+    "pts": 39606,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 66010.0,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001980/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_002070",
+    "pts": 41406,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 69010.0,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_002070/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_002160",
+    "pts": 43206,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 72010.0,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_002160/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000360",
+    "pts": 7201,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 12001.666666666666,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000360/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000720",
+    "pts": 14402,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 24003.333333333332,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "dependency_or_runtime",
+    "geometry_error": "ValueError: Corners must be ordered TL, TR, BR, BL; use order_corners first.",
+    "unusable_reasons": [
+      "rectification_validation",
+      "ValueError: Corners must be ordered TL, TR, BR, BL; use order_corners first."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000720/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001620",
+    "pts": 32405,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 54008.333333333336,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001620/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001710",
+    "pts": 34205,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57008.333333333336,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001710/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001800",
+    "pts": 36005,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 60008.333333333336,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001800/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001980",
+    "pts": 39606,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 66010.0,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001980/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_002070",
+    "pts": 41406,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 69010.0,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_002070/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000000",
+    "pts": 0,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 0.0,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000000/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000090",
+    "pts": 1800,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 3000.0,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000090/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000180",
+    "pts": 3601,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 6001.666666666667,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000180/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000270",
+    "pts": 5401,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 9001.666666666666,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000270/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000540",
+    "pts": 10802,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 18003.333333333332,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000540/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000630",
+    "pts": 12602,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 21003.333333333332,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000630/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000720",
+    "pts": 14402,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 24003.333333333332,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000720/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001170",
+    "pts": 23403,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 39005.0,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001170/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001260",
+    "pts": 25204,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 42006.666666666664,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001260/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001350",
+    "pts": 27004,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 45006.666666666664,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001350/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001440",
+    "pts": 28804,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 48006.666666666664,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001440/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001530",
+    "pts": 30604,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 51006.666666666664,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001530/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001620",
+    "pts": 32405,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 54008.333333333336,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001620/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001710",
+    "pts": 34205,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57008.333333333336,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001710/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001800",
+    "pts": 36005,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 60008.333333333336,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001800/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001890",
+    "pts": 37806,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 63010.0,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001890/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001980",
+    "pts": 39606,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 66010.0,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001980/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_002070",
+    "pts": 41406,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 69010.0,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_002070/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_002160",
+    "pts": 43206,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 72010.0,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_002160/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_002250",
+    "pts": 45007,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 75011.66666666667,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_002250/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001350",
+    "pts": 27004,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 45006.666666666664,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001350/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001440",
+    "pts": 28804,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 48006.666666666664,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001440/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001710",
+    "pts": 34205,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57008.333333333336,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001710/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001800",
+    "pts": 36005,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 60008.333333333336,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001800/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_002160",
+    "pts": 43206,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 72010.0,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_002160/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000630",
+    "pts": 12602,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 21003.333333333332,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000630/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000810",
+    "pts": 16202,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 27003.333333333332,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000810/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001170",
+    "pts": 23403,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 39005.0,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001170/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001260",
+    "pts": 25204,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 42006.666666666664,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001260/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001350",
+    "pts": 27004,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 45006.666666666664,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001350/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001440",
+    "pts": 28804,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 48006.666666666664,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001440/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001620",
+    "pts": 32405,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 54008.333333333336,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001620/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001710",
+    "pts": 34205,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57008.333333333336,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001710/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001800",
+    "pts": 36005,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 60008.333333333336,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001800/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001890",
+    "pts": 37806,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 63010.0,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001890/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_002070",
+    "pts": 41406,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 69010.0,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_002070/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000810",
+    "pts": 16202,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 27003.333333333332,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000810/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001440",
+    "pts": 28804,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 48006.666666666664,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001440/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001620",
+    "pts": 32405,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 54008.333333333336,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001620/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001710",
+    "pts": 34205,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57008.333333333336,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001710/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001800",
+    "pts": 36005,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 60008.333333333336,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001800/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_002070",
+    "pts": 41406,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 69010.0,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_002070/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000450",
+    "pts": 9001,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 15001.666666666666,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_000450/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000810",
+    "pts": 16202,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 27003.333333333332,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_000810/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000900",
+    "pts": 18003,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 30005.0,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_000900/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001260",
+    "pts": 25204,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 42006.666666666664,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001260/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001350",
+    "pts": 27004,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 45006.666666666664,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001350/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001440",
+    "pts": 28804,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 48006.666666666664,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001440/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001620",
+    "pts": 32405,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 54008.333333333336,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001620/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001710",
+    "pts": 34205,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57008.333333333336,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001710/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001800",
+    "pts": 36005,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 60008.333333333336,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001800/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001980",
+    "pts": 39606,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 66010.0,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001980/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000450",
+    "pts": 9001,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 15001.666666666666,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: competing_alternative_seed_geometries",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: competing_alternative_seed_geometries"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_000450/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000900",
+    "pts": 18003,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 30005.0,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_000900/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001350",
+    "pts": 27004,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 45006.666666666664,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001350/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001440",
+    "pts": 28804,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 48006.666666666664,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001440/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001620",
+    "pts": 32405,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 54008.333333333336,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001620/pair.json"
+  },
+  {
+    "dataset": "primary_3s_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001710",
+    "pts": 34205,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57008.333333333336,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001710/pair.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000122",
+    "pts": 2440,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 4066.6666666666665,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000272",
+    "pts": 5441,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 9068.333333333334,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000962",
+    "pts": 19243,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 32071.666666666668,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001637",
+    "pts": 32745,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 54575.0,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001712",
+    "pts": 34245,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57075.0,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_002057",
+    "pts": 41146,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 68576.66666666667,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_002147",
+    "pts": 42946,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 71576.66666666667,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001712",
+    "pts": 34245,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57075.0,
+    "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000272",
+    "pts": 5441,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 9068.333333333334,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000467",
+    "pts": 9341,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 15568.333333333334,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001217",
+    "pts": 24344,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 40573.333333333336,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001577",
+    "pts": 31545,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 52575.0,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001697",
+    "pts": 33945,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 56575.0,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001892",
+    "pts": 37846,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 63076.666666666664,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_002192",
+    "pts": 43846,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 73076.66666666667,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001697",
+    "pts": 33945,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 56575.0,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001892",
+    "pts": 37846,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 63076.666666666664,
+    "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000002",
+    "pts": 40,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 66.66666666666667,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000272",
+    "pts": 5441,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 9068.333333333334,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000527",
+    "pts": 10542,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 17570.0,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001217",
+    "pts": 24344,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 40573.333333333336,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001382",
+    "pts": 27644,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 46073.333333333336,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001832",
+    "pts": 36645,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 61075.0,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_002252",
+    "pts": 45047,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 75078.33333333333,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001832",
+    "pts": 36645,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 61075.0,
+    "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000317",
+    "pts": 6341,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 10568.333333333334,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001277",
+    "pts": 25544,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 42573.333333333336,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001562",
+    "pts": 31245,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 52075.0,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001652",
+    "pts": 33045,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 55075.0,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001832",
+    "pts": 36645,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 61075.0,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001652",
+    "pts": 33045,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 55075.0,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001832",
+    "pts": 36645,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 61075.0,
+    "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000842",
+    "pts": 16842,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 28070.0,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000902",
+    "pts": 18043,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 30071.666666666668,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001592",
+    "pts": 31845,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 53075.0,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001847",
+    "pts": 36945,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 61575.0,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_high",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001592",
+    "pts": 31845,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 53075.0,
+    "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/hd_geometry_final_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_frame_000629",
+    "pts": 12600,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 21000.0,
+    "source_video_sha256": "40efd302abd1e1c129381cc32a04f48639dba09401321e7d6fee2685e24b8eaa",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "dependency_or_runtime",
+    "geometry_error": "ValueError: Corners must be ordered TL, TR, BR, BL; use order_corners first.",
+    "unusable_reasons": [
+      "rectification_validation",
+      "ValueError: Corners must be ordered TL, TR, BR, BL; use order_corners first."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_frame_000959",
+    "pts": 19200,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 32000.0,
+    "source_video_sha256": "40efd302abd1e1c129381cc32a04f48639dba09401321e7d6fee2685e24b8eaa",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_frame_001199",
+    "pts": 24000,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 40000.0,
+    "source_video_sha256": "40efd302abd1e1c129381cc32a04f48639dba09401321e7d6fee2685e24b8eaa",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_frame_001634",
+    "pts": 32700,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 54500.0,
+    "source_video_sha256": "40efd302abd1e1c129381cc32a04f48639dba09401321e7d6fee2685e24b8eaa",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_frame_001709",
+    "pts": 34200,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57000.0,
+    "source_video_sha256": "40efd302abd1e1c129381cc32a04f48639dba09401321e7d6fee2685e24b8eaa",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_01_starting_take01_frame_002054",
+    "pts": 41100,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 68500.0,
+    "source_video_sha256": "40efd302abd1e1c129381cc32a04f48639dba09401321e7d6fee2685e24b8eaa",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_01_starting_take01_frame_000629",
+    "pts": 12600,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 21000.0,
+    "source_video_sha256": "40efd302abd1e1c129381cc32a04f48639dba09401321e7d6fee2685e24b8eaa",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "dependency_or_runtime",
+    "geometry_error": "ValueError: Corners must be ordered TL, TR, BR, BL; use order_corners first.",
+    "unusable_reasons": [
+      "rectification_validation",
+      "ValueError: Corners must be ordered TL, TR, BR, BL; use order_corners first."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_01_starting_take01_frame_001709",
+    "pts": 34200,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 57000.0,
+    "source_video_sha256": "40efd302abd1e1c129381cc32a04f48639dba09401321e7d6fee2685e24b8eaa",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_01_starting_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_01_starting_take01_frame_002054",
+    "pts": 41100,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 68500.0,
+    "source_video_sha256": "40efd302abd1e1c129381cc32a04f48639dba09401321e7d6fee2685e24b8eaa",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: competing_alternative_seed_geometries"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_frame_000269",
+    "pts": 5400,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 9000.0,
+    "source_video_sha256": "caee817536f19ee01d7e6a79c9c1b486e6daf470b2c30ccb70a5da46210af014",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_frame_000629",
+    "pts": 12600,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 21000.0,
+    "source_video_sha256": "caee817536f19ee01d7e6a79c9c1b486e6daf470b2c30ccb70a5da46210af014",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_frame_001214",
+    "pts": 24300,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 40500.0,
+    "source_video_sha256": "caee817536f19ee01d7e6a79c9c1b486e6daf470b2c30ccb70a5da46210af014",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_frame_001574",
+    "pts": 31500,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 52500.0,
+    "source_video_sha256": "caee817536f19ee01d7e6a79c9c1b486e6daf470b2c30ccb70a5da46210af014",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_frame_001694",
+    "pts": 33900,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 56500.0,
+    "source_video_sha256": "caee817536f19ee01d7e6a79c9c1b486e6daf470b2c30ccb70a5da46210af014",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_frame_001889",
+    "pts": 37800,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 63000.0,
+    "source_video_sha256": "caee817536f19ee01d7e6a79c9c1b486e6daf470b2c30ccb70a5da46210af014",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_02_opening_take01_frame_002189",
+    "pts": 43800,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 73000.0,
+    "source_video_sha256": "caee817536f19ee01d7e6a79c9c1b486e6daf470b2c30ccb70a5da46210af014",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_02_opening_take01_frame_000269",
+    "pts": 5400,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 9000.0,
+    "source_video_sha256": "caee817536f19ee01d7e6a79c9c1b486e6daf470b2c30ccb70a5da46210af014",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_02_opening_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_02_opening_take01_frame_001694",
+    "pts": 33900,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 56500.0,
+    "source_video_sha256": "caee817536f19ee01d7e6a79c9c1b486e6daf470b2c30ccb70a5da46210af014",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_frame_000524",
+    "pts": 10500,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 17500.0,
+    "source_video_sha256": "33beee5dab41c0add32012bf916239ac696d800ec4cad51f42f3b8ef8fec9274",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_frame_000809",
+    "pts": 16200,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 27000.0,
+    "source_video_sha256": "33beee5dab41c0add32012bf916239ac696d800ec4cad51f42f3b8ef8fec9274",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_frame_001214",
+    "pts": 24300,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 40500.0,
+    "source_video_sha256": "33beee5dab41c0add32012bf916239ac696d800ec4cad51f42f3b8ef8fec9274",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_frame_001379",
+    "pts": 27600,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 46000.0,
+    "source_video_sha256": "33beee5dab41c0add32012bf916239ac696d800ec4cad51f42f3b8ef8fec9274",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_frame_001829",
+    "pts": 36600,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 61000.0,
+    "source_video_sha256": "33beee5dab41c0add32012bf916239ac696d800ec4cad51f42f3b8ef8fec9274",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_frame_002024",
+    "pts": 40500,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 67500.0,
+    "source_video_sha256": "33beee5dab41c0add32012bf916239ac696d800ec4cad51f42f3b8ef8fec9274",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_frame_002249",
+    "pts": 45000,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 75000.0,
+    "source_video_sha256": "33beee5dab41c0add32012bf916239ac696d800ec4cad51f42f3b8ef8fec9274",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_frame_001379",
+    "pts": 27600,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 46000.0,
+    "source_video_sha256": "33beee5dab41c0add32012bf916239ac696d800ec4cad51f42f3b8ef8fec9274",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: grid_refinement_excessive_shift"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_03_middlegame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_03_middlegame_take01_frame_001829",
+    "pts": 36600,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 61000.0,
+    "source_video_sha256": "33beee5dab41c0add32012bf916239ac696d800ec4cad51f42f3b8ef8fec9274",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: orientation_uncertain"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_frame_000314",
+    "pts": 6300,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 10500.0,
+    "source_video_sha256": "ce312ed6887b0cdb8786bec9ec2b4010cc0580be95b72c47cc173cc15be8eebc",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_frame_001649",
+    "pts": 33000,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 55000.0,
+    "source_video_sha256": "ce312ed6887b0cdb8786bec9ec2b4010cc0580be95b72c47cc173cc15be8eebc",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_04_endgame_take01_frame_001829",
+    "pts": 36600,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 61000.0,
+    "source_video_sha256": "ce312ed6887b0cdb8786bec9ec2b4010cc0580be95b72c47cc173cc15be8eebc",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_04_endgame_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_04_endgame_take01_frame_001649",
+    "pts": 33000,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 55000.0,
+    "source_video_sha256": "ce312ed6887b0cdb8786bec9ec2b4010cc0580be95b72c47cc173cc15be8eebc",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_frame_000839",
+    "pts": 16800,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 28000.0,
+    "source_video_sha256": "1003a3c4f4e9e9be27cd29599ad8c492ad1105abe4206ed779916b79d30b7958",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No plausible board quadrilateral found.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No plausible board quadrilateral found."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_frame_000899",
+    "pts": 18000,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 30000.0,
+    "source_video_sha256": "1003a3c4f4e9e9be27cd29599ad8c492ad1105abe4206ed779916b79d30b7958",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_frame_001214",
+    "pts": 24300,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 40500.0,
+    "source_video_sha256": "1003a3c4f4e9e9be27cd29599ad8c492ad1105abe4206ed779916b79d30b7958",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "orientation",
+    "geometry_error": "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right.",
+    "unusable_reasons": [
+      "orientation",
+      "Orientation uncertain. Inspect context.png and supply --white-side bottom/left/top/right."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_frame_001589",
+    "pts": 31800,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 53000.0,
+    "source_video_sha256": "1003a3c4f4e9e9be27cd29599ad8c492ad1105abe4206ed779916b79d30b7958",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "legacy",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_frame_001844",
+    "pts": 36900,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 61500.0,
+    "source_video_sha256": "1003a3c4f4e9e9be27cd29599ad8c492ad1105abe4206ed779916b79d30b7958",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds.",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds."
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  },
+  {
+    "dataset": "paired_frozen_compressed",
+    "session": "a3_pilot_01_05_puzzle_take01",
+    "policy": "marked-board",
+    "frame_id": "a3_pilot_01_05_puzzle_take01_frame_001589",
+    "pts": 31800,
+    "time_base": [
+      1,
+      600
+    ],
+    "relative_timestamp_ms": 53000.0,
+    "source_video_sha256": "1003a3c4f4e9e9be27cd29599ad8c492ad1105abe4206ed779916b79d30b7958",
+    "geometry_state": "unresolved",
+    "geometry_failure_stage": "localization",
+    "geometry_error": "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed",
+    "unusable_reasons": [
+      "localization",
+      "Board localization failed: No candidate passed the checkerboard evidence thresholds. Marked-board recovery rejected: localization_failed"
+    ],
+    "geometry_reference": "outputs/scanning/pilot_01/geometry_run1/results.json"
+  }
+]

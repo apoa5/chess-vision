@@ -1,0 +1,21 @@
+{
+  "schema_version": "pilot_hd_effective_validation_v1",
+  "native_integrity_passed": true,
+  "native_validation_path": "outputs/scanning/pilot_01/hd_aligned_run1/final_integrity_validation.json",
+  "native_validation_sha256": "09f496b5ccca4644843fe36ecff70282bb05c21f343e6b487914242f59e451f9",
+  "owner_attestation_path": "data/metadata/a3_pilot_01_attestations_v1.json",
+  "owner_attestation_sha256": "a2580612c23b4047607c05cb6a0d40317e8ef173118a5b613481ff8d70ccc7fa",
+  "photographic_FEN_agreement": "owner_confirmed_all_five",
+  "unchanged_position_full_recordings": "owner_confirmed_all_five",
+  "per_frame_corners_verified": false,
+  "all_frame_semantic_orientation_verified": false,
+  "training_eligible": false,
+  "final_holdout": false,
+  "same_session_source_grouping_checked": true,
+  "source_roles_and_120_policy_rows_checked": true,
+  "report_links_checked": true,
+  "syntax_and_diff_check_passed": true,
+  "full_tests_passed": 130,
+  "focused_tests_after_diagnostics_passed": 9,
+  "note": "The unchanged generic native integrity validator does not consume external owner attestations and emits a static reviews-pending limitation. Effective placement/stability status comes from the source catalog and owner-attestation supplement; geometry/orientation ground truth remains unverified."
+}

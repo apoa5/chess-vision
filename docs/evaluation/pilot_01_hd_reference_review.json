@@ -1,0 +1,83 @@
+{
+  "schema_version": "pilot_reference_review_v1",
+  "reviewer": "assistant_visual_review",
+  "owner_confirmation": "pending",
+  "unchanged_full_recordings_verified": false,
+  "sessions": [
+    {
+      "position_id": "a3_pilot_01_01_starting",
+      "capture_session_id": "a3_pilot_01_01_starting_take01",
+      "reference_path": "data/raw/a3_pilot_01/01_starting/reference/new_position_001.jpg",
+      "reference_sha256": "d9bee52bfa172678a6ad9bbe2a6d7b0082a204e9988e3a1b999427fd0ebb59fb",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "fen_provenance": "user_supplied_in_assignment",
+      "reference_placement_status": "visually_consistent_with_supplied_FEN_owner_confirmation_pending",
+      "notes": "Starting arrangement: back ranks and pawn ranks visually consistent.",
+      "reference_semantic_orientation": "white_near_camera",
+      "semantic_evidence": "Printed A-H along near edge and ranks 1 near / 8 far; a1 near-left.",
+      "verified_corners_px": null,
+      "owner_verified_semantic_orientation": false,
+      "full_video_stability_review": "pending"
+    },
+    {
+      "position_id": "a3_pilot_01_02_opening",
+      "capture_session_id": "a3_pilot_01_02_opening_take01",
+      "reference_path": "data/raw/a3_pilot_01/02_opening/reference/new_position_002.jpg",
+      "reference_sha256": "c0b0312cd75c4f6a6d78cd13276c3795c136e633b76f4d4ec44ebfec16ff6c3e",
+      "fen": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R w KQkq - 0 1",
+      "fen_provenance": "user_supplied_in_assignment",
+      "reference_placement_status": "visually_consistent_with_supplied_FEN_owner_confirmation_pending",
+      "notes": "Opening: c4 bishop, e4 pawn, c3/d3 pawns and f3 knight; black c5 bishop, c6 knight, d6 pawn, f6 knight visually consistent.",
+      "reference_semantic_orientation": "white_near_camera",
+      "semantic_evidence": "Printed A-H along near edge and ranks 1 near / 8 far; a1 near-left.",
+      "verified_corners_px": null,
+      "owner_verified_semantic_orientation": false,
+      "full_video_stability_review": "pending"
+    },
+    {
+      "position_id": "a3_pilot_01_03_middlegame",
+      "capture_session_id": "a3_pilot_01_03_middlegame_take01",
+      "reference_path": "data/raw/a3_pilot_01/03_middlegame/reference/new_position_003.jpg",
+      "reference_sha256": "e2ae41127417e67131d48994b86f81144b1738cf875369f2c8d32579f147bf75",
+      "fen": "r2q1rk1/1b1nbpp1/p2ppn1p/1p4P1/3NP2P/2N1BP2/PPPQ4/2KR1B1R w - - 1 13",
+      "fen_provenance": "user_supplied_in_assignment",
+      "reference_placement_status": "visually_consistent_with_supplied_FEN_owner_confirmation_pending",
+      "notes": "Middlegame: White c1 king/d1 rook, d2 queen, d4/c3 knights and advanced g5/h4 pawns; black f8 rook/g8 king and a8 rook visually consistent.",
+      "reference_semantic_orientation": "white_near_camera",
+      "semantic_evidence": "Printed A-H along near edge and ranks 1 near / 8 far; a1 near-left.",
+      "verified_corners_px": null,
+      "owner_verified_semantic_orientation": false,
+      "full_video_stability_review": "pending"
+    },
+    {
+      "position_id": "a3_pilot_01_04_endgame",
+      "capture_session_id": "a3_pilot_01_04_endgame_take01",
+      "reference_path": "data/raw/a3_pilot_01/04_endgame/reference/new_position_004.jpg",
+      "reference_sha256": "a236ede8a7e2e454f0434feefd8d7ec0a84d2b7b360d1a6ce2b8250186ef4583",
+      "fen": "8/5pk1/6p1/3n3p/2B1P2P/6P1/5PK1/8 w - - 0 1",
+      "fen_provenance": "user_supplied_in_assignment",
+      "reference_placement_status": "visually_consistent_with_supplied_FEN_owner_confirmation_pending",
+      "notes": "Endgame: White c4 bishop, e4/h4/g3/f2 pawns and g2 king; Black d5 knight, f7/g6/h5 pawns and g7 king visually consistent.",
+      "reference_semantic_orientation": "white_near_camera",
+      "semantic_evidence": "Printed A-H along near edge and ranks 1 near / 8 far; a1 near-left.",
+      "verified_corners_px": null,
+      "owner_verified_semantic_orientation": false,
+      "full_video_stability_review": "pending"
+    },
+    {
+      "position_id": "a3_pilot_01_05_puzzle",
+      "capture_session_id": "a3_pilot_01_05_puzzle_take01",
+      "reference_path": "data/raw/a3_pilot_01/05_puzzle/reference/new_position_005.jpg",
+      "reference_sha256": "4d170919534294a9b176213d4e5f848d3a9a6c0d1d2835baf1d80ffaf35237ef",
+      "fen": "8/3N4/p7/4P3/8/1K2k3/1P6/r7 w - - 0 1",
+      "fen_provenance": "user_supplied_in_assignment",
+      "reference_placement_status": "visually_consistent_with_supplied_FEN_owner_confirmation_pending",
+      "notes": "Puzzle: White d7 knight, e5/b2 pawns, b3 king; Black a6 pawn, e3 king and a1 rook visually consistent.",
+      "reference_semantic_orientation": "white_near_camera",
+      "semantic_evidence": "Printed A-H along near edge and ranks 1 near / 8 far; a1 near-left.",
+      "verified_corners_px": null,
+      "owner_verified_semantic_orientation": false,
+      "full_video_stability_review": "pending"
+    }
+  ]
+}

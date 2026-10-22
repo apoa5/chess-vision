@@ -1,0 +1,1167 @@
+{
+  "schema_version": "capture_protocol_v2",
+  "dataset_id": "a3_sequence_collection_01",
+  "frame_selection": {
+    "max_frames_per_session": 12,
+    "min_gap_ms": 2000
+  },
+  "matrix": {
+    "environments": [
+      "room_A",
+      "room_B"
+    ],
+    "lighting": [
+      "diffuse",
+      "directional"
+    ],
+    "orientations": [
+      "white_near_camera",
+      "black_near_camera",
+      "white_left",
+      "white_right"
+    ],
+    "elevations": [
+      "low",
+      "medium",
+      "overhead"
+    ]
+  },
+  "boards": [
+    {
+      "id": "wooden_tournament_39cm",
+      "piece_set_id": "wooden_tournament_set",
+      "square_cm": 4,
+      "border_cm": 3.5
+    }
+  ],
+  "positions": [
+    {
+      "id": "a3_pilot_01",
+      "split": "pilot",
+      "previously_seen": true,
+      "fen": null
+    },
+    {
+      "id": "a3_pilot_02",
+      "split": "pilot",
+      "previously_seen": true,
+      "fen": null
+    },
+    {
+      "id": "a3_train_01",
+      "split": "train",
+      "previously_seen": false,
+      "fen": null
+    },
+    {
+      "id": "a3_train_02",
+      "split": "train",
+      "previously_seen": false,
+      "fen": null
+    },
+    {
+      "id": "a3_train_03",
+      "split": "train",
+      "previously_seen": false,
+      "fen": null
+    },
+    {
+      "id": "a3_train_04",
+      "split": "train",
+      "previously_seen": false,
+      "fen": null
+    },
+    {
+      "id": "a3_train_05",
+      "split": "train",
+      "previously_seen": false,
+      "fen": null
+    },
+    {
+      "id": "a3_train_06",
+      "split": "train",
+      "previously_seen": false,
+      "fen": null
+    },
+    {
+      "id": "a3_train_07",
+      "split": "train",
+      "previously_seen": false,
+      "fen": null
+    },
+    {
+      "id": "a3_train_08",
+      "split": "train",
+      "previously_seen": false,
+      "fen": null
+    },
+    {
+      "id": "a3_val_01",
+      "split": "val",
+      "previously_seen": false,
+      "fen": null
+    },
+    {
+      "id": "a3_val_02",
+      "split": "val",
+      "previously_seen": false,
+      "fen": null
+    },
+    {
+      "id": "a3_final_holdout_01",
+      "split": "final_holdout",
+      "previously_seen": false,
+      "fen": null
+    },
+    {
+      "id": "a3_final_holdout_02",
+      "split": "final_holdout",
+      "previously_seen": false,
+      "fen": null
+    }
+  ],
+  "sessions": [
+    {
+      "id": "a3_pilot_01_room_A_diffuse",
+      "position_id": "a3_pilot_01",
+      "split": "pilot",
+      "independence_group_id": "a3_pilot_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_pilot_01_room_A_directional",
+      "position_id": "a3_pilot_01",
+      "split": "pilot",
+      "independence_group_id": "a3_pilot_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_pilot_02_room_A_diffuse",
+      "position_id": "a3_pilot_02",
+      "split": "pilot",
+      "independence_group_id": "a3_pilot_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_pilot_02_room_A_directional",
+      "position_id": "a3_pilot_02",
+      "split": "pilot",
+      "independence_group_id": "a3_pilot_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_01_room_A_diffuse",
+      "position_id": "a3_train_01",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_01_room_A_directional",
+      "position_id": "a3_train_01",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_01_room_B_diffuse",
+      "position_id": "a3_train_01",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_01_room_B_directional",
+      "position_id": "a3_train_01",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_02_room_A_diffuse",
+      "position_id": "a3_train_02",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_02_room_A_directional",
+      "position_id": "a3_train_02",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_02_room_B_diffuse",
+      "position_id": "a3_train_02",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_02_room_B_directional",
+      "position_id": "a3_train_02",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_03_room_A_diffuse",
+      "position_id": "a3_train_03",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_03_room_A_directional",
+      "position_id": "a3_train_03",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_03_room_B_diffuse",
+      "position_id": "a3_train_03",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_03_room_B_directional",
+      "position_id": "a3_train_03",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_04_room_A_diffuse",
+      "position_id": "a3_train_04",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_04_room_A_directional",
+      "position_id": "a3_train_04",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_04_room_B_diffuse",
+      "position_id": "a3_train_04",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_04_room_B_directional",
+      "position_id": "a3_train_04",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_05_room_A_diffuse",
+      "position_id": "a3_train_05",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_05_room_A_directional",
+      "position_id": "a3_train_05",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_05_room_B_diffuse",
+      "position_id": "a3_train_05",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_05_room_B_directional",
+      "position_id": "a3_train_05",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_06_room_A_diffuse",
+      "position_id": "a3_train_06",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_06_room_A_directional",
+      "position_id": "a3_train_06",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_06_room_B_diffuse",
+      "position_id": "a3_train_06",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_06_room_B_directional",
+      "position_id": "a3_train_06",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_07_room_A_diffuse",
+      "position_id": "a3_train_07",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_07_room_A_directional",
+      "position_id": "a3_train_07",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_07_room_B_diffuse",
+      "position_id": "a3_train_07",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_07_room_B_directional",
+      "position_id": "a3_train_07",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_08_room_A_diffuse",
+      "position_id": "a3_train_08",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_08_room_A_directional",
+      "position_id": "a3_train_08",
+      "split": "train",
+      "independence_group_id": "a3_train_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_08_room_B_diffuse",
+      "position_id": "a3_train_08",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_train_08_room_B_directional",
+      "position_id": "a3_train_08",
+      "split": "train",
+      "independence_group_id": "a3_train_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_val_01_room_A_diffuse",
+      "position_id": "a3_val_01",
+      "split": "val",
+      "independence_group_id": "a3_val_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_val_01_room_A_directional",
+      "position_id": "a3_val_01",
+      "split": "val",
+      "independence_group_id": "a3_val_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_val_01_room_B_diffuse",
+      "position_id": "a3_val_01",
+      "split": "val",
+      "independence_group_id": "a3_val_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_val_01_room_B_directional",
+      "position_id": "a3_val_01",
+      "split": "val",
+      "independence_group_id": "a3_val_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_val_02_room_A_diffuse",
+      "position_id": "a3_val_02",
+      "split": "val",
+      "independence_group_id": "a3_val_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_val_02_room_A_directional",
+      "position_id": "a3_val_02",
+      "split": "val",
+      "independence_group_id": "a3_val_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_val_02_room_B_diffuse",
+      "position_id": "a3_val_02",
+      "split": "val",
+      "independence_group_id": "a3_val_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_val_02_room_B_directional",
+      "position_id": "a3_val_02",
+      "split": "val",
+      "independence_group_id": "a3_val_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_final_holdout_01_room_A_diffuse",
+      "position_id": "a3_final_holdout_01",
+      "split": "final_holdout",
+      "independence_group_id": "a3_final_holdout_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_final_holdout_01_room_A_directional",
+      "position_id": "a3_final_holdout_01",
+      "split": "final_holdout",
+      "independence_group_id": "a3_final_holdout_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_final_holdout_01_room_B_diffuse",
+      "position_id": "a3_final_holdout_01",
+      "split": "final_holdout",
+      "independence_group_id": "a3_final_holdout_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_final_holdout_01_room_B_directional",
+      "position_id": "a3_final_holdout_01",
+      "split": "final_holdout",
+      "independence_group_id": "a3_final_holdout_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_final_holdout_02_room_A_diffuse",
+      "position_id": "a3_final_holdout_02",
+      "split": "final_holdout",
+      "independence_group_id": "a3_final_holdout_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_final_holdout_02_room_A_directional",
+      "position_id": "a3_final_holdout_02",
+      "split": "final_holdout",
+      "independence_group_id": "a3_final_holdout_room_A_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_A",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_final_holdout_02_room_B_diffuse",
+      "position_id": "a3_final_holdout_02",
+      "split": "final_holdout",
+      "independence_group_id": "a3_final_holdout_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "diffuse",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    },
+    {
+      "id": "a3_final_holdout_02_room_B_directional",
+      "position_id": "a3_final_holdout_02",
+      "split": "final_holdout",
+      "independence_group_id": "a3_final_holdout_room_B_block01",
+      "board_id": "wooden_tournament_39cm",
+      "camera_id": "iphone_13_pro",
+      "environment": "room_B",
+      "lighting": "directional",
+      "started_at": null,
+      "archive": null,
+      "capture_mode": "continuous_sequence",
+      "sequence_review": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewed_at": null,
+        "annotation_sha256": null
+      },
+      "view_intervals": []
+    }
+  ],
+  "frames": [],
+  "split_lock_sha256": "93e89256ac6a4a2ca77642e201a30f89ad45c0dfa39911698342c38051ab2178"
+}

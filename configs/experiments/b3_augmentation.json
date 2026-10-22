@@ -1,0 +1,15 @@
+{
+  "experiment": "b3_augmentation_v1",
+  "initialization": "outputs/evaluation/crop_b2_20261018_run1/training/context1_224/best.pt",
+  "cache_root": "outputs/evaluation/crop_b2_20261018_run1/cache/context1_224",
+  "b2_export": "docs/evaluation/crop_resolution_results_b2_20261018.json",
+  "training": {"epochs": 1, "seeds": [42, 123], "batch_size": 16, "cpu_threads": 4, "learning_rate": 0.0001},
+  "families": ["none", "legacy_visual", "perspective_affine", "framing", "lighting", "video_quality"],
+  "within_arm_selection": "Minimum weighted validation loss over epochs zero and one; same initialization and fresh Adam per arm/seed. One-epoch bounded warm-start screen, not convergence.",
+  "family_selection": "Validation only. Both seeds must satisfy safety gates versus matched augmentation-off control AND B.2 anchor: empty false positives <= reference+1, missed occupied <= reference+1, overall correct >= reference-2, each black rook/king/queen correct >= reference-1, each orientation occupied correct >= reference-1, exact boards >= reference. Occupied accuracy must not regress in either seed versus matched control and its mean gain must be >=0.01. Rank eligible families by mean validation macro F1, then mean occupied accuracy. If none qualifies retain B.2. Representative seed fixed to 42; no best-seed or test selection.",
+  "geometry": {"apply_probability": 0.65, "framing_rotation_degrees": 5, "framing_scale": [0.95, 1.05], "framing_shift_fraction": 0.03, "perspective_corner_jitter_fraction": 0.02, "affine_shear_degrees": 2, "target_guard_pixels": 25, "rgb_interpolation": "linear", "mask_interpolation": "nearest", "rgb_border": "replicate", "mask_border": "zero"},
+  "visual": {"lighting_gamma": [0.85, 1.15], "lighting_contrast": [0.85, 1.15], "lighting_exposure": [-0.06, 0.06], "lighting_gradient": [-0.15, 0.15], "quality_gaussian_sigma": [0.3, 0.75], "quality_motion_kernel": 3, "quality_jpeg_range": [75, 95], "quality_noise_std_pixel_max": 1.5},
+  "occlusion": "Deferred: ground-square masks are not verified piece silhouettes; no current visibility reviews guarantee label-preserving partial erasure.",
+  "combination": "No combined augmentation arm in this bounded separate-family screen; do not combine without individual evidence and a further matched experiment.",
+  "holdout": "Existing historical prepared splits only, already inspected development evidence; final A.3 holdout unopened. Unknown historical session provenance remains a limitation."
+}

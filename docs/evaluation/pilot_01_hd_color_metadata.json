@@ -1,0 +1,47 @@
+[
+  {
+    "path": "data/raw/a3_pilot_01/new_position_001_hd.MOV",
+    "format": "yuv420p10le",
+    "color_primaries": "BT2020",
+    "color_trc": "ARIB_STD_B67",
+    "colorspace": "BT2020",
+    "color_range": "MPEG",
+    "conversion": "PyAV frame.to_ndarray(format=bgr24), then exact right-angle rotation. No HDR tone mapping."
+  },
+  {
+    "path": "data/raw/a3_pilot_01/new_position_002_hd.MOV",
+    "format": "yuv420p10le",
+    "color_primaries": "BT2020",
+    "color_trc": "ARIB_STD_B67",
+    "colorspace": "BT2020",
+    "color_range": "MPEG",
+    "conversion": "PyAV frame.to_ndarray(format=bgr24), then exact right-angle rotation. No HDR tone mapping."
+  },
+  {
+    "path": "data/raw/a3_pilot_01/new_position_003_hd.MOV",
+    "format": "yuv420p10le",
+    "color_primaries": "BT2020",
+    "color_trc": "ARIB_STD_B67",
+    "colorspace": "BT2020",
+    "color_range": "MPEG",
+    "conversion": "PyAV frame.to_ndarray(format=bgr24), then exact right-angle rotation. No HDR tone mapping."
+  },
+  {
+    "path": "data/raw/a3_pilot_01/new_position_004_hd.MOV",
+    "format": "yuv420p10le",
+    "color_primaries": "BT2020",
+    "color_trc": "ARIB_STD_B67",
+    "colorspace": "BT2020",
+    "color_range": "MPEG",
+    "conversion": "PyAV frame.to_ndarray(format=bgr24), then exact right-angle rotation. No HDR tone mapping."
+  },
+  {
+    "path": "data/raw/a3_pilot_01/new_position_005_hd.MOV",
+    "format": "yuv420p10le",
+    "color_primaries": "BT2020",
+    "color_trc": "ARIB_STD_B67",
+    "colorspace": "BT2020",
+    "color_range": "MPEG",
+    "conversion": "PyAV frame.to_ndarray(format=bgr24), then exact right-angle rotation. No HDR tone mapping."
+  }
+]
