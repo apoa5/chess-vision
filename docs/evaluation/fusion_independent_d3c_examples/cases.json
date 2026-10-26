@@ -1,0 +1,107 @@
+{
+  "schema_version": "independent_fusion_diagnostics_d3c_v1",
+  "cases": [
+    {
+      "session_id": "d3c_pos_01",
+      "canonical_square": "f3",
+      "truth": 2,
+      "mean_logit_prediction": 4,
+      "mean_logit_score": 0.9457945209674706,
+      "mean_logit_abstained": false,
+      "classification_attribution": "conditional_on_unverified_geometry_and_supplied_FEN",
+      "path": "outputs/scanning/d3c_interim_v1/diagnostics_v1/d3c_pos_01_case.jpg"
+    },
+    {
+      "session_id": "d3c_pos_03",
+      "canonical_square": "c3",
+      "truth": 2,
+      "mean_logit_prediction": 4,
+      "mean_logit_score": 0.8999029213509278,
+      "mean_logit_abstained": true,
+      "classification_attribution": "conditional_on_unverified_geometry_and_supplied_FEN",
+      "path": "outputs/scanning/d3c_interim_v1/diagnostics_v1/d3c_pos_03_case.jpg"
+    },
+    {
+      "session_id": "d3c_pos_05",
+      "canonical_square": "h1",
+      "truth": 0,
+      "mean_logit_prediction": 4,
+      "mean_logit_score": 0.9537697110917641,
+      "mean_logit_abstained": true,
+      "classification_attribution": "conditional_on_unverified_geometry_and_supplied_FEN",
+      "path": "outputs/scanning/d3c_interim_v1/diagnostics_v1/d3c_pos_05_case.jpg"
+    },
+    {
+      "session_id": "d3c_pos_07",
+      "canonical_square": "c3",
+      "truth": 1,
+      "mean_logit_prediction": 4,
+      "mean_logit_score": 0.9474225176575394,
+      "mean_logit_abstained": true,
+      "classification_attribution": "conditional_on_unverified_geometry_and_supplied_FEN",
+      "path": "outputs/scanning/d3c_interim_v1/diagnostics_v1/d3c_pos_07_case.jpg"
+    },
+    {
+      "session_id": "d3c_pos_09",
+      "canonical_square": "f4",
+      "truth": 3,
+      "mean_logit_prediction": 4,
+      "mean_logit_score": 0.9028479650172038,
+      "mean_logit_abstained": false,
+      "classification_attribution": "conditional_on_unverified_geometry_and_supplied_FEN",
+      "path": "outputs/scanning/d3c_interim_v1/diagnostics_v1/d3c_pos_09_case.jpg"
+    },
+    {
+      "session_id": "d3c_pos_11",
+      "canonical_square": "c4",
+      "truth": 3,
+      "mean_logit_prediction": 4,
+      "mean_logit_score": 0.9862529960377813,
+      "mean_logit_abstained": false,
+      "classification_attribution": "conditional_on_unverified_geometry_and_supplied_FEN",
+      "path": "outputs/scanning/d3c_interim_v1/diagnostics_v1/d3c_pos_11_case.jpg"
+    },
+    {
+      "session_id": "d3c_pos_13",
+      "canonical_square": "h1",
+      "truth": 0,
+      "mean_logit_prediction": 4,
+      "mean_logit_score": 0.9607214354545425,
+      "mean_logit_abstained": false,
+      "classification_attribution": "conditional_on_unverified_geometry_and_supplied_FEN",
+      "path": "outputs/scanning/d3c_interim_v1/diagnostics_v1/d3c_pos_13_case.jpg"
+    },
+    {
+      "session_id": "d3c_pos_15",
+      "canonical_square": "h1",
+      "truth": 0,
+      "mean_logit_prediction": 4,
+      "mean_logit_score": 0.9954988324126854,
+      "mean_logit_abstained": true,
+      "classification_attribution": "conditional_on_unverified_geometry_and_supplied_FEN",
+      "path": "outputs/scanning/d3c_interim_v1/diagnostics_v1/d3c_pos_15_case.jpg"
+    },
+    {
+      "session_id": "d3c_pos_17",
+      "canonical_square": "f3",
+      "truth": 6,
+      "mean_logit_prediction": 4,
+      "mean_logit_score": 0.9409186831246027,
+      "mean_logit_abstained": true,
+      "classification_attribution": "conditional_on_unverified_geometry_and_supplied_FEN",
+      "path": "outputs/scanning/d3c_interim_v1/diagnostics_v1/d3c_pos_17_case.jpg"
+    },
+    {
+      "session_id": "d3c_pos_19",
+      "canonical_square": "f4",
+      "truth": 6,
+      "mean_logit_prediction": 4,
+      "mean_logit_score": 0.968210427112874,
+      "mean_logit_abstained": false,
+      "classification_attribution": "conditional_on_unverified_geometry_and_supplied_FEN",
+      "path": "outputs/scanning/d3c_interim_v1/diagnostics_v1/d3c_pos_19_case.jpg"
+    }
+  ],
+  "original_pixel_crop_replays": 50,
+  "source_sha256": "7b09719bd435699ff3f14fe36f667191ae17895061cb354316f2b08a243cb63c"
+}

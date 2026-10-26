@@ -1,0 +1,53 @@
+{
+  "schema_version": "limited_independent_validation_d3c_v1",
+  "protected_history_files_unchanged": 4446,
+  "original_source_hashes_unchanged": 10,
+  "original_video_bytes": 773584779,
+  "run_storage_bytes": 34681652,
+  "persistent_images": {
+    ".jpg": 80,
+    ".png": 10
+  },
+  "video_copies": 0,
+  "persistent_full_resolution_candidate_PNGs": 0,
+  "native_frames_decoded": 21205,
+  "geometry_candidates": 240,
+  "original_selected_pixel_replays": 50,
+  "diagnostic_packed_crop_replays": 50,
+  "unique_observations": 3200,
+  "canonical_frames_checked": 50,
+  "fused_boards_checked": 30,
+  "independent_aggregate_confusion_checks": 6,
+  "nested_final_prefix_checks": 20,
+  "strict_preregistered_gate_passed": false,
+  "provisional_only": true,
+  "final_holdout_accessed": false,
+  "model_retrained": false,
+  "production_changed": false,
+  "committed": false,
+  "pushed": false,
+  "python_regressions": {
+    "passed": 292,
+    "failed": 0,
+    "duration_seconds": 80.7,
+    "new_focused_tests": 23,
+    "log_sha256": "6edd1461c205e3259a9b0f63ee65f30c4d254757891e1846fbbe2765a3215f91"
+  },
+  "browser_regressions": {
+    "passed": 39,
+    "failed": 0,
+    "log_sha256": "1605e66e9578180193e43b71d0c120f97f59b0073169c106bc0f6c551020442e"
+  },
+  "engine_checks": {
+    "path_tests_passed": 3,
+    "depth_6_analysis": "timed_out_after_35_seconds",
+    "time_0_2_analysis": "external_deadline_exceeded_15_seconds",
+    "raw_UCI_startup": "readyok observed; immediate quit is not a bounded-analysis pass",
+    "source_implementation_changed": false
+  },
+  "compilation": "passed",
+  "git_diff_check": "passed",
+  "review_gate_waiver": "explicit_provisional_only_no_status_forgery",
+  "live_fusion_enabled": false,
+  "automatic_completion_enabled": false
+}

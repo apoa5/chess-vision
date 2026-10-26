@@ -1,0 +1,18 @@
+{
+  "schema_version": "input_representation_c1_design_v1",
+  "status": "design_only_not_executed",
+  "scope": "development_only_no_final_holdout",
+  "frozen_control_config": "configs/experiments/evidence_d2.json",
+  "frozen_checkpoint_sha256": "dad8eea28482ee894dfca0794d9f4415d21ac58db23c6d6bed8c4307c71b1bd8",
+  "representations": ["b2", "taller_native_height2_margin0.35", "expanded_context2_224", "two_branch_taller_plus_expanded"],
+  "training_strategies": ["on_board_only", "isolated_pretraining_then_on_board", "occupancy_and_occupied_identity"],
+  "primary_isolation": "one factor at a time; representation first, training strategy subsequently on fixed representation",
+  "seeds_if_training_authorized": [42, 43, 44],
+  "selection": "validation only; report empty false positives and difficult-class recall alongside occupied accuracy",
+  "grouping": "connected components of physical position, source session, near-duplicate ancestry; corrected labels retain original physical identity",
+  "budgets": "same optimizer/update schedule, initialization and on-board examples per paired seed; match total pretraining updates with an on-board-only pretraining control",
+  "isolated_pretraining_status": "no verified isolated-piece scene corpus currently registered; requires separately authorized train-only data or synthetic renders",
+  "occupancy_composition": "P(empty)=1-q; P(piece_k)=q*r_k for 12 conditional occupied classes; no hard occupancy gate in primary experiment",
+  "no_training_run": true,
+  "next_recommended_experiment": "bounded zero-shot original-paper ChessQueries ViT-S benchmark on all 55 reviewed D2 frames, five correlated sessions; separate task, no automatic adoption"
+}

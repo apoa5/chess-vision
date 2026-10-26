@@ -1,0 +1,11 @@
+# Optional isolated C.2 inference additions only. Reuse existing CPU torch/vision
+# read-only; install with --no-deps to prevent GPU/production dependency changes.
+timm==1.0.22
+safetensors==0.8.0
+huggingface-hub==0.36.0
+tqdm==4.67.1
+requests==2.32.5
+urllib3==2.5.0
+certifi==2025.10.5
+charset-normalizer==3.4.4
+idna==3.11

@@ -1,0 +1,50 @@
+{
+  "schema_version": "input_representation_c1_preservation_v1",
+  "status": "passed",
+  "inherited_protected_files": 4866,
+  "d3c_original_videos": 10,
+  "diagnostic_source_files": 12,
+  "frozen_input_exact_matches": 14,
+  "reviewed_D2_cases": 10,
+  "provisional_D3c_cases": 4,
+  "new_classifier_inference": false,
+  "training": false,
+  "final_holdout_access": false,
+  "packet_files": 47,
+  "packet_bytes": 3673870,
+  "audit_sha256": "e2721eec4b754221a2a4b43b88cf14ee0badf761ad3e539fdb20f1a74f90e279",
+  "tests": {
+    "focused_passed": 13,
+    "python_regressions_passed": 305,
+    "focused_included_in_regression_count": true,
+    "browser_passed": 39,
+    "failed": 0,
+    "compilation": "passed",
+    "html_assets": "all_local_links_resolve",
+    "diff_whitespace": "passed",
+    "logs": {
+      "focused": {
+        "path": "outputs/research/input_c1_validation_v1/focused.log",
+        "sha256": "4d22026ca65b5633cc4413d694255d10a12c78b3bad86a753a7cf0a7ceaaf371"
+      },
+      "python_regressions": {
+        "path": "outputs/research/input_c1_validation_v1/python_regressions.log",
+        "sha256": "c3bc64880ac54c20c34f1d05a1697eb5587006ecbafcba240e824a41ca0bbc90"
+      },
+      "browser_regressions": {
+        "path": "outputs/research/input_c1_validation_v1/browser_regressions.log",
+        "sha256": "6704d0375e61a6d7426087bce8826221a0be6c91570faff1f0f598f5b059568b"
+      }
+    }
+  },
+  "commands": [
+    ".venv/bin/python scripts/audit_input_representations.py --output-dir outputs/research/input_c1_audit_v1",
+    ".venv/bin/python scripts/analyze_input_representations.py --audit outputs/research/input_c1_audit_v1/audit.json --annotations configs/experiments/input_representation_c1_extents.json --output-dir outputs/research/input_c1_analysis_v2",
+    ".venv/bin/python scripts/export_input_representation_audit.py --audit-dir outputs/research/input_c1_audit_v1 --analysis-dir outputs/research/input_c1_analysis_v2 --annotations configs/experiments/input_representation_c1_extents.json --output-dir docs/evaluation/input_representation_c1_examples",
+    ".venv/bin/python -m pytest -q tests/test_input_representations.py",
+    ".venv/bin/python -m pytest -q tests/test_input_representations.py tests/test_independent_d3c.py tests/test_fusion_reliability.py tests/test_offline_fusion.py tests/test_square_evidence.py tests/test_video_keyframes.py tests/test_keyframe_manifest.py tests/test_crop_experiments.py tests/test_geometry_audit.py tests/test_geometry_reliability.py tests/test_scan_recognition.py tests/test_inference.py tests/test_validation.py tests/test_fen.py",
+    "PATH=\"$PWD/tools/node/bin:$PATH\" npm --prefix web test",
+    ".venv/bin/python scripts/validate_input_representation_audit.py",
+    "git diff --check"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "offline_pilot_ground_truth_corrections_v1",
+  "source_catalog": "data/metadata/a3_pilot_01_sources_v2.json",
+  "source_catalog_sha256": "f1bfb923812ce5f4535ff46ea5472419096d11881fbec6c275a7ac15942cf521",
+  "date": "2026-10-22",
+  "scope": "D.2 evaluation supplement only; original A.3/FEN catalogs and all historical results preserved",
+  "corrections": [
+    {
+      "position_id": "a3_pilot_01_03_middlegame",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "original_fen": "r2q1rk1/1b1nbpp1/p2ppn1p/1p4P1/3NP2P/2N1BP2/PPPQ4/2KR1B1R w - - 1 13",
+      "corrected_fen": "r2q1rk1/1bpnbpp1/p2ppn1p/1p4P1/3NP2P/2N1BP2/PPPQ4/2KR1B1R w - - 1 13",
+      "reviewer_kind": "human",
+      "approved_by": "project owner (user)",
+      "approval_statement": "Confirm c7 black pawn; record versioned correction",
+      "reason": "Reference photograph and all views show a black pawn based on c7; owner explicitly confirmed the label correction.",
+      "reference_photo": "data/raw/a3_pilot_01/03_middlegame/reference/new_position_003.jpg",
+      "reference_sha256": "e2ae41127417e67131d48994b86f81144b1738cf875369f2c8d32579f147bf75",
+      "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+      "changed_squares": [
+        {
+          "canonical_square": "c7",
+          "original_class": "empty",
+          "corrected_class": "black_pawn"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,831 @@
+{
+  "schema_version": "offline_fusion_cost_d3_v1",
+  "scope": "Loaded raw observations; includes full per-square validation and diagnostics, excludes file I/O/model inference. Three repeats, no tracemalloc.",
+  "timings": [
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.08805923699947016,
+        0.12509535500066704,
+        0.09092561899979046
+      ],
+      "median_seconds": 0.09092561899979046
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.06324948400015273,
+        0.09268570699987322,
+        0.08240091399966332
+      ],
+      "median_seconds": 0.08240091399966332
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.07461309700011043,
+        0.06974276399978407,
+        0.08932229099991673
+      ],
+      "median_seconds": 0.07461309700011043
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.07061311100005696,
+        0.06455140300022322,
+        0.07052277700040577
+      ],
+      "median_seconds": 0.07052277700040577
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.0806481409999833,
+        0.0628952830002163,
+        0.07247638900025777
+      ],
+      "median_seconds": 0.07247638900025777
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.0752147490002244,
+        0.06677137099995889,
+        0.06114080399947852
+      ],
+      "median_seconds": 0.06677137099995889
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.06289625200042792,
+        0.06283092300054705,
+        0.07054876399979548
+      ],
+      "median_seconds": 0.06289625200042792
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.05311264000010851,
+        0.08956964000026346,
+        0.06814526699963608
+      ],
+      "median_seconds": 0.06814526699963608
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.08943099599946436,
+        0.08894419499938522,
+        0.08807980900019174
+      ],
+      "median_seconds": 0.08894419499938522
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.06728165300046385,
+        0.06717538100019738,
+        0.07512457899974834
+      ],
+      "median_seconds": 0.06728165300046385
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.0647234660000322,
+        0.07764008499998454,
+        0.06839980799941259
+      ],
+      "median_seconds": 0.06839980799941259
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.07176271699972858,
+        0.06628540600013366,
+        0.06785413799934759
+      ],
+      "median_seconds": 0.06785413799934759
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.09726011300062964,
+        0.08636117599962745,
+        0.06215353599964146
+      ],
+      "median_seconds": 0.08636117599962745
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.15478136199999426,
+        0.07213389200023812,
+        0.07443154800057528
+      ],
+      "median_seconds": 0.07443154800057528
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.06746720499995718,
+        0.07154935600010504,
+        0.07966202300031
+      ],
+      "median_seconds": 0.07154935600010504
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.07192464499985363,
+        0.06551031300023169,
+        0.07613452999976289
+      ],
+      "median_seconds": 0.07192464499985363
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.09492918599971745,
+        0.07224036900061037,
+        0.0693210999997973
+      ],
+      "median_seconds": 0.07224036900061037
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.07750855999984196,
+        0.07021749000068667,
+        0.09653575599986652
+      ],
+      "median_seconds": 0.07750855999984196
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.08407288499984134,
+        0.06418174499958695,
+        0.05926408000050287
+      ],
+      "median_seconds": 0.06418174499958695
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.10605263900015416,
+        0.14610629900016647,
+        0.11215414299931581
+      ],
+      "median_seconds": 0.11215414299931581
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.13252207700043073,
+        0.0970634710001832,
+        0.06663768499947764
+      ],
+      "median_seconds": 0.0970634710001832
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.05917833100011194,
+        0.08083003299998381,
+        0.06443563300035748
+      ],
+      "median_seconds": 0.06443563300035748
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.05797758700009581,
+        0.06261801300024672,
+        0.10019512899998517
+      ],
+      "median_seconds": 0.06261801300024672
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.11994666800001141,
+        0.10631870700035506,
+        0.08049343000038789
+      ],
+      "median_seconds": 0.10631870700035506
+    },
+    {
+      "condition": "uniform_5",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.1054396600002292,
+        0.10528462700040109,
+        0.07324507100020128
+      ],
+      "median_seconds": 0.10528462700040109
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.0911906370001816,
+        0.0625612750000073,
+        0.10467820700068842
+      ],
+      "median_seconds": 0.0911906370001816
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.0792367860003651,
+        0.06694914499985316,
+        0.09879536700009339
+      ],
+      "median_seconds": 0.0792367860003651
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.08389341200017952,
+        0.0718086859997129,
+        0.08263359699958528
+      ],
+      "median_seconds": 0.08263359699958528
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.07053754800017487,
+        0.08015863499986153,
+        0.06990904599933856
+      ],
+      "median_seconds": 0.07053754800017487
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.06031057000018336,
+        0.0633251070003098,
+        0.07377236499996798
+      ],
+      "median_seconds": 0.0633251070003098
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.09175058100026945,
+        0.06952105900018068,
+        0.06536544400023558
+      ],
+      "median_seconds": 0.06952105900018068
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.0804719859997931,
+        0.06633248100024502,
+        0.06262955700003658
+      ],
+      "median_seconds": 0.06633248100024502
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.08047196500046994,
+        0.07538733599994885,
+        0.06742530799965607
+      ],
+      "median_seconds": 0.07538733599994885
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.06753417500021897,
+        0.06687935900026787,
+        0.12011137300032715
+      ],
+      "median_seconds": 0.06753417500021897
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.11840768499951082,
+        0.09366567599954578,
+        0.07466861499960942
+      ],
+      "median_seconds": 0.09366567599954578
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.1323302609998791,
+        0.09214942099970358,
+        0.08841748099985125
+      ],
+      "median_seconds": 0.09214942099970358
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.06300497999927757,
+        0.06057571400015149,
+        0.08034920999944006
+      ],
+      "median_seconds": 0.06300497999927757
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.06837574100063648,
+        0.06452373799947964,
+        0.06646153600013349
+      ],
+      "median_seconds": 0.06646153600013349
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.0680394269993485,
+        0.0778835290002462,
+        0.06301022299976466
+      ],
+      "median_seconds": 0.0680394269993485
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.10357856300015555,
+        0.09114682099971105,
+        0.08669260300030146
+      ],
+      "median_seconds": 0.09114682099971105
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.06667839400051889,
+        0.07326150000062626,
+        0.06878361500002939
+      ],
+      "median_seconds": 0.06878361500002939
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.06703502000073058,
+        0.0670310369996514,
+        0.06425290199968003
+      ],
+      "median_seconds": 0.0670310369996514
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.0789977029999136,
+        0.07903288200031966,
+        0.06450019000021712
+      ],
+      "median_seconds": 0.0789977029999136
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.07518639099998836,
+        0.09027028400032577,
+        0.08633510199979355
+      ],
+      "median_seconds": 0.08633510199979355
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.09311317500032601,
+        0.07636034799998015,
+        0.09792850499979977
+      ],
+      "median_seconds": 0.09311317500032601
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.09237150999979349,
+        0.10078121700007614,
+        0.09267502000056993
+      ],
+      "median_seconds": 0.09267502000056993
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.07534913800009235,
+        0.07144363699990208,
+        0.07782705000045098
+      ],
+      "median_seconds": 0.07534913800009235
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.07662741500007542,
+        0.07382782500008034,
+        0.07966124100039451
+      ],
+      "median_seconds": 0.07662741500007542
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.08336670099924959,
+        0.07888727200042922,
+        0.0811891450002804
+      ],
+      "median_seconds": 0.0811891450002804
+    },
+    {
+      "condition": "diversity_5",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.0790238239997052,
+        0.07802094300041063,
+        0.07768572799977846
+      ],
+      "median_seconds": 0.07802094300041063
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.11767269500069233,
+        0.1986107290003929,
+        0.1252641040000526
+      ],
+      "median_seconds": 0.1252641040000526
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.15418551599941566,
+        0.10974792399974831,
+        0.11517874200035294
+      ],
+      "median_seconds": 0.11517874200035294
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.09965159100011078,
+        0.11054489800062584,
+        0.11972293500002706
+      ],
+      "median_seconds": 0.11054489800062584
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.13446695299990097,
+        0.10902400499981013,
+        0.1156386239999847
+      ],
+      "median_seconds": 0.1156386239999847
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.11579451200032054,
+        0.12334374500005651,
+        0.13157835699985299
+      ],
+      "median_seconds": 0.12334374500005651
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.12806073100000503,
+        0.13917379299982713,
+        0.12620806399991125
+      ],
+      "median_seconds": 0.12806073100000503
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.15979205799976626,
+        0.13664669300032983,
+        0.14748592600062693
+      ],
+      "median_seconds": 0.14748592600062693
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.1403532450003695,
+        0.12115494899990153,
+        0.1425918320001074
+      ],
+      "median_seconds": 0.1403532450003695
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.13719495599980291,
+        0.1339123150000887,
+        0.12948371099992073
+      ],
+      "median_seconds": 0.1339123150000887
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.13133760199980316,
+        0.14690718800011382,
+        0.14875926799959416
+      ],
+      "median_seconds": 0.14690718800011382
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.12998626999979024,
+        0.13679200899969146,
+        0.12604965399987123
+      ],
+      "median_seconds": 0.12998626999979024
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.1354564150005899,
+        0.15345403299943428,
+        0.13151210400064883
+      ],
+      "median_seconds": 0.1354564150005899
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.16921567600002163,
+        0.1291293639997093,
+        0.12101281000013842
+      ],
+      "median_seconds": 0.1291293639997093
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.1271699479993913,
+        0.13314811899999768,
+        0.1247407579994615
+      ],
+      "median_seconds": 0.1271699479993913
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.12652746900039347,
+        0.13663386899952457,
+        0.13363183499950537
+      ],
+      "median_seconds": 0.13363183499950537
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.09912665200045012,
+        0.0936281450003662,
+        0.10430392699981894
+      ],
+      "median_seconds": 0.09912665200045012
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.0998775560001377,
+        0.09573751500010985,
+        0.13123978699968575
+      ],
+      "median_seconds": 0.0998775560001377
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.1354749840002114,
+        0.16520835400024225,
+        0.11037492600007681
+      ],
+      "median_seconds": 0.1354749840002114
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.10621627399996214,
+        0.1095895799999198,
+        0.11314977799975168
+      ],
+      "median_seconds": 0.1095895799999198
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.12266243499925622,
+        0.11888264699973661,
+        0.11484792800001742
+      ],
+      "median_seconds": 0.11888264699973661
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "single_quality",
+      "seconds": [
+        0.08311458000025596,
+        0.0817562390002422,
+        0.0753989039994849
+      ],
+      "median_seconds": 0.0817562390002422
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "majority_vote",
+      "seconds": [
+        0.08587984499990853,
+        0.08707786200011469,
+        0.10393084200040903
+      ],
+      "median_seconds": 0.08707786200011469
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "mean_probabilities",
+      "seconds": [
+        0.10473174900016602,
+        0.09432215900051233,
+        0.1115074729996195
+      ],
+      "median_seconds": 0.10473174900016602
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "mean_logits",
+      "seconds": [
+        0.08653293499992287,
+        0.08173125899975275,
+        0.07762176300002466
+      ],
+      "median_seconds": 0.08173125899975275
+    },
+    {
+      "condition": "diversity_10",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "method": "clustered_quality_median",
+      "seconds": [
+        0.09753492599975289,
+        0.09800689199983026,
+        0.10959891900074581
+      ],
+      "median_seconds": 0.09800689199983026
+    }
+  ]
+}

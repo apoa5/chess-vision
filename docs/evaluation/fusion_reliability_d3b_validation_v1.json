@@ -1,0 +1,34 @@
+{
+  "schema_version": "fusion_reliability_preservation_d3b_v1",
+  "protected_history_files_unchanged": 4407,
+  "D3_prediction_boards_exact": 75,
+  "D3_evaluation_aggregates_exact": 15,
+  "functional_primary_predictions_and_metrics_exact": 15,
+  "audit_square_outputs": 960,
+  "audit_board_outputs": 15,
+  "portable_artifact_hashes_checked": 12,
+  "lossless_result_sha256": "347bfaa9af5c053157890dffe222c39537e4e9816422a461c17a8ef29a68d302",
+  "preregistered_sources_unchanged": 41,
+  "independent_validation": "pending",
+  "final_holdout_accessed": false,
+  "classifier_rerun": false,
+  "completion_enabled": false,
+  "python_regressions": {
+    "passed": 269,
+    "failed": 0,
+    "duration_seconds": 64.08,
+    "new_D3b_tests": 35,
+    "log_sha256": "808e05e34e3eaa36405bb5a35edbcb12f8884066e210e9d56539c1adb6662850"
+  },
+  "browser_regressions": {
+    "passed": 39,
+    "failed": 0,
+    "log_sha256": "58f41c3a7657333f6b3309da28f21c59cb4bfd4ff17e087c67fd3b64ed728ee6"
+  },
+  "deterministic_reverse_order_D3_replays": 75,
+  "deterministic_functional_replays": 15,
+  "compilation": "passed",
+  "git_diff_check": "passed",
+  "committed": false,
+  "pushed": false
+}

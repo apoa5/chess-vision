@@ -1,0 +1,73 @@
+{
+  "schema_version": "chessqueries_zero_shot_c2_validation_v1",
+  "status": "passed",
+  "replayed_frames": 55,
+  "sessions": 5,
+  "square_predictions_per_method": 3520,
+  "corrected_label_version_preserved": true,
+  "model_sha256": "486d10b258ba57d43d8ca861d20547093ca6591c0ad53da53a492716ef1c7705",
+  "protected_historical_and_c1_files": 4924,
+  "d3c_original_videos": 10,
+  "pinned_official_source_files": 12,
+  "b2_predictions_reused": true,
+  "no_training": true,
+  "no_production_changes": true,
+  "final_holdout_access": false,
+  "larger_models_downloaded": false,
+  "probabilities_replayed_from_saved_logits": true,
+  "peak_process_rss_bytes": 652009472,
+  "tests": {
+    "focused_passed": 16,
+    "python_passed": 321,
+    "focused_included_in_total": true,
+    "browser_passed": 39,
+    "failed": 0,
+    "compilation": "passed",
+    "html_assets": "all_local_links_resolve",
+    "whitespace": "passed"
+  },
+  "application_environment": {
+    "added_timm": false,
+    "added_safetensors": false,
+    "torch_cpu_version_unchanged": "2.14.1+cpu",
+    "torchvision_cpu_version_unchanged": "0.29.1+cpu"
+  },
+  "logs": {
+    "focused": {
+      "path": "outputs/evaluation/chessqueries_c2_validation_bundle_v1/focused.log",
+      "sha256": "06a204a2a965e0c94312adebb2684ef0841babab7af6c5db5811aa1edee72377"
+    },
+    "regressions": {
+      "path": "outputs/evaluation/chessqueries_c2_validation_bundle_v1/regressions.log",
+      "sha256": "19e192054a14efe43a2f0b06028ae7aed33d17f399f3b0d8e89df4e902762ac1"
+    },
+    "browser": {
+      "path": "outputs/evaluation/chessqueries_c2_validation_bundle_v1/browser.log",
+      "sha256": "17c00518daf594a215ce28160fc5cabda1aeb4bf80150719fcdd80092cda3d80"
+    },
+    "benchmark": {
+      "path": "outputs/evaluation/chessqueries_c2_validation_bundle_v1/benchmark.log",
+      "sha256": "2949fa1c38d247212096c6067067db595e3cd602c6ac17c540ea8140421448d8"
+    },
+    "summary": {
+      "path": "outputs/evaluation/chessqueries_c2_validation_bundle_v1/summary.log",
+      "sha256": "5a1353d7fa7be50bcff9bddaba09c38fc5f652a30bf434de9342de387333d20b"
+    },
+    "preservation": {
+      "path": "outputs/evaluation/chessqueries_c2_validation_bundle_v1/preservation.log",
+      "sha256": "b5b6126943ceb1dc8c21d3276056d8d1970e788e95306ec66d97648835fa07e4"
+    }
+  },
+  "commands": [
+    ".venv/bin/python scripts/prepare_chessqueries_c2.py --root outputs/evaluation/chessqueries_c2_release_v1",
+    "outputs/evaluation/chessqueries_c2_env/bin/python -m pip install --no-deps --no-cache-dir --disable-pip-version-check --retries 0 -r requirements-chessqueries-c2.txt",
+    "outputs/evaluation/chessqueries_c2_env/bin/python scripts/benchmark_chessqueries_c2.py smoke --output outputs/evaluation/chessqueries_c2_smoke_v1.json",
+    "outputs/evaluation/chessqueries_c2_env/bin/python scripts/benchmark_chessqueries_c2.py benchmark --smoke outputs/evaluation/chessqueries_c2_smoke_v1.json --output outputs/evaluation/chessqueries_c2_run1",
+    ".venv/bin/python scripts/report_chessqueries_c2.py --predictions outputs/evaluation/chessqueries_c2_run1/predictions.json.gz --results docs/evaluation/chessqueries_zero_shot_c2_results_v1.json --examples docs/evaluation/chessqueries_zero_shot_c2_examples",
+    "outputs/evaluation/chessqueries_c2_env/bin/python -m pytest -q tests/test_chessqueries_offline.py",
+    "outputs/evaluation/chessqueries_c2_env/bin/python -m pytest -q tests/test_chessqueries_offline.py tests/test_input_representations.py tests/test_independent_d3c.py tests/test_fusion_reliability.py tests/test_offline_fusion.py tests/test_square_evidence.py tests/test_video_keyframes.py tests/test_keyframe_manifest.py tests/test_crop_experiments.py tests/test_geometry_audit.py tests/test_geometry_reliability.py tests/test_scan_recognition.py tests/test_inference.py tests/test_validation.py tests/test_fen.py",
+    "PATH=\"$PWD/tools/node/bin:$PATH\" npm --prefix web test",
+    ".venv/bin/python scripts/validate_chessqueries_c2.py --output outputs/evaluation/chessqueries_c2_validation_v1.json",
+    "git diff --check"
+  ]
+}

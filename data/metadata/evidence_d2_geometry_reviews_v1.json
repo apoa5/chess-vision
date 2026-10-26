@@ -1,0 +1,1388 @@
+{
+  "schema_version": "offline_evidence_geometry_reviews_d2_v1",
+  "packet_sha256": "6f7161f896eeb254551d25a454b0799e68b99053307b41714cc6afb1574d84f8",
+  "reviews": [
+    {
+      "review_id": "R001",
+      "binding": {
+        "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000000",
+        "pts": 0,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "derivative_sha256": "8f320301a585c214ac99f6b6f797121a203f5a480f959e1b6d4bd6c76d9ac16d",
+        "geometry_reference_sha256": "6d72612a10b5274a95f19f62779e1ddacb17d18de87f1401bde98970a3adcec4",
+        "session_id": "a3_pilot_01_01_starting_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R002",
+      "binding": {
+        "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000270",
+        "pts": 5401,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "derivative_sha256": "18fa78b8cc1b338fc1238ea73b95364d821aad2927ecf4fd3ad085a36158cbf4",
+        "geometry_reference_sha256": "6cba395b39af80719a4097fe3e492e9ae504d791bcfc038cbfe92e4f4c0c0bdd",
+        "session_id": "a3_pilot_01_01_starting_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R003",
+      "binding": {
+        "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000450",
+        "pts": 9001,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "derivative_sha256": "54be3def2ca8bfbf3bb52a3e349f6e8dac08a635bf0c0ef3cbf974892d9ac192",
+        "geometry_reference_sha256": "02d4b468803384e42a3bf4394ecf0f3e06b1b69336ac782acbcda130021a4cf6",
+        "session_id": "a3_pilot_01_01_starting_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R004",
+      "binding": {
+        "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000540",
+        "pts": 10802,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "derivative_sha256": "6d2f2080ce42150d2c75c4544ec4b6ec55826a41ab6a529a1a97013a6db0d6cf",
+        "geometry_reference_sha256": "017aaba59d97f2003215e149ecd6d5fe87a0ee1f6ab1cb1759a15ac250521cbf",
+        "session_id": "a3_pilot_01_01_starting_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R005",
+      "binding": {
+        "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000630",
+        "pts": 12602,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "derivative_sha256": "22c50d1a27107468fe929dfdb4f3991b4a0561e2a0d85365bcad8274f5620679",
+        "geometry_reference_sha256": "0f2fd5f7748fb5923cffb1c3baabd0f6dc8352d0706418b868f563d1c6b73265",
+        "session_id": "a3_pilot_01_01_starting_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R006",
+      "binding": {
+        "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000810",
+        "pts": 16202,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "derivative_sha256": "3ae64f567ce5b628e86c637119627bcab75e90a4b0bd25d946854dc34a945213",
+        "geometry_reference_sha256": "a645a3a30cda0f6887070b305043c9ca0d2a2c090d8d559c33204972e9cd9b45",
+        "session_id": "a3_pilot_01_01_starting_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R007",
+      "binding": {
+        "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001170",
+        "pts": 23403,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "derivative_sha256": "4f72d93e65fe5f6cdfa8d3924ee20c357f9f4db62edaa003f50bed781db3a4ff",
+        "geometry_reference_sha256": "548f27071cae2b5fbc994c9e3044a6112861c81afd6b8b269c6eb94cb922441a",
+        "session_id": "a3_pilot_01_01_starting_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R008",
+      "binding": {
+        "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001260",
+        "pts": 25204,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "derivative_sha256": "a17099f62dc766537c9caf8920a41c49c738fd0a67ec08a41e15073d716655c2",
+        "geometry_reference_sha256": "52c43a96b67a5c8633dd0df96b3bf6f2636f4d565330ec75ff39f7db0d37545e",
+        "session_id": "a3_pilot_01_01_starting_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R009",
+      "binding": {
+        "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001350",
+        "pts": 27004,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "derivative_sha256": "f7384f632f73a5755a1819296f2a960137f299de2c5e0078932a5ada11b17663",
+        "geometry_reference_sha256": "1a8e494667471d53b5623e8b1c288e5527ed22c7df8c5bbfcd0d445019545d7a",
+        "session_id": "a3_pilot_01_01_starting_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R010",
+      "binding": {
+        "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001530",
+        "pts": 30604,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "derivative_sha256": "bbfbb23ef11f8ac6544e7457ce8842a71077affb9fe0db9d856509312c6ede9a",
+        "geometry_reference_sha256": "71a2f8986611634c9fc8c2cf1128a8716d9252019e62f56896fa2a2b0683561b",
+        "session_id": "a3_pilot_01_01_starting_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R011",
+      "binding": {
+        "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_002070",
+        "pts": 41406,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "derivative_sha256": "a2ec9712a29963bc76f803d17ca061c0ae2ca0dc5540d4a9311b8b786bec4384",
+        "geometry_reference_sha256": "b67aec61936f03f080604e92c49cc0a47ffb43f6155f573c35f3cfb9487c2c86",
+        "session_id": "a3_pilot_01_01_starting_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R012",
+      "binding": {
+        "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_002160",
+        "pts": 43206,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "f275ebd3797549c69fbd1c2fa5f198062e0ea4c5efd387cfe84c8e6a62a3e71f",
+        "derivative_sha256": "6e4d02c02d5b7d8f71a6ae2b5b0630b529283acc29b49d974d6b14b1051e6ec8",
+        "geometry_reference_sha256": "99ba9bbaa9c7f587084d214ddac4927fdbb4861517f0eaca7a94afec8f4d566a",
+        "session_id": "a3_pilot_01_01_starting_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R013",
+      "binding": {
+        "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000000",
+        "pts": 0,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "derivative_sha256": "433dc541fb9da900b891ba70cd95f1321f556d2adfadae98907af95cb6c813eb",
+        "geometry_reference_sha256": "c8574d379a5d2970c674ed07e6fc24b0b1a51b8dc63b107e422bf4c765fb794c",
+        "session_id": "a3_pilot_01_02_opening_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R014",
+      "binding": {
+        "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000270",
+        "pts": 5401,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "derivative_sha256": "cabba6d4cd2e06e5c6fcf338e325f84acba24a2e8c15a484b450612b19f4a8ba",
+        "geometry_reference_sha256": "6bf96c85e4be9961de665a7bcc88e54f3b24e825b0e8f42adfb14bc43e7c4bfe",
+        "session_id": "a3_pilot_01_02_opening_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R015",
+      "binding": {
+        "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000540",
+        "pts": 10802,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "derivative_sha256": "bf7f660fb51fec5b11a258dbcac214821a328cea65c0647132f2db4587dd9030",
+        "geometry_reference_sha256": "d8fad38b3caff719217dff5315d87cecdab0c9b3ec408f9fb9c18d4154497141",
+        "session_id": "a3_pilot_01_02_opening_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R016",
+      "binding": {
+        "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000630",
+        "pts": 12602,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "derivative_sha256": "b64b3a20d4baaa20cc9b0204fbef9927954a767b9996a6c3d741962bb6e56cf3",
+        "geometry_reference_sha256": "86c8162b144f9ca980a3b2068898ab5b9eb4371590d92eb0f4d7853db79f93ec",
+        "session_id": "a3_pilot_01_02_opening_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R017",
+      "binding": {
+        "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000900",
+        "pts": 18003,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "derivative_sha256": "fdb8b008ddcefa4e0ea8389e35de68e6b6345c9e30a2cbd1957fe8c7e16b68cf",
+        "geometry_reference_sha256": "61500a10147def2985f30b7e4c0294b1b0142783a1df154ccb0beeed6b749ecd",
+        "session_id": "a3_pilot_01_02_opening_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R018",
+      "binding": {
+        "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000990",
+        "pts": 19803,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "derivative_sha256": "b25fcd13f166d21e99d0f3c83eb26fe8ae45823af0d3234e7314f77a991bb828",
+        "geometry_reference_sha256": "ef55aa3a6d20eb1ef831d618c51bb639107df0e7d3b5218d7b6fe4c2f0af4bc6",
+        "session_id": "a3_pilot_01_02_opening_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R019",
+      "binding": {
+        "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001080",
+        "pts": 21603,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "derivative_sha256": "285f8095046deca4a921a6d9ec47f7fa3dfe4c1e55818ecb0ae5423fd8813b8b",
+        "geometry_reference_sha256": "7fd6f031f0a28f903d92a2a916fb9179f72dfe23b1ae29133e663ffdb9df1af8",
+        "session_id": "a3_pilot_01_02_opening_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R020",
+      "binding": {
+        "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001170",
+        "pts": 23403,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "derivative_sha256": "87a57d2b528833b8d8a7e546d06e272b1eb3ce06b494674301cc1078938171b3",
+        "geometry_reference_sha256": "ec83e450c4ee14dfcf53a5938973eb1c3715f8f1b14e9ed5e13213c9f52077cb",
+        "session_id": "a3_pilot_01_02_opening_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R021",
+      "binding": {
+        "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001260",
+        "pts": 25204,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "derivative_sha256": "7a5c9d4160c985a9dddbafe281dcede1694e0134b4975d504b93f844bf002a6a",
+        "geometry_reference_sha256": "cb9c3e852b94031ad79cbda16bea0f51eb8a6c190f47df6857f1625f58846fb6",
+        "session_id": "a3_pilot_01_02_opening_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R022",
+      "binding": {
+        "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001440",
+        "pts": 28804,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "derivative_sha256": "bc7b232d7500208475fb3d7ee62500a56c03b256a30f68e2d8e99e456e17d129",
+        "geometry_reference_sha256": "e23f8dbdf5aa058fe4738f1593d6bba40ef4224139a3711702cb9954627024da",
+        "session_id": "a3_pilot_01_02_opening_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R023",
+      "binding": {
+        "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001530",
+        "pts": 30604,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "derivative_sha256": "0fc5754e31e09176239ebbd3c825059684163afc0f36f443106d6dfd3b6ecad1",
+        "geometry_reference_sha256": "552a4fae8bfb5a274b822f61b66230ac91b4ef47870f3e8d27ce4b4040f035cd",
+        "session_id": "a3_pilot_01_02_opening_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R024",
+      "binding": {
+        "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001890",
+        "pts": 37806,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "0c93533ea2db0c692ff16e6869d133e6d2f7685d9a1743d6c652bae1d0de9931",
+        "derivative_sha256": "86e9137c87fac1cc2dd2e086fe126cf1db3c61bced5b3ef7223ab6a4563e2f17",
+        "geometry_reference_sha256": "fc2bf9b109e14f06013a59c2cb57599a5446bfcb4ccb30714f499b1ca39d4fc1",
+        "session_id": "a3_pilot_01_02_opening_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R025",
+      "binding": {
+        "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000000",
+        "pts": 0,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "derivative_sha256": "98bb35e725366651590e93146cc526eb7635556c7b31fc2912cfe4fca197e3c8",
+        "geometry_reference_sha256": "2eff7a7210662ade29966c12e4a214a8e2bb61199505aa734817b35a8c370093",
+        "session_id": "a3_pilot_01_03_middlegame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R026",
+      "binding": {
+        "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000090",
+        "pts": 1800,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "derivative_sha256": "5537adb53efdeac25d6ae7c9b02002bccaea65b11bab611abe532e7a1ce9e50b",
+        "geometry_reference_sha256": "8b2d8445c22018be8db012a086772766ee206e055f7c6767f6faa53abc3352d3",
+        "session_id": "a3_pilot_01_03_middlegame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R027",
+      "binding": {
+        "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000360",
+        "pts": 7201,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "derivative_sha256": "b96adb22cd3302f33bc38884220a4c7abf2c34c5144ec52617d37a401c360567",
+        "geometry_reference_sha256": "469b08e1a4e5049796d9aae7b8336587893708b3105858793fdd4882edeff7ed",
+        "session_id": "a3_pilot_01_03_middlegame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R028",
+      "binding": {
+        "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000450",
+        "pts": 9001,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "derivative_sha256": "317ccd01559c574ceb33e146b90b922112bab15f3e6b885fb3b9be5c3809a159",
+        "geometry_reference_sha256": "294c7545e983ad2d5d8262d592d210513c170f41787fdffa286e9e26b2ae8f5f",
+        "session_id": "a3_pilot_01_03_middlegame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R029",
+      "binding": {
+        "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000540",
+        "pts": 10802,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "derivative_sha256": "6e0ea94b52b7de4eae32240c1fb735fdd71061cb2868df6b575a1de19e73dd76",
+        "geometry_reference_sha256": "df465d4b08c072c17338d1903e666ac62c44f210d0820385bee95f6a0876a920",
+        "session_id": "a3_pilot_01_03_middlegame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R030",
+      "binding": {
+        "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000720",
+        "pts": 14402,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "derivative_sha256": "b3778e01e0d13f532cb4d1b65f48ec478ab515b219329b322103c78f62c5c74f",
+        "geometry_reference_sha256": "ac30b68745ee7e8034066b5899e06db4a1c1a0e943c5869b08dc49c8358376d4",
+        "session_id": "a3_pilot_01_03_middlegame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R031",
+      "binding": {
+        "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000810",
+        "pts": 16202,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "derivative_sha256": "816f8fe925c824273ed29a09e415d5bd3f41218ef6b976f195c041b076a77f2f",
+        "geometry_reference_sha256": "2a085afb2fa69cde0dbf99d9e072c8cfe3a2b7ee3fe5ddbaff55766c17fc6760",
+        "session_id": "a3_pilot_01_03_middlegame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R032",
+      "binding": {
+        "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000900",
+        "pts": 18003,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "derivative_sha256": "3374d4c0de1980942717072974287f0c443e8e1e36c89f30a868c8cd54e07c8b",
+        "geometry_reference_sha256": "cb80a6441622f2148fc50f30ecf6a7cacf9774690463c9b9262e35f3756ad363",
+        "session_id": "a3_pilot_01_03_middlegame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R033",
+      "binding": {
+        "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000990",
+        "pts": 19803,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "derivative_sha256": "4b6ef38075bfcbeaa3f0e39aea254041454503068b95f59bd95bf93a9c5bd5bf",
+        "geometry_reference_sha256": "6f9dc2d74d3ad8b087178b692c3d2b81c625a29ed7765b805f3fe5137b4d4782",
+        "session_id": "a3_pilot_01_03_middlegame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R034",
+      "binding": {
+        "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001170",
+        "pts": 23403,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "derivative_sha256": "a8fc94e0a6b704900d4a8d6644d54a75f11f721fe9e13092567c594a1f01855b",
+        "geometry_reference_sha256": "69186263a988540c7dba814bab35ec5df7cab87357849aca2b219a64a1d2b857",
+        "session_id": "a3_pilot_01_03_middlegame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R035",
+      "binding": {
+        "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001620",
+        "pts": 32405,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "derivative_sha256": "4573966fed067c12f8601520813e0ad6b3878d8381ee6b858edbbef29323c2e7",
+        "geometry_reference_sha256": "4665e49e8f30b190efb75ccb72ced304b7845d0bd49ca14bfbda9f8e8cc8f824",
+        "session_id": "a3_pilot_01_03_middlegame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R036",
+      "binding": {
+        "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001890",
+        "pts": 37806,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "341e8b8f3873aaf79fe37111443bd5b265659561b637e45e45aa9cae165118d6",
+        "derivative_sha256": "b9377be7ba0b2c4a11500ac47fca204a98c0b3b8c065e428d803aac6f8f21c93",
+        "geometry_reference_sha256": "1ee698b0d0cb7a7399cb53228f21a8199af8ee64533c57f9e7b6e5945e4dd9f6",
+        "session_id": "a3_pilot_01_03_middlegame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R037",
+      "binding": {
+        "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000000",
+        "pts": 0,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+        "derivative_sha256": "b12fd9fce701de182dabafe1992d4f67dfb924a24da9e13680560313e5928d72",
+        "geometry_reference_sha256": "4ebf0e7460f9f844c15239f5caa0abc0584df726a41a0a4da54e57eb34af21ed",
+        "session_id": "a3_pilot_01_04_endgame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R038",
+      "binding": {
+        "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000090",
+        "pts": 1800,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+        "derivative_sha256": "61a99cae84c759144388eba7789749c8faa3bac654d2732a6ddebbf766bcadf7",
+        "geometry_reference_sha256": "3516960702aae53d795befc13cc19b6e4bfbbbe866bb5891e54b8580ce5f7277",
+        "session_id": "a3_pilot_01_04_endgame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R039",
+      "binding": {
+        "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000270",
+        "pts": 5401,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+        "derivative_sha256": "ca252bf2373f582cd66393722f3efaec460f6a6cb36ef67f7f657af81d276d7d",
+        "geometry_reference_sha256": "b3331318ea91e72e5fe29c2d0aaf66f2d5075bbd6f4ba3223a05344a8f6a6108",
+        "session_id": "a3_pilot_01_04_endgame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R040",
+      "binding": {
+        "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000360",
+        "pts": 7201,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+        "derivative_sha256": "ddb02aa5c7a71f4ec72dd3bf1f9a06ab72f874bb7711c6b407a6e90ba29d8171",
+        "geometry_reference_sha256": "73fe8e59efdfbc0614ad2cedc67c09427ab5f304e0c83b3a0f29184e77b0c077",
+        "session_id": "a3_pilot_01_04_endgame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R041",
+      "binding": {
+        "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000450",
+        "pts": 9001,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+        "derivative_sha256": "ab24a0ae2f9300739302a21349aba3d77a4e99d92fabd5a43d15d9c1a1d68699",
+        "geometry_reference_sha256": "1f5dbee6bc550fd876012e42d9ef49574b5d06abd619d7066873e03c74751723",
+        "session_id": "a3_pilot_01_04_endgame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R042",
+      "binding": {
+        "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000540",
+        "pts": 10802,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+        "derivative_sha256": "40866b79a8a56b8da07437c32716c384a50a8af2d2434cfc7f763adb65d16a8d",
+        "geometry_reference_sha256": "2cee885a222e46d5573dbfb77c8cc07f07e031f471755885a3a03a778b393ec7",
+        "session_id": "a3_pilot_01_04_endgame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R043",
+      "binding": {
+        "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000630",
+        "pts": 12602,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+        "derivative_sha256": "af43692744fa0940461d9716adda9d9fb8b720aadb338526c51cbcae6640653a",
+        "geometry_reference_sha256": "fe0fef44186592ac1fbcd818c0140d170b9a8fad92519428cb9c7445ab36344a",
+        "session_id": "a3_pilot_01_04_endgame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R044",
+      "binding": {
+        "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000720",
+        "pts": 14402,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+        "derivative_sha256": "07fccce60a757793ba289bb6b02bb08da0b05b5fc1ef15ce02c7ad41f80c5087",
+        "geometry_reference_sha256": "cf65086d210b7f2fe6d7c1e535829a05812b875e9367bee0928a9d7dc200d987",
+        "session_id": "a3_pilot_01_04_endgame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R045",
+      "binding": {
+        "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000990",
+        "pts": 19803,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+        "derivative_sha256": "0ba369f0570543ba88e2ba085cb898532d78c9a3d930b25891eb3763cb561e74",
+        "geometry_reference_sha256": "7e6fcfbd6bcfe2a4f9b561fa14af5470a8c2ebe13c0991008397ef5d9a05b6b1",
+        "session_id": "a3_pilot_01_04_endgame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R046",
+      "binding": {
+        "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001530",
+        "pts": 30604,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "a9d72cee1f1513e33357b80aa4c6b5dfaa35cde9617630316badb028eb1d2fcb",
+        "derivative_sha256": "71dc7e0454c6887c68c6193a921d59afdd395fa59f4616033b19b8d5d9e2349d",
+        "geometry_reference_sha256": "b040430bcd5444d7dec5f1cf45c4ffbdeed5df055c5c493a0b5356f5e369bd9f",
+        "session_id": "a3_pilot_01_04_endgame_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R047",
+      "binding": {
+        "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000000",
+        "pts": 0,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+        "derivative_sha256": "05322edeeb32f50d47313f96ef22ff04e3253fa00b1055b747dc66fcc6c34079",
+        "geometry_reference_sha256": "3c3dca252ec761b994f5887e5c48c5ebe1a3ff928df4ac4f57704e2bc33f7353",
+        "session_id": "a3_pilot_01_05_puzzle_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R048",
+      "binding": {
+        "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000090",
+        "pts": 1800,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+        "derivative_sha256": "f6b20eb6757cb832e1ec2d7ca484394cd83cceb2568298a8730ce89f2fc9049c",
+        "geometry_reference_sha256": "bf698e33399605ca874ff7323b3f70fc24efc0536c594c1ce4e7b5c96eb3f950",
+        "session_id": "a3_pilot_01_05_puzzle_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R049",
+      "binding": {
+        "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000540",
+        "pts": 10802,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+        "derivative_sha256": "d3ed26fe43eab963fc1e2574fcff6a180f8ddc27048343748aa4dd3eea53e61d",
+        "geometry_reference_sha256": "675854a827ea689b55ce8a5e94a9580ace7e2835595e09a5ecfa2f7f7554fe28",
+        "session_id": "a3_pilot_01_05_puzzle_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R050",
+      "binding": {
+        "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000810",
+        "pts": 16202,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+        "derivative_sha256": "332db4e247e91a0e09f1b54c615ce8a907c0434d4970145b9acea0a4f23a5c40",
+        "geometry_reference_sha256": "8c11bb494559364958f00f323721c965e2981a70d5d8c654fde88e40ca6bf18a",
+        "session_id": "a3_pilot_01_05_puzzle_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R051",
+      "binding": {
+        "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000990",
+        "pts": 19803,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+        "derivative_sha256": "0a8bf8f433b9e92da249f58bd7617df9a70baffe7828d1ce2c0c584884663de7",
+        "geometry_reference_sha256": "cec381d705b601f98d84f8a39c6a8c851017d67e6716186a8fa21a1af54da21b",
+        "session_id": "a3_pilot_01_05_puzzle_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R052",
+      "binding": {
+        "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001080",
+        "pts": 21603,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+        "derivative_sha256": "abcec03228d5850b0ffd41b263de0376a16a0d9d9237592b9d8cf8e5a35e68eb",
+        "geometry_reference_sha256": "34b0d686fd88111c3c182c1c2e726fd7ce956b4a015d9f1eb0ec42880d6273c3",
+        "session_id": "a3_pilot_01_05_puzzle_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R053",
+      "binding": {
+        "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001260",
+        "pts": 25204,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+        "derivative_sha256": "56daf9fa073d4b93c0d0ae4f3bfd088ce0bd7582f5d04504d97555c58769bbc9",
+        "geometry_reference_sha256": "1d01a9046482746e7f0ad357cacc7bda105a78b97350af657a2fc7e153718d19",
+        "session_id": "a3_pilot_01_05_puzzle_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R054",
+      "binding": {
+        "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001530",
+        "pts": 30604,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+        "derivative_sha256": "d181e11a0db6e47a41ebc8b27dea63db588a6473af5d158de24cb839e903c0dc",
+        "geometry_reference_sha256": "ecdb74397e0dd5a092e416f05c32bdd81a2c49180aeba3cc2b11aca5172ed44e",
+        "session_id": "a3_pilot_01_05_puzzle_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    },
+    {
+      "review_id": "R055",
+      "binding": {
+        "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001800",
+        "pts": 36005,
+        "time_base": [
+          1,
+          600
+        ],
+        "source_video_sha256": "725a30911df934a077dcb6521d3ff36fd3a31759b543195004c7232c34d0a7e7",
+        "derivative_sha256": "0858e9f4c624fc5d122d6dbbd328f58fc31a09bb6b3cf21c9c1994310f33b252",
+        "geometry_reference_sha256": "b589de550000641592ab612bd70e5113399746378bbe2f969d1158ec8fbd5db3",
+        "session_id": "a3_pilot_01_05_puzzle_take01"
+      },
+      "decision": "human_verified",
+      "reviewer": "project owner (user)",
+      "reviewer_kind": "human",
+      "checks": {
+        "true_board_corners": true,
+        "semantic_orientation": true,
+        "canonical_square_mapping": true,
+        "sufficient_for_crops": true
+      },
+      "notes": "User confirmed all 55 frames and all four requested checks in conversation."
+    }
+  ],
+  "attestation": {
+    "reviewer": "project owner (user)",
+    "source": "Explicit user reply to the D.2 packet review question",
+    "statement": "I can confirm for all 55 frames!",
+    "date": "2026-10-22",
+    "scope": "All four checks in the question for all 55 exact packet frames; no subpixel independent corner measurement implied."
+  }
+}

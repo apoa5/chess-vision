@@ -1,0 +1,13 @@
+{
+  "schema_version": "fusion_reliability_d3b_config_v1",
+  "condition": "uniform_5",
+  "methods": ["single_quality", "mean_probabilities", "mean_logits"],
+  "matched_square_coverages": [0.5, 0.75, 0.9, 0.95, 1.0],
+  "high_confidence": 0.9,
+  "consensus_fraction": 0.8,
+  "exploratory_thresholds": [0.8, 0.9, 0.95, 0.99],
+  "score_calibrated": false,
+  "threshold_tuning": false,
+  "completion_enabled": false,
+  "independent_validation": "pending"
+}

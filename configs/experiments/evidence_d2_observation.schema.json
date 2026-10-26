@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chess-vision:offline-square-observation:d2:v1",
+  "title": "One unfused canonical-square observation from one human-verified frame",
+  "type": "object",
+  "required": ["observation_id", "position_id", "session_id", "source_video_path", "source_video_sha256", "frame_id", "original_pts", "time_base", "pts_time", "timestamp_ms", "condition_memberships", "geometry_policy", "geometry_completed", "geometry_verification_status", "human_review_artifact", "human_review_sha256", "semantic_orientation", "canonical_square", "raw_logits", "probabilities", "predicted_class_id", "predicted_class", "class_names", "maximum_probability", "top_two_probability_margin", "predictive_entropy", "crop_spec", "crop_config_sha256", "checkpoint_sha256", "calibration_status", "calibrated_probabilities"],
+  "properties": {
+    "observation_id": {"type": "string"},
+    "position_id": {"type": "string"},
+    "session_id": {"type": "string"},
+    "canonical_square": {"type": "string", "pattern": "^[a-h][1-8]$"},
+    "original_pts": {"type": "integer"},
+    "time_base": {"type": "array", "items": {"type": "integer"}, "minItems": 2, "maxItems": 2},
+    "pts_time": {"type": "array", "items": {"type": "integer"}, "minItems": 2, "maxItems": 2},
+    "raw_logits": {"type": "array", "items": {"type": "number"}, "minItems": 13, "maxItems": 13},
+    "probabilities": {"type": "array", "items": {"type": "number", "minimum": 0, "maximum": 1}, "minItems": 13, "maxItems": 13},
+    "class_names": {"type": "array", "items": {"type": "string"}, "minItems": 13, "maxItems": 13},
+    "predicted_class_id": {"type": "integer", "minimum": 0, "maximum": 12},
+    "maximum_probability": {"type": "number", "minimum": 0, "maximum": 1},
+    "top_two_probability_margin": {"type": "number", "minimum": 0, "maximum": 1},
+    "predictive_entropy": {"type": "number", "minimum": 0},
+    "geometry_policy": {"const": "marked-board"},
+    "geometry_completed": {"const": true},
+    "geometry_verification_status": {"const": "human_verified"},
+    "calibration_status": {"const": "not_available"},
+    "calibrated_probabilities": {"type": "null"},
+    "condition_memberships": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["condition", "keyframe_strategy", "selection_budget", "selected_manifest_sha256", "selection_trace"]}},
+    "checkpoint_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "crop_config_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "description": "Finite values, source/pixel hashes, PTS arithmetic, class order, softmax/logit agreement, per-frame cardinality and recording grouping are additionally checked by the Python validators. No pooled distribution, resolved state or fusion decision. This version intentionally has no calibration transformation; B.4 may be attached later through an explicitly versioned extension."
+}

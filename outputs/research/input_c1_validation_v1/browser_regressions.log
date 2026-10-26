@@ -1,0 +1,336 @@
+
+> chess-guided-scan@0.1.0 test
+> node --experimental-strip-types tests/geometry.test.mjs && node --experimental-strip-types tests/recording.test.mjs && node --experimental-strip-types tests/tracking.test.mjs && node --experimental-strip-types tests/recognition.test.mjs && node --experimental-strip-types tests/ui.test.mjs && node --experimental-strip-types tests/liveScan.test.mjs && node --experimental-strip-types tests/positionReview.test.mjs && node --experimental-strip-types tests/recognitionSession.test.mjs
+
+(node:15) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+TAP version 13
+# Subtest: semantic board mapping
+    # Subtest: preserves square identity at 0 degrees
+    ok 1 - preserves square identity at 0 degrees
+      ---
+      duration_ms: 11.172994
+      type: 'test'
+      ...
+    # Subtest: preserves square identity at 90 degrees
+    ok 2 - preserves square identity at 90 degrees
+      ---
+      duration_ms: 0.734066
+      type: 'test'
+      ...
+    # Subtest: preserves square identity at 180 degrees
+    ok 3 - preserves square identity at 180 degrees
+      ---
+      duration_ms: 3.840277
+      type: 'test'
+      ...
+    # Subtest: preserves square identity at 270 degrees
+    ok 4 - preserves square identity at 270 degrees
+      ---
+      duration_ms: 0.709329
+      type: 'test'
+      ...
+    # Subtest: preserves square identity at 37 degrees
+    ok 5 - preserves square identity at 37 degrees
+      ---
+      duration_ms: 1.907263
+      type: 'test'
+      ...
+    # Subtest: preserves square identity at 143 degrees
+    ok 6 - preserves square identity at 143 degrees
+      ---
+      duration_ms: 4.852847
+      type: 'test'
+      ...
+    # Subtest: handles perspective and preserves the full border
+    ok 7 - handles perspective and preserves the full border
+      ---
+      duration_ms: 1.174464
+      type: 'test'
+      ...
+    # Subtest: rejects mirrored, folded and collapsed geometry
+    ok 8 - rejects mirrored, folded and collapsed geometry
+      ---
+      duration_ms: 1.022999
+      type: 'test'
+      ...
+    # Subtest: maps source to CSS pixels without device-pixel scaling
+    ok 9 - maps source to CSS pixels without device-pixel scaling
+      ---
+      duration_ms: 9.960343
+      type: 'test'
+      ...
+    1..9
+ok 1 - semantic board mapping
+  ---
+  duration_ms: 44.426107
+  type: 'suite'
+  ...
+1..1
+# tests 9
+# suites 1
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 76.59699
+(node:26) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+TAP version 13
+# Subtest: uses the standard ZIP checksum
+ok 1 - uses the standard ZIP checksum
+  ---
+  duration_ms: 1.192828
+  type: 'test'
+  ...
+# Subtest: writes ZIP headers with bounded capture policy
+ok 2 - writes ZIP headers with bounded capture policy
+  ---
+  duration_ms: 0.944788
+  type: 'test'
+  ...
+# Subtest: rejects paths outside the archive
+ok 3 - rejects paths outside the archive
+  ---
+  duration_ms: 0.52086
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 43.854146
+(node:37) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Full-circle synthetic perspective test: maximum corner error 2.62 px
+TAP version 13
+# Subtest: projective fit rejects degenerate features and preserves arbitrary square orientation
+ok 1 - projective fit rejects degenerate features and preserves arbitrary square orientation
+  ---
+  duration_ms: 3.864333
+  type: 'test'
+  ...
+# Subtest: RANSAC ignores inconsistent feature matches rather than moving the board onto them
+ok 2 - RANSAC ignores inconsistent feature matches rather than moving the board onto them
+  ---
+  duration_ms: 30.147617
+  type: 'test'
+  ...
+# Subtest: border tracking follows small translations and keeps semantic corners
+ok 3 - border tracking follows small translations and keeps semantic corners
+  ---
+  duration_ms: 597.981875
+  type: 'test'
+  ...
+# Subtest: occlusion immediately hides geometry; persistent failure, frame gaps and dimension changes lose tracking
+ok 4 - occlusion immediately hides geometry; persistent failure, frame gaps and dimension changes lose tracking
+  ---
+  duration_ms: 458.274952
+  type: 'test'
+  ...
+# Subtest: a textureless border cannot initialize from the pieces or checker pattern
+ok 5 - a textureless border cannot initialize from the pieces or checker pattern
+  ---
+  duration_ms: 8.751201
+  type: 'test'
+  ...
+# Subtest: initialization preserves a1/h1/h8/a8 for every quarter-turn view
+ok 6 - initialization preserves a1/h1/h8/a8 for every quarter-turn view
+  ---
+  duration_ms: 310.811577
+  type: 'test'
+  ...
+# Subtest: one visible edge cannot support a whole-board alignment
+ok 7 - one visible edge cannot support a whole-board alignment
+  ---
+  duration_ms: 171.15799
+  type: 'test'
+  ...
+# Subtest: a single bad camera frame does not permanently lose the reviewed anchor
+ok 8 - a single bad camera frame does not permanently lose the reviewed anchor
+  ---
+  duration_ms: 171.543418
+  type: 'test'
+  ...
+# Subtest: stationary camera tolerates exposure/noise changes without gradually deleting features
+ok 9 - stationary camera tolerates exposure/noise changes without gradually deleting features
+  ---
+  duration_ms: 1181.482276
+  type: 'test'
+  ...
+# Subtest: clockwise camera walk preserves square identities through every diagonal transition
+ok 10 - clockwise camera walk preserves square identities through every diagonal transition
+  ---
+  duration_ms: 12539.044817
+  type: 'test'
+  ...
+# Subtest: automatic recovery requires semantic evidence and rejects shifted square allocations
+ok 11 - automatic recovery requires semantic evidence and rejects shifted square allocations
+  ---
+  duration_ms: 1.49585
+  type: 'test'
+  ...
+# Subtest: a temporarily obscured corner retains tracking with broad evidence in the other three regions
+ok 12 - a temporarily obscured corner retains tracking with broad evidence in the other three regions
+  ---
+  duration_ms: 136.202847
+  type: 'test'
+  ...
+# Subtest: coverage rejects one edge and near-collinear diagonal evidence despite a large feature count
+ok 13 - coverage rejects one edge and near-collinear diagonal evidence despite a large feature count
+  ---
+  duration_ms: 0.232581
+  type: 'test'
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 13
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 15638.599927
+(node:48) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+TAP version 13
+# Subtest: old session, position, frame, geometry or JPEG responses never enter the preview
+ok 1 - old session, position, frame, geometry or JPEG responses never enter the preview
+  ---
+  duration_ms: 1.272095
+  type: 'test'
+  ...
+# Subtest: missing squares and invalid class distributions cannot be displayed
+ok 2 - missing squares and invalid class distributions cannot be displayed
+  ---
+  duration_ms: 0.233422
+  type: 'test'
+  ...
+# Subtest: server empty-square null symbols are valid, while malformed renderer fields are rejected
+ok 3 - server empty-square null symbols are valid, while malformed renderer fields are rejected
+  ---
+  duration_ms: 0.388682
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 42.785701
+TAP version 13
+# Subtest: all twelve pieces have distinct accessible graphical representations and empty cells have no piece
+ok 1 - all twelve pieces have distinct accessible graphical representations and empty cells have no piece
+  ---
+  duration_ms: 12.510064
+  type: 'test'
+  ...
+# Subtest: flipping changes only display order, preserving every canonical square identity
+ok 2 - flipping changes only display order, preserving every canonical square identity
+  ---
+  duration_ms: 0.285324
+  type: 'test'
+  ...
+# Subtest: digital board renders 64 inspectable squares with graphical pieces and no letter-piece fallback
+ok 3 - digital board renders 64 inspectable squares with graphical pieces and no letter-piece fallback
+  ---
+  duration_ms: 9.81174
+  type: 'test'
+  ...
+# Subtest: an unobserved board states that predictions are unavailable rather than claiming 64 empty squares
+ok 4 - an unobserved board states that predictions are unavailable rather than claiming 64 empty squares
+  ---
+  duration_ms: 4.358679
+  type: 'test'
+  ...
+# Subtest: actual empty-square null contract renders safely in full and compact previews
+ok 5 - actual empty-square null contract renders safely in full and compact previews
+  ---
+  duration_ms: 10.931154
+  type: 'test'
+  ...
+# Subtest: position review presents the large graphical board and explicit confirm/retry choices
+ok 6 - position review presents the large graphical board and explicit confirm/retry choices
+  ---
+  duration_ms: 31.144279
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 77.641822
+TAP version 13
+# Subtest: live acquisition needs no frozen corners and verifies a new frame before emitting geometry
+ok 1 - live acquisition needs no frozen corners and verifies a new frame before emitting geometry
+  ---
+  duration_ms: 253.72332
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 265.728253
+TAP version 13
+# Subtest: retry waits for an explicit fresh capture, runs once, and preserves confirmation and stale-response guards
+ok 1 - retry waits for an explicit fresh capture, runs once, and preserves confirmation and stale-response guards
+  ---
+  duration_ms: 207.629487
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 213.769388
+(node:92) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+TAP version 13
+# Subtest: busy board analysis retries session creation instead of asking for a restart
+ok 1 - busy board analysis retries session creation instead of asking for a restart
+  ---
+  duration_ms: 1023.684352
+  type: 'test'
+  ...
+# Subtest: actual server details are displayed and restart advice is limited to missing endpoints
+ok 2 - actual server details are displayed and restart advice is limited to missing endpoints
+  ---
+  duration_ms: 0.724626
+  type: 'test'
+  ...
+# Subtest: cancelling a busy retry prevents further session requests
+ok 3 - cancelling a busy retry prevents further session requests
+  ---
+  duration_ms: 1.020824
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1032.242551

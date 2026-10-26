@@ -1,0 +1,34 @@
+{
+  "schema_version": "offline_fusion_validation_d3_v1",
+  "protected_files_unchanged": 4340,
+  "D2_index_artifacts_unchanged": 18,
+  "validated_camera_index_canonical_mappings": 3520,
+  "board_outputs_checked": 75,
+  "square_outputs_checked": 4800,
+  "aggregate_confusions_independently_recounted": 15,
+  "portable_export_hashes_checked": 50,
+  "lossless_result_sha256": "4f6b00370e702e89f1cc3ee80906aed3ecf1e52983e092c264271446a5a43c7a",
+  "benchmark_replays": 225,
+  "final_holdout_accessed": false,
+  "classifier_rerun": false,
+  "python_regressions": {
+    "passed": 234,
+    "failed": 0,
+    "duration_seconds": 67.71,
+    "focused_D3_tests": 31,
+    "log_sha256": "fb2e62ab94a79aa90f7d5197cd63208add202a7c46b0b14779075ca7e9269acd"
+  },
+  "browser_regressions": {
+    "passed": 39,
+    "failed": 0,
+    "log_sha256": "238d3d3bbb81a325990860e44586ccc226eed98d299799219b5f9f86d10100b0"
+  },
+  "reverse_order_replays": 75,
+  "compilation": "passed",
+  "git_diff_check": "passed",
+  "export_whitespace": "passed",
+  "committed": false,
+  "pushed": false,
+  "production_modified": false,
+  "D4_implemented": false
+}

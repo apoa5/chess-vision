@@ -1,0 +1,30 @@
+{
+  "url": "https://huggingface.co/joelseytre/chessqueries/resolve/eadee700749fd2930a651982c9f8a753097f81dd/chessquerieslite-vits-644-safetensors-fp16-r1.safetensors",
+  "declared_bytes": 63147914,
+  "declared_sha256": "486d10b258ba57d43d8ca861d20547093ca6591c0ad53da53a492716ef1c7705",
+  "full_weights_downloaded": false,
+  "full_sha_verified": false,
+  "http_status": 206,
+  "content_length": "1048576",
+  "content_range": "bytes 0-1048575/63147914",
+  "header_bytes": 26216,
+  "metadata": {
+    "aux_heads": "false",
+    "source_artifact_sha256": "193d0b06d409560f39f1fbcaa077cbda237b41a9e8f31d4c359faca38fda7ae2",
+    "drop_path_rate": "0.0",
+    "nheads": "8",
+    "encoder_name": "vit_small_patch14_dinov2.lvd142m",
+    "decoder_layers": "4",
+    "head_type": "query",
+    "source_checkpoint_sha256": "3c1f3f91bdcd77402321fbc479eab00c74dbc6a9f29dc891e143510e09fc7e4f",
+    "format": "chessqueries-safetensors-v1",
+    "license": "PolyForm-Noncommercial-1.0.0",
+    "source_revision": "41dfc2834f589bf586b36e9d2b77e02311815448",
+    "freeze_encoder": "false",
+    "precision": "fp16",
+    "resolution": "644",
+    "normalization": "imagenet"
+  },
+  "tensor_count": 258,
+  "tensor_elements": 31560077
+}

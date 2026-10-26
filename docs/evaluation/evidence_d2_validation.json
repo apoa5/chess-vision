@@ -1,0 +1,41 @@
+{
+  "relevant_python_tests_passed": 188,
+  "focused_D2_tests_passed": 36,
+  "focused_included_in_relevant": true,
+  "browser_tests_passed": 39,
+  "failed_tests": 0,
+  "input_validation": {
+    "valid": true,
+    "observations": 3520,
+    "inferred_frames": 55,
+    "human_verified_unique_frames": 55,
+    "replayed_packed_square_inputs": 3520,
+    "identical_saved_D1_contexts": 55,
+    "validation_seconds": 33.39393096399999
+  },
+  "metric_crosscheck": {
+    "physical_square_condition_records_crosschecked": 960,
+    "observation_condition_memberships": 5952,
+    "raw_observations_unchanged_after_GT_correction": true,
+    "all_15_condition_accuracies_and_oracle_counts_match": true
+  },
+  "final_preservation": {
+    "protected_files_unchanged": 3966,
+    "indexed_artifacts_unchanged": 11,
+    "original_FEN_catalog_unchanged": true,
+    "checkpoint_unchanged": true,
+    "production_and_D1_unchanged": true
+  },
+  "frozen_B2_parity": {
+    "scope": "64 existing historical B.2 prepared test crops; not the new pilot or final holdout",
+    "checkpoint_sha256": "dad8eea28482ee894dfca0794d9f4415d21ac58db23c6d6bed8c4307c71b1bd8",
+    "model_logit_max_absolute_difference": 0.0,
+    "probability_max_absolute_difference": 2.4602932136019717e-07,
+    "raw_softmax_dtype": "float64 versus B.2 torch float32",
+    "elapsed_seconds": 0.5748569140000654
+  },
+  "explicit_human_verified_frames": 55,
+  "ground_truth_correction_owner_approved": true,
+  "syntax_check_passed": true,
+  "git_diff_check_passed": true
+}

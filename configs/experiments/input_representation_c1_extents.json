@@ -1,0 +1,106 @@
+{
+  "schema_version": "assistant_visible_extents_c1_v1",
+  "reviewer_kind": "assistant",
+  "purpose": "diagnostic visible bounding boxes only; not new verified ground truth or training labels",
+  "coordinate_reference": "raw.jpg native neighborhood coordinates; add audit native_annotation_window origin",
+  "uncertainty_pixels": 5,
+  "full_silhouette_or_occluded_fraction_known": false,
+  "cases": {
+    "D2_king_rook": {
+      "visible_bbox_local_xyxy": [
+        130,
+        73,
+        184,
+        200
+      ],
+      "crown_local_xy": [
+        161,
+        77
+      ],
+      "note": "Low oblique white king b3; crown visibly above frozen crop support."
+    },
+    "D2_king_correct": {
+      "visible_bbox_local_xyxy": [
+        174,
+        156,
+        240,
+        288
+      ],
+      "crown_local_xy": [
+        207,
+        160
+      ],
+      "note": "Same physical king from another view; near crop boundary."
+    },
+    "D2_knight_rook": {
+      "visible_bbox_local_xyxy": [
+        179,
+        227,
+        242,
+        313
+      ],
+      "crown_local_xy": [
+        219,
+        232
+      ],
+      "note": "Horse head remains visible despite rook prediction."
+    },
+    "D2_knight_correct": {
+      "visible_bbox_local_xyxy": [
+        154,
+        160,
+        229,
+        272
+      ],
+      "crown_local_xy": [
+        198,
+        165
+      ],
+      "note": "Same square, correct historical prediction."
+    },
+    "D2_black_rook_king": {
+      "visible_bbox_local_xyxy": [
+        136,
+        137,
+        202,
+        241
+      ],
+      "crown_local_xy": [
+        180,
+        142
+      ],
+      "note": "Rook crown and neighboring knight interference; approximate bbox includes background."
+    },
+    "D2_pawn_missed": {
+      "visible_bbox_local_xyxy": [
+        173,
+        285,
+        229,
+        351
+      ],
+      "crown_local_xy": [
+        204,
+        289
+      ],
+      "base_local_xy": [
+        199,
+        336
+      ],
+      "note": "Pawn base lies near/straddles fitted h4/h3 boundary. Preserve owner h4 label and prior qualitative geometry approval; requires contact/placement check for causal attribution."
+    },
+    "D3c_king_rook": {
+      "visible_bbox_local_xyxy": [
+        170,
+        182,
+        240,
+        307
+      ],
+      "crown_local_xy": [
+        213,
+        186
+      ],
+      "note": "Provisional D3c f3 king; visible crown is not generally removed by B2."
+    }
+  },
+  "audit_sha256": "e2721eec4b754221a2a4b43b88cf14ee0badf761ad3e539fdb20f1a74f90e279"
+}

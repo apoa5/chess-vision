@@ -1,0 +1,25 @@
+method,signal,threshold,exploratory,retained,total,incorrect_retained,session_ids
+single_quality,mean_probability,0.8,True,5,5,4,"['a3_pilot_01_01_starting_take01', 'a3_pilot_01_02_opening_take01', 'a3_pilot_01_03_middlegame_take01', 'a3_pilot_01_04_endgame_take01', 'a3_pilot_01_05_puzzle_take01']"
+single_quality,minimum_probability,0.8,True,0,5,0,[]
+single_quality,mean_probability,0.9,True,5,5,4,"['a3_pilot_01_01_starting_take01', 'a3_pilot_01_02_opening_take01', 'a3_pilot_01_03_middlegame_take01', 'a3_pilot_01_04_endgame_take01', 'a3_pilot_01_05_puzzle_take01']"
+single_quality,minimum_probability,0.9,True,0,5,0,[]
+single_quality,mean_probability,0.95,True,3,5,2,"['a3_pilot_01_03_middlegame_take01', 'a3_pilot_01_04_endgame_take01', 'a3_pilot_01_05_puzzle_take01']"
+single_quality,minimum_probability,0.95,True,0,5,0,[]
+single_quality,mean_probability,0.99,True,0,5,0,[]
+single_quality,minimum_probability,0.99,True,0,5,0,[]
+mean_probabilities,mean_probability,0.8,True,5,5,5,"['a3_pilot_01_01_starting_take01', 'a3_pilot_01_02_opening_take01', 'a3_pilot_01_03_middlegame_take01', 'a3_pilot_01_04_endgame_take01', 'a3_pilot_01_05_puzzle_take01']"
+mean_probabilities,minimum_probability,0.8,True,0,5,0,[]
+mean_probabilities,mean_probability,0.9,True,2,5,2,"['a3_pilot_01_04_endgame_take01', 'a3_pilot_01_05_puzzle_take01']"
+mean_probabilities,minimum_probability,0.9,True,0,5,0,[]
+mean_probabilities,mean_probability,0.95,True,0,5,0,[]
+mean_probabilities,minimum_probability,0.95,True,0,5,0,[]
+mean_probabilities,mean_probability,0.99,True,0,5,0,[]
+mean_probabilities,minimum_probability,0.99,True,0,5,0,[]
+mean_logits,mean_probability,0.8,True,5,5,4,"['a3_pilot_01_01_starting_take01', 'a3_pilot_01_02_opening_take01', 'a3_pilot_01_03_middlegame_take01', 'a3_pilot_01_04_endgame_take01', 'a3_pilot_01_05_puzzle_take01']"
+mean_logits,minimum_probability,0.8,True,0,5,0,[]
+mean_logits,mean_probability,0.9,True,5,5,4,"['a3_pilot_01_01_starting_take01', 'a3_pilot_01_02_opening_take01', 'a3_pilot_01_03_middlegame_take01', 'a3_pilot_01_04_endgame_take01', 'a3_pilot_01_05_puzzle_take01']"
+mean_logits,minimum_probability,0.9,True,0,5,0,[]
+mean_logits,mean_probability,0.95,True,2,5,2,"['a3_pilot_01_04_endgame_take01', 'a3_pilot_01_05_puzzle_take01']"
+mean_logits,minimum_probability,0.95,True,0,5,0,[]
+mean_logits,mean_probability,0.99,True,0,5,0,[]
+mean_logits,minimum_probability,0.99,True,0,5,0,[]

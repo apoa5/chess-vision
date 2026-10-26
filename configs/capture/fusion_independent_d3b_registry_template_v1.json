@@ -1,0 +1,27 @@
+{
+  "schema_version": "fusion_independent_registry_d3b_v1",
+  "final_holdout": false,
+  "training_eligible": false,
+  "outcomes_inspected": false,
+  "used_for_tuning": false,
+  "sessions": [],
+  "session_example_not_collected": {
+    "session_id": null,
+    "position_id": null,
+    "position_group_id": null,
+    "independence_group_id": null,
+    "capture_date": null,
+    "source_video": {"path": null, "sha256": null},
+    "reference": {"path": null, "sha256": null},
+    "native_index": {"path": null, "sha256": null},
+    "fen": null,
+    "label_version": null,
+    "novel_position_attested": false,
+    "attestation": {"reviewer": null, "reviewer_kind": "human", "photo_fen_agreement": false, "unchanged_position": false},
+    "board_id": null,
+    "lighting": null,
+    "environment": null,
+    "device_metadata": {"device": "unknown", "lens": "unknown"},
+    "viewpoint_coverage": {"sides": "unknown", "elevation": "unknown"}
+  }
+}

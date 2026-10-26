@@ -1,0 +1,16 @@
+{
+  "schema_version": "input_representation_c1_preservation_v1",
+  "status": "passed",
+  "inherited_protected_files": 4866,
+  "d3c_original_videos": 10,
+  "diagnostic_source_files": 12,
+  "frozen_input_exact_matches": 14,
+  "reviewed_D2_cases": 10,
+  "provisional_D3c_cases": 4,
+  "new_classifier_inference": false,
+  "training": false,
+  "final_holdout_access": false,
+  "packet_files": 47,
+  "packet_bytes": 3673870,
+  "audit_sha256": "e2721eec4b754221a2a4b43b88cf14ee0badf761ad3e539fdb20f1a74f90e279"
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": "crop_representation_c3_index_v1",
+  "scope": "matched_two_seed_three_position_development_validation",
+  "report": "docs/evaluation/crop_representation_c3.md",
+  "decision": "retain_B2",
+  "artifacts": {
+    "configs/experiments/crop_representation_c3_v1.json": "86fae91ecc7e72898c51f9e440b4e3e8dd3d5b60d64406828e7bbc185cb2a918",
+    "docs/evaluation/crop_representation_c3_design_v1.md": "ca584c000ae657df35eff5cf4dab399831e4e447f50fa3ed5d9ab8d3ab9ea4ad",
+    "src/vision/crop_training_c3.py": "cb13226be11944901e70c57103a02236b80a66d31a4ae12f02935f2fe920309a",
+    "scripts/run_crop_representation_c3.py": "56006ed85b7709026e5874a1376bd483e0689bd447a4d7ba25f654a9f80fa506",
+    "scripts/complete_crop_representation_c3.py": "003dde356d6ccd01e827f6a7501bc17757d6bb3770ce2c26f37fca58899af98d",
+    "scripts/evaluate_crop_representation_c3.py": "aad281916706005a7de4580987bc4e347aa14374766a737261228b86d03b13af",
+    "scripts/report_crop_representation_c3.py": "7246c12429c384205625540d78e4232433b89617f5384f425ea74c1b3993a39e",
+    "scripts/validate_crop_representation_c3.py": "72d19f43e83d3ea7159d6472123315335bfceb5789d8e850adf8835434238502",
+    "tests/test_crop_training_c3.py": "a56536e510e296c132c4bda774aa93ebfd406f40b241d5cabeefa24de8eba4a9",
+    "docs/evaluation/crop_representation_c3.md": "6a9d61d94539c692b3c6cfbcc25ad06ac122e50911f726a03da2892ee82a80aa",
+    "docs/evaluation/crop_representation_c3_results_v1.json": "c5da6a0d3326e5dd20bdf747ab720ec546f6237e64e2e20db4ae401f23b211d6",
+    "docs/evaluation/crop_representation_c3_results_v1.csv": "1d548601a73bda0eb642c476231282799daa07c3ff37b445641a8452e681514e",
+    "docs/evaluation/crop_representation_c3_validation_v1.json": "e1cca3fbf01817907cf42811728dfa749d58f8c047899b05376f6e4973b0f9e2",
+    "docs/evaluation/crop_representation_c3_examples/index.html": "f8588529745cbf2144526dfc4ecc34150e3a75df77fd024d337ac3bc95aa4f51",
+    "docs/evaluation/crop_representation_c3_examples/position_003_var_02_r2_c5.jpg": "c203646d0b6291a41a84256ab3d1816c200e170852367b1421071582541761ae",
+    "docs/evaluation/crop_representation_c3_examples/position_003_var_02_r2_c5_source.jpg": "f7e073a3c350eb26f68fb51d8956e7edf4d965cf16d6fa07eccd9d1c84bb065d",
+    "docs/evaluation/crop_representation_c3_examples/position_007_var_06_r2_c0.jpg": "2ef6ff16c36f6e53b3048a1cbe56854e94367c94000d9a1b5f174c473ab1851d",
+    "docs/evaluation/crop_representation_c3_examples/position_007_var_06_r2_c0_source.jpg": "96cc7fb2b1176f22663a3d5be577ec26771fb4729799237255b00880d687f238",
+    "docs/evaluation/crop_representation_c3_examples/position_007_var_09_r2_c3.jpg": "0d3a9dfdc103033fde9be7ee606eca65acbd9fcc6be3a8dfa794533b6a921484",
+    "docs/evaluation/crop_representation_c3_examples/position_007_var_09_r2_c3_source.jpg": "fb086a02db9df29dca85ba4e013956954b028cee447a8d632a806d403bbe9679",
+    "docs/evaluation/crop_representation_c3_examples/position_011_var_03_r1_c4.jpg": "54089b2c45f252a23be9473ec2d9e3715ab2dea5a76bdf4767f03ffd698a5a35",
+    "docs/evaluation/crop_representation_c3_examples/position_011_var_03_r1_c4_source.jpg": "019d9fcbf303cb9aa0e72174d47512ad5d4be6f3f462959c12fc9280c121f129",
+    "docs/evaluation/crop_representation_c3_examples/position_011_var_03_r4_c4.jpg": "dc988189dd657acb4112cbddc798dde70dbc3e4a80c6689d8983276c10b047b2",
+    "docs/evaluation/crop_representation_c3_examples/position_011_var_03_r4_c4_source.jpg": "b8fdfea6c1ae1f76c1bb144bf94c27d1e5dd4e9ff59a493d85ca8b1ff186a59c",
+    "docs/evaluation/crop_representation_c3_examples/position_011_var_07_r2_c3.jpg": "0a845f325518c594b433d899130826e31dea57e077f8373ce773bf7037e920ea",
+    "docs/evaluation/crop_representation_c3_examples/position_011_var_07_r2_c3_source.jpg": "395592da1030af87972e11e08a57bd0529df02cc1a7a3c6ef6ae8d657603db3a",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/index.html": "b51022f314de6f6a3493ff9c665c03502af5dc0576f8fc6b376ce02efe8f38ae",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_01_r0_c4.jpg": "f119520fed3c6d2751a3323fe5aa864de275709e25afc1226f496c142e2903a7",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_01_r0_c4_source.jpg": "0f40db82678731126c0646a3ba83c1301fb4cdb1a20844d2a5f0d2cc6a3e0af7",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_03_r0_c0.jpg": "0bfab3a963b1028d04406fb515514392c1d46a9213b1908b275d3c96bc44b964",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_03_r0_c0_source.jpg": "8217409ddeeba1c980bdd3149e09af036854162501830e0cb6ca227dc40dd31f",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_03_r0_c1.jpg": "7d381c8d799607e2289a120bffc33421ddafada255fa1ec402a3a10a289c22fe",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_03_r0_c1_source.jpg": "7f1e29ca09878bf387d143d322056e0b77cf89d9292253ce81a90ca21d431f5d",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_03_r0_c4.jpg": "4490f2362c5bae480e5400be32580cd22c3abd6f4e845d8f7f6389894b7b2a11",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_03_r0_c4_source.jpg": "f26d4a0230dbfd1ef4568ee55f4229d14824aa68508e1499909fd8502b4349cb",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_03_r7_c4.jpg": "afae309b9be3debfc195bc06240bad4c2d3cdd74ac64d58982aed83f4cb3b73d",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_03_r7_c4_source.jpg": "78e1abb212d9d26ff6752056ba399d58f96477abb3c3fefbad4af95fc6d89ab0",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_04_r4_c0.jpg": "32e27ed6399cee409022b357a090b95591beff2469d60baeed3cfc0c8132afae",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_04_r4_c0_source.jpg": "428244c8b296cf2b558812ba594add6f24234c579e763f62198a30165cb5caad",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_06_r3_c0.jpg": "94e9bea102b3e08ae2864ca5169a87d558c07547163040d6402aa3e12298e5f3",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_06_r3_c0_source.jpg": "6721176edc4826d214dcea3512784cf5c1f16b38c213748c61f44a5eda207ef6",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_07_r0_c3.jpg": "70bfe596992c6402f30a039623234472483810c36c7f946d0e183a818cc0de5d",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_001_var_07_r0_c3_source.jpg": "7dec849b1ebbaec4061bf42575168c2956f8d16ae8bac194250936291e5d1226",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_002_var_07_r1_c3.jpg": "3f7e96d80057de35075d11321426863548f9b9d77407b94ba2f6cf369d64be1c",
+    "docs/evaluation/crop_representation_c3_examples/pretraining/position_002_var_07_r1_c3_source.jpg": "d189f65e9031ab56771082906688d1adeeb02da58ff5d7335f9c195e9de1e9db"
+  },
+  "run_registration": {
+    "path": "outputs/evaluation/crop_representation_c3_run2/registration.json",
+    "sha256": "c1e183a401a44a811fb023d59e37689d066c35efa1579066c07f2a11d32ac4fe"
+  },
+  "input_hashes": {
+    "path": "outputs/evaluation/crop_representation_c3_run2/input_hashes.json",
+    "sha256": "8813835bf3bd6d0c377869e4f3f895346eaccdad42daf727ad05077891e0e9ca"
+  },
+  "environment": {
+    "path": "outputs/evaluation/crop_representation_c3_run2/environment.json",
+    "sha256": "1eb2eea306200a54f08b8d190c6d57bb5be59c60d03ca24c3f2a7c1832dc5286"
+  },
+  "experimental_checkpoints": [
+    {
+      "arm": "b2",
+      "seed": 42,
+      "role": "best",
+      "path": "outputs/evaluation/crop_representation_c3_run2/training/b2_seed42/best.pt",
+      "sha256": "cd73a622413aeb8a1e78fedb886cd5aca8e01bf02445d611998413562198f9df",
+      "bytes": 6246889
+    },
+    {
+      "arm": "b2",
+      "seed": 42,
+      "role": "last",
+      "path": "outputs/evaluation/crop_representation_c3_run2/training/b2_seed42/last.pt",
+      "sha256": "2645cb71d638c5911dcef01ea7fb8d3c88ed75c2a16018ced8148ab86aed94d0",
+      "bytes": 6246889
+    },
+    {
+      "arm": "taller",
+      "seed": 42,
+      "role": "best",
+      "path": "outputs/evaluation/crop_representation_c3_run2/training/taller_seed42/best.pt",
+      "sha256": "f4c9f9db8afef411b42528153051bce45cfbe11be9850c2a4087b6e22c5c4d67",
+      "bytes": 6246889
+    },
+    {
+      "arm": "taller",
+      "seed": 42,
+      "role": "last",
+      "path": "outputs/evaluation/crop_representation_c3_run2/training/taller_seed42/last.pt",
+      "sha256": "1249d36b2eb4ea6b4f4393f10a8d445364e057d1df8de7fb8b2c7f9ac2862dbd",
+      "bytes": 6246889
+    },
+    {
+      "arm": "b2",
+      "seed": 43,
+      "role": "best",
+      "path": "outputs/evaluation/crop_representation_c3_run2/training/b2_seed43/best.pt",
+      "sha256": "f4b88b63a2ef7f3e456cc9798e21e01645ec195ac952efd3e4a99e3bc4fbdeef",
+      "bytes": 6246889
+    },
+    {
+      "arm": "b2",
+      "seed": 43,
+      "role": "last",
+      "path": "outputs/evaluation/crop_representation_c3_run2/training/b2_seed43/last.pt",
+      "sha256": "98a47f0d2ba6fde44340fbdd7859aff32c2a81ac5cd122861b8e311c7f0d906e",
+      "bytes": 6246889
+    },
+    {
+      "arm": "taller",
+      "seed": 43,
+      "role": "best",
+      "path": "outputs/evaluation/crop_representation_c3_run2/training/taller_seed43/best.pt",
+      "sha256": "a6cf25a033357331be85e93ec8a92a0d74dac409b496a498461b32391dcd594c",
+      "bytes": 6246889
+    },
+    {
+      "arm": "taller",
+      "seed": 43,
+      "role": "last",
+      "path": "outputs/evaluation/crop_representation_c3_run2/training/taller_seed43/last.pt",
+      "sha256": "dedee0bfee61de3be7f84b4fb7cb0cf938f6f5d2964edd988248c06456d00d87",
+      "bytes": 6246889
+    }
+  ],
+  "initialization_policy": "same_seed_ImageNet_MobileNetV3_Small_RGB; zero_mask_stem; new_13_class_head; no_chess_checkpoint_warm_start",
+  "no_production_promotion": true,
+  "no_D2_D3c_training_or_selection": true,
+  "final_holdout_access": false,
+  "native_full_crop_dataset_persisted": false
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "crop_representation_c3_validation_v1",
+  "status": "passed",
+  "matched_seeds": [
+    42,
+    43
+  ],
+  "epochs_per_arm": 6,
+  "training_arms": 4,
+  "validation_boards": 25,
+  "validation_positions": 3,
+  "all_initialization_and_epoch_order_pairs_match": true,
+  "all_best_and_last_predictions_replayed": true,
+  "protected_historical_artifacts": 4948,
+  "original_D3c_videos": 10,
+  "historical_native_sources": 137,
+  "new_native_crop_datasets_persisted": 0,
+  "total_arm_seconds": 3538.6589686170046,
+  "training_or_selection_on_D2_D3c_or_holdout": false,
+  "production_changes": false,
+  "config_sha256": "86fae91ecc7e72898c51f9e440b4e3e8dd3d5b60d64406828e7bbc185cb2a918",
+  "tests": {
+    "training_dataset_crop_passed": 84,
+    "inference_geometry_chess_passed": 286,
+    "total_python_passed": 370,
+    "focused_C3_included": 17,
+    "browser_passed": 39,
+    "targeted_failures": 0,
+    "broad_suite": {
+      "status": "incomplete_external_termination",
+      "exit_code": 143,
+      "assertion_failure_visible": false,
+      "reported_as_pass": false
+    }
+  },
+  "commands": [
+    ".venv/bin/python scripts/run_crop_representation_c3.py prepare --run outputs/evaluation/crop_representation_c3_run2",
+    ".venv/bin/python scripts/run_crop_representation_c3.py train --run outputs/evaluation/crop_representation_c3_run2 --arm b2 --seed 42",
+    ".venv/bin/python scripts/complete_crop_representation_c3.py --run outputs/evaluation/crop_representation_c3_run2",
+    ".venv/bin/python scripts/report_crop_representation_c3.py --run outputs/evaluation/crop_representation_c3_run2 --output docs/evaluation/crop_representation_c3_results_v1.json --examples docs/evaluation/crop_representation_c3_examples",
+    "TORCH_HOME=\"$PWD/models/cache\" outputs/evaluation/chessqueries_c2_env/bin/python -m pytest -q tests/test_crop_training_c3.py tests/test_classifier.py tests/test_training.py tests/test_dataset.py tests/test_dataset_splits.py tests/test_classification_dataset.py tests/test_crop_experiments.py tests/test_input_representations.py",
+    "TORCH_HOME=\"$PWD/models/cache\" outputs/evaluation/chessqueries_c2_env/bin/python -m pytest -q tests/test_chessqueries_offline.py tests/test_independent_d3c.py tests/test_fusion_reliability.py tests/test_offline_fusion.py tests/test_square_evidence.py tests/test_video_keyframes.py tests/test_keyframe_manifest.py tests/test_geometry_audit.py tests/test_geometry_reliability.py tests/test_scan_recognition.py tests/test_inference.py tests/test_validation.py tests/test_fen.py",
+    "PATH=\"$PWD/tools/node/bin:$PATH\" npm --prefix web test",
+    ".venv/bin/python scripts/validate_crop_representation_c3.py --run outputs/evaluation/crop_representation_c3_run2 --results docs/evaluation/crop_representation_c3_results_v1.json --output outputs/evaluation/crop_representation_c3_validation_final_v1.json"
+  ],
+  "logs": {
+    "training_regressions": {
+      "path": "outputs/evaluation/crop_representation_c3_run2/verification_logs/training_regressions.log",
+      "sha256": "8c47875f373d98155b613b51055118570954f5c2eb55ae355fe471c5198a11e8"
+    },
+    "inference_regressions": {
+      "path": "outputs/evaluation/crop_representation_c3_run2/verification_logs/inference_regressions.log",
+      "sha256": "8f8a5e61fb04e4139a4ac75a599ceba4398cb9d1bbc135ca67addf5c3f1e0b86"
+    },
+    "browser": {
+      "path": "outputs/evaluation/crop_representation_c3_run2/verification_logs/browser.log",
+      "sha256": "37fa4c27554cdab6e7c39574ed3ca03a5b436cd080075805d952b2df596fd79a"
+    },
+    "broad_interrupted": {
+      "path": "outputs/evaluation/crop_representation_c3_run2/verification_logs/broad_interrupted.log",
+      "sha256": "8b6a2567bea5cf128ecb473d33b8255a5ab05e5dc5ab64e5ada028eb5629b404"
+    },
+    "preservation": {
+      "path": "outputs/evaluation/crop_representation_c3_run2/verification_logs/preservation.log",
+      "sha256": "c9f835e4f97793970f85157d5831d07e3e228dd323251942ed1f25eb415e4589"
+    },
+    "report": {
+      "path": "outputs/evaluation/crop_representation_c3_run2/verification_logs/report.log",
+      "sha256": "b37c3f087a6d2227aadff30965909012630f838944a290244576b52b3fa2f2ac"
+    },
+    "orchestration": {
+      "path": "outputs/evaluation/crop_representation_c3_run2/verification_logs/orchestration.log",
+      "sha256": "0a43869ba286f347bfaa50a6b71aa2f0c615606a8c0056958c2c6b6213fa2cb5"
+    }
+  }
+}

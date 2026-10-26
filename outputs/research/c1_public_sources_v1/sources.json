@@ -1,0 +1,133 @@
+{
+  "inspected_revision": "f5aaaf38212cc7839b03ccf383455053905b3f7e",
+  "sources": [
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_chessqueries_core_board.py",
+      "url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/core/board.py",
+      "resolved_url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/core/board.py",
+      "bytes": 3574,
+      "sha256": "f05b7535496d9ef0951f346be5d9c59ea8549083b51ad4321b8c6b0780e34239",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_chessqueries_core_pieces.py",
+      "url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/core/pieces.py",
+      "resolved_url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/core/pieces.py",
+      "bytes": 2406,
+      "sha256": "5945493200be6ead70451a324587abf6d128301401a970d6df18d93660deb1be",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_chessqueries_core_square.py",
+      "url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/core/square.py",
+      "resolved_url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/core/square.py",
+      "bytes": 1561,
+      "sha256": "9b46d92692c66f1cba3eda7f952b02ca6fb32714ecf9f11a8fa62b262966f077",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_chessqueries_data_transforms.py",
+      "url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/data/transforms.py",
+      "resolved_url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/data/transforms.py",
+      "bytes": 3496,
+      "sha256": "9565975efb06415ea5cf8131bf37bd86161456dac6aa03887f1aff04ea5c9fd7",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_chessqueries_models_checkpoint.py",
+      "url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/models/checkpoint.py",
+      "resolved_url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/models/checkpoint.py",
+      "bytes": 5052,
+      "sha256": "09fe260f67b6871f189e1afefd38e20eea69c3fd2de3cd6b01f300338255857f",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_chessqueries_models_chessqueries_model.py",
+      "url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/models/chessqueries_model.py",
+      "resolved_url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/models/chessqueries_model.py",
+      "bytes": 6943,
+      "sha256": "4f2ab50973e3c704adf56ae3dc16b7d278b1d694bc082336e341d9ecc989a0cb",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_chessqueries_models_predictor.py",
+      "url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/models/predictor.py",
+      "resolved_url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/models/predictor.py",
+      "bytes": 7228,
+      "sha256": "c15602f27d75b20119416a5929dce261f43b049da7724b7e8c93222dec431953",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_chessqueries_data_download.py",
+      "url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/data/download.py",
+      "resolved_url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/chessqueries/data/download.py",
+      "bytes": 15981,
+      "sha256": "363499fc073b6c128c6802b1bf9a6361c2c1c529e32368bf8dbc618c61fb7eb4",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_pyproject.toml",
+      "url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/pyproject.toml",
+      "resolved_url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/pyproject.toml",
+      "bytes": 6170,
+      "sha256": "e8ab9c69cb7c478330e3dd3e00449bac9a40650069b0f432d2f58618ffac88ce",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_LICENSE",
+      "url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/LICENSE",
+      "resolved_url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/LICENSE",
+      "bytes": 4563,
+      "sha256": "c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_DEVELOPMENT.md",
+      "url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/DEVELOPMENT.md",
+      "resolved_url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/DEVELOPMENT.md",
+      "bytes": 6091,
+      "sha256": "def51eef257cba3f03ca1bbf654cce5630580a318e22c7b7f8be3657076a80cb",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_minimal_reproduction_README.md",
+      "url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/minimal_reproduction/README.md",
+      "resolved_url": "https://raw.githubusercontent.com/JSeytre/chessqueries/f5aaaf38212cc7839b03ccf383455053905b3f7e/minimal_reproduction/README.md",
+      "bytes": 3261,
+      "sha256": "a79cac528588640c32653e39a9ee217cbbe5fe8bab42ee1d772e95577c2e8203",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/chesscog_recognition.py",
+      "url": "https://raw.githubusercontent.com/georg-wolflein/chesscog/master/chesscog/recognition/recognition.py",
+      "resolved_url": "https://raw.githubusercontent.com/georg-wolflein/chesscog/master/chesscog/recognition/recognition.py",
+      "bytes": 9774,
+      "sha256": "264a17a4a574d06fb34ea15244e6a403ac42807a34b1655b60bdbb0b64f4243d",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/masouris_README.md",
+      "url": "https://raw.githubusercontent.com/tmasouris/end-to-end-chess-recognition/master/README.md",
+      "resolved_url": "https://raw.githubusercontent.com/tmasouris/end-to-end-chess-recognition/master/README.md",
+      "bytes": 6730,
+      "sha256": "f942a4f3fb64234bd995346b3facbbb96ba9f4cea3fbaeade34c78a9b3b5f225",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_small_manifest.json",
+      "url": "https://huggingface.co/joelseytre/chessqueries/resolve/main/chessquerieslite-vits-644-safetensors-fp16-r1.json",
+      "resolved_url": "https://huggingface.co/api/resolve-cache/models/joelseytre/chessqueries/da15d43055c391eeacca7f55dd66c32d47ce2dfb/chessquerieslite-vits-644-safetensors-fp16-r1.json?%2Fjoelseytre%2Fchessqueries%2Fresolve%2Fmain%2Fchessquerieslite-vits-644-safetensors-fp16-r1.json=&etag=%22c2bac512b3b776d7ee48d187d739dab524557218%22",
+      "bytes": 3290,
+      "sha256": "adc5f95ce74ef6ae6234c79e44889ca5eb0339460be4c175b1b62ea2ee8ff48a",
+      "status": "downloaded"
+    },
+    {
+      "path": "outputs/research/c1_public_sources_v1/cq_lite_manifest.json",
+      "url": "https://huggingface.co/joelseytre/chessq-lite/resolve/main/cq-vit-s-644-v4-seed2-safetensors-fp16-r2.json",
+      "resolved_url": "https://huggingface.co/api/resolve-cache/models/joelseytre/chessq-lite/7b33e1d47be02ce67b8e30ff7f09418166037d99/cq-vit-s-644-v4-seed2-safetensors-fp16-r2.json?%2Fjoelseytre%2Fchessq-lite%2Fresolve%2Fmain%2Fcq-vit-s-644-v4-seed2-safetensors-fp16-r2.json=&etag=%22e0c7d12949156c0df55df60dc9aad60ee1dd8cdd%22",
+      "bytes": 3100,
+      "sha256": "4a2db54a51c54b63d7a6326513bca2db074ba6c5d732f817fe49aa994e8b9799",
+      "status": "downloaded"
+    }
+  ]
+}

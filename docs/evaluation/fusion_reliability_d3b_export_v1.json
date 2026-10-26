@@ -1,0 +1,18 @@
+{
+  "schema_version": "fusion_reliability_export_d3b_v1",
+  "uncompressed_result_sha256": "347bfaa9af5c053157890dffe222c39537e4e9816422a461c17a8ef29a68d302",
+  "artifacts": {
+    "fusion_reliability_d3b_board_probes.csv": "442063e0d2ef85ba272b54a52b7ae049bf02bd268d44794a0a90ef8c2de7183b",
+    "fusion_reliability_d3b_boards.csv": "843203952ca33d33b3819b84a9521f4b4d1107863f238018645ffa504be9c131",
+    "fusion_reliability_d3b_examples/board_mean_risk.svg": "37f5546c2c48a3c752b93375ac1270b6e47d7d780a9dd6ab9a9735498612fb80",
+    "fusion_reliability_d3b_examples/cases_v1.json": "85fd465ce740bfdc75ba0560a9f9c3c328468363d450b96ea26da86c90444694",
+    "fusion_reliability_d3b_examples/confidence_bins.csv": "e165004998d1fd881dfd63b8e5e44647613335e0e13ed2d6b106d7fd9ef8ef68",
+    "fusion_reliability_d3b_examples/index.html": "594e137097461ca7a4882de99222450cd217a1110862d9ea28f5e3695de61f63",
+    "fusion_reliability_d3b_examples/occupied_risk_coverage.svg": "735f985f7bafc51675a159f6e8d2c7ac3b8d5557eeb8935dfd8b522209e28ef6",
+    "fusion_reliability_d3b_examples/reliability.svg": "261225ab808e749d292e0b4ed97cd01bf052188d676e16a1f29f68b02b3af015",
+    "fusion_reliability_d3b_functional_v1.json": "003cbb025393b4aed506ae812aec7f6b12b811e4f292274ea47eba1cbb40885b",
+    "fusion_reliability_d3b_matched_coverage.csv": "f27b2764aebed24ca658ec643b7a85ce8092a377c2b1abc62d473de940fba096",
+    "fusion_reliability_d3b_results_v1.json.gz": "0c56c232a72a6fc9d8a26a2c11db94e1ed15b7a8856b7cdda9c22f7fef3cdec0",
+    "fusion_reliability_d3b_summary_v1.json": "be27a718444b25539e0fa495a87eba0acd1dc1d41cae2447e56eaafa667b35a2"
+  }
+}

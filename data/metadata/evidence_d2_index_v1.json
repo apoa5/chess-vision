@@ -1,0 +1,30 @@
+{
+  "schema_version": "offline_evidence_artifacts_d2_v1",
+  "designation": "development_only",
+  "primary_evidence_manifest": "data/metadata/evidence_d2_manifest_v1.json",
+  "observations_path": "outputs/scanning/d2_pilot_run1/observations.jsonl",
+  "observations_sha256": "026ba32480584afec8ec22f097b4ab2a6d8dc52b12c116da1795dff02932cf4b",
+  "inference_ground_truth_used": false,
+  "evaluation_ground_truth_correction": "data/metadata/evidence_d2_ground_truth_corrections_v1.json",
+  "D3_input_warning": "Consume unfused evidence only; oracle/GT characterization is evaluation-only.",
+  "artifacts": {
+    "data/metadata/evidence_d2_manifest_v1.json": "936f1851250bed582df073f9fcfe1c7bfbebfd69a01b54d7f1098d8732355cf5",
+    "docs/evaluation/evidence_d2_geometry_review_v1/packet.json": "6f7161f896eeb254551d25a454b0799e68b99053307b41714cc6afb1574d84f8",
+    "data/metadata/evidence_d2_geometry_reviews_v1.json": "4719f4a52bbadac9a6acd9a98090836214552268892301fd2f3fb580490a7a4b",
+    "data/metadata/evidence_d2_ground_truth_corrections_v1.json": "bd68d33dacd2dfc77ec322da97d953cc9d89bf7a99ace11d39b1786956a57202",
+    "outputs/scanning/d2_pilot_run1/evidence.json": "936f1851250bed582df073f9fcfe1c7bfbebfd69a01b54d7f1098d8732355cf5",
+    "outputs/scanning/d2_pilot_run1/observations.jsonl": "026ba32480584afec8ec22f097b4ab2a6d8dc52b12c116da1795dff02932cf4b",
+    "outputs/scanning/d2_pilot_run1/input_validation.json": "9e6c7c136da1931a7b32b60ec221f550a5fb4266b814c814e8d4d8fce95e85f9",
+    "outputs/scanning/d2_pilot_run1/preservation.json": "23360b2c4d3731c68818a8d1a095a12b685a4d696c951aa7ad2871b9f8783548",
+    "outputs/scanning/d2_pilot_run1/run_summary.json": "6972e4e15c08e985b7bb98621c180b33fa371d27feafe0fb31cb68379ac0f9e6",
+    "outputs/scanning/d2_pilot_run1/analysis_run1/characterization.json": "ff33bee345995acae1cbe1afd3eafac11ff61788aeb48a6372326683c38ce1ca",
+    "outputs/scanning/d2_pilot_run1/analysis_corrected_v1/characterization.json": "93ce19bcd5d754e58ba179fa378d24204033f2a1bfc538a3fbf7ab252d928f3b",
+    "outputs/scanning/d2_pilot_run1/metric_crosscheck.json": "ac29bee5009b8456d3ce1097e85b4781e122a91bf8c6fec27ccd7214796c0855",
+    "outputs/scanning/d2_pilot_run1/final_preservation.json": "5f8bb0e4036cdb473bdc0f2a723371f7b56ff75b438744601eda7f7baef319cd",
+    "docs/evaluation/evidence_d2_validation.json": "0df7b3d0df740b7b201cf27d6378ceb7fa4b189fe6958f529049f4ffc4b0f481",
+    "docs/evaluation/evidence_d2_results_corrected_v1.json": "93ce19bcd5d754e58ba179fa378d24204033f2a1bfc538a3fbf7ab252d928f3b",
+    "docs/evaluation/evidence_d2_comparison.csv": "c6da871ae87ada2937375e680c7f5b21cd28f0b3fedc573a039d51823022e74d",
+    "docs/evaluation/evidence_d2_per_class.csv": "40d84297e982daab2deabe4cb76344a8a63e87e95d6daaa2134f233b2031a6f9",
+    "docs/evaluation/evidence_d2_pair_summary.csv": "f7f8f25c2c419f16d26f6083edad079d0ad0a83db7b8b873d9e347c07554beec"
+  }
+}

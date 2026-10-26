@@ -1,0 +1,3384 @@
+{
+  "schema_version": "input_representation_c1_v1",
+  "cases": [
+    {
+      "case_id": "D2_king_rook",
+      "verification": "D2_human_geometry_and_owner_corrected_FEN",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "position_id": "a3_pilot_01_05_puzzle",
+      "canonical_square": "b3",
+      "observation_id": "cfb43079d1a047dce14a4240c1b31b845f845ad4f299a813a55e0ea9caeeb8a7",
+      "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001260",
+      "timestamp_ms": 42006.666666666664,
+      "true_class_id": 6,
+      "predicted_class_id": 4,
+      "frozen_probabilities": [
+        6.926108509601313e-06,
+        0.0010261324836863257,
+        0.00033419580863832863,
+        0.00015405611913685705,
+        0.9848216797501131,
+        9.636770539325155e-06,
+        0.013601731102859704,
+        3.47532360914248e-07,
+        2.9396879961775756e-07,
+        1.7779601921352518e-07,
+        4.8481316355099315e-06,
+        5.887435804651897e-08,
+        3.991555334330094e-05
+      ],
+      "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001260/pair.json",
+      "source": {
+        "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001260.png",
+        "sha256": "56daf9fa073d4b93c0d0ae4f3bfd088ce0bd7582f5d04504d97555c58769bbc9"
+      },
+      "source_target_polygon": [
+        [
+          609.5363159179688,
+          778.914306640625
+        ],
+        [
+          667.7622680664062,
+          766.7247314453125
+        ],
+        [
+          695.3652954101562,
+          801.01513671875
+        ],
+        [
+          635.8539428710938,
+          813.8980712890625
+        ]
+      ],
+      "source_square_mean_edge_px": 52.043914794921875,
+      "native_annotation_window_xyxy": [
+        505,
+        610,
+        800,
+        918
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "2aef516195b00c5797472ffb39a14d136ab6b5dffc806bf5056fc35ca3a5a510",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5241,
+          "target_equivalent_width": 72.39475119095306,
+          "target_mask_bbox_wh": [
+            74,
+            74
+          ],
+          "raw_to_input": [
+            [
+              2.021351520479239,
+              -1.2956289384253994,
+              -80.06556667532959
+            ],
+            [
+              0.7784060322321827,
+              3.5352205972949715,
+              -3084.527131882937
+            ],
+            [
+              -1.7369291461110505e-05,
+              0.0011901774381515655,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              524.7996826171875,
+              756.9598388671875
+            ],
+            [
+              703.6614379882812,
+              717.5769653320312
+            ],
+            [
+              785.8516845703125,
+              824.1267700195312
+            ],
+            [
+              596.8465576171875,
+              869.3623657226562
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.7027481355714804,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "28086b3c1391796d3c3d0e6eb7f9362df129dfa7e6d4e4d3d836b57ae2aa4a85",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 3161,
+          "target_equivalent_width": 56.22277118748239,
+          "target_mask_bbox_wh": [
+            98,
+            55
+          ],
+          "raw_to_input": [
+            [
+              1.1397058823529411,
+              0.0,
+              -639.5661764705883
+            ],
+            [
+              0.0,
+              1.1370558375634519,
+              -724.3045685279188
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              591.0,
+              637.0
+            ],
+            [
+              727.0,
+              637.0
+            ],
+            [
+              727.0,
+              834.0
+            ],
+            [
+              591.0,
+              834.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.002330619747899,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 1672.4995579579388,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.6919642857142857,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "877a85a312612ce6529641c54ccd17a77fd45a3593cb14cadb2e7f18650e8cb2",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 1902,
+          "target_equivalent_width": 43.61192497471305,
+          "target_mask_bbox_wh": [
+            45,
+            45
+          ],
+          "raw_to_input": [
+            [
+              1.2136481747216008,
+              -0.7251982751525952,
+              -3.392685767014399
+            ],
+            [
+              0.46688851012606414,
+              2.1771684119768095,
+              -1808.4683966003274
+            ],
+            [
+              -1.7369291461110505e-05,
+              0.0011901774381515655,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              442.44464111328125,
+              735.7703857421875
+            ],
+            [
+              735.009765625,
+              673.030517578125
+            ],
+            [
+              877.2471923828125,
+              847.6422119140625
+            ],
+            [
+              556.5157470703125,
+              926.6729736328125
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.7027481355714806,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.34078015698469244,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D2_king_correct",
+      "verification": "D2_human_geometry_and_owner_corrected_FEN",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "position_id": "a3_pilot_01_05_puzzle",
+      "canonical_square": "b3",
+      "observation_id": "55cc01abd8e271992259b8a240ca0f8e3cea74b61ada07247334cfee95e8269d",
+      "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001530",
+      "timestamp_ms": 51006.666666666664,
+      "true_class_id": 6,
+      "predicted_class_id": 6,
+      "frozen_probabilities": [
+        1.6401535432551544e-10,
+        5.839467660208183e-10,
+        2.9734352063568364e-09,
+        4.089667648143521e-11,
+        5.143971102197386e-07,
+        1.2835239517714872e-06,
+        0.9999981965876177,
+        1.24390740756779e-14,
+        6.518793203139304e-13,
+        1.498020323661834e-13,
+        6.410189487278501e-14,
+        6.592804742562298e-13,
+        1.7274888504809067e-09
+      ],
+      "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001530/pair.json",
+      "source": {
+        "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001530.png",
+        "sha256": "d181e11a0db6e47a41ebc8b27dea63db588a6473af5d158de24cb839e903c0dc"
+      },
+      "source_target_polygon": [
+        [
+          391.5965270996094,
+          624.3363647460938
+        ],
+        [
+          474.4148864746094,
+          625.6162109375
+        ],
+        [
+          474.6808166503906,
+          694.558837890625
+        ],
+        [
+          390.2850646972656,
+          693.4476928710938
+        ]
+      ],
+      "source_square_mean_edge_px": 76.32455444335938,
+      "native_annotation_window_xyxy": [
+        237,
+        395,
+        628,
+        848
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "f90bf3dc401d883b2b7b82ddb041c068f19b76c41a7af491575726fc797d6cab",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5574,
+          "target_equivalent_width": 74.65922581972036,
+          "target_mask_bbox_wh": [
+            73,
+            79
+          ],
+          "raw_to_input": [
+            [
+              1.0845905903075197,
+              0.054127951561897106,
+              -364.0593271887511
+            ],
+            [
+              -0.07031632243731566,
+              1.435534095069516,
+              -774.6783310403396
+            ],
+            [
+              -0.00013692955847073457,
+              0.0004906458346534015,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              307.98065185546875,
+              554.7304077148438
+            ],
+            [
+              555.6331176757812,
+              566.861083984375
+            ],
+            [
+              565.8067016601562,
+              770.2825317382812
+            ],
+            [
+              297.62347412109375,
+              762.2623291015625
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.26075770914269,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "881c5bf34e33295932bf9fa28173642e1461866bafa2996c56308c6aa6e8c41f",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5248,
+          "target_equivalent_width": 72.44308110509934,
+          "target_mask_bbox_wh": [
+            81,
+            68
+          ],
+          "raw_to_input": [
+            [
+              0.9455782312925171,
+              0.0,
+              -298.40816326530614
+            ],
+            [
+              0.0,
+              0.9451476793248945,
+              -459.34177215189874
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              360.0,
+              486.0
+            ],
+            [
+              507.0,
+              486.0
+            ],
+            [
+              507.0,
+              723.0
+            ],
+            [
+              360.0,
+              723.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0004555393586005,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 1978.9163021916784,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.6205357142857143,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "a13f4f2bd7cefdbb00f437bf83117b80199e16a36d0136eda7a3c9418b7497e2",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 2058,
+          "target_equivalent_width": 45.36518488885502,
+          "target_mask_bbox_wh": [
+            45,
+            48
+          ],
+          "raw_to_input": [
+            [
+              0.648111740761392,
+              0.05445508724415259,
+              -175.14689576464355
+            ],
+            [
+              -0.04849877803708018,
+              0.8876841896773194,
+              -422.8218504687763
+            ],
+            [
+              -0.00013692955847073457,
+              0.0004906458346534015,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              229.16885375976562,
+              488.8408203125
+            ],
+            [
+              629.7533569335938,
+              510.726806640625
+            ],
+            [
+              657.197998046875,
+              846.6890869140625
+            ],
+            [
+              199.98251342773438,
+              836.2097778320312
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.26075770914269,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.016100015986012295,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D2_knight_rook",
+      "verification": "D2_human_geometry_and_owner_corrected_FEN",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "position_id": "a3_pilot_01_02_opening",
+      "canonical_square": "f3",
+      "observation_id": "9d009de624d2850df10ae6f99aa62b7800aa371f9cb2e0ce4f60891df754c817",
+      "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001890",
+      "timestamp_ms": 63010.0,
+      "true_class_id": 2,
+      "predicted_class_id": 4,
+      "frozen_probabilities": [
+        2.50961001213298e-07,
+        0.0005513507968902216,
+        0.0011797925521287794,
+        0.0013934117898550763,
+        0.9968722808398947,
+        2.4053410960069647e-07,
+        2.641135183232922e-06,
+        1.1004752206955849e-10,
+        2.093120443416575e-08,
+        7.929669238305547e-11,
+        1.0260253012685043e-08,
+        8.009678237543254e-13,
+        9.334451445625301e-12
+      ],
+      "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001890/pair.json",
+      "source": {
+        "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001890.png",
+        "sha256": "86e9137c87fac1cc2dd2e086fe126cf1db3c61bced5b3ef7223ab6a4563e2f17"
+      },
+      "source_target_polygon": [
+        [
+          322.86328125,
+          935.1751708984375
+        ],
+        [
+          407.01123046875,
+          935.2814331054688
+        ],
+        [
+          407.32861328125,
+          1014.8510131835938
+        ],
+        [
+          321.82232666015625,
+          1015.1375122070312
+        ]
+      ],
+      "source_square_mean_edge_px": 82.29853057861328,
+      "native_annotation_window_xyxy": [
+        157,
+        688,
+        572,
+        1180
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "b1e2cec63be3dd976ec20d3334c1da1a8a8c153af92250780bbbacd38d8258f3",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5499,
+          "target_equivalent_width": 74.15524256584965,
+          "target_mask_bbox_wh": [
+            77,
+            75
+          ],
+          "raw_to_input": [
+            [
+              1.2172968745319075,
+              0.07672916628059184,
+              -364.0900082173484
+            ],
+            [
+              -0.025479356301736103,
+              1.3147221646857268,
+              -1116.6901260153177
+            ],
+            [
+              -2.7780501240837798e-05,
+              0.0004131934397701489,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              245.2594757080078,
+              854.1265869140625
+            ],
+            [
+              491.7641906738281,
+              858.9038696289062
+            ],
+            [
+              494.94451904296875,
+              1104.7763671875
+            ],
+            [
+              229.72381591796875,
+              1100.5975341796875
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0399831042387904,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "fa7631e6fccf0ccecc3c2d9e8d5c13b390b57ef339e0149ab9548d789686bfff",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 8048,
+          "target_equivalent_width": 89.71064596802321,
+          "target_mask_bbox_wh": [
+            93,
+            87
+          ],
+          "raw_to_input": [
+            [
+              1.0784313725490196,
+              0.0,
+              -279.4313725490196
+            ],
+            [
+              0.0,
+              1.0769230769230769,
+              -901.3846153846154
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              286.0,
+              837.0
+            ],
+            [
+              439.0,
+              837.0
+            ],
+            [
+              439.0,
+              1045.0
+            ],
+            [
+              286.0,
+              1045.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0014005602240896,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 1785.357226623056,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.7366071428571429,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "a5b8a8ce467ec38297d5b0559b7ed4ce3142f90e4f1b23e6f90bb927a70d206d",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 2015,
+          "target_equivalent_width": 44.88875137492688,
+          "target_mask_bbox_wh": [
+            46,
+            45
+          ],
+          "raw_to_input": [
+            [
+              0.7330078702974308,
+              0.06464523730188741,
+              -175.16540178189268
+            ],
+            [
+              -0.016603189570481236,
+              0.8113711728478419,
+              -629.1146791838423
+            ],
+            [
+              -2.7780501240837798e-05,
+              0.0004131934397701489,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              170.2792510986328,
+              778.856689453125
+            ],
+            [
+              569.6888427734375,
+              787.0298461914062
+            ],
+            [
+              585.1026611328125,
+              1195.2828369140625
+            ],
+            [
+              134.1282501220703,
+              1188.7703857421875
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0399831042387901,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.01497467901208438,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D2_knight_correct",
+      "verification": "D2_human_geometry_and_owner_corrected_FEN",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "position_id": "a3_pilot_01_02_opening",
+      "canonical_square": "f3",
+      "observation_id": "6a266641d46f4be3e94ee270fe4cdc69ad286d517bb700b84612f2e1c917187b",
+      "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000540",
+      "timestamp_ms": 18003.333333333332,
+      "true_class_id": 2,
+      "predicted_class_id": 2,
+      "frozen_probabilities": [
+        2.352375983533506e-05,
+        4.527720572037596e-06,
+        0.9976550070614488,
+        0.0007528520377019898,
+        0.00011112627206306448,
+        9.65329839628562e-06,
+        1.7147607045224818e-05,
+        1.1340624873073145e-07,
+        0.0013565130033270669,
+        3.165725245806005e-05,
+        1.3257067069846914e-07,
+        1.1669880034929996e-07,
+        3.762931143227831e-05
+      ],
+      "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000540/pair.json",
+      "source": {
+        "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000540.png",
+        "sha256": "bf7f660fb51fec5b11a258dbcac214821a328cea65c0647132f2db4587dd9030"
+      },
+      "source_target_polygon": [
+        [
+          602.2191162109375,
+          903.6978759765625
+        ],
+        [
+          682.2919311523438,
+          902.3326416015625
+        ],
+        [
+          693.5910034179688,
+          964.2972412109375
+        ],
+        [
+          611.0949096679688,
+          966.1134643554688
+        ]
+      ],
+      "source_square_mean_edge_px": 72.15760040283203,
+      "native_annotation_window_xyxy": [
+        457,
+        685,
+        838,
+        1111
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "0d455b6d8e9ad2e1c418bcd6b96df06687fe9041cd22679a64e4446a4e185d45",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5814,
+          "target_equivalent_width": 76.249590162833,
+          "target_mask_bbox_wh": [
+            76,
+            77
+          ],
+          "raw_to_input": [
+            [
+              1.6071920995191713,
+              -0.16460102466804338,
+              -689.1574841680763
+            ],
+            [
+              0.02931788742595001,
+              2.233693511140695,
+              -1906.6804415381616
+            ],
+            [
+              -0.00012473766607582894,
+              0.0009154209230057829,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              515.524658203125,
+              846.8334350585938
+            ],
+            [
+              749.211181640625,
+              843.7662353515625
+            ],
+            [
+              790.8560180664062,
+              1027.9781494140625
+            ],
+            [
+              534.8167724609375,
+              1035.2049560546875
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.3470670802810059,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "1c1c95e10860e0d69f7c4dfaa755814e72803f5a75c1141181f98aa3711bb278",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5218,
+          "target_equivalent_width": 72.2357252334328,
+          "target_mask_bbox_wh": [
+            93,
+            65
+          ],
+          "raw_to_input": [
+            [
+              1.0,
+              0.0,
+              -551.0
+            ],
+            [
+              0.0,
+              1.0,
+              -769.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              576.0,
+              769.0
+            ],
+            [
+              749.0,
+              769.0
+            ],
+            [
+              749.0,
+              993.0
+            ],
+            [
+              576.0,
+              993.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 1519.4194489702347,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.7723214285714286,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "3b132cd1fb9aab470deca3d00fd8d88ce5f483b69ca2a6e1b6702b7df4deaf8c",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 2025,
+          "target_equivalent_width": 45.0,
+          "target_mask_bbox_wh": [
+            45,
+            45
+          ],
+          "raw_to_input": [
+            [
+              0.9625945972847125,
+              -0.05838704135007477,
+              -370.60580060224083
+            ],
+            [
+              0.01210575779316955,
+              1.3863112575565806,
+              -1104.024202357978
+            ],
+            [
+              -0.00012473766607582894,
+              0.0009154209230057829,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              433.0826110839844,
+              792.5935668945312
+            ],
+            [
+              810.2080688476562,
+              789.3004150390625
+            ],
+            [
+              891.2538452148438,
+              1094.0313720703125
+            ],
+            [
+              452.2693176269531,
+              1108.913818359375
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.3470670802810059,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.0127520700043533,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D2_black_rook_king",
+      "verification": "D2_human_geometry_and_owner_corrected_FEN",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "position_id": "a3_pilot_01_03_middlegame",
+      "canonical_square": "f8",
+      "observation_id": "f36d78ca8e1d1179631a4b7b71a66e3cf06a6d5ab1557c5ccace207a0999e571",
+      "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001890",
+      "timestamp_ms": 63010.0,
+      "true_class_id": 10,
+      "predicted_class_id": 12,
+      "frozen_probabilities": [
+        4.144690875497694e-06,
+        1.53216004173098e-08,
+        6.205929430670971e-06,
+        6.682254866773714e-06,
+        3.45507544117563e-05,
+        0.00010834272401244609,
+        0.0014331216402771933,
+        7.340515670260192e-06,
+        0.00039980845507565384,
+        0.008926024194094,
+        0.044367520547966756,
+        0.23279609034434215,
+        0.7119101526273763
+      ],
+      "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001890/pair.json",
+      "source": {
+        "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001890.png",
+        "sha256": "b9377be7ba0b2c4a11500ac47fca204a98c0b3b8c065e428d803aac6f8f21c93"
+      },
+      "source_target_polygon": [
+        [
+          760.2637939453125,
+          759.138671875
+        ],
+        [
+          829.20556640625,
+          778.2872314453125
+        ],
+        [
+          812.7150268554688,
+          823.775634765625
+        ],
+        [
+          741.9216918945312,
+          803.7166748046875
+        ]
+      ],
+      "source_square_mean_edge_px": 60.43030548095703,
+      "native_annotation_window_xyxy": [
+        621,
+        577,
+        951,
+        945
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "3a3b47f53186b5cb0e3b1dcff5b7f43a3141903a325f6b03e5b7b2a145f0f585",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5701,
+          "target_equivalent_width": 75.50496672405067,
+          "target_mask_bbox_wh": [
+            76,
+            76
+          ],
+          "raw_to_input": [
+            [
+              1.7343241050948892,
+              0.7752676046853951,
+              -1774.5338167250704
+            ],
+            [
+              -0.7748914029005831,
+              2.8560797539035905,
+              -1447.2633563415714
+            ],
+            [
+              -9.50681739575703e-05,
+              0.0011200924580542367,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              710.4989624023438,
+              699.498291015625
+            ],
+            [
+              913.0264892578125,
+              754.4465942382812
+            ],
+            [
+              871.4635009765625,
+              893.6026611328125
+            ],
+            [
+              652.09716796875,
+              830.1469116210938
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.535943921372366,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "73707ca4942f99663a0d9121e27e8cd9acf75ddf7175ee115059db9b7045fbc1",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 3633,
+          "target_equivalent_width": 60.27437266367855,
+          "target_mask_bbox_wh": [
+            88,
+            66
+          ],
+          "raw_to_input": [
+            [
+              1.0062111801242235,
+              0.0,
+              -693.472049689441
+            ],
+            [
+              0.0,
+              1.0044843049327354,
+              -625.7937219730942
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              720.0,
+              623.0
+            ],
+            [
+              881.0,
+              623.0
+            ],
+            [
+              881.0,
+              846.0
+            ],
+            [
+              720.0,
+              846.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0017191659272404,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 1629.4301687227933,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.7232142857142857,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "91c6f51aa249f9689fe06265e82ceb9307c1e110657184a5dba2fd1f392113cc",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 2094,
+          "target_equivalent_width": 45.760244754590204,
+          "target_mask_bbox_wh": [
+            46,
+            46
+          ],
+          "raw_to_input": [
+            [
+              1.0418750016908667,
+              0.517403616834871,
+              -1025.9092862786138
+            ],
+            [
+              -0.4716200666238628,
+              1.7724966592204494,
+              -828.5080562060272
+            ],
+            [
+              -9.50681739575703e-05,
+              0.0011200924580542367,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              664.7163696289062,
+              644.2898559570312
+            ],
+            [
+              992.2922973632812,
+              731.4501953125
+            ],
+            [
+              933.034423828125,
+              967.8499755859375
+            ],
+            [
+              559.0062255859375,
+              857.1542358398438
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.535943921372366,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.011660954012768343,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D2_black_rook_correct",
+      "verification": "D2_human_geometry_and_owner_corrected_FEN",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "position_id": "a3_pilot_01_03_middlegame",
+      "canonical_square": "f8",
+      "observation_id": "3821696250995d6653f700d69cb2a8c53d02ad94df62fc7324411f43d0c470f7",
+      "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000810",
+      "timestamp_ms": 27003.333333333332,
+      "true_class_id": 10,
+      "predicted_class_id": 10,
+      "frozen_probabilities": [
+        4.1826678354409675e-05,
+        3.1316875249529533e-07,
+        1.2733066888956745e-07,
+        1.0449610905467347e-07,
+        0.00012719371880573902,
+        5.488080104880656e-09,
+        1.2314640752549442e-08,
+        0.02048637004007113,
+        9.065339603561137e-05,
+        0.0002914102324194499,
+        0.9789330941721662,
+        1.3708600828268451e-05,
+        1.5180363068108229e-05
+      ],
+      "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000810/pair.json",
+      "source": {
+        "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000810.png",
+        "sha256": "816f8fe925c824273ed29a09e415d5bd3f41218ef6b976f195c041b076a77f2f"
+      },
+      "source_target_polygon": [
+        [
+          217.97250366210938,
+          758.8902587890625
+        ],
+        [
+          281.5367126464844,
+          727.8392944335938
+        ],
+        [
+          323.6298828125,
+          772.1499633789062
+        ],
+        [
+          259.2068786621094,
+          804.5411376953125
+        ]
+      ],
+      "source_square_mean_edge_px": 66.3709945678711,
+      "native_annotation_window_xyxy": [
+        85,
+        528,
+        457,
+        938
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "edd55a39945ef38b67865cb49b763c1aac5ea79548779814e0b6431db3a27d14",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5256,
+          "target_equivalent_width": 72.49827584156743,
+          "target_mask_bbox_wh": [
+            73,
+            74
+          ],
+          "raw_to_input": [
+            [
+              1.2279675218798316,
+              -1.0118970849914792,
+              622.997496120748
+            ],
+            [
+              0.8549268412131351,
+              1.8958378219790168,
+              -1501.0237617297369
+            ],
+            [
+              -0.0002203123127606497,
+              0.0008896968767140612,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              105.78330993652344,
+              744.0440063476562
+            ],
+            [
+              307.07818603515625,
+              653.2702026367188
+            ],
+            [
+              432.9529113769531,
+              786.0173950195312
+            ],
+            [
+              229.66148376464844,
+              894.3739013671875
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.3872008533146734,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "ee17cd15fefe67e72ee4bc9cde04b0d3809145a4f078e78cbd65eee8ad6411de",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 3843,
+          "target_equivalent_width": 61.99193495931547,
+          "target_mask_bbox_wh": [
+            101,
+            74
+          ],
+          "raw_to_input": [
+            [
+              0.9415204678362573,
+              0.0,
+              -135.64912280701753
+            ],
+            [
+              0.0,
+              0.9411764705882353,
+              -556.2352941176471
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              177.0,
+              591.0
+            ],
+            [
+              348.0,
+              591.0
+            ],
+            [
+              348.0,
+              829.0
+            ],
+            [
+              177.0,
+              829.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0003654970760234,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 1671.4837378321683,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.71875,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "87d7d6a2affba2e713604e37eeb4dfc3fa21905f8a57b3c469442037292f8b20",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 1892,
+          "target_equivalent_width": 43.497126341863094,
+          "target_mask_bbox_wh": [
+            43,
+            44
+          ],
+          "raw_to_input": [
+            [
+              0.7269105215162218,
+              -0.5672798309180976,
+              418.59849767244873
+            ],
+            [
+              0.503086113116204,
+              1.1773611132642,
+              -855.814257037842
+            ],
+            [
+              -0.0002203123127606497,
+              0.0008896968767140612,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              -6.445192337036133,
+              729.6459350585938
+            ],
+            [
+              328.51153564453125,
+              586.5189819335938
+            ],
+            [
+              538.94873046875,
+              799.6159057617188
+            ],
+            [
+              198.3089141845703,
+              992.0171508789062
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.387200853314673,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.014164325984893367,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D2_empty_rook",
+      "verification": "D2_human_geometry_and_owner_corrected_FEN",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "position_id": "a3_pilot_01_03_middlegame",
+      "canonical_square": "b1",
+      "observation_id": "dd64dad6f8a80e67c92b1de88eddc1646947a2293bea05be5073cc6ca861d120",
+      "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001170",
+      "timestamp_ms": 39005.0,
+      "true_class_id": 0,
+      "predicted_class_id": 4,
+      "frozen_probabilities": [
+        0.018263165500442588,
+        6.15159423684942e-05,
+        0.009640711449661495,
+        0.0008110596985472727,
+        0.9298216536502599,
+        9.99139050869868e-06,
+        0.0003056536067008457,
+        1.0582893929989593e-05,
+        0.000923598234045507,
+        1.5537469246591644e-05,
+        0.03851608669713987,
+        1.6215965036649387e-05,
+        0.0016042275021121517
+      ],
+      "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001170/pair.json",
+      "source": {
+        "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001170.png",
+        "sha256": "a8fc94e0a6b704900d4a8d6644d54a75f11f721fe9e13092567c594a1f01855b"
+      },
+      "source_target_polygon": [
+        [
+          681.7080078125,
+          842.5830078125
+        ],
+        [
+          752.991455078125,
+          843.9796142578125
+        ],
+        [
+          761.3568115234375,
+          885.3274536132812
+        ],
+        [
+          687.1048583984375,
+          883.9544677734375
+        ]
+      ],
+      "source_square_mean_edge_px": 57.367332458496094,
+      "native_annotation_window_xyxy": [
+        566,
+        670,
+        877,
+        1001
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "c4b313f7cf64272308979e3802b337ddf088805fab6568c905abff9a7dcbf823",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5700,
+          "target_equivalent_width": 75.49834435270749,
+          "target_mask_bbox_wh": [
+            75,
+            77
+          ],
+          "raw_to_input": [
+            [
+              3.8952545435853922,
+              -0.2875459275008089,
+              -2135.17255087364
+            ],
+            [
+              -0.10744122614848906,
+              7.290750376159542,
+              -5794.2088876152775
+            ],
+            [
+              -7.012971474816132e-05,
+              0.0033005044120006976,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              607.474853515625,
+              803.6864013671875
+            ],
+            [
+              815.0385131835938,
+              806.7451782226562
+            ],
+            [
+              847.525146484375,
+              930.475830078125
+            ],
+            [
+              616.595703125,
+              927.242431640625
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.8048797332935305,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "ac7dba494b85c6c5ddbc072c3b82d8f5a04bc35ddd8389647789ce93e1599fe8",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 3038,
+          "target_equivalent_width": 55.11805511808268,
+          "target_mask_bbox_wh": [
+            79,
+            43
+          ],
+          "raw_to_input": [
+            [
+              0.9852941176470589,
+              0.0,
+              -606.2794117647059
+            ],
+            [
+              0.0,
+              0.986784140969163,
+              -671.0132158590309
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              661.0,
+              680.0
+            ],
+            [
+              797.0,
+              680.0
+            ],
+            [
+              797.0,
+              907.0
+            ],
+            [
+              661.0,
+              907.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0015122624761654,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 2038.521359093661,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.5982142857142857,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "b3f7c50a89b8afcfc015c019ba888532cdeee00ccac2237d92644eaa145aab4d",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 2070,
+          "target_equivalent_width": 45.4972526643093,
+          "target_mask_bbox_wh": [
+            45,
+            47
+          ],
+          "raw_to_input": [
+            [
+              2.3464017373801593,
+              -0.02675131573696481,
+              -1243.4374116380684
+            ],
+            [
+              -0.06792269515773708,
+              4.544284549962929,
+              -3450.4752020536594
+            ],
+            [
+              -7.012971474816132e-05,
+              0.0033005044120006976,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              538.6823120117188,
+              767.3515625
+            ],
+            [
+              871.7166748046875,
+              772.3294067382812
+            ],
+            [
+              938.6077270507812,
+              978.583740234375
+            ],
+            [
+              541.0283813476562,
+              973.1279907226562
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.8048797332935311,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.013821739994455129,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D2_empty_correct",
+      "verification": "D2_human_geometry_and_owner_corrected_FEN",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "position_id": "a3_pilot_01_03_middlegame",
+      "canonical_square": "b1",
+      "observation_id": "ce831202af10b81ce8f6ecfb49eea9599b512680f616a5f164a8e62caf9d55e6",
+      "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000360",
+      "timestamp_ms": 12001.666666666666,
+      "true_class_id": 0,
+      "predicted_class_id": 0,
+      "frozen_probabilities": [
+        0.9999999754115382,
+        7.204114541618514e-13,
+        1.6061725056182236e-08,
+        8.002827528494309e-13,
+        1.6217292459753973e-09,
+        7.500408820805463e-11,
+        1.9825406313893823e-12,
+        1.0558404588462038e-12,
+        6.606898816984639e-09,
+        1.3515627202825453e-12,
+        6.692109023913416e-11,
+        6.505632673569307e-11,
+        8.521655678681631e-11
+      ],
+      "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000360/pair.json",
+      "source": {
+        "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000360.png",
+        "sha256": "b96adb22cd3302f33bc38884220a4c7abf2c34c5144ec52617d37a401c360567"
+      },
+      "source_target_polygon": [
+        [
+          379.38140869140625,
+          1189.66943359375
+        ],
+        [
+          453.5705871582031,
+          1162.5234375
+        ],
+        [
+          489.0752868652344,
+          1222.5140380859375
+        ],
+        [
+          412.5771789550781,
+          1252.0469970703125
+        ]
+      ],
+      "source_square_mean_edge_px": 75.34273529052734,
+      "native_annotation_window_xyxy": [
+        228,
+        936,
+        640,
+        1403
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "8c4e600cbd7134f6bc527d6e29e20f5ab54d53da1cacf899b787e04ae9984a88",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5663,
+          "target_equivalent_width": 75.25290692059676,
+          "target_mask_bbox_wh": [
+            77,
+            75
+          ],
+          "raw_to_input": [
+            [
+              2.0367304799075874,
+              -0.9919057106119348,
+              584.1149945819709
+            ],
+            [
+              0.886730758530509,
+              2.5532147800945215,
+              -3194.5949304607366
+            ],
+            [
+              6.0862247278856396e-05,
+              0.00116098842266729,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              275.8932800292969,
+              1155.3873291015625
+            ],
+            [
+              490.80511474609375,
+              1080.7484130859375
+            ],
+            [
+              602.5735473632812,
+              1261.35888671875
+            ],
+            [
+              370.529052734375,
+              1349.707763671875
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.2089110011458861,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "3b7a2ddd644c9145ba361b56301accae86cb639f82edbb32a89235cab71448e7",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 4589,
+          "target_equivalent_width": 67.7421582177598,
+          "target_mask_bbox_wh": [
+            100,
+            80
+          ],
+          "raw_to_input": [
+            [
+              0.896551724137931,
+              0.0,
+              -279.7931034482759
+            ],
+            [
+              0.0,
+              0.896,
+              -922.88
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              350.0,
+              1030.0
+            ],
+            [
+              524.0,
+              1030.0
+            ],
+            [
+              524.0,
+              1280.0
+            ],
+            [
+              350.0,
+              1280.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.000615763546798,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 1584.9643790780458,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.6964285714285714,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "3ada0547cae70edadcf492df57631bca3e42b51e814d74c7e736c0f4a499b671",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 2058,
+          "target_equivalent_width": 45.36518488885502,
+          "target_mask_bbox_wh": [
+            47,
+            45
+          ],
+          "raw_to_input": [
+            [
+              1.2328041796254665,
+              -0.547574457562164,
+              397.1387591039627
+            ],
+            [
+              0.538249892457132,
+              1.5935379180130227,
+              -1885.0523837436133
+            ],
+            [
+              6.0862247278856396e-05,
+              0.00116098842266729,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              176.76242065429688,
+              1123.230224609375
+            ],
+            [
+              524.3028564453125,
+              1005.8414306640625
+            ],
+            [
+              718.4759521484375,
+              1298.9564208984375
+            ],
+            [
+              323.78509521484375,
+              1454.23583984375
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.2089110011458863,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.014842366013908759,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D2_pawn_missed",
+      "verification": "D2_human_geometry_and_owner_corrected_FEN",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "position_id": "a3_pilot_01_04_endgame",
+      "canonical_square": "h4",
+      "observation_id": "4aab31944f7a8b6ac6006484fca2170d32ca00e25f42e1d4fa0446e28cdd0a76",
+      "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000000",
+      "timestamp_ms": 0.0,
+      "true_class_id": 1,
+      "predicted_class_id": 0,
+      "frozen_probabilities": [
+        0.9999999409336687,
+        2.478711368357489e-09,
+        3.161297188180187e-11,
+        5.009331023229665e-13,
+        5.5339526017599716e-08,
+        1.828272665137554e-13,
+        4.896576388070208e-13,
+        1.1065939449381803e-09,
+        5.928407684910399e-11,
+        2.692391629800707e-13,
+        4.091775588630641e-11,
+        4.246062262675139e-12,
+        3.996402603257917e-12
+      ],
+      "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000000/pair.json",
+      "source": {
+        "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000000.png",
+        "sha256": "b12fd9fce701de182dabafe1992d4f67dfb924a24da9e13680560313e5928d72"
+      },
+      "source_target_polygon": [
+        [
+          778.7451171875,
+          1005.4932861328125
+        ],
+        [
+          861.6348266601562,
+          1004.8516235351562
+        ],
+        [
+          868.7091674804688,
+          1085.5841064453125
+        ],
+        [
+          784.7210693359375,
+          1087.0609130859375
+        ]
+      ],
+      "source_square_mean_edge_px": 82.43034362792969,
+      "native_annotation_window_xyxy": [
+        613,
+        757,
+        1034,
+        1252
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "cd3c7c053867a74f6ebde0d6cf7c833f8c51f86826f99bdbf3b30346aac8232d",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5662,
+          "target_equivalent_width": 75.24626236564843,
+          "target_mask_bbox_wh": [
+            75,
+            76
+          ],
+          "raw_to_input": [
+            [
+              1.1189808088269169,
+              -0.05058136047880185,
+              -725.615790114525
+            ],
+            [
+              0.011954661761711697,
+              1.2137787629528243,
+              -1136.7056031755753
+            ],
+            [
+              -4.192366477774728e-05,
+              0.0002986707996427827,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              690.4866333007812,
+              929.7008056640625
+            ],
+            [
+              938.1251220703125,
+              927.2617797851562
+            ],
+            [
+              963.2440795898438,
+              1168.5169677734375
+            ],
+            [
+              701.5020751953125,
+              1173.388427734375
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0794499733114276,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "13bf6d7bfb1fbad000f3569d56eb422a1b05177f4fa59872a9e0d6f62e69ea59",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 7227,
+          "target_equivalent_width": 85.01176389182852,
+          "target_mask_bbox_wh": [
+            93,
+            84
+          ],
+          "raw_to_input": [
+            [
+              1.018181818181818,
+              0.0,
+              -762.6181818181818
+            ],
+            [
+              0.0,
+              1.0171428571428571,
+              -935.1485714285715
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              749.0,
+              942.0
+            ],
+            [
+              969.0,
+              942.0
+            ],
+            [
+              969.0,
+              1117.0
+            ],
+            [
+              749.0,
+              1117.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0010214504596526,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 977.8790822959124,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.7946428571428571,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "de937fcd59ee2bc285a82552bf1d57069dda4d892e406106e1f1a554af0ee32e",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 2048,
+          "target_equivalent_width": 45.254833995939045,
+          "target_mask_bbox_wh": [
+            45,
+            46
+          ],
+          "raw_to_input": [
+            [
+              0.6721910437048395,
+              -0.017168839588625494,
+              -392.5677622359862
+            ],
+            [
+              0.005334338812678142,
+              0.7444636005699884,
+              -640.2023812369769
+            ],
+            [
+              -4.192366477774728e-05,
+              0.0002986707996427827,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              605.8658447265625,
+              855.6099853515625
+            ],
+            [
+              1009.792724609375,
+              852.7156982421875
+            ],
+            [
+              1059.097900390625,
+              1252.44287109375
+            ],
+            [
+              616.2474365234375,
+              1262.0672607421875
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0794499733114273,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.013267428992548957,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D2_pawn_correct",
+      "verification": "D2_human_geometry_and_owner_corrected_FEN",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "position_id": "a3_pilot_01_04_endgame",
+      "canonical_square": "h4",
+      "observation_id": "46602a4013e4912c9b70d4120a9c81982ca925e64f35c52d4e1a7f578bab3e62",
+      "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001530",
+      "timestamp_ms": 51006.666666666664,
+      "true_class_id": 1,
+      "predicted_class_id": 1,
+      "frozen_probabilities": [
+        0.34826961118551925,
+        0.6436662701064497,
+        0.00019815817382904088,
+        0.0004822821671596342,
+        0.007378719630014047,
+        3.537846933103745e-07,
+        9.485813264616048e-07,
+        3.468495886779904e-06,
+        8.025859346770347e-08,
+        7.543163870673898e-10,
+        1.066811587434725e-07,
+        2.008988169190555e-12,
+        1.7904423091092617e-10
+      ],
+      "geometry_reference": "outputs/scanning/d1_pilot_run1/geometry/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001530/pair.json",
+      "source": {
+        "path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001530.png",
+        "sha256": "71dc7e0454c6887c68c6193a921d59afdd395fa59f4616033b19b8d5d9e2349d"
+      },
+      "source_target_polygon": [
+        [
+          426.3817138671875,
+          1138.0155029296875
+        ],
+        [
+          518.875732421875,
+          1138.4539794921875
+        ],
+        [
+          518.4456176757812,
+          1228.5560302734375
+        ],
+        [
+          425.36480712890625,
+          1228.4207763671875
+        ]
+      ],
+      "source_square_mean_edge_px": 91.52250671386719,
+      "native_annotation_window_xyxy": [
+        242,
+        863,
+        702,
+        1412
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "c7056066e4c91df131f16c3d9990d9d732c30728d09df8c3a8db8ec68bfcd9bd",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5624,
+          "target_equivalent_width": 74.9933330370107,
+          "target_mask_bbox_wh": [
+            76,
+            76
+          ],
+          "raw_to_input": [
+            [
+              0.9969516743840067,
+              0.03492385238187936,
+              -372.3043337340233
+            ],
+            [
+              0.0036931995569974016,
+              1.056645828069925,
+              -1111.9449222899025
+            ],
+            [
+              -6.312322051774607e-05,
+              0.0002363128302268311,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              336.6199645996094,
+              1051.157958984375
+            ],
+            [
+              608.4700927734375,
+              1050.2078857421875
+            ],
+            [
+              613.2777709960938,
+              1320.1085205078125
+            ],
+            [
+              327.0202941894531,
+              1325.1944580078125
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0324257325877673,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "2683ebfe499854b1ff6d37bbdee7e2331fb4b7db34e13443777fe8a9fe5f37b3",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 11449,
+          "target_equivalent_width": 107.0,
+          "target_mask_bbox_wh": [
+            110,
+            106
+          ],
+          "raw_to_input": [
+            [
+              1.1511627906976745,
+              0.0,
+              -431.3488372093023
+            ],
+            [
+              0.0,
+              1.1487179487179486,
+              -1225.6820512820514
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              386.0,
+              1067.0
+            ],
+            [
+              558.0,
+              1067.0
+            ],
+            [
+              558.0,
+              1262.0
+            ],
+            [
+              386.0,
+              1262.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0021283222591364,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 1519.7807644284474,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.8839285714285714,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "bebaa573ce2a1a15f06c8f919a3e45a072becaefb97d00cc74fdcec794edf92b",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 2070,
+          "target_equivalent_width": 45.4972526643093,
+          "target_mask_bbox_wh": [
+            46,
+            46
+          ],
+          "raw_to_input": [
+            [
+              0.598530454113374,
+              0.03156797325629433,
+              -180.12007431576012
+            ],
+            [
+              -0.0005778322902188526,
+              0.6478447204967028,
+              -626.2524928097826
+            ],
+            [
+              -6.312322051774607e-05,
+              0.0002363128302268311,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              249.9408416748047,
+              966.8936157226562
+            ],
+            [
+              693.3377075195312,
+              967.2890625
+            ],
+            [
+              708.8831176757812,
+              1413.050537109375
+            ],
+            [
+              225.82862854003906,
+              1424.0623779296875
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0324257325877673,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.014153731026453897,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D3c_king_rook",
+      "verification": "D3c_provisional_geometry_and_supplied_FEN_not_photo_verified",
+      "session_id": "d3c_pos_17",
+      "position_id": "d3c_position_17",
+      "canonical_square": "f3",
+      "observation_id": "78f219efc84a2ebbfb3b67ce453acd5c79bbb8a4e5b990ee99051ea2b436d3b9",
+      "frame_id": "d3c_pos_17_f001710",
+      "timestamp_ms": 57008.333333333336,
+      "true_class_id": 6,
+      "predicted_class_id": 4,
+      "frozen_probabilities": [
+        5.324881659476618e-06,
+        9.841578803887108e-05,
+        4.276050904510276e-06,
+        1.6048470886681423e-05,
+        0.991633779600719,
+        5.586156227938037e-05,
+        0.008176852334986174,
+        8.995458579731659e-08,
+        1.3798107848698628e-07,
+        5.077456362194616e-08,
+        7.687355188471248e-06,
+        6.405475299185336e-08,
+        1.4111903567444455e-06
+      ],
+      "geometry_reference": null,
+      "source": {
+        "path": "data/raw/new_test/pos_017.MOV",
+        "sha256": "311c81b59ba794e2d1f2ecb531d68a249036a18d740f3c2782c400998a9e9092",
+        "pts": 34205,
+        "time_base": [
+          1,
+          600
+        ]
+      },
+      "source_target_polygon": [
+        [
+          582.8397827148438,
+          636.6299438476562
+        ],
+        [
+          665.0687255859375,
+          637.2898559570312
+        ],
+        [
+          667.34521484375,
+          712.8395385742188
+        ],
+        [
+          583.8988037109375,
+          712.2479858398438
+        ]
+      ],
+      "source_square_mean_edge_px": 79.22238159179688,
+      "native_annotation_window_xyxy": [
+        424,
+        398,
+        826,
+        872
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "ac3791e6f1f0448f15912364677f13a55030a1e16e869f324a988c6dfa1b23b7",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5661,
+          "target_equivalent_width": 75.23961722390672,
+          "target_mask_bbox_wh": [
+            74,
+            77
+          ],
+          "raw_to_input": [
+            [
+              0.9543334524164561,
+              0.0019131361725791285,
+              -475.87614853833406
+            ],
+            [
+              -0.030902224976001865,
+              1.1045655581965224,
+              -604.2936729574495
+            ],
+            [
+              -5.5300106571393795e-05,
+              0.00018221597602514444,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              497.5230407714844,
+              561.0062866210938
+            ],
+            [
+              746.8263549804688,
+              567.9810180664062
+            ],
+            [
+              755.8338012695312,
+              791.8106689453125
+            ],
+            [
+              497.0693664550781,
+              787.3067626953125
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.1368999510615014,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "8d9332fe5196aea793e542af68629982fd811dde822790208e762d74d3737a50",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 6791,
+          "target_equivalent_width": 82.40752392834042,
+          "target_mask_bbox_wh": [
+            88,
+            79
+          ],
+          "raw_to_input": [
+            [
+              1.0365853658536586,
+              0.0,
+              -548.3048780487804
+            ],
+            [
+              0.0,
+              1.037037037037037,
+              -545.4814814814815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              555.0,
+              526.0
+            ],
+            [
+              719.0,
+              526.0
+            ],
+            [
+              719.0,
+              742.0
+            ],
+            [
+              555.0,
+              742.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0004357298474944,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 1432.5574366237158,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.7589285714285714,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "03f715b4eca6f8413c56ffecec19d940ba36a83a5adbdd5404691acabfc73e09",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 2048,
+          "target_equivalent_width": 45.254833995939045,
+          "target_mask_bbox_wh": [
+            45,
+            47
+          ],
+          "raw_to_input": [
+            [
+              0.5724141425347654,
+              0.009267034042255883,
+              -242.1281769525154
+            ],
+            [
+              -0.02107772674935942,
+              0.6734890695755658,
+              -319.48505547933837
+            ],
+            [
+              -5.5300106571393795e-05,
+              0.00018221597602514444,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              415.1046142578125,
+              487.3642883300781
+            ],
+            [
+              824.0541381835938,
+              500.16290283203125
+            ],
+            [
+              844.0401000976562,
+              870.624267578125
+            ],
+            [
+              408.9966125488281,
+              864.6484375
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.136899951061502,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.015594753000186756,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D3c_king_correct",
+      "verification": "D3c_provisional_geometry_and_supplied_FEN_not_photo_verified",
+      "session_id": "d3c_pos_17",
+      "position_id": "d3c_position_17",
+      "canonical_square": "f3",
+      "observation_id": "b7793611074d3ea37212e383cdda4fa3dc1b2a28ccdd641d68325e9a4c1b62d2",
+      "frame_id": "d3c_pos_17_f000540",
+      "timestamp_ms": 18003.333333333332,
+      "true_class_id": 6,
+      "predicted_class_id": 6,
+      "frozen_probabilities": [
+        0.00022445893385189623,
+        0.05825732252573143,
+        4.656417986518772e-05,
+        0.0001574162759300823,
+        0.2078167086716582,
+        0.0005900959079876985,
+        0.7327094350564552,
+        9.544463676635021e-05,
+        1.569832722840009e-05,
+        5.075706661712937e-06,
+        6.509838878040119e-05,
+        2.1709904548200185e-06,
+        1.451039862853362e-05
+      ],
+      "geometry_reference": null,
+      "source": {
+        "path": "data/raw/new_test/pos_017.MOV",
+        "sha256": "311c81b59ba794e2d1f2ecb531d68a249036a18d740f3c2782c400998a9e9092",
+        "pts": 10802,
+        "time_base": [
+          1,
+          600
+        ]
+      },
+      "source_target_polygon": [
+        [
+          370.6672058105469,
+          957.2386474609375
+        ],
+        [
+          445.9775695800781,
+          953.0787963867188
+        ],
+        [
+          450.3191223144531,
+          1017.6339111328125
+        ],
+        [
+          373.2940979003906,
+          1022.0841064453125
+        ]
+      ],
+      "source_square_mean_edge_px": 70.5445556640625,
+      "native_annotation_window_xyxy": [
+        229,
+        741,
+        592,
+        1164
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "078a7ce0c8429928cb4115e33ffb5dc16ac807f23426c6dc2e4a664dcd87098c",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5700,
+          "target_equivalent_width": 75.49834435270749,
+          "target_mask_bbox_wh": [
+            76,
+            75
+          ],
+          "raw_to_input": [
+            [
+              1.446803209661579,
+              -0.019562587806567548,
+              -407.19206200820196
+            ],
+            [
+              0.09196815393921742,
+              1.7528600796278881,
+              -1602.0736134236458
+            ],
+            [
+              -7.362337027465261e-05,
+              0.0005248977368969057,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              293.5924377441406,
+              898.5728149414062
+            ],
+            [
+              514.477783203125,
+              886.9835205078125
+            ],
+            [
+              532.69287109375,
+              1081.340576171875
+            ],
+            [
+              296.27569580078125,
+              1097.0208740234375
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.164736969177422,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "0f3482c9b11d45af99b06b97900534ded4254d0d83d092e85fefedd677f0a4c0",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 6680,
+          "target_equivalent_width": 81.7312669668102,
+          "target_mask_bbox_wh": [
+            92,
+            80
+          ],
+          "raw_to_input": [
+            [
+              1.1428571428571428,
+              0.0,
+              -353.14285714285717
+            ],
+            [
+              0.0,
+              1.1428571428571428,
+              -973.7142857142857
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              337.0,
+              852.0
+            ],
+            [
+              477.0,
+              852.0
+            ],
+            [
+              477.0,
+              1048.0
+            ],
+            [
+              337.0,
+              1048.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 1472.6895328461792,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.7142857142857143,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "79ea2cc456fc19969a400c0a9e71638675a968a6df20c5bd2365322b055801f4",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 2070,
+          "target_equivalent_width": 45.4972526643093,
+          "target_mask_bbox_wh": [
+            46,
+            45
+          ],
+          "raw_to_input": [
+            [
+              0.8671024020391327,
+              0.01165300356356034,
+              -200.34263491330074
+            ],
+            [
+              0.0520422689153216,
+              1.0779311819803046,
+              -919.175759470002
+            ],
+            [
+              -7.362337027465261e-05,
+              0.0005248977368969057,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              219.73123168945312,
+              842.113525390625
+            ],
+            [
+              579.1176147460938,
+              824.762451171875
+            ],
+            [
+              617.6619873046875,
+              1146.290771484375
+            ],
+            [
+              215.25746154785156,
+              1175.007568359375
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.164736969177422,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.013509211014024913,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D3c_empty_rook",
+      "verification": "D3c_provisional_geometry_and_supplied_FEN_not_photo_verified",
+      "session_id": "d3c_pos_05",
+      "position_id": "d3c_position_05",
+      "canonical_square": "h1",
+      "observation_id": "c4a7941ac527890dbcc6120b1a468a11689e71e75003a9fc75e3e40a922909af",
+      "frame_id": "d3c_pos_05_f001980",
+      "timestamp_ms": 66010.0,
+      "true_class_id": 0,
+      "predicted_class_id": 4,
+      "frozen_probabilities": [
+        1.5402497624111843e-07,
+        1.4691472946455777e-05,
+        6.056954809556333e-05,
+        5.975395197629016e-06,
+        0.9998240259541162,
+        4.6904324338248054e-08,
+        1.7811951237227546e-05,
+        1.4376969701594232e-09,
+        1.1163827934018306e-07,
+        9.370273388894136e-10,
+        7.657341330786027e-05,
+        1.1127846399581876e-09,
+        3.621000978576386e-08
+      ],
+      "geometry_reference": null,
+      "source": {
+        "path": "data/raw/new_test/pos_005.MOV",
+        "sha256": "1fda796af241d36f063431fea82bcaf515616d9e5673666ea1ec803119f96e99",
+        "pts": 39606,
+        "time_base": [
+          1,
+          600
+        ]
+      },
+      "source_target_polygon": [
+        [
+          897.0715942382812,
+          901.1271362304688
+        ],
+        [
+          936.303955078125,
+          860.7820434570312
+        ],
+        [
+          993.034423828125,
+          897.9881591796875
+        ],
+        [
+          954.1904907226562,
+          939.90234375
+        ]
+      ],
+      "source_square_mean_edge_px": 62.57518005371094,
+      "native_annotation_window_xyxy": [
+        771,
+        673,
+        1080,
+        1066
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "11bee26552173a7babe3e21815b6f9436d1ab080406ed6450a9b19fd3cc34a02",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5767,
+          "target_equivalent_width": 75.94076639065476,
+          "target_mask_bbox_wh": [
+            78,
+            78
+          ],
+          "raw_to_input": [
+            [
+              1.0378070239375008,
+              -1.4403278767284102,
+              467.43884555605644
+            ],
+            [
+              1.1241871679870887,
+              1.0908986468583886,
+              -1890.7759315198205
+            ],
+            [
+              -9.731357774682455e-05,
+              0.0005142224524983874,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              804.4838256835938,
+              904.1953735351562
+            ],
+            [
+              921.1427001953125,
+              783.9766845703125
+            ],
+            [
+              1083.6402587890625,
+              894.6689453125
+            ],
+            [
+              972.4722900390625,
+              1025.2369384765625
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.2422643628731058,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "0a6188a5a9fd17c2244465776ba2732ec7e1f75f2a8961b1d39f898ae912b409",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 4431,
+          "target_equivalent_width": 66.56575696257048,
+          "target_mask_bbox_wh": [
+            103,
+            85
+          ],
+          "raw_to_input": [
+            [
+              1.062857142857143,
+              0.0,
+              -911.0
+            ],
+            [
+              0.0,
+              1.061611374407583,
+              -798.3317535545024
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              875.0,
+              752.0
+            ],
+            [
+              1050.0,
+              752.0
+            ],
+            [
+              1050.0,
+              963.0
+            ],
+            [
+              875.0,
+              963.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0011734693877552,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 1796.8228138296927,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.8303571428571429,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "74cda81778f61a3f938eb0490053551ed449f57a7855187fcdb2bbad190ae68a",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 2100,
+          "target_equivalent_width": 45.8257569495584,
+          "target_mask_bbox_wh": [
+            47,
+            47
+          ],
+          "raw_to_input": [
+            [
+              0.6249305890378374,
+              -0.8505952816858001,
+              327.5022921875302
+            ],
+            [
+              0.677302802359241,
+              0.6840853664731251,
+              -1102.2814702915448
+            ],
+            [
+              -9.731357774682455e-05,
+              0.0005142224524983874,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              710.9846801757812,
+              907.3861083984375
+            ],
+            [
+              906.263916015625,
+              714.0430297851562
+            ],
+            [
+              1171.52001953125,
+              891.6699829101562
+            ],
+            [
+              991.1995849609375,
+              1113.259521484375
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.242264362873106,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.013867197994841263,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    },
+    {
+      "case_id": "D3c_empty_black_rook",
+      "verification": "D3c_provisional_geometry_and_supplied_FEN_not_photo_verified",
+      "session_id": "d3c_pos_05",
+      "position_id": "d3c_position_05",
+      "canonical_square": "h1",
+      "observation_id": "df5b753acf9d2b85653d9e70bc3c5709cb5477d7527ffbee38b14ba2e963e94b",
+      "frame_id": "d3c_pos_05_f000630",
+      "timestamp_ms": 21003.333333333332,
+      "true_class_id": 0,
+      "predicted_class_id": 10,
+      "frozen_probabilities": [
+        0.10115541242329941,
+        3.1030746736827447e-07,
+        9.470001304766218e-05,
+        7.225854626310566e-07,
+        0.04932435860629044,
+        5.1115963172947734e-08,
+        7.897167032293642e-07,
+        2.0635038638484747e-05,
+        0.0034578514040981565,
+        2.878996607981403e-06,
+        0.843836812698022,
+        0.0004238929882099182,
+        0.0016815841061896231
+      ],
+      "geometry_reference": null,
+      "source": {
+        "path": "data/raw/new_test/pos_005.MOV",
+        "sha256": "1fda796af241d36f063431fea82bcaf515616d9e5673666ea1ec803119f96e99",
+        "pts": 12602,
+        "time_base": [
+          1,
+          600
+        ]
+      },
+      "source_target_polygon": [
+        [
+          146.17330932617188,
+          433.7500305175781
+        ],
+        [
+          234.81459045410156,
+          435.97314453125
+        ],
+        [
+          231.40243530273438,
+          517.373046875
+        ],
+        [
+          141.92288208007812,
+          515.0733642578125
+        ]
+      ],
+      "source_square_mean_edge_px": 85.27099609375,
+      "native_annotation_window_xyxy": [
+        0,
+        177,
+        406,
+        688
+      ],
+      "source_size_wh": [
+        1080,
+        1920
+      ],
+      "metrics": {
+        "b2": {
+          "packed_sha256": "d13324c3bae77b869cb7b785af8d3e98e40bc01774d8cbae0c4fbcf8d03a6334",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5688,
+          "target_equivalent_width": 75.41883053985921,
+          "target_mask_bbox_wh": [
+            76,
+            79
+          ],
+          "raw_to_input": [
+            [
+              0.8946092322679771,
+              0.05045823355352597,
+              -72.17633825637735
+            ],
+            [
+              -0.06449585364517459,
+              1.0220190626839873,
+              -352.53374251059176
+            ],
+            [
+              -2.9112872928920014e-05,
+              0.00018513027870186298,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              61.00662612915039,
+              348.7884216308594
+            ],
+            [
+              325.0264892578125,
+              365.4497375488281
+            ],
+            [
+              322.61651611328125,
+              607.0443725585938
+            ],
+            [
+              47.35825729370117,
+              590.7698364257812
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.120541777190091,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        },
+        "taller": {
+          "packed_sha256": "fcf3e083173557fc651200e99686bc69092322a98adf6f265a34fd1425ceab41",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 5615,
+          "target_equivalent_width": 74.93330367733695,
+          "target_mask_bbox_wh": [
+            81,
+            73
+          ],
+          "raw_to_input": [
+            [
+              0.8701923076923077,
+              0.0,
+              -29.471153846153847
+            ],
+            [
+              0.0,
+              0.8682170542635659,
+              -252.65116279069767
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              58.0,
+              291.0
+            ],
+            [
+              266.0,
+              291.0
+            ],
+            [
+              266.0,
+              549.0
+            ],
+            [
+              58.0,
+              549.0
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.0022750686813187,
+          "raw_height_proxy": {
+            "mode": "assumed_pinhole_normal",
+            "focal_px": 1286.1741783484824,
+            "height_squares": 2.0,
+            "assumptions": "square pixels; centered principal point; no lens distortion; visible plane; camera-facing normal",
+            "metric_pose_verified": false
+          },
+          "valid_fraction": 0.8080357142857143,
+          "aspect_preserving": true
+        },
+        "expanded": {
+          "packed_sha256": "ed1af8c74d58b5df3ec3685aa2872e694f437963d0f3e9987bc3214a3681325b",
+          "input_shape": [
+            4,
+            224,
+            224
+          ],
+          "mask_area": 2092,
+          "target_equivalent_width": 45.73838650411709,
+          "target_mask_bbox_wh": [
+            46,
+            49
+          ],
+          "raw_to_input": [
+            [
+              0.5404199328454854,
+              0.038732930855728216,
+              0.4770496159608586
+            ],
+            [
+              -0.040339951524016586,
+              0.6270350502700313,
+              -169.28571785158118
+            ],
+            [
+              -2.9112872928920014e-05,
+              0.00018513027870186298,
+              1.0
+            ]
+          ],
+          "source_support": [
+            [
+              -20.139720916748047,
+              268.6824035644531
+            ],
+            [
+              410.1608581542969,
+              296.36553955078125
+            ],
+            [
+              412.1573486328125,
+              695.437255859375
+            ],
+            [
+              -48.81793212890625,
+              668.814208984375
+            ]
+          ],
+          "base_jacobian_anisotropy": 1.1205417771900912,
+          "raw_height_proxy": null,
+          "valid_fraction": null,
+          "aspect_preserving": false
+        }
+      },
+      "extraction_seconds": 0.012150449998443946,
+      "two_branch": {
+        "local": "taller",
+        "context": "expanded",
+        "arrays_shared": true,
+        "model_implemented": false
+      },
+      "piece_visibility": "no_verified_piece_segmentation; explicit visible-extent supplement needed for coverage claims"
+    }
+  ],
+  "settings": {
+    "size": 224,
+    "height_squares": 2.0,
+    "raw_margin_squares": 0.35
+  },
+  "frozen_config": {
+    "schema_version": "offline_evidence_d2_config_v1",
+    "development_only": true,
+    "source_catalog": "data/metadata/a3_pilot_01_sources_v2.json",
+    "conditions": [
+      {
+        "name": "diversity_5",
+        "manifest": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality_diverse/budget_5/selected.json"
+      },
+      {
+        "name": "uniform_5",
+        "manifest": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/uniform/budget_5/selected.json"
+      },
+      {
+        "name": "diversity_10",
+        "manifest": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality_diverse/budget_10/selected.json"
+      }
+    ],
+    "checkpoint": "outputs/evaluation/crop_b2_20261018_run1/training/context1_224/best.pt",
+    "checkpoint_sha256": "dad8eea28482ee894dfca0794d9f4415d21ac58db23c6d6bed8c4307c71b1bd8",
+    "crop_spec": {
+      "name": "context1_224",
+      "input_size": 224,
+      "padding_squares": 1,
+      "detail_factor": 1.0,
+      "suppress_outer_context": false
+    },
+    "board_size": 800,
+    "context_margin": 200,
+    "initial_context_padding": 200,
+    "batch_size": 16,
+    "cpu_threads": 4,
+    "calibration": {
+      "status": "not_available",
+      "artifact": null,
+      "fit_on_pilot": false
+    },
+    "primary_geometry_requirement": "human_verified",
+    "fusion_enabled": false,
+    "completion_enabled": false,
+    "final_holdout": false
+  },
+  "no_training": true,
+  "new_accuracy_measurements": false,
+  "protected_files_unchanged": 4866,
+  "source_sha256": {
+    "src/vision/input_representations.py": "3c6fbd025d717d1d23520a89d9456baca8a42a31070b90f70eedb0e229de6db1",
+    "scripts/audit_input_representations.py": "3244c4a28887b21915a7f24b42e569089f6cd3de5ef4c87f9fba100fe40eb8fe"
+  },
+  "limitation": "Error-selected diagnostic cases, not performance samples. D3c fine geometry/labels remain provisional."
+}

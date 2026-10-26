@@ -1,0 +1,16 @@
+session_id,condition,selected_views,usable_views,all_selected_human_verified,overall_accuracy,occupied_accuracy,empty_false_positives,occupied_to_empty_misses,incorrect_piece_identities,exact_single_frame_boards,ever_correct_squares,persistently_wrong_squares,oracle_incorrect_squares,oracle_exact_board
+a3_pilot_01_01_starting_take01,diversity_5,5,5,True,0.809375,0.66875,8,1,52,0,64,0,0,True
+a3_pilot_01_01_starting_take01,uniform_5,5,5,True,0.85,0.7375,6,1,41,0,64,0,0,True
+a3_pilot_01_01_starting_take01,diversity_10,9,9,True,0.8263888888888888,0.6944444444444444,12,1,87,0,64,0,0,True
+a3_pilot_01_02_opening_take01,diversity_5,5,5,True,0.821875,0.675,5,2,50,0,62,2,2,False
+a3_pilot_01_02_opening_take01,uniform_5,5,5,True,0.84375,0.75625,11,0,39,0,64,0,0,True
+a3_pilot_01_02_opening_take01,diversity_10,10,10,True,0.8125,0.69375,22,3,95,0,64,0,0,True
+a3_pilot_01_03_middlegame_take01,diversity_5,5,5,True,0.825,0.6709677419354839,5,7,44,0,64,0,0,True
+a3_pilot_01_03_middlegame_take01,uniform_5,5,5,True,0.853125,0.7483870967741936,8,3,36,0,64,0,0,True
+a3_pilot_01_03_middlegame_take01,diversity_10,10,10,True,0.7828125,0.6290322580645161,24,13,102,0,64,0,0,True
+a3_pilot_01_04_endgame_take01,diversity_5,5,5,True,0.946875,0.7636363636363637,4,5,8,0,64,0,0,True
+a3_pilot_01_04_endgame_take01,uniform_5,5,5,True,0.934375,0.6727272727272727,3,5,13,0,63,1,1,False
+a3_pilot_01_04_endgame_take01,diversity_10,8,8,True,0.896484375,0.5681818181818182,15,10,28,0,64,0,0,True
+a3_pilot_01_05_puzzle_take01,diversity_5,5,5,True,0.953125,0.7142857142857143,5,0,10,1,64,0,0,True
+a3_pilot_01_05_puzzle_take01,uniform_5,5,5,True,0.959375,0.7142857142857143,3,0,10,1,64,0,0,True
+a3_pilot_01_05_puzzle_take01,diversity_10,6,6,True,0.9453125,0.7142857142857143,9,0,12,1,64,0,0,True

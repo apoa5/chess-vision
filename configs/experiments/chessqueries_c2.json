@@ -1,0 +1,23 @@
+{
+  "schema_version": "chessqueries_zero_shot_c2_config_v1",
+  "development_only": true,
+  "final_holdout": false,
+  "evidence_manifest": "data/metadata/evidence_d2_manifest_v1.json",
+  "ground_truth_corrections": "data/metadata/evidence_d2_ground_truth_corrections_v1.json",
+  "release": "outputs/evaluation/chessqueries_c2_release_v1/release.json",
+  "cpu_threads": 4,
+  "interop_threads": 1,
+  "batch_size": 1,
+  "device": "cpu",
+  "precision": "float32",
+  "orientation_policy": "as_decoded_canonical_queries_no_rotation_or_GT_alignment",
+  "smoke_frame_policy": "first_D2_manifest_frame_no_ground_truth_selection",
+  "smoke_repeat_count": 3,
+  "smoke_max_forward_seconds": 60,
+  "smoke_max_rss_bytes": 4294967296,
+  "smoke_max_fraction_initial_available_ram": 0.5,
+  "training": false,
+  "calibration_fit": false,
+  "fusion": false,
+  "larger_model_fallback": false
+}

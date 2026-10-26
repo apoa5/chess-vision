@@ -1,0 +1,23 @@
+{
+  "schema_version": "offline_evidence_d2_config_v1",
+  "development_only": true,
+  "source_catalog": "data/metadata/a3_pilot_01_sources_v2.json",
+  "conditions": [
+    {"name": "diversity_5", "manifest": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality_diverse/budget_5/selected.json"},
+    {"name": "uniform_5", "manifest": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/uniform/budget_5/selected.json"},
+    {"name": "diversity_10", "manifest": "outputs/scanning/d1_pilot_run1/selection_run2/selected/primary_3s_high/marked-board/quality_diverse/budget_10/selected.json"}
+  ],
+  "checkpoint": "outputs/evaluation/crop_b2_20261018_run1/training/context1_224/best.pt",
+  "checkpoint_sha256": "dad8eea28482ee894dfca0794d9f4415d21ac58db23c6d6bed8c4307c71b1bd8",
+  "crop_spec": {"name": "context1_224", "input_size": 224, "padding_squares": 1, "detail_factor": 1.0, "suppress_outer_context": false},
+  "board_size": 800,
+  "context_margin": 200,
+  "initial_context_padding": 200,
+  "batch_size": 16,
+  "cpu_threads": 4,
+  "calibration": {"status": "not_available", "artifact": null, "fit_on_pilot": false},
+  "primary_geometry_requirement": "human_verified",
+  "fusion_enabled": false,
+  "completion_enabled": false,
+  "final_holdout": false
+}

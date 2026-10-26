@@ -1,0 +1,21 @@
+{
+  "schema_version": "offline_evidence_d2_status_v2",
+  "task_status": "complete_for_development_review",
+  "primary_union_unique_frames": 40,
+  "total_unique_frames": 55,
+  "human_verified_frames": 55,
+  "rejected_frames": 0,
+  "unresolved_frames": 0,
+  "replacements": 0,
+  "review_artifact": "data/metadata/evidence_d2_geometry_reviews_v1.json",
+  "review_sha256": "4719f4a52bbadac9a6acd9a98090836214552268892301fd2f3fb580490a7a4b",
+  "raw_observation_count": 3520,
+  "canonical_square_containers": 320,
+  "calibration_status": "not_available",
+  "fusion_implemented": false,
+  "final_holdout_used": false,
+  "effective_ground_truth_correction": "data/metadata/evidence_d2_ground_truth_corrections_v1.json",
+  "original_label_results": "outputs/scanning/d2_pilot_run1/analysis_run1/characterization.json",
+  "corrected_label_results": "outputs/scanning/d2_pilot_run1/analysis_corrected_v1/characterization.json",
+  "old_pending_snapshot": "data/metadata/evidence_d2_status_v1.json"
+}
