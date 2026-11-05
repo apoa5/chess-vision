@@ -1,0 +1,39 @@
+{
+  "schema_version": "chessred_readiness_c6_v1",
+  "date": "2026-10-27",
+  "status": "blocked_official_access_timeout",
+  "stage2_training_authorized": false,
+  "training_started": false,
+  "actual_annotation_schema": null,
+  "verified_counts": {
+    "images": 0,
+    "labels": 0,
+    "geometry": 0,
+    "semantic_orientation": 0,
+    "game_groups": 0
+  },
+  "documented_unverified_counts": {
+    "all_images": 10800,
+    "games": 100,
+    "geometry_images": 2078,
+    "geometry_train": 1442,
+    "geometry_validation": 330,
+    "geometry_test": 306
+  },
+  "fixture_tests_are_real_data_verification": false,
+  "images_downloaded": 0,
+  "gpu_used": false,
+  "metered_usd_at_query": 0.00081913,
+  "remaining_credits_verified": false,
+  "report": "docs/evaluation/chessred_readiness_c6.md",
+  "parent_checkpoint": "outputs/evaluation/chesscog_c5/checkpoints/chesscog_best.pt",
+  "parent_sha256": "11c54e55cd77ffa9fd8530dc75283a5d77953bbb66f0018b8a1f9deca049f1c9",
+  "python_tests_passed": 49,
+  "browser_tests_passed": 39,
+  "preservation": {
+    "checked": 5367,
+    "mismatches": [],
+    "final_holdout_access": false
+  },
+  "next_step": "Obtain publisher-provenanced annotations.json only; verify published checksum and inspect actual schema before a small image subset."
+}

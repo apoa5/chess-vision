@@ -1,0 +1,132 @@
+{
+  "schema_version": "c4_class_distributions_v1",
+  "class_names": [
+    "empty",
+    "white_pawn",
+    "white_knight",
+    "white_bishop",
+    "white_rook",
+    "white_queen",
+    "white_king",
+    "black_pawn",
+    "black_knight",
+    "black_bishop",
+    "black_rook",
+    "black_queen",
+    "black_king"
+  ],
+  "counts": [
+    {
+      "dataset": "chessvision_photos",
+      "split": "train",
+      "boards": 112,
+      "positions": 12,
+      "eligible_boards": 112,
+      "class_counts": [
+        5044,
+        544,
+        117,
+        116,
+        125,
+        63,
+        112,
+        524,
+        107,
+        116,
+        125,
+        63,
+        112
+      ]
+    },
+    {
+      "dataset": "chessvision_photos",
+      "split": "val",
+      "boards": 25,
+      "positions": 3,
+      "eligible_boards": 25,
+      "class_counts": [
+        1132,
+        115,
+        30,
+        24,
+        30,
+        15,
+        25,
+        105,
+        30,
+        24,
+        30,
+        15,
+        25
+      ]
+    },
+    {
+      "dataset": "chessvision_photos",
+      "split": "test",
+      "boards": 23,
+      "positions": 3,
+      "eligible_boards": 23,
+      "class_counts": [
+        1016,
+        114,
+        26,
+        26,
+        26,
+        13,
+        23,
+        104,
+        26,
+        26,
+        36,
+        13,
+        23
+      ]
+    },
+    {
+      "dataset": "d3c_retired",
+      "split": "train",
+      "boards": 77,
+      "positions": 9,
+      "eligible_boards": 77,
+      "class_counts": [
+        2926,
+        542,
+        116,
+        99,
+        116,
+        58,
+        77,
+        535,
+        116,
+        92,
+        116,
+        58,
+        77
+      ]
+    },
+    {
+      "dataset": "d3c_retired",
+      "split": "quarantine",
+      "boards": 10,
+      "positions": 1,
+      "eligible_boards": 0,
+      "class_counts": [
+        340,
+        70,
+        20,
+        20,
+        20,
+        10,
+        10,
+        70,
+        20,
+        20,
+        20,
+        10,
+        10
+      ]
+    }
+  ],
+  "test_metadata_only": true,
+  "no_training_run": true
+}

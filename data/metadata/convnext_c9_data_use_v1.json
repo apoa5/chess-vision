@@ -1,0 +1,12 @@
+{
+  "schema_version": "convnext_c9_authority_v1",
+  "authority": "Explicit owner C9 authorization",
+  "scope": "New dataset only: all180 photos and15 original videos may be considered; historical validation/test training restrictions retired for C9, not historical results.",
+  "historical_files_modified": false,
+  "final_holdout_protected": true,
+  "independent_generalization": false,
+  "inventory_path": "outputs/evaluation/convnext_c9/inventory_v1.json",
+  "inventory_sha256": "1ef54f8bcb197c194f3f4f898648f7092fc2c40374dd8bedb5d73536de742e5b",
+  "a3_c7_correction": "Reuses explicit owner-approved D2 c7 black pawn correction; original FEN/results preserved.",
+  "frame_review_required": true
+}

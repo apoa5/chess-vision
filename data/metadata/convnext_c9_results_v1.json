@@ -1,0 +1,309 @@
+{
+  "schema_version": "convnext_c9_results_v1",
+  "independent_generalization": false,
+  "selection_lock": {
+    "checkpoint_sha256": "45b471edb751261e9da1ef8703f3d9c940cdaec69f5713f6847e48bf0dc26acb",
+    "plan_hash": "1e7f6dd82c1a9fd028003cfbdada3240ecd4dfd804f48cd14d49b44072f39260",
+    "dataset_fingerprint": "ef9d4a010601ae5d98ca2347dacffd6388a103163dbed7efd63aabb4e31d4fe7",
+    "manifest_sha256": "680330c84d10da74bbba94b6f30c0d419102a1adad74b9f329004f976a19ca9d",
+    "selected_updates": 1578,
+    "selection": "minimum validation loss; frozen before internal test",
+    "internal_test_tuning": false
+  },
+  "summaries": {
+    "b2_val": {
+      "overall_accuracy": 0.870045731707317,
+      "occupied_accuracy": 0.8028846153846154,
+      "empty_count": 1792,
+      "empty_false_positives": 177,
+      "empty_false_positive_rate": 0.09877232142857142,
+      "occupied_to_empty_misses": 3,
+      "incorrect_piece_identities": 161,
+      "exact_boards": 16,
+      "complete_board_denominator": 41,
+      "king_to_rook_errors": 16,
+      "rook_to_king_errors": 1,
+      "corrections_per_board": {
+        "mean": 8.317073170731707,
+        "median": 3.0,
+        "histogram": {
+          "0": 16,
+          "1": 4,
+          "3": 2,
+          "4": 1,
+          "6": 1,
+          "7": 2,
+          "9": 2,
+          "10": 1,
+          "12": 2,
+          "15": 1,
+          "18": 2,
+          "20": 1,
+          "21": 1,
+          "23": 1,
+          "27": 1,
+          "34": 1,
+          "39": 1,
+          "40": 1
+        },
+        "categories": {
+          "0": {
+            "count": 16,
+            "fraction": 0.3902439024390244
+          },
+          "1": {
+            "count": 4,
+            "fraction": 0.0975609756097561
+          },
+          "2": {
+            "count": 0,
+            "fraction": 0.0
+          },
+          "3-5": {
+            "count": 3,
+            "fraction": 0.07317073170731707
+          },
+          ">5": {
+            "count": 18,
+            "fraction": 0.43902439024390244
+          }
+        }
+      },
+      "confident_errors_at_0_9": 56,
+      "high_confidence_empty_false_positives": 21,
+      "mean_confidence_when_wrong": 0.6684893842416797
+    },
+    "convnext_val": {
+      "overall_accuracy": 0.9935213414634146,
+      "occupied_accuracy": 0.9927884615384616,
+      "empty_count": 1792,
+      "empty_false_positives": 11,
+      "empty_false_positive_rate": 0.006138392857142857,
+      "occupied_to_empty_misses": 1,
+      "incorrect_piece_identities": 5,
+      "exact_boards": 33,
+      "complete_board_denominator": 41,
+      "king_to_rook_errors": 0,
+      "rook_to_king_errors": 0,
+      "corrections_per_board": {
+        "mean": 0.4146341463414634,
+        "median": 0.0,
+        "histogram": {
+          "0": 33,
+          "1": 5,
+          "2": 1,
+          "4": 1,
+          "6": 1
+        },
+        "categories": {
+          "0": {
+            "count": 33,
+            "fraction": 0.8048780487804879
+          },
+          "1": {
+            "count": 5,
+            "fraction": 0.12195121951219512
+          },
+          "2": {
+            "count": 1,
+            "fraction": 0.024390243902439025
+          },
+          "3-5": {
+            "count": 1,
+            "fraction": 0.024390243902439025
+          },
+          ">5": {
+            "count": 1,
+            "fraction": 0.024390243902439025
+          }
+        }
+      },
+      "confident_errors_at_0_9": 8,
+      "high_confidence_empty_false_positives": 5,
+      "mean_confidence_when_wrong": 0.8383058767885421
+    },
+    "b2_internal_test": {
+      "overall_accuracy": 0.789989406779661,
+      "occupied_accuracy": 0.7209302325581395,
+      "empty_count": 2486,
+      "empty_false_positives": 433,
+      "empty_false_positive_rate": 0.1741753821399839,
+      "occupied_to_empty_misses": 8,
+      "incorrect_piece_identities": 352,
+      "exact_boards": 11,
+      "complete_board_denominator": 59,
+      "king_to_rook_errors": 21,
+      "rook_to_king_errors": 1,
+      "corrections_per_board": {
+        "mean": 13.440677966101696,
+        "median": 10.0,
+        "histogram": {
+          "0": 11,
+          "1": 2,
+          "2": 6,
+          "3": 2,
+          "5": 3,
+          "6": 2,
+          "7": 2,
+          "9": 1,
+          "10": 1,
+          "11": 3,
+          "12": 2,
+          "13": 2,
+          "17": 1,
+          "18": 1,
+          "19": 2,
+          "20": 1,
+          "23": 1,
+          "24": 2,
+          "26": 1,
+          "27": 3,
+          "30": 2,
+          "31": 1,
+          "32": 1,
+          "33": 1,
+          "36": 1,
+          "38": 1,
+          "40": 1,
+          "41": 1,
+          "48": 1
+        },
+        "categories": {
+          "0": {
+            "count": 11,
+            "fraction": 0.1864406779661017
+          },
+          "1": {
+            "count": 2,
+            "fraction": 0.03389830508474576
+          },
+          "2": {
+            "count": 6,
+            "fraction": 0.1016949152542373
+          },
+          "3-5": {
+            "count": 5,
+            "fraction": 0.0847457627118644
+          },
+          ">5": {
+            "count": 35,
+            "fraction": 0.5932203389830508
+          }
+        }
+      },
+      "confident_errors_at_0_9": 122,
+      "high_confidence_empty_false_positives": 31,
+      "mean_confidence_when_wrong": 0.6594586879412563
+    },
+    "convnext_internal_test": {
+      "overall_accuracy": 0.9917902542372882,
+      "occupied_accuracy": 0.9922480620155039,
+      "empty_count": 2486,
+      "empty_false_positives": 21,
+      "empty_false_positive_rate": 0.008447304907481898,
+      "occupied_to_empty_misses": 0,
+      "incorrect_piece_identities": 10,
+      "exact_boards": 41,
+      "complete_board_denominator": 59,
+      "king_to_rook_errors": 0,
+      "rook_to_king_errors": 0,
+      "corrections_per_board": {
+        "mean": 0.5254237288135594,
+        "median": 0.0,
+        "histogram": {
+          "0": 41,
+          "1": 9,
+          "2": 6,
+          "3": 2,
+          "4": 1
+        },
+        "categories": {
+          "0": {
+            "count": 41,
+            "fraction": 0.6949152542372882
+          },
+          "1": {
+            "count": 9,
+            "fraction": 0.15254237288135594
+          },
+          "2": {
+            "count": 6,
+            "fraction": 0.1016949152542373
+          },
+          "3-5": {
+            "count": 3,
+            "fraction": 0.05084745762711865
+          },
+          ">5": {
+            "count": 0,
+            "fraction": 0.0
+          }
+        }
+      },
+      "confident_errors_at_0_9": 10,
+      "high_confidence_empty_false_positives": 7,
+      "mean_confidence_when_wrong": 0.7575992567917915
+    }
+  },
+  "paired_changes": {
+    "val": {
+      "corrected": 333,
+      "regressed": 9,
+      "both_wrong": 8
+    },
+    "internal_test": {
+      "corrected": 784,
+      "regressed": 22,
+      "both_wrong": 9
+    }
+  },
+  "training_status": {
+    "updates": 3682,
+    "completed_coverage_epochs": 7,
+    "configured_cycles": 12,
+    "stop_reason": "early_stopping",
+    "stored_partial_training_flag": true,
+    "convergence_claimed": false,
+    "source_exposure": {
+      "chessvision_photos": 62272,
+      "d3c_retired": 29120,
+      "a3_pilot": 26425
+    }
+  },
+  "checkpoint_hashes": {
+    "convnextv2_tiny_best.pt": "45b471edb751261e9da1ef8703f3d9c940cdaec69f5713f6847e48bf0dc26acb",
+    "last.pt": "c27028fdeef8d834618ebd2f13cc25440f7c7fdb95aed3c45f7a34b6470f3c36"
+  },
+  "metered_app_compute_usd": 0.40471368999999996,
+  "budget_usd": 5,
+  "remaining_credits_verified": false,
+  "production_changed": false,
+  "final_holdout_access": false,
+  "artifacts": {
+    "docs/evaluation/convnext_v2_c9.md": "429321a304d2b1e8199dfc9faa64140b066738dd40388a23b2383720110864c3",
+    "configs/training/convnext_c9_authorized_v1.json": "bf283e6a0ea74cfacb3e46df6a8bd665874eada40b459744872c32dc5e965c99",
+    "outputs/evaluation/convnext_c9/comparison_v1.json": "63097ad1dc8904929c74b204cc0fef878ab095d260b27f233ef7ce02a5c7533a",
+    "outputs/evaluation/convnext_c9/export_receipt_v1.json": "abc91550fc4117ab1d8eb3d99743b21afd751ac773d5699b825a41be9d688a2c",
+    "outputs/evaluation/convnext_c9/local_checkpoint_verification_v1.json": "7ba18eb77ecb8f229279087f6527011fe72714390ba6d84a61d0049f08ebb7c4",
+    "outputs/evaluation/convnext_c9/integrity_final_v1.json": "a95d0f507d78ed746c3bfc78a431ce24b8c8c202308a7046ea69f4619cba537b",
+    "outputs/evaluation/convnext_c9/data_summary_v1.json": "eed3dbbac97a54ff6d21c13a0361df18f057df6e688f6067382746e744017a72",
+    "outputs/evaluation/convnext_c9/cpu_convnext_v1.json": "073fa6b3a63881ffa67fad4de6232a20104b9711e25649eea133ea975f59433b",
+    "outputs/evaluation/convnext_c9/cpu_b2_v1.json": "ccd3f60a7a552295ef4bd7c356f1a0513e07381855f4602829b4f66d52c77c1d",
+    "outputs/evaluation/convnext_c9/export_v1/selection_lock.json": "114a7c30c997fe6c8c72061d54e780a0d6128647bec1fa182bec94ea1f045d84",
+    "docs/evaluation/convnext_c9_sources_v1.csv": "5732723ee230843ef25860295fec7239b8b0d4840d999f82a8ceb091e4eedee7",
+    "docs/evaluation/convnext_c9_classes_v1.csv": "5b8ca61b45c8d3a5bc79116aaf84a70c914feb1619f07e648459037482bcbca6",
+    "docs/evaluation/convnext_c9_figures/learning_curves_v1.svg": "cfbf75c0c3f75f9ecafda933ba3a029546fde3d196cd86aae5b9ea51245c68da",
+    "outputs/evaluation/convnext_c9/visual_v1/index.html": "f28d9f2ff1cf917a6d19f0de08e1fed262783684dae9d59b1e1655ead566fef7",
+    "outputs/evaluation/convnext_c9/visual_v1/test_edge_cases_v1.html": "a0991cb59203535d7e4ab990bd6f3f398257e3799f3ba61f0a5ad80373f63b0a",
+    "outputs/evaluation/convnext_c9/release_validation_v1.json": "46a20bce908c0d3f5adb2febbc60e1413bd55379c9875f5bf43d8060ccf98330",
+    "outputs/evaluation/convnext_c9/temporary_cleanup_v1.json": "655c8a4ea4b48b7d7f7bdb320b4751ff444e3f8434e386f9b91ca98aeb6934ed",
+    "outputs/evaluation/convnext_c9/python_regressions_release_v1.txt": "9e3093c290c9e09f43c4057a764be85cb407321f40f7c5586e8b2711831f74ed",
+    "outputs/evaluation/convnext_c9/browser_regressions_final_v1.txt": "8cba874067897183631447315701366637acd6fd06d1852f02e53a8c1540093d"
+  },
+  "recommendation": "Further independent validation; no automatic production promotion; assess CPU and noncommercial-weight restrictions",
+  "tests": {
+    "python_regressions": 263,
+    "focused": 19,
+    "browser": 3
+  }
+}

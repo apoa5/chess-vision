@@ -1,0 +1,21 @@
+# C.7 preregistered direct adaptation design
+
+2026-10-27; recorded before either fine-tuning branch. Development experiment only, one seed (42), one run per branch. No ChessReD retrieval or training.
+
+Parent for both branches: C.5 `chesscog_best.pt`, SHA-256 `11c54e55cd77ffa9fd8530dc75283a5d77953bbb66f0018b8a1f9deca049f1c9`. Preserve the actual parent configuration and hash in `configs/training/personal_c7_authorized_v1.json`. Never rename this a ChessReD checkpoint.
+
+The unchanged C.4 trainer is reused through a C.7 wrapper. Its internal `experiment=B` selects the existing Chesscog-parent transfer contract in both runs. Scientific branch identity is `schema_version=personal_direct_c7_v1` plus `c7_branch=B/C`; these are not the historical C.4 C/D/E configurations. Their ChessReD-parent contracts remain unchanged.
+
+Architecture: MobileNetV3 Small, 1,531,325 parameters, four-channel RGB+mask input, original 13-class ordering. Representation: B.2 context1_224, same operators, interpolation and normalization. No alternative crop or augmentation design.
+
+Data: 112 approved training photos (7,168 squares), 25 approved validation photos (1,600 squares, three physical positions). Branch B uses photos only. Branch C adds 77 owner-reviewed frames (4,928 squares) from nine retired D.3c positions. Position 03 stays quarantined. Test photos, original five pilot recordings and final holdout are excluded. The existing exporter checks every packed input against frozen/reviewed hashes; only prepared contexts and masks enter the Modal Volume, not videos. Review provenance, labels and geometry remain separately attributable; owner verification does not assert pixel-perfect corners.
+
+Matched settings: Adam, LR 3e-5, StepLR gamma .9 after each 112-update interval, six intervals, maximum 672 optimizer updates, batch64, no accumulation, bf16 on L4, workers0, first interval head+stem then full backbone, same photo-derived inverse-square-root-frequency class weights. Existing brightness/contrast .1, blur probability .15, noise probability .2/std .01; masks unchanged. Validation every112 updates, best selected by weighted validation cross-entropy, patience6. Save best and resumable last in separate directories. No extra seeds, retries or automatic resumes. Maximum training-loop time1800s and function time2400s per branch; incomplete schedules must be reported as partial.
+
+Sampling: unchanged C.4 source/position/frame draws. B uses position-balanced photo draws; C uses probability .5 for video versus photos, then uniform position and frame draws within each source. Exactly112 board batches per interval for both. This replaces photo exposure rather than adding optimizer updates. Actual prespecified draw counts/class exposure are recorded in `outputs/evaluation/personal_c7/data_audit_v1.json`; source distributions need not be identical. Correlated frames are not independent positions. No split is randomized at square/frame level.
+
+Evaluate frozen B.2, unadapted C.5, selected B and selected C on the identical 25 validation photos. Primary interpretation: occupied-square accuracy, with overall accuracy, empty false positives, per-class precision/recall/confusion, king→rook errors, exact boards, wrong-confidence diagnostics, per-position results, CPU latency and memory as mandatory checks. Do not select a winner on occupied accuracy alone. No fixed significance or production-promotion threshold is claimed. Validation is repeatedly exposed development data, three positions, no independent generalization estimate. Video-training accuracy is not independent evidence and is not a checkpoint criterion.
+
+Budget: current Modal rates plus two40-minute function caps and two5-minute startup allowances imply $1.4379 compute; reserve $.30 ancillary, planned total $1.7379 under the authorized combined $3. Credit balance and hard workspace spend cap are not exposed by available billing queries; no billing settings changed. The bounds are not an account spending guarantee. A single committed attempt marker per branch rejects platform replay. Storage can continue to accrue.
+
+Stop after two runs, identical validation, compact diagnostics, exports, tests and preservation checks. No production replacement, extra experiment, Stage2/3 continuation or new data requirement.

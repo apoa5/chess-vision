@@ -1,0 +1,92 @@
+{
+  "schema_version": "d3c_training_status_c4_v2",
+  "supersedes_status_only": "data/metadata/d3c_data_use_c4_v1.json",
+  "historical_sources_modified": false,
+  "authority": "owner C4 authorization plus explicit complete-packet verification",
+  "review": {
+    "path": "data/metadata/c4_video_reviews_v1.json",
+    "sha256": "92fcdc14abe500039da688bee88bbd39e38f58155cc362fcab08f15a5c0f8be0"
+  },
+  "verified_manifest": {
+    "path": "outputs/evaluation/multidataset_c4/video_manifest_verified_v1.json",
+    "sha256": "e15a44ddde5822630501f741f042c2f9ad6ad815e66caf5a3a96be5ddccee056"
+  },
+  "original_pilot_excluded": true,
+  "independent_evaluation_status": "retired",
+  "training_started": false,
+  "sessions": [
+    {
+      "session_id": "d3c_pos_01",
+      "source_video_sha256": "44366d75282057888f59ee83309ffc523a8a0705523ec4680cf2b7cbff7b1f62",
+      "verified_frames": 10,
+      "training_eligible_frames": 10,
+      "protected_overlap": null
+    },
+    {
+      "session_id": "d3c_pos_03",
+      "source_video_sha256": "8847488d3972bb70dc8b0c9c1f68c3e014319f6181383f4b2f4e4576630c4215",
+      "verified_frames": 10,
+      "training_eligible_frames": 0,
+      "protected_overlap": {
+        "position_id": "position_003",
+        "split": "val"
+      }
+    },
+    {
+      "session_id": "d3c_pos_05",
+      "source_video_sha256": "1fda796af241d36f063431fea82bcaf515616d9e5673666ea1ec803119f96e99",
+      "verified_frames": 9,
+      "training_eligible_frames": 9,
+      "protected_overlap": null
+    },
+    {
+      "session_id": "d3c_pos_07",
+      "source_video_sha256": "cf44bafd9d5772e4f107779c3d6e91150d360a6decdcb7778b5fa8cba9690716",
+      "verified_frames": 8,
+      "training_eligible_frames": 8,
+      "protected_overlap": null
+    },
+    {
+      "session_id": "d3c_pos_09",
+      "source_video_sha256": "50aad8a426fdbd693f972956e98068b446c39a20afbae9c6b7f21b74d3f41abb",
+      "verified_frames": 7,
+      "training_eligible_frames": 7,
+      "protected_overlap": null
+    },
+    {
+      "session_id": "d3c_pos_11",
+      "source_video_sha256": "69003380601fc98acd5324f5d38f0f1f902822a29b8334a12cb9f986e04977b5",
+      "verified_frames": 10,
+      "training_eligible_frames": 10,
+      "protected_overlap": null
+    },
+    {
+      "session_id": "d3c_pos_13",
+      "source_video_sha256": "2aee77856be700654d6b0dec588e23c413b7fc35ed345936e44b429dc5c65a52",
+      "verified_frames": 7,
+      "training_eligible_frames": 7,
+      "protected_overlap": null
+    },
+    {
+      "session_id": "d3c_pos_15",
+      "source_video_sha256": "ecec318351006492aeaeb435824dd0f220618dc8b55d47f20c4ef039e28294f0",
+      "verified_frames": 7,
+      "training_eligible_frames": 7,
+      "protected_overlap": null
+    },
+    {
+      "session_id": "d3c_pos_17",
+      "source_video_sha256": "311c81b59ba794e2d1f2ecb531d68a249036a18d740f3c2782c400998a9e9092",
+      "verified_frames": 9,
+      "training_eligible_frames": 9,
+      "protected_overlap": null
+    },
+    {
+      "session_id": "d3c_pos_19",
+      "source_video_sha256": "6a845043a9a0bac8ad69c3fb8c01ee032591046ec79009402fec41218ea0faa3",
+      "verified_frames": 10,
+      "training_eligible_frames": 10,
+      "protected_overlap": null
+    }
+  ]
+}

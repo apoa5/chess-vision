@@ -1,0 +1,218 @@
+{
+  "schema_version": "multidataset_catalog_c4_v1",
+  "representation": "b2-context1-224-v1",
+  "readiness": {
+    "schema_version": "multidataset_readiness_c4_v2",
+    "personal": {
+      "train": {
+        "boards": 112,
+        "squares": 7168,
+        "positions": [
+          "position_001",
+          "position_002",
+          "position_004",
+          "position_005",
+          "position_008",
+          "position_009",
+          "position_012",
+          "position_013",
+          "position_014",
+          "position_015",
+          "position_017",
+          "position_018"
+        ]
+      },
+      "val": {
+        "boards": 25,
+        "squares": 1600,
+        "positions": [
+          "position_003",
+          "position_007",
+          "position_011"
+        ]
+      },
+      "test": {
+        "boards": 23,
+        "squares": 1472,
+        "positions": [
+          "position_006",
+          "position_010",
+          "position_016"
+        ]
+      }
+    },
+    "video": {
+      "sessions": 10,
+      "candidates": 240,
+      "selected_frames": 87,
+      "human_verified_frames": 87,
+      "training_eligible_frames": 77,
+      "pending_nonoverlap_frames": 0,
+      "quarantined_overlap_frames": 10,
+      "sessions_detail": [
+        {
+          "session_id": "d3c_pos_01",
+          "candidates": 26,
+          "selected": 10,
+          "predicted_view_counts": {
+            "black_near_camera": 3,
+            "white_left": 2,
+            "white_near_camera": 3,
+            "white_right": 2
+          },
+          "protected_overlap": null
+        },
+        {
+          "session_id": "d3c_pos_03",
+          "candidates": 23,
+          "selected": 10,
+          "predicted_view_counts": {
+            "black_near_camera": 2,
+            "white_left": 3,
+            "white_near_camera": 1,
+            "white_right": 4
+          },
+          "protected_overlap": {
+            "position_id": "position_003",
+            "split": "val"
+          }
+        },
+        {
+          "session_id": "d3c_pos_05",
+          "candidates": 24,
+          "selected": 9,
+          "predicted_view_counts": {
+            "black_near_camera": 2,
+            "white_left": 3,
+            "white_near_camera": 2,
+            "white_right": 2
+          },
+          "protected_overlap": null
+        },
+        {
+          "session_id": "d3c_pos_07",
+          "candidates": 24,
+          "selected": 8,
+          "predicted_view_counts": {
+            "black_near_camera": 1,
+            "white_left": 1,
+            "white_near_camera": 3,
+            "white_right": 3
+          },
+          "protected_overlap": null
+        },
+        {
+          "session_id": "d3c_pos_09",
+          "candidates": 22,
+          "selected": 7,
+          "predicted_view_counts": {
+            "black_near_camera": 1,
+            "white_left": 2,
+            "white_near_camera": 3,
+            "white_right": 1
+          },
+          "protected_overlap": null
+        },
+        {
+          "session_id": "d3c_pos_11",
+          "candidates": 23,
+          "selected": 10,
+          "predicted_view_counts": {
+            "black_near_camera": 2,
+            "white_left": 1,
+            "white_near_camera": 4,
+            "white_right": 3
+          },
+          "protected_overlap": null
+        },
+        {
+          "session_id": "d3c_pos_13",
+          "candidates": 21,
+          "selected": 7,
+          "predicted_view_counts": {
+            "white_left": 1,
+            "white_near_camera": 3,
+            "white_right": 3
+          },
+          "protected_overlap": null
+        },
+        {
+          "session_id": "d3c_pos_15",
+          "candidates": 24,
+          "selected": 7,
+          "predicted_view_counts": {
+            "black_near_camera": 2,
+            "white_left": 1,
+            "white_near_camera": 2,
+            "white_right": 2
+          },
+          "protected_overlap": null
+        },
+        {
+          "session_id": "d3c_pos_17",
+          "candidates": 26,
+          "selected": 9,
+          "predicted_view_counts": {
+            "black_near_camera": 1,
+            "white_left": 4,
+            "white_near_camera": 2,
+            "white_right": 2
+          },
+          "protected_overlap": null
+        },
+        {
+          "session_id": "d3c_pos_19",
+          "candidates": 27,
+          "selected": 10,
+          "predicted_view_counts": {
+            "black_near_camera": 2,
+            "white_left": 3,
+            "white_near_camera": 2,
+            "white_right": 3
+          },
+          "protected_overlap": null
+        }
+      ],
+      "human_verified_training_squares": 4928,
+      "review_artifact": "data/metadata/c4_video_reviews_v1.json",
+      "annotation_caveat": "owner-reviewed video grids/crops and FEN agreement; reference photos remain unavailable; not pixel-perfect geometry claim"
+    },
+    "chesscog": {
+      "actual_downloaded_boards": 4,
+      "actual_verified_square_observations": 256,
+      "verified_train_boards": 2,
+      "verified_val_boards": 2,
+      "archive_inventory_pairs": {
+        "train": 4400,
+        "val": 146,
+        "test": 342
+      },
+      "total_archive_bytes": 7456258701,
+      "all_extracted_bytes": 7458805984,
+      "full_archive_sha_verified": false
+    },
+    "chessred": {
+      "actual_downloaded_boards": 0,
+      "verified_usable_boards": 0,
+      "documented_not_verified_count": 10800,
+      "access_status": "official 4TU metadata and annotation download timed out; size, actual corner coverage and game splits remain unverified"
+    },
+    "no_full_training": true,
+    "no_production_changes": true,
+    "final_holdout_access": false
+  },
+  "licenses": {
+    "chesscog_code": "MIT",
+    "chesscog_data": "CC BY 4.0",
+    "chessred_code": "MIT",
+    "chessred_data": "CC BY-NC-SA 4.0"
+  },
+  "sources": {
+    "chesscog": "https://osf.io/xf3ka/",
+    "chessred": "https://data.4tu.nl/datasets/99b5c721-280b-450b-b058-b2900b69a90f"
+  },
+  "historical_original_split_unmodified": true,
+  "video_status_registry": "data/metadata/d3c_training_status_c4_v2.json",
+  "future_independent_evaluation": "new unseen recordings after training/model selection; no recording prerequisite during C4",
+  "no_full_training": true
+}

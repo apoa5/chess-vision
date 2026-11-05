@@ -1,0 +1,221 @@
+{
+  "schema_version": "d3c_data_use_c4_v1",
+  "authority": "Explicit owner authorization in C.4 assignment",
+  "historical_report": {
+    "path": "docs/evaluation/fusion_independent_d3c.md",
+    "sha256": "84b6e5e19e98b088d62d69cb3854c1a2e64ab9fc1ed9e20277fd3729b65c39d4"
+  },
+  "historical_registry": {
+    "path": "data/metadata/fusion_independent_d3c_cohort_v1.json",
+    "sha256": "908d32eaf24843c5cf8903617e3e78c4f7ce0c13dfbca1c2b3c56fbd1bef8c6b"
+  },
+  "original_pilot_excluded": true,
+  "original_historical_artifacts_modified": false,
+  "independent_evaluation_status": "retired",
+  "future_evaluation": "Only genuinely new unseen recording sessions after training/model selection; not required during C4",
+  "sessions": [
+    {
+      "session_id": "d3c_pos_01",
+      "position_id": "d3c_position_01",
+      "source": {
+        "path": "data/raw/new_test/pos_001.MOV",
+        "sha256": "44366d75282057888f59ee83309ffc523a8a0705523ec4680cf2b7cbff7b1f62",
+        "bytes": 84902672
+      },
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "data_use": "retired_independent_evaluation_authorized_development_training_pending_verification",
+      "training_eligible": false,
+      "verification": "pending_frame_FEN_orientation_geometry_crop_review",
+      "protected_overlap": null,
+      "inclusion": "pending_verification",
+      "reference_photos": [],
+      "unchanged_position": {
+        "status": "owner_declared",
+        "source": "D.3c assignment continuous unchanged physical position"
+      }
+    },
+    {
+      "session_id": "d3c_pos_03",
+      "position_id": "d3c_position_03",
+      "source": {
+        "path": "data/raw/new_test/pos_003.MOV",
+        "sha256": "8847488d3972bb70dc8b0c9c1f68c3e014319f6181383f4b2f4e4576630c4215",
+        "bytes": 72666837
+      },
+      "fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+      "data_use": "retired_independent_evaluation_authorized_development_training_pending_verification",
+      "training_eligible": false,
+      "verification": "pending_frame_FEN_orientation_geometry_crop_review",
+      "protected_overlap": {
+        "position_id": "position_003",
+        "split": "val"
+      },
+      "inclusion": "quarantine_protected_position",
+      "reference_photos": [],
+      "unchanged_position": {
+        "status": "owner_declared",
+        "source": "D.3c assignment continuous unchanged physical position"
+      }
+    },
+    {
+      "session_id": "d3c_pos_05",
+      "position_id": "d3c_position_05",
+      "source": {
+        "path": "data/raw/new_test/pos_005.MOV",
+        "sha256": "1fda796af241d36f063431fea82bcaf515616d9e5673666ea1ec803119f96e99",
+        "bytes": 75892850
+      },
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w - - 2 7",
+      "data_use": "retired_independent_evaluation_authorized_development_training_pending_verification",
+      "training_eligible": false,
+      "verification": "pending_frame_FEN_orientation_geometry_crop_review",
+      "protected_overlap": null,
+      "inclusion": "pending_verification",
+      "reference_photos": [],
+      "unchanged_position": {
+        "status": "owner_declared",
+        "source": "D.3c assignment continuous unchanged physical position"
+      }
+    },
+    {
+      "session_id": "d3c_pos_07",
+      "position_id": "d3c_position_07",
+      "source": {
+        "path": "data/raw/new_test/pos_007.MOV",
+        "sha256": "cf44bafd9d5772e4f107779c3d6e91150d360a6decdcb7778b5fa8cba9690716",
+        "bytes": 76639128
+      },
+      "fen": "r1b1kbnr/pp3ppp/1qn1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R w KQkq - 2 6",
+      "data_use": "retired_independent_evaluation_authorized_development_training_pending_verification",
+      "training_eligible": false,
+      "verification": "pending_frame_FEN_orientation_geometry_crop_review",
+      "protected_overlap": null,
+      "inclusion": "pending_verification",
+      "reference_photos": [],
+      "unchanged_position": {
+        "status": "owner_declared",
+        "source": "D.3c assignment continuous unchanged physical position"
+      }
+    },
+    {
+      "session_id": "d3c_pos_09",
+      "position_id": "d3c_position_09",
+      "source": {
+        "path": "data/raw/new_test/pos_009.MOV",
+        "sha256": "50aad8a426fdbd693f972956e98068b446c39a20afbae9c6b7f21b74d3f41abb",
+        "bytes": 72055917
+      },
+      "fen": "r2q1rk1/pp2bppp/2n1pn2/2pp4/3P1B2/2P1PN2/PP1N1PPP/R2QKB1R w KQ - 2 10",
+      "data_use": "retired_independent_evaluation_authorized_development_training_pending_verification",
+      "training_eligible": false,
+      "verification": "pending_frame_FEN_orientation_geometry_crop_review",
+      "protected_overlap": null,
+      "inclusion": "pending_verification",
+      "reference_photos": [],
+      "unchanged_position": {
+        "status": "owner_declared",
+        "source": "D.3c assignment continuous unchanged physical position"
+      }
+    },
+    {
+      "session_id": "d3c_pos_11",
+      "position_id": "d3c_position_11",
+      "source": {
+        "path": "data/raw/new_test/pos_011.MOV",
+        "sha256": "69003380601fc98acd5324f5d38f0f1f902822a29b8334a12cb9f986e04977b5",
+        "bytes": 75234966
+      },
+      "fen": "r4rk1/1ppq1ppp/p1npbn2/4p3/2B1P3/2NP1N1P/PPP2PP1/R2Q1RK1 w - - 1 12",
+      "data_use": "retired_independent_evaluation_authorized_development_training_pending_verification",
+      "training_eligible": false,
+      "verification": "pending_frame_FEN_orientation_geometry_crop_review",
+      "protected_overlap": null,
+      "inclusion": "pending_verification",
+      "reference_photos": [],
+      "unchanged_position": {
+        "status": "owner_declared",
+        "source": "D.3c assignment continuous unchanged physical position"
+      }
+    },
+    {
+      "session_id": "d3c_pos_13",
+      "position_id": "d3c_position_13",
+      "source": {
+        "path": "data/raw/new_test/pos_013.MOV",
+        "sha256": "2aee77856be700654d6b0dec588e23c413b7fc35ed345936e44b429dc5c65a52",
+        "bytes": 68196634
+      },
+      "fen": "r1bq1rk1/pp3ppp/2n1pn2/2bp4/4P3/2NP1N2/PPP1BPPP/R1BQ1RK1 w - - 4 9",
+      "data_use": "retired_independent_evaluation_authorized_development_training_pending_verification",
+      "training_eligible": false,
+      "verification": "pending_frame_FEN_orientation_geometry_crop_review",
+      "protected_overlap": null,
+      "inclusion": "pending_verification",
+      "reference_photos": [],
+      "unchanged_position": {
+        "status": "owner_declared",
+        "source": "D.3c assignment continuous unchanged physical position"
+      }
+    },
+    {
+      "session_id": "d3c_pos_15",
+      "position_id": "d3c_position_15",
+      "source": {
+        "path": "data/raw/new_test/pos_015.MOV",
+        "sha256": "ecec318351006492aeaeb435824dd0f220618dc8b55d47f20c4ef039e28294f0",
+        "bytes": 78735165
+      },
+      "fen": "2r2rk1/pp1q1ppp/2n1pn2/3p1b2/3P1B2/2N1PN2/PPQ2PPP/2RR2K1 w - - 2 16",
+      "data_use": "retired_independent_evaluation_authorized_development_training_pending_verification",
+      "training_eligible": false,
+      "verification": "pending_frame_FEN_orientation_geometry_crop_review",
+      "protected_overlap": null,
+      "inclusion": "pending_verification",
+      "reference_photos": [],
+      "unchanged_position": {
+        "status": "owner_declared",
+        "source": "D.3c assignment continuous unchanged physical position"
+      }
+    },
+    {
+      "session_id": "d3c_pos_17",
+      "position_id": "d3c_position_17",
+      "source": {
+        "path": "data/raw/new_test/pos_017.MOV",
+        "sha256": "311c81b59ba794e2d1f2ecb531d68a249036a18d740f3c2782c400998a9e9092",
+        "bytes": 82144455
+      },
+      "fen": "8/5pk1/3p2p1/2pPp3/2P1P3/5K2/6PP/8 w - - 0 42",
+      "data_use": "retired_independent_evaluation_authorized_development_training_pending_verification",
+      "training_eligible": false,
+      "verification": "pending_frame_FEN_orientation_geometry_crop_review",
+      "protected_overlap": null,
+      "inclusion": "pending_verification",
+      "reference_photos": [],
+      "unchanged_position": {
+        "status": "owner_declared",
+        "source": "D.3c assignment continuous unchanged physical position"
+      }
+    },
+    {
+      "session_id": "d3c_pos_19",
+      "position_id": "d3c_position_19",
+      "source": {
+        "path": "data/raw/new_test/pos_019.MOV",
+        "sha256": "6a845043a9a0bac8ad69c3fb8c01ee032591046ec79009402fec41218ea0faa3",
+        "bytes": 87116155
+      },
+      "fen": "8/2p2k2/1p4p1/p2P4/P1P2K2/1P6/8/8 b - - 0 47",
+      "data_use": "retired_independent_evaluation_authorized_development_training_pending_verification",
+      "training_eligible": false,
+      "verification": "pending_frame_FEN_orientation_geometry_crop_review",
+      "protected_overlap": null,
+      "inclusion": "pending_verification",
+      "reference_photos": [],
+      "unchanged_position": {
+        "status": "owner_declared",
+        "source": "D.3c assignment continuous unchanged physical position"
+      }
+    }
+  ]
+}

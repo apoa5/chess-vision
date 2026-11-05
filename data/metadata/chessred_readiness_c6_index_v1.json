@@ -1,0 +1,26 @@
+{
+  "schema_version": "chessred_readiness_c6_index_v1",
+  "artifacts_sha256": {
+    "data/metadata/chessred_readiness_c6_v1.json": "7d78188fbaed12d70735c48022076a9d83679ad077dc1c6e8978acdba8f5ef92",
+    "docs/evaluation/chessred_readiness_c6.md": "9c65fdfcc816c5906c5176d97c9bb7eac709625ca76fa8fa947da9a90860d56a",
+    "src/training/chessred_access_c6.py": "0e7e41da51e641fabc973b71e40709d1903a2828e3edd3c2b6c5a5aed0d5ee77",
+    "scripts/probe_chessred_c6.py": "057f4397cf2e63c52c25306d97f66cada598ab37b7001bb123a8e2784d8edaa6",
+    "scripts/modal_chessred_c6.py": "b9afc017a88afe10e2ec6d55f996261e25a0c51d40dd124966842c36fe3d44cd",
+    "tests/test_chessred_c6.py": "44f096cb8ae8123137b562fbc6aeb100020b2ca0de155ede34160d347437d49d",
+    "outputs/evaluation/chessred_c6/integrity_v1.json": "146eac43d3d0b965c1d3366afadabc9f9e87a3b0103ff82d967c0b653e736c9b",
+    "outputs/evaluation/chessred_c6/browser_regressions_v1.txt": "e69887305dcc0fa4347a7c4448f270beaca52f7ef55d11c8935e85d7c9b5f624",
+    "outputs/evaluation/chessred_c6/preserved_inputs_v1.json": "2842fafe3c579207eeeeda68e5f29ad0b01a553a42aece77d4707cf8985cfd0c",
+    "outputs/evaluation/chessred_c6/local_v1.log": "e630d178ba5960e80f146d1efad550da1561354a2de4ef33a2f012d95f8a63ca",
+    "outputs/evaluation/chessred_c6/billing_resources_v1.json": "79003e64a110b690e96b6bd990b52340700db2b0beab3794a57bb856959c4077",
+    "outputs/evaluation/chessred_c6/apps_after_probe_v1.json": "1dcd19659858dc1d67596b5b50012dd2cad265634458f5e56dc3a2c1ee4f09a8",
+    "outputs/evaluation/chessred_c6/adapter_regressions_v1.txt": "5726201166e3c1606b255bc1568ea5dbd2ca2502a031829cb322323e63f633c4",
+    "outputs/evaluation/chessred_c6/modal_eu_v1.log": "b33a6323c21ccf04170e66731d20aa4d56608fd0504e4c493445f5153042a066",
+    "outputs/evaluation/chessred_c6/local_v1/retrieval.json": "e630d178ba5960e80f146d1efad550da1561354a2de4ef33a2f012d95f8a63ca",
+    "outputs/evaluation/chessred_c6/official_context_v1/doi_metadata.txt": "b3a9380cccd2a98f68537ad031c1a22315c2b25ba333d4b010e746febda3e648",
+    "outputs/evaluation/chessred_c6/official_context_v1/receipts.json": "d4f8f4811710bb086a8a7506531a0ef8a404b831195b8734b6da4781ba8e43f3",
+    "outputs/evaluation/chessred_c6/official_context_v1/readme.txt": "f942a4f3fb64234bd995346b3facbbb96ba9f4cea3fbaeade34c78a9b3b5f225",
+    "outputs/evaluation/chessred_c6/official_context_v1/dataset_code.txt": "9552b84b8cd20593cf9974ca6a8f8fca5522256d0ee37935842f072899f07370",
+    "outputs/evaluation/chessred_c6/official_context_v1/configuration.txt": "97b72ccd3a2700b37dfd06a88f4cf95df754706856197a94130dca1eab697612",
+    "outputs/evaluation/chessred_c6/chessred-c6-eu-v1/retrieval.json": "14e4d06988f9afeece00f55d0909146beca2e4fa85486d6e1168bd3da4ad24a1"
+  }
+}

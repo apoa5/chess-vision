@@ -29,3 +29,34 @@ outputs/scanning/
 alignment-diagnostic*.zip
 
 recognition-observation*.zip
+
+# Local environment files and credentials (commit placeholder examples only).
+.env
+.env.*
+!.env.example
+!.env.*.example
+.aws/
+.docker/
+.dockercfg
+.azure/
+.gcloud/
+.config/gcloud/
+.config/modal/
+.modal/
+.modal.toml
+.netrc
+.npmrc
+.codex/auth.json
+.codex/sessions/
+.codex/log/
+credentials.json
+service-account*.json
+*-service-account.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+id_rsa
+id_ecdsa
+id_ed25519

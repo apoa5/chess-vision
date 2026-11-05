@@ -1,0 +1,2025 @@
+{
+  "schema_version": "convnext_c9_reviews_v1",
+  "reviewer": "Chess-Vision project owner (user)",
+  "packet_sha256": "655baa7214fece6a090d0944e3db8e860409f407a776523b1917582d6746fea6",
+  "items": {
+    "a3_pilot_01_01_starting_take01_hd_frame_000240": {
+      "binding": "da5442e87431c88478e5e78a4c612d17f6f7ad127afa701e8cb754efbb640dab",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_01_starting_take01_hd_frame_000480": {
+      "binding": "f4c8a02e3b532941c44b71bbdab94f0c8c18bb5c166da79cb207b922e5ba5875",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_01_starting_take01_hd_frame_000570": {
+      "binding": "6bddf69e81a1464fa9081389d6a71162f834c2e6172194aeef6395d483e77538",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_01_starting_take01_hd_frame_000660": {
+      "binding": "53e02afeb00d86db14532d513298b30545b56c83fe582ae23d928cd19e1ef60e",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_01_starting_take01_hd_frame_000780": {
+      "binding": "16022d67fdcdf0dfd324fbbe35739206971bf1e1fd5745f5710b99f0b1b5d616",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_01_starting_take01_hd_frame_001200": {
+      "binding": "dbad03fc7004438de817300148c344b4a89c202d9eeacd0a9f8fe098afa584ab",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_01_starting_take01_hd_frame_001320": {
+      "binding": "ccf83caa9a17d359b576afeea250ee023834b0f4776cd926e970cbf6ea1e657f",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_01_starting_take01_hd_frame_001590": {
+      "binding": "b5fdcbc7e1ccaf195bd3f8cd67af364ece992a72e36b0cfed91c773b515bf3d4",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_01_starting_take01_hd_frame_001650": {
+      "binding": "eee2d0f4494518adad0fefa9f310cd335a48cf378e191037d97fe2a275e1d85e",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_02_opening_take01_hd_frame_000030": {
+      "binding": "8375713a82617d344262e80c0db07630a0e7dc0a5cb7ab1264feb983d0fe2d56",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_02_opening_take01_hd_frame_000600": {
+      "binding": "902f241a739122697fd7fd40e75008f00e28acec67518a0ab0e7d197545cbf1d",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_02_opening_take01_hd_frame_000660": {
+      "binding": "9251015a277b59ea313033ebaeb28fa75c22f1de856c5924cd10ba751e6d48f2",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_02_opening_take01_hd_frame_001140": {
+      "binding": "e3be44a79c56b1d473e04cfa41e23a4926c1c4386efbad6e59491ec39d0eebcb",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_02_opening_take01_hd_frame_001230": {
+      "binding": "4aa988016abeb50d4d54488bc5b02dbaa4169579a3e31e10d35c1b453e863bd1",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_02_opening_take01_hd_frame_001290": {
+      "binding": "79994fe2c2b00be929a1c43377a6e256078db1575fd5c47d4b5969eaea67d250",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_02_opening_take01_hd_frame_001860": {
+      "binding": "e2957f7a786d9ac7f715014a6d5c6a80cde9846b4c34629bcc0b0da59183ad4a",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_02_opening_take01_hd_frame_002100": {
+      "binding": "b49f519ae9ca850173f89579a75d50d00b5026d1bdb049e91e5795fd854dd1ec",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_000420": {
+      "binding": "de194d581ddf0de55b285c34ff149c7f290bfd32ab1d5e6e0c0bf6073b570da8",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_000480": {
+      "binding": "9e294a21bb1e1f4f01d8c6f48b62c778db16bb5aa0671bf2803bffa20a2b2be3",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_000570": {
+      "binding": "117106598723951aab3871497f4549b50332975e6abbb9189b07d4b1e47c1905",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_000660": {
+      "binding": "2d0221ef54c394fb388f12780a696a4ac4a7ed1d056d98610710568c3c21f798",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_000780": {
+      "binding": "5b931308a4e6b34f27ce1c079a1c32ae1086f4b645264764be2cfaf06ef24348",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_000840": {
+      "binding": "edc0f9fafe3d02586d2266504e2c00fbbee4be35dbf19f4b27af255e50f32a63",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_000960": {
+      "binding": "b3de415ba48f54ac9831a52e13d9d55ce5a3061e3347d92d8e787f9dcd05b805",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_001260": {
+      "binding": "399cac720ac2c5acdb3237b251ea52fadb858e37e9f943589159451b79fd0647",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_001320": {
+      "binding": "5d1f0387c87a5c3ee2f367a04d18b005f3d361852df9b2cba3307740be9e5a50",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_001380": {
+      "binding": "bfaada0445aa841dcbf029c5fdb589486cae1e7bde66ee1ec2443ad822aa4776",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_001560": {
+      "binding": "f9306107a64cf43238ed344af7593d734f5cc003aa311e37881745e1751abfa3",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_002010": {
+      "binding": "0c8194064c9dcbe16725a1e78b99cc54b6331b0f6fb1033afc1251549bdf7155",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_03_middlegame_take01_hd_frame_002220": {
+      "binding": "d4e10fc70e0573f160fb51a3ca926baeacc09e449e730b4069656876e170623c",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_04_endgame_take01_hd_frame_000300": {
+      "binding": "24639d9fead96a0bc5253e349af0373f373f2a1d226634d6f1b2c55884f05036",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_04_endgame_take01_hd_frame_000480": {
+      "binding": "b33d6a061145ba0a12349badf9f9e40a303fd5d6a69ba6acade04de03268d7a3",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_04_endgame_take01_hd_frame_000780": {
+      "binding": "8fd90dbe8c9df02904cfa0e9b92c70ae0664a8e25726dbb18577bbe4fb889828",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_04_endgame_take01_hd_frame_001560": {
+      "binding": "8ad9b769a736c9d58c58623de2f9b5fee2948f6bc56a0b31d5023babc9ce80fd",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_05_puzzle_take01_hd_frame_000300": {
+      "binding": "2b2a5b7c37d6d9547ac92ea9be976069513593e11815d8ba377430dfe6c4f210",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_05_puzzle_take01_hd_frame_000480": {
+      "binding": "b96ed198b5cb37b68cddfb0e96bf1658d9b55586b6296bf33feb3fe984182b6f",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_05_puzzle_take01_hd_frame_000600": {
+      "binding": "86db6f5b8387bb7bb85e6347603782b58ac6131f94cf34aae718efc499c24607",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_05_puzzle_take01_hd_frame_000840": {
+      "binding": "199d4b9c6390a382debb0285e3edaa3c2266f2f91fd6e316d74a0f8785091012",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_05_puzzle_take01_hd_frame_001500": {
+      "binding": "bdde77ae3b96cccf40e66d452c925ba0b08907ad18ebf5fd3b282c8d2bf8bc6b",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "a3_pilot_01_05_puzzle_take01_hd_frame_001740": {
+      "binding": "1c16eb0675162072abf3e566ec8427bee3b960f25080e5f4f0a396c4b86e5a5a",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_01_f000240": {
+      "binding": "75b6040315a003db790aed36a1152edb0ec5c75637384bba34b07625ac1beb22",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_01_f000420": {
+      "binding": "3cc37c51dcff7350f70ea709e3cfe899335048462221ca50089c23d491fe22a1",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_01_f000510": {
+      "binding": "cd176147e25b60259b722c3cd0046406a2ae18c904d60fafb83e238ca8783b7e",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_01_f000600": {
+      "binding": "2258d4ee86f58684fb12b2e2f7a7d78a24ab5d5a30a8fc38ddf7681cf1db9584",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_01_f001140": {
+      "binding": "e56daca484096873f9aa7561d7328ae485c4507021556227956219b3c43ed961",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_01_f001200": {
+      "binding": "d9f81fe731c2746434782a9ff680e6ede0fc773df6e28e8bc02eb1b17cc7ca33",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_01_f001560": {
+      "binding": "5f86ccda5dc65f066bb9fe8c0fa3843bd46f2e89d1ed2c04dbcc3fad99d5da81",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_01_f001950": {
+      "binding": "eabe7ada150321fae1e51de7468f0397c3dd880f043d2c7a106fd9172f3c2497",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_01_f002100": {
+      "binding": "438233767e69c324c898c5c7dba2b8e9539d50abdb2c9b1c78676231d2401e06",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_03_f000030": {
+      "binding": "0df843e2eb1ca8420e1ecf155bc4ce3161e3bc48dc4766fe3f294bb2f65b981e",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_03_f000270": {
+      "binding": "e4a82a251455f07ebd053055146cd92b91ee0ebf494fb71366e8080a4f700f65",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_03_f000930": {
+      "binding": "ceb79a6b864e57b3a49b11e301c99d82882544fc26eb7b4887a36f57d1b63be8",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_03_f001020": {
+      "binding": "ae895e342f750059f1e6617f30e887144697fce13fd91ff272e4be8fd1845d84",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_03_f001110": {
+      "binding": "4c2eeb8a9c3a9c844b30ac0f30f6114606586da5321b3ff3a17ef25702785b66",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_03_f001380": {
+      "binding": "24fa92fe6e3b60cb955f96127cd451ef61828d49816cb946043363ed662f4f41",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_03_f001470": {
+      "binding": "342589487304289bedab49259307d47fa81f03a562c796257a5aa8eed4853a04",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_03_f001680": {
+      "binding": "13d3fd890585b3c45323ee877ad6ee83571a6a7b22ff94906b6deb26961122df",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_03_f001860": {
+      "binding": "cc6257c34200a686a2db3029176da4c9c52265ffc7633b566716261bef93e370",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_05_f000060": {
+      "binding": "e2ae0edb3e4181acc9cd158a6beb4ac70a389c507c3c8cbbc704ab5b01329a8b",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_05_f000210": {
+      "binding": "35bf9ebd4ab7798ae6b95cf070552fe582a679c37dfd13d872ef48533c7c479f",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_05_f000330": {
+      "binding": "605b2628d4c3747b7d1d3248120cad181828a8620ae3f56b44a655df2e6d84a4",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_05_f000420": {
+      "binding": "43ad82aa11dfbf69103f1c23e159756b2734ee19b329200bd15dcd20fbc6e1f6",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_05_f000480": {
+      "binding": "826604f7253016c11a13c5cbc9f8fb15183b9412b4e3815e8b3357995b3cdc48",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_05_f000840": {
+      "binding": "883e2ad139f21de21e223a9503d27bbd14887a4cbb25fc1e425f7fcd172d6d75",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_05_f001350": {
+      "binding": "686425c285ea9ad82f4277b35192fafc49f2352313f0f73102dc5d34ac474659",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_05_f001470": {
+      "binding": "22b5daed1058695db02164e608344f240b67eeffe708cdb69be9125171118b9e",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_05_f001590": {
+      "binding": "2955c7072ef37050046abea652596bdb9d89d5cb27e56ff85e16c03d96c0d5ac",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_05_f001860": {
+      "binding": "b4caa5000adc5ab6574309749023f871e235cf4df3dba34a60b30e9f1bd47d9d",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_05_f001920": {
+      "binding": "949137964faaf266a78611bdb4f7d52d53080d9239864f8341cc82f7e2d5b850",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_07_f000660": {
+      "binding": "d4c25cd7be6c75d1be52405616561b494f70480522804ef3314419593a07ba68",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_07_f000840": {
+      "binding": "6ce3cf8d79eb119aac8463ba131cbd11d7426367c13e0dce1e3c7137859ff956",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_07_f001290": {
+      "binding": "9cb8ad12a3ed8dc85de38cb3f9e8b35daaefa852fafb3b29e6ffd64b36116aa7",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_07_f001560": {
+      "binding": "57c014f420093368a32bb517f969a811c7cfdd859f78131d6f03e7a28eaa9d1f",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_07_f001740": {
+      "binding": "504db5f8b5b04c397336851adb9659aec98b971722d393e26900f536b6b8fe88",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_07_f001950": {
+      "binding": "4f006009a7fe269bf4603475a08a70feb60c17748e68437a062e85dbda4b95e0",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_07_f002100": {
+      "binding": "f470318ce3b055ada2f1f1ff886a9d2a4178fc15caded72062e0382bd360c4b6",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_09_f000510": {
+      "binding": "df5b5938c7c9175ca1c45eb1062857e2f2a49cf1c9da6f2212ee49ad14a4ac18",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_09_f001020": {
+      "binding": "b3c1061fef578e03e65f6363ad57a790bb3a7ad68cb4e7947ac739af15cdea6e",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_09_f001230": {
+      "binding": "d83904d8cdb424d4e98bc682d2d2c26b8480b7f872a78a6c7127df953fed81b4",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_09_f001290": {
+      "binding": "8b755097340c11658903cb04f2401e03b287a9c2ec193d46b2a86076d1c0b53a",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_09_f001740": {
+      "binding": "92f38b260be1c99383d228b1f50f1b036a90b5fd0597db1c8e68ffcd4314cd93",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_09_f001860": {
+      "binding": "1cfc046f1fa8aa93febfdd245915e26cf7f743437c41007c4d7ea625c87cf41e",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_11_f000120": {
+      "binding": "af5aef5e2c93692e2a91d46a0feb1ad9b2e33769667bc9d6eb9e153fe72bf4e2",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_11_f000240": {
+      "binding": "2a2e8e40aa41d2a388bebfad91dc6e7c872b901e69d849f8c4b673e948e8aa8b",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_11_f000390": {
+      "binding": "19b1d806af3136f2247038f261f4f2302db8f7c790243ab246ec76d1735e0f92",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_11_f000510": {
+      "binding": "b651349a74aca871dc76724c0ab5305a6edc938ffcd9b29ed37a0d1971f836b9",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_11_f000660": {
+      "binding": "43e494372e83dfb459b3ea185335c31e9a638d2608b61bd6b5dbe53c78c0d3f1",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_11_f000810": {
+      "binding": "812a65231c3dea900ff8b207496295d64735fdb014a4d014821cca9907328618",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_11_f001050": {
+      "binding": "f3e1cae2a843911cac67ee0bd3bef64541a49724c190fb645f26fa2901892ae0",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_11_f001650": {
+      "binding": "b085670409af7aa31c1da8c35cc76588f1033fff6e25372bf1e0a0eaf33e0dcf",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_11_f001920": {
+      "binding": "00906c705e0fd7b5760ff5b0f7131342201a3edf46dea92e1bbb6cd38be75911",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_13_f000150": {
+      "binding": "407d4978e334b745a5df5c60ec85e9ab48711551a5c46b5f87f5cb27735f7c63",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_13_f000330": {
+      "binding": "6e5977b30a70dccdffd1581ff0cee401402dce9f809df9ccc1f4f15523d914e8",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_13_f000480": {
+      "binding": "3ad27e20c7d4283853964ab1f16106fb2f9d25d2bc3035d0c183235b53f734a9",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_13_f000570": {
+      "binding": "6ffabf5d7e323970a20e502cacecc10dc91d077203e9ffbb8f302c862ec91b08",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_13_f000960": {
+      "binding": "93603d2b7ece77090d1fa14e8cf4a24390910206e1e8afc56c2a6bed784b04d2",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_13_f001470": {
+      "binding": "511ddd9151b87ffef293c3ae2216c79f063af0b672a9b1c38e92a28806bebbd7",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_13_f001560": {
+      "binding": "bc624a068500de4878718d8dd8a1f7667afa5849d6bf972084ae49999b1d9c15",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_13_f001680": {
+      "binding": "9bd21c16e863620a6d338e864ba83ea2c8c21c00510f3ab39ce26a7b391ba325",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_13_f001860": {
+      "binding": "30a2ca1a5dab0427cf1a1db61300553b3bd7f2003b8a439589bab402c04090e9",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_15_f000120": {
+      "binding": "8d5ef9732e074245f130caa4df1aacb8a5654892df51fc1b3b9b059dcd1fd387",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_15_f000600": {
+      "binding": "694a67657fd12f3862431f58940a9df4286d16c1b29b50f8a758e5aab5666d13",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_15_f000750": {
+      "binding": "19718f88c89fc5b694470ca2a0431a43f5e7315d722c520db6662a601240e763",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_15_f001050": {
+      "binding": "d11a80c89d144c894ec1f7be141be459b7384853228cbd695f3bd4e76cb35493",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_15_f001320": {
+      "binding": "4156965823d6893a08e5789828a8fd083b02757820bb7e686a1ac5080667ea52",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_15_f001410": {
+      "binding": "1ab821597434bb71fcbfbd2b41e9c377e4ebe40d2f4522899fa361f817ad07dd",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_15_f001470": {
+      "binding": "36138a4cda0c7b75a2884a5c633bab80028824903acecbd3a5e8137f8cf2aeec",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_15_f001740": {
+      "binding": "c7a94b3d326427c243cb7582b5b9036be27d0b1de8ea8b47150bc8ca40172369",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_15_f001920": {
+      "binding": "f249e04cf70bfeee3ec940df0ec2acd874335f8b23c7c37d41d162efe4368246",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_15_f002010": {
+      "binding": "5c01a7287dd76949572fe913f07d6ead72fc36d3e536ccc64f8d4bc2ef3f82ca",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_17_f000030": {
+      "binding": "3694a26570d4ba2925c35fb5a700b2867bf247f57849a73772405e3aa7b0f43d",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_17_f000390": {
+      "binding": "43e67ad9c8468880e98dcc2c3c1525512fe7cb4adb5056cee9263cb6271f9cb9",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_17_f000780": {
+      "binding": "8962f29fa1f4dde4f9efe2f88397ba7da726e63767613ef069309560f5c966b3",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_17_f001290": {
+      "binding": "b3159fdf4dc4ed90e4d9488cc8c201d40699f31ae9407a5d47fb67257ab8da7d",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_17_f001500": {
+      "binding": "c57006c2587ed1a82bc68daa7f0af56e5f0fb4fc43933ab23df989650cd9f855",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_17_f001560": {
+      "binding": "7fd9a90d075d098a97f7c6f29510ee8e805eb3acf2b4f589a114f04b8ffcba68",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_17_f001740": {
+      "binding": "4240c7b51b436538be219c09e81cafd564ebcb8a2da7337233580d6110da91ba",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_17_f002040": {
+      "binding": "6334297b41caa2cb0360cb983154f2ae1a8c0663b51c0461af19c6de37cfcde8",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_19_f000300": {
+      "binding": "b89a3df3de847d961539b417cdd2dba288995864e2aed4dee11e2b01641a27c0",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_19_f000750": {
+      "binding": "db4cc11ef1af24ea131eea70d4ecbc9aaf593464c569dd98b52f3a2edabbe7cf",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_19_f001410": {
+      "binding": "fec5b62ceca1aa2623e5709c3174b580e5ec4d2166e04327bbc12ae4adbe00e1",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_19_f001500": {
+      "binding": "2d1081316debb5c1996d3e19682fe6db3f3fdd1c3f0cd66978576655c97d5ec6",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_19_f001740": {
+      "binding": "f4661ad20fdac3a6be7b1f122d34fab5fdaff5f62356b9a01f3a8428a79afca0",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_19_f001860": {
+      "binding": "7512c0d187ee2b206f297c24a2e5ae8ce3c8ee81052a182400d0b3a59374ada8",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "d3c_pos_19_f002040": {
+      "binding": "65e9931ca563b14142d1b605c628b51140ac880de63c387950a2f69b255fcf14",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_002_var_03.jpg": {
+      "binding": "66cb25a27fe44fb6e14b9e55e2908bd82cd81afb7d985ba5908ed539492a0796",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_002_var_10.jpg": {
+      "binding": "4a31e66da9588bf8be30a5a57a00130a16790b6bccccbbbb8351a87a9072e03c",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_003_var_03.jpg": {
+      "binding": "90159c1ed0590b336da7195052612e89e47035a664f7b1b730ad885d08b222d3",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_005_var_10.jpg": {
+      "binding": "871299987f832aba369111040f0f0b91630bba2b4acbf96177596f02b86a4038",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_006_var_01.jpg": {
+      "binding": "0b0763ee8ec16d316d101992737de5b0a23977feb10b4f9e905fbb50cb76f6b7",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_006_var_02.jpg": {
+      "binding": "889d2d7fcf3deea5cdc7ef04a84a2ff2bb6fb1d195d0598fcaff2485920f57af",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_006_var_03.jpg": {
+      "binding": "dcc17e94c127c1aa8745434335ddfbe53a3dad5d8cc1df9de8c884ef38c57052",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_006_var_04.jpg": {
+      "binding": "bbc3018538c0adcf555325f212591802659f4084abe30648f9cdb041aed899df",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_006_var_08.jpg": {
+      "binding": "148ad2576798ed68e995f5967d53ef6c713e853cb4221fc533c0c9a36930fda3",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_006_var_09.jpg": {
+      "binding": "3b1fba4fdfaf314a2c26a6b22f9cb22e06cf26194c4a4704616f236d57ad6afe",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_006_var_10.jpg": {
+      "binding": "1d7d65f6d0d858086c4a2e38c8e44b8f4cb089bdeb39f83e543bf49082a725d4",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_007_var_01.jpg": {
+      "binding": "0777401d1507d18b19404c917fb510663bb6d02a2b8c33c40f56bde328e2726d",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_007_var_02.jpg": {
+      "binding": "c75993a3f5c7599809a243dd39ff2b4402119759dddd6c82b0eba36b375b742b",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_007_var_03.jpg": {
+      "binding": "aa9d107b8c6dcb48ecc3461904bda7008f1ffce4ebedaf2d46ed108836973264",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_007_var_10.jpg": {
+      "binding": "ca1a70d3b4354e62be0aca8840840018fcd5e3409a90bc689ac421c2d803e153",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_008_var_03.jpg": {
+      "binding": "2874e0c6c60e081d833f2579c302ec7c0003faf465af619c78a03445a72135be",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_009_var_03.jpg": {
+      "binding": "1e36d2016290aece394f579f0f8084e68a7de8b00ded506d436e8b764f58284d",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_009_var_10.jpg": {
+      "binding": "fd0b9c60c7940cf9252f769b2ce699b3831c53eed2c096710e729f42416d097d",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    },
+    "photo:position_012_var_03.jpg": {
+      "binding": "291ae19db5001f2eeac267b9dece41a1215372388cef21b92011444b421ee5ef",
+      "status": "verified",
+      "checks": {
+        "fen_agreement": true,
+        "unchanged_position": true,
+        "semantic_orientation": true,
+        "corners": true,
+        "canonical_mapping": true,
+        "crop_alignment": true,
+        "all_crops_reviewed": true
+      },
+      "ambiguous_squares": []
+    }
+  },
+  "reviewer_kind": "human",
+  "approval_statement": "Confirm all seven checks for every candidate"
+}

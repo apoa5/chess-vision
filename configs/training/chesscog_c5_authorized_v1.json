@@ -1,0 +1,153 @@
+{
+  "schema_version": "chesscog_pretraining_c5_authorized_v1",
+  "representation": "b2-context1-224-v1",
+  "seed": 42,
+  "full_training_authorization": true,
+  "augmentation": {
+    "brightness": 0.1,
+    "contrast": 0.1,
+    "blur_probability": 0.15,
+    "noise_probability": 0.2,
+    "noise_std": 0.01
+  },
+  "smoke": {
+    "epochs": 1,
+    "max_updates": 4,
+    "batch_size": 16,
+    "learning_rate": 0.0001,
+    "precision": "bf16",
+    "gradient_accumulation": 1,
+    "workers": 0,
+    "max_seconds": 180,
+    "checkpoint_every_updates": 2,
+    "head_epochs": 0
+  },
+  "stages": {
+    "chesscog": {
+      "epochs": 8,
+      "max_updates": 35200,
+      "minimum_train_boards": 4000,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "precision": "bf16",
+      "gradient_accumulation": 1,
+      "workers": 2,
+      "max_seconds": 4200,
+      "checkpoint_every_updates": 200,
+      "patience": 3,
+      "head_epochs": 1,
+      "best_name": "chesscog_best.pt",
+      "required_dataset": [
+        "chesscog"
+      ]
+    },
+    "chessred": {
+      "epochs": 5,
+      "max_updates": 12000,
+      "minimum_train_boards": 100,
+      "batch_size": 64,
+      "learning_rate": 0.0001,
+      "precision": "bf16",
+      "gradient_accumulation": 1,
+      "workers": 2,
+      "max_seconds": 6600,
+      "checkpoint_every_updates": 200,
+      "patience": 3,
+      "head_epochs": 0,
+      "best_name": "chessred_best.pt",
+      "required_dataset": [
+        "chessred"
+      ]
+    },
+    "personal": {
+      "epochs": 6,
+      "max_updates": 672,
+      "minimum_train_boards": 100,
+      "batch_size": 64,
+      "learning_rate": 3e-05,
+      "precision": "bf16",
+      "gradient_accumulation": 1,
+      "workers": 0,
+      "max_seconds": 1800,
+      "checkpoint_every_updates": 100,
+      "patience": 6,
+      "head_epochs": 1,
+      "best_name": "chessvision_finetuned_best.pt",
+      "required_dataset": [
+        "chessvision_photos",
+        "d3c_retired"
+      ],
+      "validation_every_updates": 112,
+      "video_fraction": 0.5
+    }
+  },
+  "experiment_matrix": {
+    "A": {
+      "strategy": "frozen_B2",
+      "run": false
+    },
+    "B": {
+      "stages": [
+        "chesscog",
+        "personal"
+      ],
+      "video_fraction": 0
+    },
+    "C": {
+      "stages": [
+        "chessred",
+        "personal"
+      ],
+      "video_fraction": 0
+    },
+    "D": {
+      "stages": [
+        "chesscog",
+        "chessred",
+        "personal"
+      ],
+      "video_fraction": 0,
+      "personal_update_budget": 672
+    },
+    "E": {
+      "stages": [
+        "chesscog",
+        "chessred",
+        "personal"
+      ],
+      "video_fraction": 0.5,
+      "personal_update_budget": 672,
+      "requires_verified_video": true
+    }
+  },
+  "D_E_control": "same chessred checkpoint SHA, seed, batch size, augmentation, photo-derived class weights, 672-update maximum and validation/checkpoint policy; adding verified video is the treatment",
+  "modal": {
+    "workspace": "akwasipoku-oforiagyei",
+    "environment": "main",
+    "gpu": "L4",
+    "smoke_timeout_seconds": 600,
+    "startup_timeout_seconds": 600,
+    "max_containers": 1,
+    "retries": 0,
+    "scaledown_window_seconds": 2,
+    "smoke_allocation_usd": 3.0
+  },
+  "experiment": "E",
+  "authorized_stages": [
+    "chesscog"
+  ],
+  "expected_dataset_manifest_sha256": "b37bc5922fa4e5d6b7b173e83c1486a3361410fab08bfb6e18fb9889987bfee0",
+  "c4_reference_config_sha256": "2142194991eb14ffc0345be64278e09a717f367019f45ca31d7683d615bdb21c",
+  "authorization": "Owner C5 assignment: one bounded initial Stage1 run only; no retries, Stage2/3 or additional experiments",
+  "budget": {
+    "target_usd": 2.0,
+    "owner_confirmed_starting_credits_usd": 29.99,
+    "spending_controls": "not exposed by public SDK; not changed",
+    "already_used_conservative_snapshot_usd": 0.17084862,
+    "requested_l4_cpu2_memory8_hour_rate": 0.9586,
+    "training_function_timeout_seconds": 5100,
+    "startup_timeout_seconds": 300,
+    "postrun_and_storage_reserve_usd": 0.1,
+    "upper_planned_total_usd": 1.7087486200000002
+  }
+}

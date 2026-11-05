@@ -1,0 +1,21 @@
+{
+  "schema_version": "chesscog_c5_authorization_v1",
+  "authority": "Owner C5 assignment",
+  "scope": "one bounded Chesscog Stage1 training run plus preparation/throughput/validation",
+  "target_incremental_metered_usd": 2.0,
+  "owner_confirmed_starting_credits_usd": 29.99,
+  "credit_balance_source": "owner reply: i have 29.99 dollars worth of credit left",
+  "spending_controls_verified": false,
+  "billing_settings_modified": false,
+  "authorized_stages": [
+    "chesscog"
+  ],
+  "source_manifest_sha256": "b37bc5922fa4e5d6b7b173e83c1486a3361410fab08bfb6e18fb9889987bfee0",
+  "config_path": "configs/training/chesscog_c5_authorized_v1.json",
+  "config_sha256": "b5974323bc965828a3e70f1a713245f054217e66ad3d839c52ebf23590b85644",
+  "external_test_download_allowed": false,
+  "personal_training_allowed": false,
+  "final_holdout_access_allowed": false,
+  "automatic_training_retries_allowed": false,
+  "production_replacement_allowed": false
+}

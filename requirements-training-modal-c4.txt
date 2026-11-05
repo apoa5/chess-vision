@@ -1,0 +1,3 @@
+# Optional LOCAL CLI only. GPU torch/vision/CUDA are installed in the Modal image.
+# C4 used the already installed version; do not upgrade application dependencies.
+modal==1.6.2

@@ -1,0 +1,73 @@
+{
+  "schema_version": "chesscog_dataset_c5_v1",
+  "supersedes_readiness_only": "Chesscog probe status in data/metadata/multidataset_c4_catalog_v1.json",
+  "official_source": "https://osf.io/xf3ka/",
+  "license": "CC BY 4.0",
+  "source_archive_sha256_verified": true,
+  "source_ground_truth_not_human_pixel_perfect_review": true,
+  "manifest_cloud_volume": "chess-vision-c4-data-v1",
+  "manifest_cloud_path": "/chesscog-c5-v1/manifest.json",
+  "raw_manifest_sha256": "b37bc5922fa4e5d6b7b173e83c1486a3361410fab08bfb6e18fb9889987bfee0",
+  "local_manifest": "outputs/evaluation/chesscog_c5/prepared_manifest_v1.json.gz",
+  "local_manifest_gzip_sha256": "b8481d121a1102b0aa63836b1a232ee9555a445650560ef799af162707d78840",
+  "counts": {
+    "train": {
+      "boards": 4399,
+      "squares": 281536,
+      "unique_placements": 4399,
+      "class_counts": [
+        187267,
+        24330,
+        4321,
+        4808,
+        6423,
+        2834,
+        4399,
+        24345,
+        4362,
+        4792,
+        6434,
+        2822,
+        4399
+      ]
+    },
+    "val": {
+      "boards": 146,
+      "squares": 9344,
+      "unique_placements": 146,
+      "class_counts": [
+        6137,
+        828,
+        158,
+        163,
+        221,
+        91,
+        146,
+        822,
+        147,
+        176,
+        219,
+        90,
+        146
+      ]
+    }
+  },
+  "grouped_split_audit": {
+    "boards": 4546,
+    "connected_groups": 4546,
+    "conflicts": 0,
+    "missing_session_boards": 4546
+  },
+  "quarantined_boards": [
+    {
+      "id": "chesscog:2497",
+      "split": "train",
+      "reason": "overlaps_protected_personal_validation_or_test"
+    }
+  ],
+  "quarantine_match": "historical personal validation position_003",
+  "external_test_downloaded": false,
+  "protected_original_split_changed": false,
+  "personal_or_video_training": false,
+  "geometry_approximation_version": "b2-annotated-corners-regular-grid-v1"
+}

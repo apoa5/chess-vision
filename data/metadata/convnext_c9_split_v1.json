@@ -1,0 +1,535 @@
+{
+  "schema_version": "convnext_c9_split_v1",
+  "seed": 42,
+  "inventory_sha256": "1ef54f8bcb197c194f3f4f898648f7092fc2c40374dd8bedb5d73536de742e5b",
+  "assignment_by_placement": {
+    "5e00b2309d650c2823a67a73f7c92ad9f9a9b7ab41fa0251b2f41755f2c9304a": "train",
+    "584a05cbb2f19b3d2fda485047baa7c86170e23b35b10882a411921fb39bda28": "train",
+    "6588adfbef1941bd68715dce49afa69c6a4ef4bf91ccaa90d3f172493a19b9d9": "train",
+    "05539b105dacf6b280e2d82e63e3affc0bb848e851aaec614b1b83752ab163e3": "train",
+    "a8aa3d7292f34ad7982fcc012ff6b5e7991cbae61e4ee718b8956d727b73847c": "train",
+    "7ed971e4a3e8f447d437db974dd10500db09507d23827dc67841c0eb73b9cd89": "train",
+    "41d7caa79d970862a22bd2b1d12f254e5b1ed57c23268732505d9482862af8dd": "train",
+    "9114445c881f6ee2965f6e07c0a5c4bf3be77c905d4412ee82c3d9acd952e7dc": "train",
+    "e848e0b05123723a3e88732ec428eabb61010295eb24d8a8e4b4dacea5facf45": "train",
+    "db1fc8a52dc2dfa64beec1290eeda55df24a929a7fbdc50396636c20501dcffb": "train",
+    "2b5f3137f6c7a2f24bcf1c780c39e10963f9beab7d73fdd7202c1d7e7038f263": "train",
+    "c63405074538454cb9324a294f8db9bb47703fc4407b2ed5eb3d5fac85726181": "train",
+    "8be0b134d485fd0794a4b2edefe0beadc6e7af6fe8ddaed8f7119cb13aa7074c": "train",
+    "6a8fe674fd308d9cb60710394823c277d6f8afa2e3af35a2fbb2acd11cd63a93": "val",
+    "43e098ce3acbe2a3f2d993128afea11c5962efae1d10aa53a6830e9e969f85d8": "internal_test",
+    "84abcaafeb115d56a03101ba306e6854ae261b2f388841811bf628abf62533dc": "train",
+    "0a6b0d6efddced1c9b482b695f21a71be196613e889507d0cda1a08fbce951d1": "train",
+    "966a98b44cdb3f729a1df121ec127044aa0bb434fbce60e45cdc19fbb3ae00f6": "val",
+    "e3774aa2cc4bf6ca275c47aa3ac53cb143b71dd044788d8cfdd527a56213bc48": "train",
+    "9967173e6da2b6bd6bc7b118d60cc05af786d4d83cb72b59a4e43247af8c8107": "internal_test",
+    "5c86e2ecff55e5ee2494cd4cd3a746945fc970857ed509445d7060a823c978f8": "train",
+    "17ab83e310d921bd65c325b25c1f3f4a221e792023b89c18d1d029a4c78f476a": "train",
+    "8317501566a4081cb4bd0878ee778f728bfc9751db8b8d3abebdc542e7dfa9b1": "internal_test",
+    "76774a05bd7bd537c6e59194434830eda90c3b0ef0844a3afe85fa768b2bdc64": "val",
+    "4202804ec1038f5de8505a6e8597b34c574483e1bfe6669f0fc5a644d2e8aaa9": "val",
+    "02b75c79c40c786b817d61e000f622612ee95bff06109d5e4e7b510be92fc1c8": "train",
+    "588473145732eca8c07a3ebc4687998b0e033416b30fb59fb3af930c8df9af12": "train",
+    "435fa53fd0cb8bfbd1f19fda8ec8a9bb9f8178a9bc22c9654692e21f8909c5b4": "train",
+    "58ef896af5dd228e27cfa4ef506b68f248aa90a4fc3cfb8822d4fb5ac828669f": "internal_test"
+  },
+  "groups": [
+    {
+      "group_id": "C9G00",
+      "split": "train",
+      "source_identities": [
+        "photo:position_001_var_01.jpg",
+        "photo:position_001_var_02.jpg",
+        "photo:position_001_var_03.jpg",
+        "photo:position_001_var_04.jpg",
+        "photo:position_001_var_05.jpg",
+        "photo:position_001_var_06.jpg",
+        "photo:position_001_var_07.jpg",
+        "photo:position_001_var_08.jpg",
+        "photo:position_001_var_09.jpg",
+        "photo:position_001_var_10.jpg",
+        "photo:position_013_var_01.jpg",
+        "photo:position_013_var_02.jpg",
+        "photo:position_013_var_03.jpg",
+        "photo:position_013_var_04.jpg",
+        "photo:position_013_var_05.jpg",
+        "photo:position_013_var_06.jpg",
+        "photo:position_013_var_07.jpg",
+        "photo:position_013_var_08.jpg",
+        "photo:position_013_var_09.jpg",
+        "photo:position_013_var_10.jpg",
+        "photo:position_017_var_01.jpg",
+        "photo:position_017_var_02.jpg",
+        "photo:position_017_var_03.jpg",
+        "photo:position_017_var_04.jpg",
+        "photo:position_017_var_05.jpg",
+        "photo:position_017_var_06.jpg",
+        "photo:position_017_var_07.jpg",
+        "photo:position_017_var_08.jpg",
+        "photo:position_017_var_09.jpg",
+        "photo:position_017_var_10.jpg",
+        "a3_pilot_01_01_starting_take01",
+        "a3_pilot_01_02_opening_take01",
+        "a3_pilot_01_03_middlegame_take01",
+        "a3_pilot_01_04_endgame_take01",
+        "a3_pilot_01_05_puzzle_take01"
+      ],
+      "placement_keys": [
+        "05539b105dacf6b280e2d82e63e3affc0bb848e851aaec614b1b83752ab163e3",
+        "584a05cbb2f19b3d2fda485047baa7c86170e23b35b10882a411921fb39bda28",
+        "5e00b2309d650c2823a67a73f7c92ad9f9a9b7ab41fa0251b2f41755f2c9304a",
+        "6588adfbef1941bd68715dce49afa69c6a4ef4bf91ccaa90d3f172493a19b9d9",
+        "a8aa3d7292f34ad7982fcc012ff6b5e7991cbae61e4ee718b8956d727b73847c"
+      ]
+    },
+    {
+      "group_id": "C9G01",
+      "split": "train",
+      "source_identities": [
+        "d3c_pos_01"
+      ],
+      "placement_keys": [
+        "7ed971e4a3e8f447d437db974dd10500db09507d23827dc67841c0eb73b9cd89"
+      ]
+    },
+    {
+      "group_id": "C9G02",
+      "split": "train",
+      "source_identities": [
+        "photo:position_003_var_01.jpg",
+        "photo:position_003_var_02.jpg",
+        "photo:position_003_var_03.jpg",
+        "photo:position_003_var_04.jpg",
+        "photo:position_003_var_05.jpg",
+        "photo:position_003_var_06.jpg",
+        "photo:position_003_var_07.jpg",
+        "photo:position_003_var_08.jpg",
+        "photo:position_003_var_09.jpg",
+        "photo:position_003_var_10.jpg",
+        "d3c_pos_03"
+      ],
+      "placement_keys": [
+        "41d7caa79d970862a22bd2b1d12f254e5b1ed57c23268732505d9482862af8dd"
+      ]
+    },
+    {
+      "group_id": "C9G03",
+      "split": "train",
+      "source_identities": [
+        "d3c_pos_05"
+      ],
+      "placement_keys": [
+        "9114445c881f6ee2965f6e07c0a5c4bf3be77c905d4412ee82c3d9acd952e7dc"
+      ]
+    },
+    {
+      "group_id": "C9G04",
+      "split": "train",
+      "source_identities": [
+        "d3c_pos_07"
+      ],
+      "placement_keys": [
+        "e848e0b05123723a3e88732ec428eabb61010295eb24d8a8e4b4dacea5facf45"
+      ]
+    },
+    {
+      "group_id": "C9G05",
+      "split": "train",
+      "source_identities": [
+        "d3c_pos_09"
+      ],
+      "placement_keys": [
+        "db1fc8a52dc2dfa64beec1290eeda55df24a929a7fbdc50396636c20501dcffb"
+      ]
+    },
+    {
+      "group_id": "C9G06",
+      "split": "train",
+      "source_identities": [
+        "d3c_pos_11"
+      ],
+      "placement_keys": [
+        "2b5f3137f6c7a2f24bcf1c780c39e10963f9beab7d73fdd7202c1d7e7038f263"
+      ]
+    },
+    {
+      "group_id": "C9G07",
+      "split": "train",
+      "source_identities": [
+        "d3c_pos_13"
+      ],
+      "placement_keys": [
+        "c63405074538454cb9324a294f8db9bb47703fc4407b2ed5eb3d5fac85726181"
+      ]
+    },
+    {
+      "group_id": "C9G08",
+      "split": "train",
+      "source_identities": [
+        "d3c_pos_15"
+      ],
+      "placement_keys": [
+        "8be0b134d485fd0794a4b2edefe0beadc6e7af6fe8ddaed8f7119cb13aa7074c"
+      ]
+    },
+    {
+      "group_id": "C9G09",
+      "split": "val",
+      "source_identities": [
+        "d3c_pos_17"
+      ],
+      "placement_keys": [
+        "6a8fe674fd308d9cb60710394823c277d6f8afa2e3af35a2fbb2acd11cd63a93"
+      ]
+    },
+    {
+      "group_id": "C9G10",
+      "split": "internal_test",
+      "source_identities": [
+        "d3c_pos_19"
+      ],
+      "placement_keys": [
+        "43e098ce3acbe2a3f2d993128afea11c5962efae1d10aa53a6830e9e969f85d8"
+      ]
+    },
+    {
+      "group_id": "C9G11",
+      "split": "train",
+      "source_identities": [
+        "photo:position_002_var_01.jpg",
+        "photo:position_002_var_02.jpg",
+        "photo:position_002_var_03.jpg",
+        "photo:position_002_var_04.jpg",
+        "photo:position_002_var_05.jpg",
+        "photo:position_002_var_06.jpg",
+        "photo:position_002_var_07.jpg",
+        "photo:position_002_var_08.jpg",
+        "photo:position_002_var_09.jpg",
+        "photo:position_002_var_10.jpg"
+      ],
+      "placement_keys": [
+        "84abcaafeb115d56a03101ba306e6854ae261b2f388841811bf628abf62533dc"
+      ]
+    },
+    {
+      "group_id": "C9G12",
+      "split": "train",
+      "source_identities": [
+        "photo:position_004_var_01.jpg",
+        "photo:position_004_var_02.jpg",
+        "photo:position_004_var_03.jpg",
+        "photo:position_004_var_04.jpg",
+        "photo:position_004_var_05.jpg",
+        "photo:position_004_var_06.jpg",
+        "photo:position_004_var_07.jpg",
+        "photo:position_004_var_08.jpg",
+        "photo:position_004_var_09.jpg",
+        "photo:position_004_var_10.jpg"
+      ],
+      "placement_keys": [
+        "0a6b0d6efddced1c9b482b695f21a71be196613e889507d0cda1a08fbce951d1"
+      ]
+    },
+    {
+      "group_id": "C9G13",
+      "split": "val",
+      "source_identities": [
+        "photo:position_005_var_01.jpg",
+        "photo:position_005_var_02.jpg",
+        "photo:position_005_var_03.jpg",
+        "photo:position_005_var_04.jpg",
+        "photo:position_005_var_05.jpg",
+        "photo:position_005_var_06.jpg",
+        "photo:position_005_var_07.jpg",
+        "photo:position_005_var_08.jpg",
+        "photo:position_005_var_09.jpg",
+        "photo:position_005_var_10.jpg"
+      ],
+      "placement_keys": [
+        "966a98b44cdb3f729a1df121ec127044aa0bb434fbce60e45cdc19fbb3ae00f6"
+      ]
+    },
+    {
+      "group_id": "C9G14",
+      "split": "train",
+      "source_identities": [
+        "photo:position_006_var_01.jpg",
+        "photo:position_006_var_02.jpg",
+        "photo:position_006_var_03.jpg",
+        "photo:position_006_var_04.jpg",
+        "photo:position_006_var_05.jpg",
+        "photo:position_006_var_06.jpg",
+        "photo:position_006_var_07.jpg",
+        "photo:position_006_var_08.jpg",
+        "photo:position_006_var_09.jpg",
+        "photo:position_006_var_10.jpg"
+      ],
+      "placement_keys": [
+        "e3774aa2cc4bf6ca275c47aa3ac53cb143b71dd044788d8cfdd527a56213bc48"
+      ]
+    },
+    {
+      "group_id": "C9G15",
+      "split": "internal_test",
+      "source_identities": [
+        "photo:position_007_var_01.jpg",
+        "photo:position_007_var_02.jpg",
+        "photo:position_007_var_03.jpg",
+        "photo:position_007_var_04.jpg",
+        "photo:position_007_var_05.jpg",
+        "photo:position_007_var_06.jpg",
+        "photo:position_007_var_07.jpg",
+        "photo:position_007_var_08.jpg",
+        "photo:position_007_var_09.jpg",
+        "photo:position_007_var_10.jpg"
+      ],
+      "placement_keys": [
+        "9967173e6da2b6bd6bc7b118d60cc05af786d4d83cb72b59a4e43247af8c8107"
+      ]
+    },
+    {
+      "group_id": "C9G16",
+      "split": "train",
+      "source_identities": [
+        "photo:position_008_var_01.jpg",
+        "photo:position_008_var_02.jpg",
+        "photo:position_008_var_03.jpg",
+        "photo:position_008_var_04.jpg",
+        "photo:position_008_var_05.jpg",
+        "photo:position_008_var_06.jpg",
+        "photo:position_008_var_07.jpg",
+        "photo:position_008_var_08.jpg",
+        "photo:position_008_var_09.jpg",
+        "photo:position_008_var_10.jpg"
+      ],
+      "placement_keys": [
+        "5c86e2ecff55e5ee2494cd4cd3a746945fc970857ed509445d7060a823c978f8"
+      ]
+    },
+    {
+      "group_id": "C9G17",
+      "split": "train",
+      "source_identities": [
+        "photo:position_009_var_01.jpg",
+        "photo:position_009_var_02.jpg",
+        "photo:position_009_var_03.jpg",
+        "photo:position_009_var_04.jpg",
+        "photo:position_009_var_05.jpg",
+        "photo:position_009_var_06.jpg",
+        "photo:position_009_var_07.jpg",
+        "photo:position_009_var_08.jpg",
+        "photo:position_009_var_09.jpg",
+        "photo:position_009_var_10.jpg"
+      ],
+      "placement_keys": [
+        "17ab83e310d921bd65c325b25c1f3f4a221e792023b89c18d1d029a4c78f476a"
+      ]
+    },
+    {
+      "group_id": "C9G18",
+      "split": "internal_test",
+      "source_identities": [
+        "photo:position_010_var_01.jpg",
+        "photo:position_010_var_02.jpg",
+        "photo:position_010_var_03.jpg",
+        "photo:position_010_var_04.jpg",
+        "photo:position_010_var_05.jpg",
+        "photo:position_010_var_06.jpg",
+        "photo:position_010_var_07.jpg",
+        "photo:position_010_var_08.jpg",
+        "photo:position_010_var_09.jpg",
+        "photo:position_010_var_10.jpg"
+      ],
+      "placement_keys": [
+        "8317501566a4081cb4bd0878ee778f728bfc9751db8b8d3abebdc542e7dfa9b1"
+      ]
+    },
+    {
+      "group_id": "C9G19",
+      "split": "val",
+      "source_identities": [
+        "photo:position_011_var_01.jpg",
+        "photo:position_011_var_02.jpg",
+        "photo:position_011_var_03.jpg",
+        "photo:position_011_var_04.jpg",
+        "photo:position_011_var_05.jpg",
+        "photo:position_011_var_06.jpg",
+        "photo:position_011_var_07.jpg",
+        "photo:position_011_var_08.jpg",
+        "photo:position_011_var_09.jpg",
+        "photo:position_011_var_10.jpg"
+      ],
+      "placement_keys": [
+        "76774a05bd7bd537c6e59194434830eda90c3b0ef0844a3afe85fa768b2bdc64"
+      ]
+    },
+    {
+      "group_id": "C9G20",
+      "split": "val",
+      "source_identities": [
+        "photo:position_012_var_01.jpg",
+        "photo:position_012_var_02.jpg",
+        "photo:position_012_var_03.jpg",
+        "photo:position_012_var_04.jpg",
+        "photo:position_012_var_05.jpg",
+        "photo:position_012_var_06.jpg",
+        "photo:position_012_var_07.jpg",
+        "photo:position_012_var_08.jpg",
+        "photo:position_012_var_09.jpg",
+        "photo:position_012_var_10.jpg"
+      ],
+      "placement_keys": [
+        "4202804ec1038f5de8505a6e8597b34c574483e1bfe6669f0fc5a644d2e8aaa9"
+      ]
+    },
+    {
+      "group_id": "C9G21",
+      "split": "train",
+      "source_identities": [
+        "photo:position_014_var_01.jpg",
+        "photo:position_014_var_02.jpg",
+        "photo:position_014_var_03.jpg",
+        "photo:position_014_var_04.jpg",
+        "photo:position_014_var_05.jpg",
+        "photo:position_014_var_06.jpg",
+        "photo:position_014_var_07.jpg",
+        "photo:position_014_var_08.jpg",
+        "photo:position_014_var_09.jpg",
+        "photo:position_014_var_10.jpg"
+      ],
+      "placement_keys": [
+        "02b75c79c40c786b817d61e000f622612ee95bff06109d5e4e7b510be92fc1c8"
+      ]
+    },
+    {
+      "group_id": "C9G22",
+      "split": "train",
+      "source_identities": [
+        "photo:position_015_var_01.jpg",
+        "photo:position_015_var_02.jpg",
+        "photo:position_015_var_03.jpg",
+        "photo:position_015_var_04.jpg",
+        "photo:position_015_var_05.jpg",
+        "photo:position_015_var_06.jpg",
+        "photo:position_015_var_07.jpg",
+        "photo:position_015_var_08.jpg",
+        "photo:position_015_var_09.jpg",
+        "photo:position_015_var_10.jpg"
+      ],
+      "placement_keys": [
+        "588473145732eca8c07a3ebc4687998b0e033416b30fb59fb3af930c8df9af12"
+      ]
+    },
+    {
+      "group_id": "C9G23",
+      "split": "train",
+      "source_identities": [
+        "photo:position_016_var_01.jpg",
+        "photo:position_016_var_02.jpg",
+        "photo:position_016_var_03.jpg",
+        "photo:position_016_var_04.jpg",
+        "photo:position_016_var_05.jpg",
+        "photo:position_016_var_06.jpg",
+        "photo:position_016_var_07.jpg",
+        "photo:position_016_var_08.jpg",
+        "photo:position_016_var_09.jpg",
+        "photo:position_016_var_10.jpg"
+      ],
+      "placement_keys": [
+        "435fa53fd0cb8bfbd1f19fda8ec8a9bb9f8178a9bc22c9654692e21f8909c5b4"
+      ]
+    },
+    {
+      "group_id": "C9G24",
+      "split": "internal_test",
+      "source_identities": [
+        "photo:position_018_var_01.jpg",
+        "photo:position_018_var_02.jpg",
+        "photo:position_018_var_03.jpg",
+        "photo:position_018_var_04.jpg",
+        "photo:position_018_var_05.jpg",
+        "photo:position_018_var_06.jpg",
+        "photo:position_018_var_07.jpg",
+        "photo:position_018_var_08.jpg",
+        "photo:position_018_var_09.jpg",
+        "photo:position_018_var_10.jpg"
+      ],
+      "placement_keys": [
+        "58ef896af5dd228e27cfa4ef506b68f248aa90a4fc3cfb8822d4fb5ac828669f"
+      ]
+    }
+  ],
+  "counts": {
+    "train": {
+      "positions": 21,
+      "source_kinds": [
+        "a3_pilot",
+        "chessvision_photos",
+        "d3c_retired"
+      ],
+      "unique_position_class_counts": [
+        812,
+        133,
+        32,
+        31,
+        33,
+        17,
+        21,
+        132,
+        32,
+        29,
+        34,
+        17,
+        21
+      ]
+    },
+    "val": {
+      "positions": 4,
+      "source_kinds": [
+        "chessvision_photos",
+        "d3c_retired"
+      ],
+      "unique_position_class_counts": [
+        200,
+        17,
+        2,
+        2,
+        3,
+        1,
+        4,
+        15,
+        2,
+        2,
+        3,
+        1,
+        4
+      ]
+    },
+    "internal_test": {
+      "positions": 4,
+      "source_kinds": [
+        "chessvision_photos",
+        "d3c_retired"
+      ],
+      "unique_position_class_counts": [
+        179,
+        21,
+        5,
+        3,
+        4,
+        2,
+        4,
+        20,
+        4,
+        4,
+        4,
+        2,
+        4
+      ]
+    }
+  },
+  "policy": "128-attempt maximum; first label/source-complete seeded assignment. Four connected groups each val/internal-test. Force shared A3 capture cohort to train; D3c17 pawn endgame val and19 sparse endgame test for position-type coverage. No predictions used.",
+  "attempts_until_valid": 1,
+  "internal_test_kind": "retrospective_previously_exposed_positions",
+  "final_holdout_access": false
+}

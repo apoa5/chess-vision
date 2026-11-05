@@ -1,0 +1,58 @@
+{
+  "representation": "b2-context1-224-v1",
+  "seed": 42,
+  "augmentation": {
+    "brightness": 0.1,
+    "contrast": 0.1,
+    "blur_probability": 0.15,
+    "noise_probability": 0.2,
+    "noise_std": 0.01
+  },
+  "modal": {
+    "workspace": "akwasipoku-oforiagyei",
+    "environment": "main",
+    "gpu": "L4",
+    "smoke_timeout_seconds": 600,
+    "startup_timeout_seconds": 600,
+    "max_containers": 1,
+    "retries": 0,
+    "scaledown_window_seconds": 2,
+    "smoke_allocation_usd": 3.0
+  },
+  "schema_version": "personal_direct_c7_v1",
+  "full_training_authorization": true,
+  "parent_sha256": "11c54e55cd77ffa9fd8530dc75283a5d77953bbb66f0018b8a1f9deca049f1c9",
+  "parent_path": "/artifacts/chesscog-c5-seed42-v1/chesscog_best.pt",
+  "parent_configuration_path": "configs/training/chesscog_c5_authorized_v1.json",
+  "authorized_branches": [
+    "B",
+    "C"
+  ],
+  "combined_metered_budget_usd": 3.0,
+  "max_gpu_function_seconds_per_branch": 2400,
+  "transfer_contract": "Direct Chesscog -> personal; no ChessReD. Both reuse unchanged C4 kernel B parent-stage policy.",
+  "stages": {
+    "personal": {
+      "epochs": 6,
+      "max_updates": 672,
+      "minimum_train_boards": 100,
+      "batch_size": 64,
+      "learning_rate": 3e-05,
+      "precision": "bf16",
+      "gradient_accumulation": 1,
+      "workers": 0,
+      "max_seconds": 1800,
+      "checkpoint_every_updates": 100,
+      "patience": 6,
+      "head_epochs": 1,
+      "best_name": "chessvision_finetuned_best.pt",
+      "required_dataset": [
+        "chessvision_photos",
+        "d3c_retired"
+      ],
+      "validation_every_updates": 112
+    }
+  },
+  "expected_inventory_sha256": "966310c762a663e5483510b122cd103513559eb9e21581303128342fc077289d",
+  "parent_configuration_sha256": "b5974323bc965828a3e70f1a713245f054217e66ad3d839c52ebf23590b85644"
+}
