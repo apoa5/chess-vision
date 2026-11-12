@@ -1,0 +1,11 @@
+{
+  "schema_version": "assisted_multiview_profile_v1",
+  "strategy": "parallel2",
+  "fusion_policy": "best_quality",
+  "policy_evidence": "data/metadata/assisted_mvp15_policy_v1.json",
+  "policy_evidence_sha256": "f8821a5a0f711bef6d1efe26741de0686c35ecca08c6f7582f48c24bc00e0bb0",
+  "source_profile": "configs/application/assisted_photo_v1.json",
+  "automatic_completion": false,
+  "quantization": false,
+  "dtype": "float32"
+}

@@ -60,3 +60,9 @@ service-account*.json
 id_rsa
 id_ecdsa
 id_ed25519
+
+# Local agent reference downloads and editor/OS caches are not project sources.
+.agents/skills/modal/references/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

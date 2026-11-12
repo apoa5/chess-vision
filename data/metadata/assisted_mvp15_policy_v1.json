@@ -1,0 +1,89 @@
+{
+  "schema_version": "assisted_mvp15_policy_v1",
+  "selected_strategy": "parallel2",
+  "selected_fusion_policy": "best_quality",
+  "checkpoint_sha256": "45b471edb751261e9da1ef8703f3d9c940cdaec69f5713f6847e48bf0dc26acb",
+  "corpus": "data/metadata/assisted_mvp15_corpus_v1.json",
+  "corpus_sha256": "23cf99119f62a4c1b6cc0e7d16cf46ddfefb23a09bec9defda19eb24ca577d84",
+  "benchmark_summary": {
+    "sequential": {
+      "median_seconds": 18.787910541999736,
+      "peak_rss_bytes": 1147486208,
+      "parity_pass": true,
+      "config": {
+        "batch_size": 8,
+        "threads": 4,
+        "workers": 1
+      },
+      "maximum_logit_error": 0.0
+    },
+    "combined8": {
+      "median_seconds": 18.562317577001522,
+      "peak_rss_bytes": 1147772928,
+      "parity_pass": true,
+      "config": {
+        "batch_size": 8,
+        "threads": 4,
+        "workers": 1
+      },
+      "maximum_logit_error": 0.0
+    },
+    "combined16": {
+      "median_seconds": 20.210083873003896,
+      "peak_rss_bytes": 1340071936,
+      "parity_pass": true,
+      "config": {
+        "batch_size": 16,
+        "threads": 4,
+        "workers": 1
+      },
+      "maximum_logit_error": 1.1444091796875e-05
+    },
+    "combined32": {
+      "median_seconds": 18.854275056000915,
+      "peak_rss_bytes": 1606582272,
+      "parity_pass": true,
+      "config": {
+        "batch_size": 32,
+        "threads": 4,
+        "workers": 1
+      },
+      "maximum_logit_error": 1.1444091796875e-05
+    },
+    "parallel2": {
+      "median_seconds": 15.365890505003335,
+      "peak_rss_bytes": 1491329024,
+      "parity_pass": true,
+      "config": {
+        "batch_size": 8,
+        "threads": 2,
+        "workers": 2
+      },
+      "maximum_logit_error": 0.0
+    },
+    "parallel3": {
+      "median_seconds": 16.910674578000908,
+      "peak_rss_bytes": 1528209408,
+      "parity_pass": true,
+      "config": {
+        "batch_size": 8,
+        "threads": 1,
+        "workers": 3
+      },
+      "maximum_logit_error": 0.0
+    }
+  },
+  "fusion_summary": "All three methods had 0 errors / 5 exact boards on the same training-exposed pilot positions; no strict gain, so no fusion promotion.",
+  "development_only": true,
+  "c10_tuning": false,
+  "final_holdout_access": false,
+  "optional_extension": "optional_parallel3_design_v1.json",
+  "results_sha256": {
+    "sequential": "7cc8a57f1ffdd397588482b35c97fe5bd1819fd3fe9bcfea697ae901246bc5b4",
+    "combined8": "71794c4dcb1b330e93f2cc2c1d21555affc524e4612eff26569ead74db4d09c4",
+    "combined16": "0f8638d176de1d45688f01d4c98ffb9ffc26ce012287cfa8c0c4afa0d51801e3",
+    "combined32": "81e0a4d103fba98c22a674e847bef3662d09493ee7b08b8485a5a49747e991e6",
+    "parallel2": "82d39a46ecbf96e42b00f53e611d792ffcaeb144d97dadb8310ccda1e8956311",
+    "parallel3": "a83443d25a95620372c3c963b07451bab380ff2160bf95863a4ee475e020c186"
+  }
+}

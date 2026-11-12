@@ -1,0 +1,60 @@
+{
+  "schema_version": "assisted_photo_profile_v1",
+  "runtime_config": "configs/evaluation/convnext_c11_recommended_v1.json",
+  "runtime_config_sha256": "dc07eabada57021508e7fd7f66c341ec0ba060aa3dd17f574721a112ff181a38",
+  "geometry": {
+    "board": {
+      "normalized_size": 800,
+      "context_margin_squares": 2.0,
+      "crop_padding_squares": 2.0
+    },
+    "board_detection": {
+      "max_image_size": 1280,
+      "blur_kernel": 5,
+      "canny_low": 40,
+      "canny_high": 120,
+      "normalize_contrast": false,
+      "min_area_fraction": 0.05,
+      "max_area_fraction": 0.9,
+      "polygon_epsilon": 0.02,
+      "min_checker_correlation": 0.4,
+      "min_checker_contrast": 8.0,
+      "min_score": 0.55,
+      "border_insets": [
+        0.0,
+        0.04,
+        0.07,
+        0.09,
+        0.11
+      ],
+      "use_wood_color_mask": true,
+      "wood_hue_min": 0,
+      "wood_hue_max": 40,
+      "wood_min_saturation": 60,
+      "use_line_candidates": true,
+      "refine_candidates": 3
+    },
+    "orientation": {
+      "min_similarity": 0.6,
+      "min_matches": 8,
+      "min_score_gap": 0.12
+    }
+  },
+  "crop": {
+    "board_size": 800,
+    "context_margin": 200,
+    "initial_context_padding": 200,
+    "crop_spec": {
+      "name": "context1_224",
+      "input_size": 224,
+      "padding_squares": 1,
+      "detail_factor": 1.0,
+      "suppress_outer_context": false
+    }
+  },
+  "geometry_policy": "legacy/default",
+  "calibration": "uncalibrated",
+  "license": "CC BY-NC 4.0 pretrained weights; noncommercial use",
+  "max_upload_bytes": 12582912,
+  "max_pixels": 32000000
+}

@@ -1,0 +1,47 @@
+// Real approved H.264/MP4 bytes, actual browser seeking and actual backend.
+// The historical filename ends .MOV; its registered container is mp42/MP4.
+import {createRequire} from 'node:module';import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';import {resolve} from 'node:path';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';
+const root=resolve('outputs/evaluation/assisted_mvp1_v1'),require=createRequire(root+'/browser-tools/package.json'),{chromium}=require('playwright');
+const single=process.env.MVP16_ZERO==='1',webm=process.env.MVP16_WEBM==='1'||single;
+const output=resolve(single?'outputs/evaluation/assisted_mvp16_v1/browser_zero_views':webm?'outputs/evaluation/assisted_mvp16_v1/browser_webm':'outputs/evaluation/assisted_mvp16_v1/browser');mkdirSync(output,{recursive:true});
+const source=JSON.parse(readFileSync('data/metadata/a3_pilot_01_sources_v2.json')).sessions[0],media=webm?{...JSON.parse(readFileSync(single?'outputs/evaluation/assisted_mvp16_v1/single_view_fixture_v1.json':'outputs/evaluation/assisted_mvp16_v1/hd_replay_fixture_v1.json')),codec:'vp9',container_duration_seconds:single?2:12}:source.compressed_comparison_source,buffer=readFileSync(media.path);
+assert.equal(createHash('sha256').update(buffer).digest('hex'),media.sha256);if(!webm){assert.equal(media.codec,'h264');assert.equal(media.container_metadata.major_brand,'mp42');}
+const fixture={name:webm?'approved-starting.webm':'approved-starting.mp4',mimeType:webm?'video/webm':'video/mp4',buffer};
+const browser=await chromium.launch({headless:true,executablePath:resolve(root,'browsers/chromium_headless_shell-1254/chrome-headless-shell-linux64/chrome-headless-shell')});
+const checks=[],errors=[];let context;
+const record=s=>{checks.push(s);console.log('PASS',s);};
+try{
+ context=await browser.newContext({viewport:{width:1280,height:960},permissions:['clipboard-read','clipboard-write']});
+ await context.addInitScript(()=>{window.__mediaResponses=[];window.__cameraCalls=0;window.__createdUrls=[];window.__revokedUrls=[];const create=URL.createObjectURL.bind(URL),revoke=URL.revokeObjectURL.bind(URL);URL.createObjectURL=x=>{const u=create(x);window.__createdUrls.push(u);return u;};URL.revokeObjectURL=u=>{window.__revokedUrls.push(u);revoke(u);};navigator.mediaDevices.getUserMedia=async()=>{window.__cameraCalls++;throw Error('No camera available in upload acceptance');};const original=fetch.bind(window);window.fetch=async(...args)=>{const r=await original(...args);if(String(args[0]).startsWith('/api/photo/scan/'))void r.clone().json().then(body=>window.__mediaResponses.push({url:String(args[0]),body,status:r.status}));return r;};});
+ const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));await page.goto('http://127.0.0.1:8765/?mode=photo');
+ for(const mode of ['Upload Photo','Upload Video','Live Scan'])assert.ok(await page.getByRole('button',{name:mode,exact:true}).isVisible());record('Three modes visible on desktop');
+ await page.getByRole('button',{name:'Upload Video',exact:true}).click();
+ await page.getByLabel('Upload video',{exact:true}).setInputFiles({name:'broken.mp4',mimeType:'video/mp4',buffer:Buffer.from('not a video')});await page.getByRole('alert').filter({hasText:/decoded|decoding/}).waitFor();record('Corrupt MP4 rejected before backend session');
+ await page.getByLabel('Upload video',{exact:true}).setInputFiles(fixture);await page.getByLabel('Uploaded video preview',{exact:true}).waitFor({timeout:20000});record(webm?'Actual WebM/VP9 metadata and preview loaded without camera':'Actual MP4/H.264 metadata and preview loaded without camera');
+ assert.equal(await page.getByRole('button',{name:'Analyze video',exact:true}).isEnabled(),false);record('Unchanged-position attestation required');
+ await page.getByLabel('The chess pieces remain in the same positions throughout this video.').check();
+ const started=performance.now();await page.getByRole('button',{name:'Analyze video',exact:true}).click();
+ if(single){
+  await page.getByRole('alert').filter({hasText:'No usable frames'}).waitFor({timeout:60000});assert.equal(await page.locator('.digital-board').count(),0);assert.equal(await page.evaluate(()=>window.__cameraCalls),0);record('Zero geometry-usable views produce actionable failure, never a draft');
+  await page.getByRole('button',{name:'Remove video',exact:true}).click();await page.waitForTimeout(100);assert.equal(await page.evaluate(()=>window.__createdUrls.every(u=>window.__revokedUrls.includes(u))),true);record('All video object URLs released after removal');writeFileSync(output+'/results_v1.json',JSON.stringify({checks,errors,source:media,actual_browser_video_decoding:true,actual_backend_geometry:true,actual_backend_inference:false,expected_zero_usable_views:true,physical_smartphone_tested:false},null,2));
+ }else{
+ await page.locator('.digital-board').waitFor({timeout:240000});const uploadToReviewMs=performance.now()-started;
+ const response=await page.evaluate(()=>window.__mediaResponses.findLast(r=>r.body?.result)?.body.result);assert.ok(response);assert.equal(response.multiview.source.kind,'uploaded_video');assert.ok(response.multiview.accepted_view_count>=1&&response.multiview.accepted_view_count<=3);assert.equal(response.multiview.fusion_policy,'best_quality');assert.equal(await page.evaluate(()=>window.__cameraCalls),0);
+ writeFileSync(output+'/recognition_v1.json',JSON.stringify(response,null,2));
+ const calls=await page.evaluate(()=>window.__mediaResponses);const candidates=calls.filter(c=>c.url.endsWith('/candidate'));assert.ok(candidates.length===(single?1:webm?4:24));assert.ok(response.multiview.per_view.every(v=>v.timestamp_ms>0&&v.timestamp_ms<media.container_duration_seconds*1000));record('Actual timeline extraction, candidate API, viewpoint selection and real ConvNeXt inference');
+ assert.equal(await page.getByRole('button',{name:'Copy FEN',exact:true}).isEnabled(),false);
+ const squares=Object.keys(response.squares),truth='rnbqkbnrpppppppp................................PPPPPPPPRNBQKBNR';
+ const names={p:'Black pawn',n:'Black knight',b:'Black bishop',r:'Black rook',q:'Black queen',k:'Black king',P:'White pawn',N:'White knight',B:'White bishop',R:'White rook',Q:'White queen',K:'White king','.':'Empty square'};
+ const corrections=[];
+ for(let i=0;i<64;i++){const sq=squares[i],expected=truth[i]==='.'?null:truth[i];if(response.squares[sq].symbol!==expected){corrections.push(sq);await page.getByRole('button',{name:new RegExp('^'+sq+',')}).click();await page.getByRole('button',{name:`Set ${sq} to ${names[truth[i]]}`,exact:true}).click();}}
+ // Exercise a deliberate edit and undo even if the trained fixture is exact.
+ await page.getByRole('button',{name:/^a8,/}).click();await page.getByRole('button',{name:'Set a8 to Empty square',exact:true}).click();await page.getByRole('button',{name:'Undo piece edit',exact:true}).click();
+ await page.getByLabel('I have checked the board and game state.').check();await page.getByRole('button',{name:'Confirm Position',exact:true}).click();await page.getByLabel('Confirmed FEN',{exact:true}).waitFor();const fen=await page.getByLabel('Confirmed FEN',{exact:true}).inputValue();assert.equal(fen,source.placement_fen+' w - - 0 1');await page.getByRole('button',{name:'Copy FEN',exact:true}).click();assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),fen);record('Actual draft corrected, explicitly confirmed and FEN copied');
+ await page.screenshot({path:output+'/desktop-confirmed.png',fullPage:true});
+ const videoTimings='Runtime details are omitted from the simplified UI; server timing remains in result.multiview.timings.';
+ // New media invalidates the confirmed result. Cancel actual extraction/upload.
+ await page.getByLabel('Upload video',{exact:true}).setInputFiles(fixture);await page.getByLabel('Uploaded video preview',{exact:true}).waitFor();assert.equal(await page.getByLabel('Confirmed FEN',{exact:true}).count(),0);await page.getByLabel('The chess pieces remain in the same positions throughout this video.').check();await page.getByRole('button',{name:'Analyze video',exact:true}).click();await page.getByRole('button',{name:'Cancel video analysis',exact:true}).click();await page.waitForTimeout(500);assert.equal(await page.locator('.digital-board').count(),0);assert.equal(await page.getByLabel('Uploaded video preview',{exact:true}).count(),0);record('Cancellation clears source resources and stale result/confirmation');
+ await page.getByLabel('Upload video',{exact:true}).setInputFiles(fixture);await page.getByLabel('Uploaded video preview',{exact:true}).waitFor();await page.setViewportSize({width:390,height:844});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await page.screenshot({path:output+'/mobile-video.png',fullPage:true});await page.getByRole('button',{name:'Remove video',exact:true}).click();record('Replacement/removal and mobile video layout work after cancellation');
+ assert.deepEqual(errors,[]);writeFileSync(output+'/results_v1.json',JSON.stringify({checks,errors,physical_smartphone_tested:false,actual_browser_video_decoding:true,actual_backend_inference:true,uploadToReviewMs,corrections,source:media,virtual_filename:fixture.name,source_bytes_unchanged:true,video_upload_timings:videoTimings,result:response},null,2));
+ }
+}catch(e){writeFileSync(output+'/failure.json',JSON.stringify({checks,errors,error:String(e)},null,2));throw e;}finally{await context?.close();await browser.close();}

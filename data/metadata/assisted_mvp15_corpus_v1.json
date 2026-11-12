@@ -1,0 +1,1868 @@
+{
+  "schema_version": "assisted_mvp15_corpus_v1",
+  "frames": [
+    {
+      "id": "a3_pilot_01_01_starting_take01_hd_frame_000270",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_01_starting_take01_hd_frame_000270.npz",
+      "input_cache_sha256": "dd845bb547543d7d079481aa0286fb34c139a9ba094edf78d672fd3a0b8b15e2",
+      "square_ids": [
+        "a8",
+        "b8",
+        "c8",
+        "d8",
+        "e8",
+        "f8",
+        "g8",
+        "h8",
+        "a7",
+        "b7",
+        "c7",
+        "d7",
+        "e7",
+        "f7",
+        "g7",
+        "h7",
+        "a6",
+        "b6",
+        "c6",
+        "d6",
+        "e6",
+        "f6",
+        "g6",
+        "h6",
+        "a5",
+        "b5",
+        "c5",
+        "d5",
+        "e5",
+        "f5",
+        "g5",
+        "h5",
+        "a4",
+        "b4",
+        "c4",
+        "d4",
+        "e4",
+        "f4",
+        "g4",
+        "h4",
+        "a3",
+        "b3",
+        "c3",
+        "d3",
+        "e3",
+        "f3",
+        "g3",
+        "h3",
+        "a2",
+        "b2",
+        "c2",
+        "d2",
+        "e2",
+        "f2",
+        "g2",
+        "h2",
+        "a1",
+        "b1",
+        "c1",
+        "d1",
+        "e1",
+        "f1",
+        "g1",
+        "h1"
+      ],
+      "quality": 0.8677088345004333,
+      "timestamp_ms": 9001.666666666666,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000270.png",
+      "raw_sha256": "18fa78b8cc1b338fc1238ea73b95364d821aad2927ecf4fd3ad085a36158cbf4"
+    },
+    {
+      "id": "a3_pilot_01_01_starting_take01_hd_frame_000810",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_01_starting_take01_hd_frame_000810.npz",
+      "input_cache_sha256": "f6a62168f5507f58e95ecd89d2c494c40c0855abd229a9764fbea644d59bf61b",
+      "square_ids": [
+        "h8",
+        "h7",
+        "h6",
+        "h5",
+        "h4",
+        "h3",
+        "h2",
+        "h1",
+        "g8",
+        "g7",
+        "g6",
+        "g5",
+        "g4",
+        "g3",
+        "g2",
+        "g1",
+        "f8",
+        "f7",
+        "f6",
+        "f5",
+        "f4",
+        "f3",
+        "f2",
+        "f1",
+        "e8",
+        "e7",
+        "e6",
+        "e5",
+        "e4",
+        "e3",
+        "e2",
+        "e1",
+        "d8",
+        "d7",
+        "d6",
+        "d5",
+        "d4",
+        "d3",
+        "d2",
+        "d1",
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1",
+        "b8",
+        "b7",
+        "b6",
+        "b5",
+        "b4",
+        "b3",
+        "b2",
+        "b1",
+        "a8",
+        "a7",
+        "a6",
+        "a5",
+        "a4",
+        "a3",
+        "a2",
+        "a1"
+      ],
+      "quality": 0.8285270278876354,
+      "timestamp_ms": 27003.333333333332,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_000810.png",
+      "raw_sha256": "3ae64f567ce5b628e86c637119627bcab75e90a4b0bd25d946854dc34a945213"
+    },
+    {
+      "id": "a3_pilot_01_01_starting_take01_hd_frame_001350",
+      "session_id": "a3_pilot_01_01_starting_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_01_starting_take01_hd_frame_001350.npz",
+      "input_cache_sha256": "3088b3acbe137b97ac925c3dde0e228e3d6ee80ecb547976c44433f8f9454e20",
+      "square_ids": [
+        "h1",
+        "g1",
+        "f1",
+        "e1",
+        "d1",
+        "c1",
+        "b1",
+        "a1",
+        "h2",
+        "g2",
+        "f2",
+        "e2",
+        "d2",
+        "c2",
+        "b2",
+        "a2",
+        "h3",
+        "g3",
+        "f3",
+        "e3",
+        "d3",
+        "c3",
+        "b3",
+        "a3",
+        "h4",
+        "g4",
+        "f4",
+        "e4",
+        "d4",
+        "c4",
+        "b4",
+        "a4",
+        "h5",
+        "g5",
+        "f5",
+        "e5",
+        "d5",
+        "c5",
+        "b5",
+        "a5",
+        "h6",
+        "g6",
+        "f6",
+        "e6",
+        "d6",
+        "c6",
+        "b6",
+        "a6",
+        "h7",
+        "g7",
+        "f7",
+        "e7",
+        "d7",
+        "c7",
+        "b7",
+        "a7",
+        "h8",
+        "g8",
+        "f8",
+        "e8",
+        "d8",
+        "c8",
+        "b8",
+        "a8"
+      ],
+      "quality": 0.7539757410252408,
+      "timestamp_ms": 45006.666666666664,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_01_starting_take01/a3_pilot_01_01_starting_take01_hd_frame_001350.png",
+      "raw_sha256": "f7384f632f73a5755a1819296f2a960137f299de2c5e0078932a5ada11b17663"
+    },
+    {
+      "id": "a3_pilot_01_02_opening_take01_hd_frame_000000",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_02_opening_take01_hd_frame_000000.npz",
+      "input_cache_sha256": "d5e6054eb01ffd482d568a798ca44248a0019af6fee32e9b1665441a56ee56b3",
+      "square_ids": [
+        "a8",
+        "b8",
+        "c8",
+        "d8",
+        "e8",
+        "f8",
+        "g8",
+        "h8",
+        "a7",
+        "b7",
+        "c7",
+        "d7",
+        "e7",
+        "f7",
+        "g7",
+        "h7",
+        "a6",
+        "b6",
+        "c6",
+        "d6",
+        "e6",
+        "f6",
+        "g6",
+        "h6",
+        "a5",
+        "b5",
+        "c5",
+        "d5",
+        "e5",
+        "f5",
+        "g5",
+        "h5",
+        "a4",
+        "b4",
+        "c4",
+        "d4",
+        "e4",
+        "f4",
+        "g4",
+        "h4",
+        "a3",
+        "b3",
+        "c3",
+        "d3",
+        "e3",
+        "f3",
+        "g3",
+        "h3",
+        "a2",
+        "b2",
+        "c2",
+        "d2",
+        "e2",
+        "f2",
+        "g2",
+        "h2",
+        "a1",
+        "b1",
+        "c1",
+        "d1",
+        "e1",
+        "f1",
+        "g1",
+        "h1"
+      ],
+      "quality": 0.875645101369723,
+      "timestamp_ms": 0.0,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_000000.png",
+      "raw_sha256": "433dc541fb9da900b891ba70cd95f1321f556d2adfadae98907af95cb6c813eb"
+    },
+    {
+      "id": "a3_pilot_01_02_opening_take01_hd_frame_001440",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_02_opening_take01_hd_frame_001440.npz",
+      "input_cache_sha256": "e1bba79afb9645acda9f95adb5c7e13c43300ec92c7b17651124dc70f0c0aa5b",
+      "square_ids": [
+        "h1",
+        "g1",
+        "f1",
+        "e1",
+        "d1",
+        "c1",
+        "b1",
+        "a1",
+        "h2",
+        "g2",
+        "f2",
+        "e2",
+        "d2",
+        "c2",
+        "b2",
+        "a2",
+        "h3",
+        "g3",
+        "f3",
+        "e3",
+        "d3",
+        "c3",
+        "b3",
+        "a3",
+        "h4",
+        "g4",
+        "f4",
+        "e4",
+        "d4",
+        "c4",
+        "b4",
+        "a4",
+        "h5",
+        "g5",
+        "f5",
+        "e5",
+        "d5",
+        "c5",
+        "b5",
+        "a5",
+        "h6",
+        "g6",
+        "f6",
+        "e6",
+        "d6",
+        "c6",
+        "b6",
+        "a6",
+        "h7",
+        "g7",
+        "f7",
+        "e7",
+        "d7",
+        "c7",
+        "b7",
+        "a7",
+        "h8",
+        "g8",
+        "f8",
+        "e8",
+        "d8",
+        "c8",
+        "b8",
+        "a8"
+      ],
+      "quality": 0.8844528703776504,
+      "timestamp_ms": 48006.666666666664,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001440.png",
+      "raw_sha256": "bc7b232d7500208475fb3d7ee62500a56c03b256a30f68e2d8e99e456e17d129"
+    },
+    {
+      "id": "a3_pilot_01_02_opening_take01_hd_frame_001890",
+      "session_id": "a3_pilot_01_02_opening_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_02_opening_take01_hd_frame_001890.npz",
+      "input_cache_sha256": "cd6f6b5db85fd14c94e2940e50fc98755eb18c4847d8e7012bf08e2a179f8950",
+      "square_ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "d1",
+        "d2",
+        "d3",
+        "d4",
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "e1",
+        "e2",
+        "e3",
+        "e4",
+        "e5",
+        "e6",
+        "e7",
+        "e8",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "h7",
+        "h8"
+      ],
+      "quality": 0.8592715819877201,
+      "timestamp_ms": 63010.0,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_02_opening_take01/a3_pilot_01_02_opening_take01_hd_frame_001890.png",
+      "raw_sha256": "86e9137c87fac1cc2dd2e086fe126cf1db3c61bced5b3ef7223ab6a4563e2f17"
+    },
+    {
+      "id": "a3_pilot_01_03_middlegame_take01_hd_frame_000090",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_03_middlegame_take01_hd_frame_000090.npz",
+      "input_cache_sha256": "f0e4a1f0c593b8d8e839036e3255e4a56b413d41f183091a164e8e26fbcb3da8",
+      "square_ids": [
+        "a8",
+        "b8",
+        "c8",
+        "d8",
+        "e8",
+        "f8",
+        "g8",
+        "h8",
+        "a7",
+        "b7",
+        "c7",
+        "d7",
+        "e7",
+        "f7",
+        "g7",
+        "h7",
+        "a6",
+        "b6",
+        "c6",
+        "d6",
+        "e6",
+        "f6",
+        "g6",
+        "h6",
+        "a5",
+        "b5",
+        "c5",
+        "d5",
+        "e5",
+        "f5",
+        "g5",
+        "h5",
+        "a4",
+        "b4",
+        "c4",
+        "d4",
+        "e4",
+        "f4",
+        "g4",
+        "h4",
+        "a3",
+        "b3",
+        "c3",
+        "d3",
+        "e3",
+        "f3",
+        "g3",
+        "h3",
+        "a2",
+        "b2",
+        "c2",
+        "d2",
+        "e2",
+        "f2",
+        "g2",
+        "h2",
+        "a1",
+        "b1",
+        "c1",
+        "d1",
+        "e1",
+        "f1",
+        "g1",
+        "h1"
+      ],
+      "quality": 0.827286224908708,
+      "timestamp_ms": 3000.0,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000090.png",
+      "raw_sha256": "5537adb53efdeac25d6ae7c9b02002bccaea65b11bab611abe532e7a1ce9e50b"
+    },
+    {
+      "id": "a3_pilot_01_03_middlegame_take01_hd_frame_000990",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_03_middlegame_take01_hd_frame_000990.npz",
+      "input_cache_sha256": "232b6fb324af6f702d897e92426d02b13478193308d96c2afec9eef6064d749f",
+      "square_ids": [
+        "h1",
+        "g1",
+        "f1",
+        "e1",
+        "d1",
+        "c1",
+        "b1",
+        "a1",
+        "h2",
+        "g2",
+        "f2",
+        "e2",
+        "d2",
+        "c2",
+        "b2",
+        "a2",
+        "h3",
+        "g3",
+        "f3",
+        "e3",
+        "d3",
+        "c3",
+        "b3",
+        "a3",
+        "h4",
+        "g4",
+        "f4",
+        "e4",
+        "d4",
+        "c4",
+        "b4",
+        "a4",
+        "h5",
+        "g5",
+        "f5",
+        "e5",
+        "d5",
+        "c5",
+        "b5",
+        "a5",
+        "h6",
+        "g6",
+        "f6",
+        "e6",
+        "d6",
+        "c6",
+        "b6",
+        "a6",
+        "h7",
+        "g7",
+        "f7",
+        "e7",
+        "d7",
+        "c7",
+        "b7",
+        "a7",
+        "h8",
+        "g8",
+        "f8",
+        "e8",
+        "d8",
+        "c8",
+        "b8",
+        "a8"
+      ],
+      "quality": 0.8971663511226251,
+      "timestamp_ms": 33005.0,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_000990.png",
+      "raw_sha256": "4b6ef38075bfcbeaa3f0e39aea254041454503068b95f59bd95bf93a9c5bd5bf"
+    },
+    {
+      "id": "a3_pilot_01_03_middlegame_take01_hd_frame_001620",
+      "session_id": "a3_pilot_01_03_middlegame_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_03_middlegame_take01_hd_frame_001620.npz",
+      "input_cache_sha256": "b2bda066413256651abe9111b0fdf5940ce0a7840222e50fd77a9d3cb973a544",
+      "square_ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "d1",
+        "d2",
+        "d3",
+        "d4",
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "e1",
+        "e2",
+        "e3",
+        "e4",
+        "e5",
+        "e6",
+        "e7",
+        "e8",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "h7",
+        "h8"
+      ],
+      "quality": 0.8439538569815583,
+      "timestamp_ms": 54008.333333333336,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_03_middlegame_take01/a3_pilot_01_03_middlegame_take01_hd_frame_001620.png",
+      "raw_sha256": "4573966fed067c12f8601520813e0ad6b3878d8381ee6b858edbbef29323c2e7"
+    },
+    {
+      "id": "a3_pilot_01_04_endgame_take01_hd_frame_000090",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_04_endgame_take01_hd_frame_000090.npz",
+      "input_cache_sha256": "af8836ce94959d0529e0df2aa6666944714c6c438009794851eec6727ff59ac4",
+      "square_ids": [
+        "a8",
+        "b8",
+        "c8",
+        "d8",
+        "e8",
+        "f8",
+        "g8",
+        "h8",
+        "a7",
+        "b7",
+        "c7",
+        "d7",
+        "e7",
+        "f7",
+        "g7",
+        "h7",
+        "a6",
+        "b6",
+        "c6",
+        "d6",
+        "e6",
+        "f6",
+        "g6",
+        "h6",
+        "a5",
+        "b5",
+        "c5",
+        "d5",
+        "e5",
+        "f5",
+        "g5",
+        "h5",
+        "a4",
+        "b4",
+        "c4",
+        "d4",
+        "e4",
+        "f4",
+        "g4",
+        "h4",
+        "a3",
+        "b3",
+        "c3",
+        "d3",
+        "e3",
+        "f3",
+        "g3",
+        "h3",
+        "a2",
+        "b2",
+        "c2",
+        "d2",
+        "e2",
+        "f2",
+        "g2",
+        "h2",
+        "a1",
+        "b1",
+        "c1",
+        "d1",
+        "e1",
+        "f1",
+        "g1",
+        "h1"
+      ],
+      "quality": 0.8618851456194581,
+      "timestamp_ms": 3000.0,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000090.png",
+      "raw_sha256": "61a99cae84c759144388eba7789749c8faa3bac654d2732a6ddebbf766bcadf7"
+    },
+    {
+      "id": "a3_pilot_01_04_endgame_take01_hd_frame_000990",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_04_endgame_take01_hd_frame_000990.npz",
+      "input_cache_sha256": "7aefe961bda94ec311835da95f594bc7bb64c2b72c2fccf6fe4ed824c8257f35",
+      "square_ids": [
+        "h1",
+        "g1",
+        "f1",
+        "e1",
+        "d1",
+        "c1",
+        "b1",
+        "a1",
+        "h2",
+        "g2",
+        "f2",
+        "e2",
+        "d2",
+        "c2",
+        "b2",
+        "a2",
+        "h3",
+        "g3",
+        "f3",
+        "e3",
+        "d3",
+        "c3",
+        "b3",
+        "a3",
+        "h4",
+        "g4",
+        "f4",
+        "e4",
+        "d4",
+        "c4",
+        "b4",
+        "a4",
+        "h5",
+        "g5",
+        "f5",
+        "e5",
+        "d5",
+        "c5",
+        "b5",
+        "a5",
+        "h6",
+        "g6",
+        "f6",
+        "e6",
+        "d6",
+        "c6",
+        "b6",
+        "a6",
+        "h7",
+        "g7",
+        "f7",
+        "e7",
+        "d7",
+        "c7",
+        "b7",
+        "a7",
+        "h8",
+        "g8",
+        "f8",
+        "e8",
+        "d8",
+        "c8",
+        "b8",
+        "a8"
+      ],
+      "quality": 0.9135417448847519,
+      "timestamp_ms": 33005.0,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_000990.png",
+      "raw_sha256": "0ba369f0570543ba88e2ba085cb898532d78c9a3d930b25891eb3763cb561e74"
+    },
+    {
+      "id": "a3_pilot_01_04_endgame_take01_hd_frame_001530",
+      "session_id": "a3_pilot_01_04_endgame_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_04_endgame_take01_hd_frame_001530.npz",
+      "input_cache_sha256": "d7df4cd99b09e89daf58592b9f7105fc5482b4dd46185a56b7965cfe94d3f41b",
+      "square_ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "d1",
+        "d2",
+        "d3",
+        "d4",
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "e1",
+        "e2",
+        "e3",
+        "e4",
+        "e5",
+        "e6",
+        "e7",
+        "e8",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "h7",
+        "h8"
+      ],
+      "quality": 0.8707696395649677,
+      "timestamp_ms": 51006.666666666664,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_04_endgame_take01/a3_pilot_01_04_endgame_take01_hd_frame_001530.png",
+      "raw_sha256": "71dc7e0454c6887c68c6193a921d59afdd395fa59f4616033b19b8d5d9e2349d"
+    },
+    {
+      "id": "a3_pilot_01_05_puzzle_take01_hd_frame_000090",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_05_puzzle_take01_hd_frame_000090.npz",
+      "input_cache_sha256": "6315b32bf63fc8f5e68929101bd56b0f34ea224bfdc28a93f6fc99c103243b27",
+      "square_ids": [
+        "a8",
+        "b8",
+        "c8",
+        "d8",
+        "e8",
+        "f8",
+        "g8",
+        "h8",
+        "a7",
+        "b7",
+        "c7",
+        "d7",
+        "e7",
+        "f7",
+        "g7",
+        "h7",
+        "a6",
+        "b6",
+        "c6",
+        "d6",
+        "e6",
+        "f6",
+        "g6",
+        "h6",
+        "a5",
+        "b5",
+        "c5",
+        "d5",
+        "e5",
+        "f5",
+        "g5",
+        "h5",
+        "a4",
+        "b4",
+        "c4",
+        "d4",
+        "e4",
+        "f4",
+        "g4",
+        "h4",
+        "a3",
+        "b3",
+        "c3",
+        "d3",
+        "e3",
+        "f3",
+        "g3",
+        "h3",
+        "a2",
+        "b2",
+        "c2",
+        "d2",
+        "e2",
+        "f2",
+        "g2",
+        "h2",
+        "a1",
+        "b1",
+        "c1",
+        "d1",
+        "e1",
+        "f1",
+        "g1",
+        "h1"
+      ],
+      "quality": 0.8513623400363428,
+      "timestamp_ms": 3000.0,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_000090.png",
+      "raw_sha256": "f6b20eb6757cb832e1ec2d7ca484394cd83cceb2568298a8730ce89f2fc9049c"
+    },
+    {
+      "id": "a3_pilot_01_05_puzzle_take01_hd_frame_001080",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_05_puzzle_take01_hd_frame_001080.npz",
+      "input_cache_sha256": "f43fe1f163f604bd999a2af4d03daeac53381ef935590418009c9e89c88c1fa3",
+      "square_ids": [
+        "h1",
+        "g1",
+        "f1",
+        "e1",
+        "d1",
+        "c1",
+        "b1",
+        "a1",
+        "h2",
+        "g2",
+        "f2",
+        "e2",
+        "d2",
+        "c2",
+        "b2",
+        "a2",
+        "h3",
+        "g3",
+        "f3",
+        "e3",
+        "d3",
+        "c3",
+        "b3",
+        "a3",
+        "h4",
+        "g4",
+        "f4",
+        "e4",
+        "d4",
+        "c4",
+        "b4",
+        "a4",
+        "h5",
+        "g5",
+        "f5",
+        "e5",
+        "d5",
+        "c5",
+        "b5",
+        "a5",
+        "h6",
+        "g6",
+        "f6",
+        "e6",
+        "d6",
+        "c6",
+        "b6",
+        "a6",
+        "h7",
+        "g7",
+        "f7",
+        "e7",
+        "d7",
+        "c7",
+        "b7",
+        "a7",
+        "h8",
+        "g8",
+        "f8",
+        "e8",
+        "d8",
+        "c8",
+        "b8",
+        "a8"
+      ],
+      "quality": 0.8804372390444871,
+      "timestamp_ms": 36005.0,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001080.png",
+      "raw_sha256": "abcec03228d5850b0ffd41b263de0376a16a0d9d9237592b9d8cf8e5a35e68eb"
+    },
+    {
+      "id": "a3_pilot_01_05_puzzle_take01_hd_frame_001530",
+      "session_id": "a3_pilot_01_05_puzzle_take01",
+      "kind": "d2",
+      "input_cache": "outputs/scanning/d2_pilot_run1/inputs/a3_pilot_01_05_puzzle_take01_hd_frame_001530.npz",
+      "input_cache_sha256": "2a37f56e894b05a5fbcda3754c3f1035114973b2fbda9e686627038aa8972a42",
+      "square_ids": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "d1",
+        "d2",
+        "d3",
+        "d4",
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "e1",
+        "e2",
+        "e3",
+        "e4",
+        "e5",
+        "e6",
+        "e7",
+        "e8",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "h7",
+        "h8"
+      ],
+      "quality": 0.8537803232178609,
+      "timestamp_ms": 51006.666666666664,
+      "raw_path": "outputs/scanning/d1_pilot_run1/frames/a3_pilot_01_05_puzzle_take01/a3_pilot_01_05_puzzle_take01_hd_frame_001530.png",
+      "raw_sha256": "d181e11a0db6e47a41ebc8b27dea63db588a6473af5d158de24cb839e903c0dc"
+    },
+    {
+      "id": "d3c_retired:d3c_pos_13_f001860",
+      "kind": "c9",
+      "quality": null
+    },
+    {
+      "id": "personal:position_004_var_05.jpg",
+      "kind": "c9",
+      "quality": null
+    },
+    {
+      "id": "d3c_retired:d3c_pos_13_f000570",
+      "kind": "c9",
+      "quality": null
+    }
+  ],
+  "sessions": [
+    {
+      "id": "a3_pilot_01_01_starting_take01",
+      "position_id": "a3_pilot_01_01_starting",
+      "frame_ids": [
+        "a3_pilot_01_01_starting_take01_hd_frame_000270",
+        "a3_pilot_01_01_starting_take01_hd_frame_000810",
+        "a3_pilot_01_01_starting_take01_hd_frame_001350"
+      ],
+      "placement": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+      "label_version": "original_owner_fen",
+      "selection": {
+        "strategy": "quality_diverse",
+        "budget": 3,
+        "selected": [
+          "a3_pilot_01_01_starting_take01_hd_frame_000270",
+          "a3_pilot_01_01_starting_take01_hd_frame_000810",
+          "a3_pilot_01_01_starting_take01_hd_frame_001350"
+        ],
+        "selection_trace": [
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000270",
+            "selection_rank": 1,
+            "quality_score": 0.8677088345004333,
+            "min_view_distance_to_selected": 0.0,
+            "selection_merit": 0.390468975525195,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001350",
+            "selection_rank": 2,
+            "quality_score": 0.7539757410252408,
+            "min_view_distance_to_selected": 0.7952809538879992,
+            "selection_merit": 0.776693608099758,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000810",
+            "selection_rank": 3,
+            "quality_score": 0.8285270278876354,
+            "min_view_distance_to_selected": 0.39050072622861687,
+            "selection_merit": 0.5876125619751752,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          }
+        ],
+        "candidate_decisions": [
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000000",
+            "selected": false,
+            "reasons": [
+              "redundant_with_selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000270",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000450",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000540",
+            "selected": false,
+            "reasons": [
+              "redundant_with_selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000630",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_000810",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001170",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001260",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001350",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_001530",
+            "selected": false,
+            "reasons": [
+              "redundant_with_selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_002070",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_01_starting_take01_hd_frame_002160",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a3_pilot_01_02_opening_take01",
+      "position_id": "a3_pilot_01_02_opening",
+      "frame_ids": [
+        "a3_pilot_01_02_opening_take01_hd_frame_000000",
+        "a3_pilot_01_02_opening_take01_hd_frame_001440",
+        "a3_pilot_01_02_opening_take01_hd_frame_001890"
+      ],
+      "placement": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R",
+      "label_version": "original_owner_fen",
+      "selection": {
+        "strategy": "quality_diverse",
+        "budget": 3,
+        "selected": [
+          "a3_pilot_01_02_opening_take01_hd_frame_000000",
+          "a3_pilot_01_02_opening_take01_hd_frame_001440",
+          "a3_pilot_01_02_opening_take01_hd_frame_001890"
+        ],
+        "selection_trace": [
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001440",
+            "selection_rank": 1,
+            "quality_score": 0.8844528703776504,
+            "min_view_distance_to_selected": 0.0,
+            "selection_merit": 0.39800379166994265,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000000",
+            "selection_rank": 2,
+            "quality_score": 0.875645101369723,
+            "min_view_distance_to_selected": 0.744930320760277,
+            "selection_merit": 0.8037519720345276,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001890",
+            "selection_rank": 3,
+            "quality_score": 0.8592715819877201,
+            "min_view_distance_to_selected": 0.3800719635419612,
+            "selection_merit": 0.5957117918425527,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          }
+        ],
+        "candidate_decisions": [
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000000",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000270",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000540",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000630",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000900",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_000990",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001080",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001170",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001260",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001440",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001530",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_02_opening_take01_hd_frame_001890",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a3_pilot_01_03_middlegame_take01",
+      "position_id": "a3_pilot_01_03_middlegame",
+      "frame_ids": [
+        "a3_pilot_01_03_middlegame_take01_hd_frame_000090",
+        "a3_pilot_01_03_middlegame_take01_hd_frame_000990",
+        "a3_pilot_01_03_middlegame_take01_hd_frame_001620"
+      ],
+      "placement": "r2q1rk1/1bpnbpp1/p2ppn1p/1p4P1/3NP2P/2N1BP2/PPPQ4/2KR1B1R",
+      "label_version": "owner_corrected_c7_d2_v1",
+      "selection": {
+        "strategy": "quality_diverse",
+        "budget": 3,
+        "selected": [
+          "a3_pilot_01_03_middlegame_take01_hd_frame_000090",
+          "a3_pilot_01_03_middlegame_take01_hd_frame_000990",
+          "a3_pilot_01_03_middlegame_take01_hd_frame_001620"
+        ],
+        "selection_trace": [
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000990",
+            "selection_rank": 1,
+            "quality_score": 0.8971663511226251,
+            "min_view_distance_to_selected": 0.0,
+            "selection_merit": 0.40372485800518126,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000090",
+            "selection_rank": 2,
+            "quality_score": 0.827286224908708,
+            "min_view_distance_to_selected": 0.7780303604115332,
+            "selection_merit": 0.8001954994352618,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001620",
+            "selection_rank": 3,
+            "quality_score": 0.8439538569815583,
+            "min_view_distance_to_selected": 0.38925701644415006,
+            "selection_merit": 0.5938705946859838,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          }
+        ],
+        "candidate_decisions": [
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000000",
+            "selected": false,
+            "reasons": [
+              "redundant_with_selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000090",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000360",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000450",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000540",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000720",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000810",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000900",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_000990",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001170",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001620",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_03_middlegame_take01_hd_frame_001890",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a3_pilot_01_04_endgame_take01",
+      "position_id": "a3_pilot_01_04_endgame",
+      "frame_ids": [
+        "a3_pilot_01_04_endgame_take01_hd_frame_000090",
+        "a3_pilot_01_04_endgame_take01_hd_frame_000990",
+        "a3_pilot_01_04_endgame_take01_hd_frame_001530"
+      ],
+      "placement": "8/5pk1/6p1/3n3p/2B1P2P/6P1/5PK1/8",
+      "label_version": "original_owner_fen",
+      "selection": {
+        "strategy": "quality_diverse",
+        "budget": 3,
+        "selected": [
+          "a3_pilot_01_04_endgame_take01_hd_frame_000090",
+          "a3_pilot_01_04_endgame_take01_hd_frame_000990",
+          "a3_pilot_01_04_endgame_take01_hd_frame_001530"
+        ],
+        "selection_trace": [
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000990",
+            "selection_rank": 1,
+            "quality_score": 0.9135417448847519,
+            "min_view_distance_to_selected": 0.0,
+            "selection_merit": 0.41109378519813833,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          },
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000090",
+            "selection_rank": 2,
+            "quality_score": 0.8618851456194581,
+            "min_view_distance_to_selected": 0.7502866896302149,
+            "selection_merit": 0.8005059948253743,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          },
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001530",
+            "selection_rank": 3,
+            "quality_score": 0.8707696395649677,
+            "min_view_distance_to_selected": 0.3824181111666435,
+            "selection_merit": 0.6021762989458893,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          }
+        ],
+        "candidate_decisions": [
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000000",
+            "selected": false,
+            "reasons": [
+              "redundant_with_selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000090",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000270",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000360",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000450",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000540",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000630",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000720",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_000990",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_04_endgame_take01_hd_frame_001530",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a3_pilot_01_05_puzzle_take01",
+      "position_id": "a3_pilot_01_05_puzzle",
+      "frame_ids": [
+        "a3_pilot_01_05_puzzle_take01_hd_frame_000090",
+        "a3_pilot_01_05_puzzle_take01_hd_frame_001080",
+        "a3_pilot_01_05_puzzle_take01_hd_frame_001530"
+      ],
+      "placement": "8/3N4/p7/4P3/8/1K2k3/1P6/r7",
+      "label_version": "original_owner_fen",
+      "selection": {
+        "strategy": "quality_diverse",
+        "budget": 3,
+        "selected": [
+          "a3_pilot_01_05_puzzle_take01_hd_frame_000090",
+          "a3_pilot_01_05_puzzle_take01_hd_frame_001080",
+          "a3_pilot_01_05_puzzle_take01_hd_frame_001530"
+        ],
+        "selection_trace": [
+          {
+            "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001080",
+            "selection_rank": 1,
+            "quality_score": 0.8804372390444871,
+            "min_view_distance_to_selected": 0.0,
+            "selection_merit": 0.39619675757001915,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          },
+          {
+            "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000090",
+            "selection_rank": 2,
+            "quality_score": 0.8513623400363428,
+            "min_view_distance_to_selected": 0.7524452239398756,
+            "selection_merit": 0.7969579261832858,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          },
+          {
+            "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001530",
+            "selection_rank": 3,
+            "quality_score": 0.8537803232178609,
+            "min_view_distance_to_selected": 0.37735126053000173,
+            "selection_merit": 0.5917443387395384,
+            "reason": "quality_diverse_best_remaining_with_shared_duplicate_guard"
+          }
+        ],
+        "candidate_decisions": [
+          {
+            "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000000",
+            "selected": false,
+            "reasons": [
+              "redundant_with_selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000090",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000540",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000810",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_000990",
+            "selected": false,
+            "reasons": [
+              "redundant_with_selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001080",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001260",
+            "selected": false,
+            "reasons": [
+              "budget_or_rank"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001530",
+            "selected": true,
+            "reasons": [
+              "selected"
+            ]
+          },
+          {
+            "frame_id": "a3_pilot_01_05_puzzle_take01_hd_frame_001800",
+            "selected": false,
+            "reasons": [
+              "redundant_with_selected"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "timing_ids": [
+    "a3_pilot_01_01_starting_take01_hd_frame_000270",
+    "a3_pilot_01_01_starting_take01_hd_frame_000810",
+    "a3_pilot_01_01_starting_take01_hd_frame_001350"
+  ],
+  "parity_ids": [
+    "a3_pilot_01_01_starting_take01_hd_frame_000270",
+    "a3_pilot_01_01_starting_take01_hd_frame_000810",
+    "a3_pilot_01_01_starting_take01_hd_frame_001350",
+    "a3_pilot_01_02_opening_take01_hd_frame_000000",
+    "a3_pilot_01_02_opening_take01_hd_frame_001440",
+    "a3_pilot_01_02_opening_take01_hd_frame_001890",
+    "d3c_retired:d3c_pos_13_f001860",
+    "personal:position_004_var_05.jpg",
+    "d3c_retired:d3c_pos_13_f000570"
+  ],
+  "checkpoint_sha256": "45b471edb751261e9da1ef8703f3d9c940cdaec69f5713f6847e48bf0dc26acb",
+  "numeric_tolerance": {
+    "atol": 2.6702880859375e-05,
+    "rtol": 1e-05
+  },
+  "strategies": {
+    "sequential": {
+      "batch_size": 8,
+      "threads": 4,
+      "workers": 1
+    },
+    "combined8": {
+      "batch_size": 8,
+      "threads": 4,
+      "workers": 1
+    },
+    "combined16": {
+      "batch_size": 16,
+      "threads": 4,
+      "workers": 1
+    },
+    "combined32": {
+      "batch_size": 32,
+      "threads": 4,
+      "workers": 1
+    },
+    "parallel2": {
+      "batch_size": 8,
+      "threads": 2,
+      "workers": 2
+    }
+  },
+  "warmups": 1,
+  "rounds": 3,
+  "minimum_registered_reference_margin": {
+    "board_id": "d3c_retired:d3c_pos_13_f001860",
+    "square": "c7",
+    "margin": 0.01433563232421875
+  },
+  "ground_truth_used_for_selection": false,
+  "development_only": true,
+  "c10_used": false,
+  "final_holdout_access": false,
+  "fusion_promotion": "Strict gain in correct squares; no extra empty FP, no worse occupied errors in any session, no lost exact boards, no new >90% confident wrong occupied square. Otherwise retain best_quality.",
+  "source_sha256": {
+    "data/metadata/evidence_d2_manifest_v1.json": "936f1851250bed582df073f9fcfe1c7bfbebfd69a01b54d7f1098d8732355cf5",
+    "data/metadata/evidence_d2_ground_truth_corrections_v1.json": "bd68d33dacd2dfc77ec322da97d953cc9d89bf7a99ace11d39b1786956a57202",
+    "configs/experiments/keyframes_d1.json": "100d738d24322a78401a479b290c2fa90692cc873c4f4751e692347f0ccb043d",
+    "outputs/evaluation/convnext_c9/approved_cache_with_reviews_v1.json": "05eb5d079ee0bbc4d6074fef4c7f1beea88fe245b5a5b9401c11456668b6a2f5"
+  }
+}

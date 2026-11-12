@@ -1,0 +1,25 @@
+{
+  "checkpoint": "outputs/evaluation/convnext_c9/export_v1/convnextv2_tiny_best.pt",
+  "checkpoint_sha256": "45b471edb751261e9da1ef8703f3d9c940cdaec69f5713f6847e48bf0dc26acb",
+  "representation": "b2-context1-224-v1",
+  "class_names": [
+    "empty",
+    "white_pawn",
+    "white_knight",
+    "white_bishop",
+    "white_rook",
+    "white_queen",
+    "white_king",
+    "black_pawn",
+    "black_knight",
+    "black_bishop",
+    "black_rook",
+    "black_queen",
+    "black_king"
+  ],
+  "dtype": "float32",
+  "interop_threads": 1,
+  "backend": "pytorch_channels_last",
+  "threads": 4,
+  "batch_size": 8
+}

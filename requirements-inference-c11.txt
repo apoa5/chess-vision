@@ -1,0 +1,8 @@
+# Optional CPU/export dependencies. Install only in the isolated C.11 environment.
+# PyTorch 2.14.1+cpu and timm 1.0.22 are reused read-only from the CPU environment.
+onnx==1.23.2
+onnxruntime==1.31.1
+onnxscript==0.7.2
+onnx-ir==1.1.0
+ml_dtypes==0.6.0
+flatbuffers==25.12.19

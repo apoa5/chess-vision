@@ -1,0 +1,40 @@
+{
+  "schema_version": "assisted_mvp16_integration_v1",
+  "report": "docs/evaluation/assisted_mvp16_media_upload.md",
+  "artifacts_sha256": {
+    "docs/evaluation/assisted_mvp16_media_upload.md": "bfe9d4a27a54773317ef73f5bb0ce5645972b4aed7b1b1c3609cdb7357107678",
+    "outputs/evaluation/assisted_mvp16_v1/browser/results_v1.json": "ab9baab9c2e9a4266143822e78ee3855f91624f38663667393135abed56e0d10",
+    "outputs/evaluation/assisted_mvp16_v1/browser_webm/results_v1.json": "8e104b5defc369c99e6f35b400bcd0a9e4342adc67a900f636c6bc808b2a01bf",
+    "outputs/evaluation/assisted_mvp16_v1/browser_zero_views/results_v1.json": "9608512f7a94c1d98fd71af640240420c202e4c787ac2f26271af4ca7a54aacf",
+    "outputs/evaluation/assisted_mvp16_v1/photo_browser/results_v1.json": "4022f0f6277473ea4930fc934082671b53592874e4d175813e2e8c80a4a0dbd4",
+    "outputs/evaluation/assisted_mvp16_v1/live_ui/results.json": "053f97052bcd97f5c79e23d211373e612d6988640b97281b26bfa7e6ac498d12",
+    "outputs/evaluation/assisted_mvp16_v1/single_video_api_v1.json": "8dbf13bdd8d008c5c0825dc929c0478385ee793530d3d0f2540418680239d097",
+    "outputs/evaluation/assisted_mvp16_v1/integrity_final_v1.json": "47667bd6823dfde64bbda141b0f3e114351016f15511200f2217e110156127cf",
+    "outputs/evaluation/assisted_mvp16_v1/hd_replay_fixture_v1.json": "b1d3c91c7503b48cbbbf1d893ceba95da0640be3e32b8b518b487c1f502d93e1",
+    "outputs/evaluation/assisted_mvp16_v1/single_view_fixture_v1.json": "605044d8e68eb7c56c0a23a7c2fd8d51ea372e1d49cac14877bc4c8e452abc61",
+    "outputs/evaluation/assisted_mvp16_v1/server_memory_v1.json": "cb8503bc7a86dbfa53a1ec4810392e0e8d1867f3674e9999785e3e7288af0799"
+  },
+  "modes": [
+    "Upload Photo",
+    "Upload Video",
+    "Live Scan"
+  ],
+  "recognition_strategy": "unchanged MVP15 parallel2 FP32 shared model",
+  "reconstruction_policy": "best_quality",
+  "checkpoint_sha256": "45b471edb751261e9da1ef8703f3d9c940cdaec69f5713f6847e48bf0dc26acb",
+  "python_tests_passed": 936,
+  "frontend_tests_passed": 62,
+  "photo_browser_checks": 13,
+  "live_browser_checks": 6,
+  "mp4_browser_checks": 8,
+  "webm_browser_checks": 8,
+  "zero_view_browser_checks": 6,
+  "actual_browser_video_decoding": true,
+  "physical_smartphone_tested": false,
+  "final_holdout_access": false,
+  "model_training": false,
+  "paid_compute": false,
+  "global_default_changed": false,
+  "committed": false,
+  "pushed": false
+}

@@ -4,6 +4,7 @@ import {homography,project,squarePolygon,contains,Point} from './geometry';
 import './style.css';
 import {BoardPreviewBoundary} from './BoardPreviewBoundary';
 import {PositionReview} from './PositionReview';
+import {AssistedPhotoApp} from './AssistedPhotoApp';
 import {DigitalBoard} from './DigitalBoard';
 import {Recorder} from './Recorder';
 import {imageBytes,sessionZip} from './recording';
@@ -68,7 +69,7 @@ function App(){
  const stopCamera=()=>{stop();setPhase('idle');setCorners([]);setMessage('Camera stopped.');};
  return <main>
  <div className="scan-workspace">
- <header className="app-header"><div><span className="eyebrow">CHESS VISION</span><h1>Scan your board</h1></div><span className={`tracking-badge ${tracking.status==='tracking'&&phase==='tracking'?'is-tracking':''}`} role="status">{trackingLabel}</span></header>
+ <header className="app-header"><div><span className="eyebrow">CHESS VISION</span><h1>Scan your board</h1><a href="/?mode=photo">Assisted photograph</a></div><span className={`tracking-badge ${tracking.status==='tracking'&&phase==='tracking'?'is-tracking':''}`} role="status">{trackingLabel}</span></header>
  <nav className="view-switch" aria-label="Scan view"><button aria-pressed={view==='camera'} onClick={()=>setView('camera')}>Camera</button><button aria-pressed={view==='board'} disabled={phase==='frozen'} onClick={()=>setView('board')}>Digital board</button></nav>
  <div className={`scan-views view-${view} ${phase==='frozen'?'is-reviewing':''}`}>
  <div className="camera-pane">
@@ -104,4 +105,4 @@ function App(){
  <div className="support-panels"><details><summary>Recording and scan export</summary><Recorder video={video} canvas={canvas} phase={phase==='tracking'?'live':phase} corners={corners} source={source} frozenAt={frozenAt} refinedPolygons={autoPolys} onBoardChange={recognition.newPosition}/></details><details><summary>Alignment help</summary><p>Select the playing-area corners in semantic order: a1, h1, h8, a8. Select the square grid, not the outer border. The dashed outline shows the expected physical board border.</p><p>In a frozen frame, tap a square to inspect its identity. Selected: {selected||'none'}. {autoPolys?'Boundaries were refined using image evidence.':'Manual corners project the square boundaries.'}</p><p>Keep the camera approximately still during frozen alignment review. Automatic alignment sends that frame to your laptop.</p></details><details><summary>Device capabilities</summary><pre>{JSON.stringify({secureContext:window.isSecureContext,camera:!!navigator.mediaDevices?.getUserMedia,videoFrameCallback:'requestVideoFrameCallback' in HTMLVideoElement.prototype,dimensions:size,worker:typeof Worker!=='undefined',wasm:typeof WebAssembly!=='undefined',browser:navigator.userAgent,tracking:tracking.status,trackingWorkerMs:tracking.latency,recognition:recognition.enabled?'selected-frame':'off',acceptedRecognitionFrames:recognition.accepted},null,2)}</pre></details><details><summary>Privacy and processing</summary><p>Recording stays in this browser until export. Enabling recognition sends selected images and their matching geometry to your laptop. Automatic alignment sends selected live frames to your local laptop server; manual alignment sends a frozen frame. Tracking runs locally in a browser worker. Periodic orientation checks and automatic recovery send selected frames to your laptop. Recording does not yet attach tracking geometry to continuous frames.</p></details></div>
  </main>;
 }
-createRoot(document.getElementById('root')!).render(<App/>);
+createRoot(document.getElementById('root')!).render(new URLSearchParams(window.location.search).get('mode')==='photo'?<AssistedPhotoApp/>:<App/>);
